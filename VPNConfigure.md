@@ -7,7 +7,7 @@
 ### shell脚本配置
 
 - https://github.com/hwdsl2/setup-ipsec-vpn/blob/master/README-zh.md
-- ​
+- ​http://blog.csdn.net/nanfeng1686/article/details/45742631
 
 
 
