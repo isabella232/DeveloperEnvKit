@@ -1,0 +1,16 @@
+Host 172.31.2.133
+User ubuntu
+IdentityFile ~/.ssh/xinzhili-dev.pem
+
+Host 172.31.2.78
+User ubuntu
+IdentityFile ~/.ssh/xinzhili-dev.pem
+
+Host 172.31.2.159
+User ubuntu
+IdentityFile ~/.ssh/xinzhili-dev.pem
+
+Host 172.31.2.37
+# user 是@符号前面的名称
+User ubuntu
+IdentityFile ~/.ssh/xinzhili-dev.pem

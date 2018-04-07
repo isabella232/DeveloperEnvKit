@@ -1,0 +1,17 @@
+#default account
+Host git.xzlcorp.com-donfuqiang
+	HostName git.xzlcorp.com
+	User git
+	IdentityFile ~/.ssh/id_rsa
+
+#me account
+Host github.com-ldaqiangl
+	HostName github.com
+	User git
+	IdentityFile ~/.ssh/me_rsa
+
+#damiao account， user 是@符号前面的名称
+Host czb365.com-damiao
+	HostName czb365.com
+	User git
+	IdentityFile ~/.ssh/login_home_server

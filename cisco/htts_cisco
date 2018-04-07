@@ -1,0 +1,180 @@
+Building configuration...
+
+Current configuration : 4489 bytes
+!
+! Last configuration change at 15:19:09 UTC Thu Apr 5 2018
+!
+version 15.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname router
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 5 $1$/LvQ$xNrXwxtYMWFPajboi1cj9/
+enable password admin
+!
+no aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip dhcp excluded-address 172.16.9.1 172.16.9.30
+!
+ip dhcp pool LAN
+ network 172.16.9.0 255.255.255.0
+ default-router 172.16.9.1 
+ dns-server 202.106.0.20 202.99.166.4 
+!
+!
+!
+ip domain name xzlcorp.com
+ip name-server 202.106.0.20
+ip name-server 202.99.166.4
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+cts logging verbose
+!
+crypto pki trustpoint TP-self-signed-3432928691
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-3432928691
+ revocation-check none
+ rsakeypair TP-self-signed-3432928691
+!
+!
+crypto pki certificate chain TP-self-signed-3432928691
+ certificate self-signed 01
+  3082022B 30820194 A0030201 02020101 300D0609 2A864886 F70D0101 05050030 
+  31312F30 2D060355 04031326 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 33343332 39323836 3931301E 170D3138 30343035 31353135 
+  33355A17 0D323030 31303130 30303030 305A3031 312F302D 06035504 03132649 
+  4F532D53 656C662D 5369676E 65642D43 65727469 66696361 74652D33 34333239 
+  32383639 3130819F 300D0609 2A864886 F70D0101 01050003 818D0030 81890281 
+  8100ACEE FCF8763B DA598FC9 D950C515 A7064951 7CDD93DD 68901E5C B0101BD9 
+  6408FE7C 311E8E48 99ACDE56 C34AD5DB D405ED92 FAF43F9D FADA1562 A3E76035 
+  E8D544CB 19266090 D21C4243 9F2D8FAD 809736DC 21B7D6EC 0EEF6DC3 76D12F14 
+  3F24F7D7 DF4AE8F2 0F7970A1 AD698032 62D8266A BE79D33B 5B4432A5 30F30075 
+  12090203 010001A3 53305130 0F060355 1D130101 FF040530 030101FF 301F0603 
+  551D2304 18301680 14106D9E 246519EC A5B2CD28 A485333B 2EF54A19 FA301D06 
+  03551D0E 04160414 106D9E24 6519ECA5 B2CD28A4 85333B2E F54A19FA 300D0609 
+  2A864886 F70D0101 05050003 8181006C BFA6A919 7E75F585 D918439A 51EEBBFF 
+  B5B74BB3 27749C19 7D91696B D8799A5B E93E483C 626B5C11 B6ACAF48 43346B4D 
+  B38F176C F6CE3F98 6A774CCC 7C958843 A468059D FFD7B220 A40CE7C1 41BE5129 
+  86B2E3B5 E5CB1EDD 96DF041B 7CEAC74B BAA60A7D 99EC606A DF9B0236 9B91C396 
+  06490AD3 E67A812E 38C35E31 71B144
+  	quit
+license udi pid CISCO2901/K9 sn FJC1946A191
+!
+!
+username admin privilege 15 secret 5 $1$1rYc$kzuv8jbUQ9F9NYpYNUTQ91
+!
+redundancy
+!
+!
+!
+!
+!
+! 
+!
+crypto isakmp policy 10
+ encr aes
+ authentication pre-share
+ group 2
+crypto isakmp key aws123 address 54.222.158.44  
+!
+!
+crypto ipsec transform-set OpenSwan esp-aes esp-sha-hmac 
+ mode tunnel
+!
+!
+!
+crypto map OpenSwan 10 ipsec-isakmp 
+ set peer 54.222.158.44
+ set transform-set OpenSwan 
+ match address 120
+!
+!
+!
+!
+!
+interface Embedded-Service-Engine0/0
+ no ip address
+ shutdown
+!
+interface GigabitEthernet0/0
+ ip address 103.254.65.243 255.255.255.248
+ ip mtu 1400
+ ip nat outside
+ ip virtual-reassembly in
+ ip tcp adjust-mss 1360
+ duplex auto
+ speed auto
+ crypto map OpenSwan
+!
+interface GigabitEthernet0/1
+ ip address 172.16.9.1 255.255.255.0
+ ip nat inside
+ ip virtual-reassembly in
+ duplex auto
+ speed auto
+!
+ip forward-protocol nd
+!
+ip http server
+ip http secure-server
+!
+ip nat inside source static udp 172.16.9.5 1194 interface GigabitEthernet0/0 1194
+ip nat inside source list 115 interface GigabitEthernet0/0 overload
+ip nat inside source static tcp 172.16.9.5 1723 interface GigabitEthernet0/0 1723
+ip nat inside source static udp 172.16.9.5 8080 interface GigabitEthernet0/0 8080
+ip nat inside source static tcp 172.16.9.5 8080 interface GigabitEthernet0/0 8080
+ip route 0.0.0.0 0.0.0.0 103.254.65.241
+ip route 172.16.10.0 255.255.255.0 172.16.9.5
+!
+!
+!
+access-list 1 permit 172.16.9.0 0.0.0.255
+access-list 5 permit 172.16.10.0 0.0.0.255
+access-list 23 permit 10.10.10.0 0.0.0.127
+access-list 100 permit ip 172.16.9.0 0.0.0.255 172.31.1.0 0.0.0.255
+access-list 105 permit icmp any any echo-reply
+access-list 115 deny   ip 172.16.9.0 0.0.0.255 172.31.0.0 0.0.255.255
+access-list 115 deny   ip 172.16.9.0 0.0.0.255 10.16.0.0 0.0.255.255
+access-list 115 permit ip 172.16.9.0 0.0.0.255 any
+access-list 120 permit ip 172.16.0.0 0.0.255.255 172.31.0.0 0.0.255.255
+!
+control-plane
+!
+!
+!
+line con 0
+line aux 0
+line 2
+ no activation-character
+ no exec
+ transport preferred none
+ transport output pad telnet rlogin lapb-ta mop udptn v120 ssh
+ stopbits 1
+line vty 0 4
+ password adminadmin
+ login
+ transport input none
+!
+scheduler allocate 20000 1000
+!
+end

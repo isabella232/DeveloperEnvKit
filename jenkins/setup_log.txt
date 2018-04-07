@@ -1,0 +1,378 @@
+    1  ssh
+    2  ssh -versino
+    3  ssh -version
+    4  ssh --version
+    5  ls
+    6  sudo find / -name "xcode*"
+    7  exit
+    8  clear
+    9  history
+   10  echo $SHELL
+   11  exit
+   12  ls
+   13  vi
+   14  ls
+   15  ls -al
+   16  exit
+   17  ssh --version
+   18  ssh -v
+   19  ssh version
+   20  ls -al
+   21  brew ls
+   22  ls
+   23  ls -al
+   24  exit
+   25  ls -al
+   26  cd ~/Desktop/
+   27  ls
+   28  cd test/
+   29  ls
+   30  cd ..
+   31  cd ..
+   32  cd /
+   33  ls
+   34  ls -al
+   35  exit
+   36  history 
+   37  ping 172.31.2.38 >> Desktop/local_log.txt 
+   38  ping 47.104.24.248 >> Desktop/aliyun_log.txt 
+   39  scp dev@172.16.10.175:'~/jenkins.war' Desktop
+   40  java -v
+   41  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
+   42  nvm 
+   43  nvm
+   44  ls -al
+   45  touch .bash_profile
+   46  vim .bash_profile 
+   47  source .bash_profile 
+   48  nvm
+   49  nvm install 8
+   50  java --version
+   51  javac --version
+   52  /Users/Shared/Jenkins/Home/secrets/initialAdminPassword
+   53  cat /Users/Shared/Jenkins/Home/secrets/initialAdminPassword
+   54  sudo cat /Users/Shared/Jenkins/Home/secrets/initialAdminPassword
+   55  java --version
+   56  java --version
+   57  java
+   58  ls
+   59  ls /Library/LaunchDaemons/
+   60  cat /Library/LaunchDaemons/org.jenkins-ci.plist 
+   61  brew install jenkins
+   62  java -jar /Users/xinzhilici/homebrew/Cellar/jenkins/2.110/libexec/jenkins --httpPort=8080
+   63  ls /Users/xinzhilici/homebrew/Cellar/jenkins/2.110/libexec/jenkins.war --httpPort=8080
+   64  ls /Users/xinzhilici/homebrew/Cellar/jenkins/2.110/libexec/
+   65  ls /Users/xinzhilici/homebrew/Cellar/jenkins/2.110/libexec/
+   66  java -jar /Users/xinzhilici/homebrew/Cellar/jenkins/2.110/libexec/jenkins.war --httpPort=8080
+   67  open /Library/LaunchDaemons
+   68  pwd
+   69  cd /Library/LaunchDaemons/org.jenkins-ci.plist 
+   70  cd /Library/LaunchDaemons/
+   71  sudo vim org.jenkins-ci.plist 
+   72  ls -al
+   73  sudo chown root:wheel /Library/LaunchDaemons/org.jenkins-ci.plist
+   74  ps -e | grep jenk
+   75  sudo launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
+   76  ps -e | grep jenk
+   77  ps -e 
+   78  ps -e | grep jenkins
+   79  history | grep java
+   80  java -jar /Users/xinzhilici/homebrew/Cellar/jenkins/2.110/libexec/jenkins.war --httpPort=8080
+   81  exit
+   82  rm -rf .jenkins/
+   83  brew -v
+   84  cd homebrew/
+   85  cd bin/
+   86  pwd
+   87  cd ~/
+   88  vim .bash_profile 
+   89  source .bash_profile 
+   90  brew -v
+   91  ps -e | grep jenk
+   92  sudo kill -9 11561
+   93  ls
+   94  cd Documents/
+   95  pwd
+   96  cd ../server/jenkins/
+   97  mkdir home
+   98  cd home/
+   99  pwd
+  100  history | grep lauc
+  101  launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist 
+  102  sudo vim /Library/LaunchDaemons/org.jenkins-ci.plist
+  103  ls -al /Library/LaunchDaemons/
+  104  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  105  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  106  ps -e | grep jenk
+  107  java -jar ~/homebrew/Cellar/jenkins/2.110/libexec/jenkins.war --httpPort=8080
+  108  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  109  echo $JENKINS_HOME
+  110  ps -e | grep jenk
+  111  sudo kill -9 19246
+  112  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  113  brew uninstall jenkins
+  114  sudo vim /Library/LaunchDaemons/org.jenkins-ci.plist
+  115  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  116  launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist 
+  117  ps -e | grep jen
+  118  sudo kill -9 19315
+  119  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  120  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  121  ps -e | grep jen
+  122  sudo vim /Library/LaunchDaemons/org.jenkins-ci.plist
+  123  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  124  ps -e | grep jen
+  125  launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist 
+  126  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  127  ps -e | grep jen
+  128  cd /Users/Shared/
+  129  ls
+  130  rm -rf Jenkins/
+  131  rm /Applications/Jenkins/
+  132  rm -rf /Applications/Jenkins/
+  133  sudo rm -fr /Applications/Jenkins/
+  134  launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist 
+  135  sudo rm -rf Jenkins/
+  136  brew install jenkins
+  137  cd /Users/xinzhilici/homebrew/Cellar/jenkins/2.110
+  138  cd libexec/
+  139  ls
+  140  pwd
+  141  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  142  ps -e | grep jen
+  143  launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist 
+  144  cd ~/server/jenkins/Home/
+  145  pwd
+  146  launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist 
+  147  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  148  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  149  ps -e | grep je
+  150  ps -e | grep jen
+  151  launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist 
+  152  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  153  cd /Library/LaunchDaemons/
+  154  ls
+  155  ls
+  156  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  157  ps -e | grep jenk
+  158  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  159  launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist 
+  160  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist 
+  161  ps -ef | grep jenk
+  162  cat /Users/Shared/Jenkins/Home/secrets/initialAdminPassword
+  163  sudo /Users/Shared/Jenkins/Home/secrets/initialAdminPassword
+  164  sudo cat /Users/Shared/Jenkins/Home/secrets/initialAdminPassword
+  165  aa63553d035c4391ace1aef23525368d
+  166  ps -e | grep jenk
+  167  pwd
+  168  ls
+  169  ls -al
+  170  rm out.html 
+  171  cd /usr/share/
+  172  ls
+  173  ls
+  174  pwd
+  175  cd /
+  176  ls
+  177  cd usr/
+  178  ls
+  179  cd ..
+  180  cd Users/
+  181  ls
+  182  cd Shared/
+  183  ls
+  184  ls -al
+  185  chown -R root Jenkins/
+  186  sudo chown -R root Jenkins/
+  187  chgrp -R wheel Jenkins/
+  188  sudo chgrp -R wheel Jenkins/
+  189  ls -al
+  190  sudo chgrp -R root Jenkins/
+  191  sudo chgrp -R wheel Jenkins/
+  192  sudo chown -R jenkins Jenkins/
+  193  ls -al
+  194  sudo chown -R xinzhilici Jenkins/
+  195  cd /Library/LaunchDaemons/
+  196  ls
+  197  cat org.jenkins-ci.plist 
+  198  ls /Library/Application Support/Jenkins/
+  199  ls /Library/Application \ Support/Jenkins/
+  200  ls /Library/Application\ Support/Jenkins/
+  201  sudo vim /Library/Application\ Support/Jenkins/jenkins-runner.sh 
+  202  sudo vim /Library/Application\ Support/Jenkins/Uninstall.command 
+  203  sudo vim /Library/Application\ Support/Jenkins/jenkins-runner.sh 
+  204  sudo vim /Library/Application\ Support/Jenkins/jenkins-runner.sh 
+  205  ls
+  206  sudo vim org.jenkins-ci.plist 
+  207  sudo vim /Library/Application\ Support/Jenkins/jenkins-runner.sh 
+  208  /Library/Application\ Support/Jenkins/jenkins-runner.sh
+  209  cat /Library/Preferences/org.jenkins-ci
+  210  sudo ls /Library/Preferences | grep org
+  211  mv org.jenkins-ci.plist org.jenkins-ci
+  212  sudo mv org.jenkins-ci.plist org.jenkins-ci
+  213  /Library/Application\ Support/Jenkins/jenkins-runner.sh
+  214  defaults read /Library/Preferences/org.jenkins-ci
+  215  cat /Library/Preferences/org.jenkins-ci
+  216  sudo cat /Library/Preferences/org.jenkins-ci.plist 
+  217  sudo vim /Library/Application\ Support/Jenkins/jenkins-runner.sh 
+  218  /Library/Application\ Support/Jenkins/jenkins-runner.sh
+  219  defaults read /Library/Preferences/org.jenkins-ci.plist
+  220  exit
+  221  /Library/LaunchDaemons/
+  222  cd /Library/LaunchDaemons/
+  223  ls
+  224  ls -al
+  225  sudo mv org.jenkins-ci org.jenkins-ci.plist
+  226  ls
+  227  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
+  228  launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist
+  229  ls -al
+  230  ls -al
+  231  sudo chown root org.jenkins-ci.plist 
+  232  sudo chgrp wheel org.jenkins-ci.plist 
+  233  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
+  234  ps -e | grep jenk
+  235  /Library/Application\ Support/Jenkins/jenkins-runner.sh
+  236  sudo vim /Library/Application\ Support/Jenkins/jenkins-runner.sh
+  237  sudo vim /Library/Application\ Support/Jenkins/jenkins-runner.sh
+  238  /Library/Application\ Support/Jenkins/jenkins-runner.sh
+  239  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
+  240  launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist
+  241  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
+  242  ps -ef | grep jenk
+  243  ls -al
+  244  launchctl unload ./org.jenkins-ci.plist 
+  245  launchctl load ./org.jenkins-ci.plist 
+  246  /Library/Application\ Support/Jenkins/jenkins-runner.sh
+  247  sudo vim org.jenkins-ci.plist 
+  248  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
+  249  launchctl unload ./org.jenkins-ci.plist 
+  250  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
+  251  dscacheutil -q group
+  252  dscacheutil -q group | da
+  253  dscacheutil -q group | grep da
+  254  groups xinzhilici
+  255  groups damon
+  256  groups daemon
+  257  groups root
+  258  groups
+  259  launchctl unload ./org.jenkins-ci.plist 
+  260  launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
+  261  ps -e | grep daemo
+  262  history 
+  263  nohup /Library/Application\ Support/Jenkins/jenkins-runner.sh
+  264  /Library/Application\ Support/Jenkins/jenkins-runner.sh
+  265  ls -al | grep .ss
+  266  cd .ssh/
+  267  ls
+  268  ls -al
+  269  ssh-keygen -t rsa -b 4096 -C "ios@xinzhili.com"
+  270  ls 
+  271  cat id_rsa
+  272  cat id_rsa.pub 
+  273  cd ~/Desktop/
+  274  mkdir test_ci
+  275  cd test_ci/
+  276  git init ios-patient
+  277  cd ios-patient/
+  278  git fetch --tags --progress git@git.xzlcorp.com:mobile/ios-patient.git +refs/heads/*:refs/remotes/origin/*
+  279  pod
+  280  brew ls
+  281  brew install cocoapods
+  282  pod -v
+  283  pod --version
+  284  ps -e | grep pod
+  285  brew ls
+  286  ps -e | grep pod
+  287  brew uninstall cocoapods
+  288  pod --versino
+  289  pod --version
+  290  brew install ruby
+  291  gem -v
+  292  rubu -v
+  293  ruby -v
+  294  ruby -v
+  295  ls -al
+  296  which gem
+  297  vim .bash_profile 
+  298  source .bash_profile 
+  299  which gem
+  300  which ruby
+  301  ruby -v
+  302  gem -v
+  303  gem install cocoapods
+  304  pod -v
+  305  pod --version
+  306  which pod
+  307  where pod
+  308  find ~/ -name 'pod'
+  309  ls -al 
+  310  cd /Users/xinzhilici//homebrew/bin/
+  311  ls -al
+  312  cd /Users/xinzhilici/Desktop/test 
+  313  pod init
+  314  pod install
+  315  pod update
+  316  gem source -l
+  317  cd /Users/xinzhilici/server/jenkins/Home/workspace/ios-patient 
+  318  pod install
+  319  /usr/libexec/PlistBuddy -c "Print :ApplicationProperties:CFBundleVersion" /Users/xinzhilici/server/jenkins/home/workspace/ios-patient/build/XinZhiLi.xcarchive/Info.plist
+  320  /usr/libexec/PlistBuddy -c "Print :ApplicationProperties:CFBundleShortVersionString" /Users/xinzhilici/server/jenkins/home/workspace/ios-patient/build/XinZhiLi.xcarchive/Info.plist
+  321  usr/bin/xcodebuild -exportArchive -archivePath /Users/xinzhilici/server/jenkins/home/workspace/ios-patient/build/XinZhiLi.xcarchive -exportPath /Users/xinzhilici/Desktop/Work/Resource/Share/03-Test -exportOptionsPlist /Users/xinzhilici/Desktop/Work/Resource/Share/03-Test/developmentJ3Z3CT678MExport.plist
+  322  /usr/bin/xcodebuild -exportArchive -archivePath /Users/xinzhilici/server/jenkins/home/workspace/ios-patient/build/XinZhiLi.xcarchive -exportPath /Users/xinzhilici/Desktop/Work/Resource/Share/03-Test -exportOptionsPlist /Users/xinzhilici/Desktop/Work/Resource/Share/03-Test/developmentJ3Z3CT678MExport.plist
+  323  cd /Users/xinzhilici/Desktop/Work/Resource/Share/03-Test 
+  324  ls
+  325  vim ad-hocJ3Z3CT678MExport.plist 
+  326  sed
+  327   pwd
+  328  xcodebuild -exportArchive -exportPath /Users/xinzhilici/server/jenkins/Home/workspace/ios-patient-oc/.Build/AppStore/2018_03_13_18_58 -exportOptionsPlist /Users/xinzhilici/server/jenkins/Home/workspace/ios-patient-oc/EnvConfig/AppStore/ExportOptions.plist -archivePath /Users/xinzhilici/server/jenkins/Home/workspace/ios-patient-oc/.Build/AppStore/2018_03_13_18_58/XinZhiLi.xcarchive
+  329  cd /Users/xinzhilici/server/jenkins/Home/workspace/ios-patient-oc 
+  330  git branch
+  331  git pull
+  332  git checkout master
+  333  git pull
+  334  git branch test
+  335  git checkout test
+  336  git status
+  337  git branch
+  338  git pull
+  339  git pull -f
+  340  cd ..
+  341  ls
+  342  cd /Users/xinzhilici/server/jenkins/Home/workspace 
+  343  ls
+  344  git clone git@git.xzlcorp.com:mobile/ios-patient-oc.git
+  345  git branch
+  346  cd ios-patient-oc
+  347  git branch
+  348  git checkout master
+  349  git branch
+  350  cd XinZhiLi/
+  351  pod install
+  352  cd ..
+  353  git checkout test
+  354  cd /Users/xinzhilici/server/jenkins/Home/workspace 
+  355  git clone git@git.xzlcorp.com:mobile/ios-patient-oc.git
+  356  cd ios-patient-oc
+  357  git bransh
+  358  git branch
+  359  git checkout test
+  360  git branch
+  361  git checkout master
+  362  git branch
+  363  git checkout test
+  364  git status
+  365  git add .
+  366  git commit -m "none"
+  367  git config --global user.email "dongfuqiang@xinzhili.cn"
+  368  git config --global user.name "daqiang"
+  369  git commit -m "none"
+  370  git push
+  371  git pull
+  372  git checkout test
+  373  cd /Users/xinzhilici/Desktop/Work/Resource/Share/03-Test/yinjie 
+  374  pwd
+  375  tomcat_start
+  376  history
+  377  history | grep jenk
+  378  history >> ~/Desktop/log.txt

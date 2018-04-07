@@ -1,0 +1,925 @@
+    1  ls
+    2  echo $SHELL
+    3  vi ~/.zshrc
+    4  ls
+    5  ls -al
+    6  vi .zshrc
+    7  ls
+    8  git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
+    9  ls
+   10  vi .zshrc
+   11  ls
+   12  ls -al
+   13  clear
+   14  ls
+   15  cd iTerm2-Color-Schemes
+   16  git log
+   17  cd ..
+   18  ./homebrew/bin/brew install autojump
+   19  ls
+   20  ls -al
+   21  vi .zshrc
+   22  ./homebrew/bin/brew install autojump
+   23  vi .zshrc
+   24  cd Desktop
+   25  ls
+   26  cd ..
+   27  j Desktop
+   28  j -state
+   29  echo $PATH
+   30  export PATH=$PATH:~/bin
+   31  echo $PATH
+   32  touch .bash_profile
+   33  vi .bash_profile
+   34  source .bash_profile
+   35  echo $PATH
+   36  vi .zshrc
+   37  echo $PATH
+   38  vi .bash_profile
+   39  source .bash_profile
+   40  echo $PATH
+   41  brew ls
+   42  j
+   43  autojump -state
+   44  autojump -h
+   45  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+   46  gem -v
+   47  gem
+   48  ruby -v
+   49  witch ruby
+   50  which ruby
+   51  gem install cocopods
+   52  gem install cocoapods
+   53  pod -v
+   54  pod version
+   55  pod --version
+   56  which pod
+   57  vi .zshrc
+   58  ls
+   59  ls -al
+   60  clear
+   61  ls
+   62  man 
+   63  man autojump
+   64  ls
+   65  which brew
+   66  brew ls
+   67  which pod
+   68  which ssh
+   69  ssh -v
+   70  ssh --version
+   71  ssh -version
+   72  ssh version
+   73  clear
+   74  ls
+   75  git -v
+   76  git versin
+   77  git --version
+   78  which git
+   79  brew install git
+   80  git --version
+   81  which git
+   82  which python
+   83  python -v
+   84  python -version
+   85  python --version
+   86  brew isntall pyenv
+   87  git clone https://github.com/yyuu/pyenv.git ~/.pyenv
+   88  ls -al
+   89  echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ./.bash_profile
+   90  echo '$(pyenv init -)' >> ~/.bash_profile
+   91  cat ./.bash_profile
+   92  vi ./.bash_profile
+   93  echo 'eval "$(pyenv init -)"' >> ~/.bash_profile
+   94  cat ./.bash_profile
+   95  source ./.bash_profile
+   96  vi ./.bash_profile
+   97  ls
+   98  source ./.bash_profile
+   99  cd .pyenv
+  100  ls
+  101  cd ..
+  102  ls
+  103  echo 'export PATH=$PYNEV_ROOT/bin:$PATH' >> ./.bash_profile
+  104  source ./.bash_profile
+  105  echo 'eval "$(pyenv init -)"' >> ./.bash_profile
+  106  source ./.bash_profile
+  107  vi ./.bash_profile
+  108  source ./.bash_profile
+  109  pyenv --version
+  110  pyenv install --list
+  111  pyenv versions
+  112  pyenv install -v 3.6.4
+  113  ls ./.pyenv/versions
+  114  git clone https://github.com/yyuu/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+  115  echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile
+  116  source ~/.bash_profile
+  117  pyenv virtualenv
+  118  pyenv versions
+  119  pyenv install 3.6.4
+  120  ping 172.16.10.121
+  121  ping 172.16.10.126
+  122  ping 192.169.0.1
+  123  python -v
+  124  brew install zlib
+  125  pyenv install -v 3.6.4
+  126  pyenv install zlib
+  127  ls
+  128  cd ./homebrew/Cellar
+  129  ls
+  130  cd zlib
+  131  cd in
+  132  ls
+  133  cd 1.2.11
+  134  cd include
+  135  ls
+  136  pwd
+  137  clear
+  138  /Users/work/homebrew/Cellar/zlib/1.2.11/include
+  139  cd ~/
+  140  ls
+  141  vim ./.bash_profile
+  142  pyenv install -v 3.6.4
+  143  zlib
+  144  clear
+  145  pyenv -v
+  146  zlib
+  147  python -v
+  148  python --version
+  149  clear
+  150  which python
+  151  where python
+  152  brew ls
+  153  brew install zlib*
+  154  xcode-select --install
+  155  brew install zlib
+  156  echo $(xcrun --show-sdk-path)
+  157  cd $(xcrun --show-sdk-path)/usr/include
+  158  ls
+  159  pwd
+  160  cd ~/
+  161  echo $(brew --prefix openssl)
+  162  $(brew --prefix openssl)
+  163  cd ~/
+  164  cd $(brew --prefix zlib)
+  165  ls
+  166  cd ~/
+  167  echo $(brew --prefix zlib)
+  168  cd $(brew --prefix zlib)
+  169  ls
+  170  cd lib
+  171  ls
+  172  cd ..
+  173  ls include
+  174  cd ~/
+  175  ls
+  176  CFLAGS="-I$(brew --prefix openssl)/include" pyenv install -v 3.6.4
+  177  pyenv versions
+  178  pyenv global 3.6.4
+  179  pyenv versions
+  180  python3 --version
+  181  which python3
+  182  pwd
+  183  cd ~/
+  184  ls
+  185  cd /
+  186  ls
+  187  ls -al
+  188  clear
+  189  cd ~/
+  190  ls
+  191  python -v
+  192  python --version
+  193  history 
+  194  pyenv versions
+  195  history | grep pyenv
+  196  pyenv instal --list
+  197  pyenv install --list
+  198  CFLAGS="-I$(brew --prefix zlib)/include" pyenv install 2.7.14
+  199  pyenv versions
+  200  pyenv global 2.7.14
+  201  python --version
+  202  ls /bin
+  203  /usr/bin/python --version
+  204  type ssh
+  205  type python
+  206  ssh-keygen -t rsa -C 'dongfuqiang@xinzhili.cn'
+  207  ls -al | grep .ssh
+  208  pwd
+  209  ls -al
+  210  ssh-keygen -t rsa -C 'me@ldaqiangl.com'
+  211  ls -al
+  212  mv work_rsa work_rsa.pub ./.ssh
+  213  ls -al
+  214  cd .ssh
+  215  ls
+  216  type ssh-copy-id
+  217  wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash\n
+  218  ls -al
+  219  cd ..
+  220  ls
+  221  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash\n
+  222  nvm ls
+  223  command -v nvm
+  224  nvm install node 
+  225  nvm ls-remote
+  226  type pod
+  227  clear
+  228  cd .ssh
+  229  vim config
+  230  cd ..
+  231  ssh work
+  232  vim .ssh/config
+  233  ssh work
+  234  cat .ssh/work_rsa
+  235  cat .ssh/work_rsa.pub
+  236  ssh work
+  237  vim .ssh/config
+  238  ssh work
+  239  ssh-agent add .ssh/work_rsa
+  240  ssh -T git@git.xzlcorp.com
+  241  ssh-add work_rsa
+  242  ssh-add .ssh/work_rsa
+  243  ssh -T work
+  244  ssh -T git@git.xzlcorp.com
+  245  vim .ssh/config
+  246  ssh work
+  247  ssh -T work
+  248  cd Desktop
+  249  ls
+  250  cd work
+  251  ls
+  252  cd ..
+  253  cd xinzhili
+  254  mkdir iOS | git clone git@git.xzlcorp.com:mobile/ios-patient.git
+  255  cd ios-patient
+  256  pod install
+  257  pod --version
+  258  pod install
+  259  cd /
+  260  cd etc
+  261  ls | grep hosts
+  262  sudo vim hosts
+  263  cat hosts
+  264  gem source -l
+  265  pod install
+  266  nvm -v
+  267  nvm --version
+  268  nvm ls
+  269  cd ~/
+  270  nvm install 8
+  271  cd ~/
+  272  gem help
+  273  type tem 
+  274  type gem 
+  275  gem version
+  276  gem --version
+  277  type ruby
+  278  ruby --version
+  279  /usr/bin/ruby --version
+  280  brew ls
+  281  gem -v
+  282  gem help source
+  283  gem source list
+  284  nvm ls
+  285  nvm use 8
+  286  pig 192.168.0.109
+  287  ping 192.168.0.109
+  288  brew install ettercap
+  289  brew ls
+  290  brew install ettercap-graphical
+  291  type cap
+  292  type git
+  293  history | grep ping
+  294  echo $HOME
+  295  echo host
+  296  echo $HOST
+  297  pyenv versions
+  298  pyenv virtualenv --versions
+  299  pyenv virtualenv --version
+  300  ls -al $(pyenv root)/plugins/
+  301  echo $(pyenv root)
+  302  git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+  303  cat ./.bash_profile
+  304  pyenv virtualenv 2.7.14 ~/aw-cli-ve
+  305  pyenv virtualenv 2.7.14 ~/.aws-cli-ve
+  306  pyenv virtualenv 2.7.14 ~/.aws_cli_ve
+  307  pyenv virtualenvs
+  308  pyenv virtualenv 2.7.14 .aws-cli-ve
+  309  cd /Users/work/.pyenv/versions/2.7.14/envs/
+  310  ls
+  311  ls -al
+  312  cd .aws-cli-ve
+  313  ls -al
+  314  cd ~?
+  315  cd ~/
+  316  pyenv virtualenvs
+  317  pyenv activate .aws-cli-ve
+  318  pyenv deactivate
+  319  pyenv virtualenv-delete .aws-cli-ve
+  320  pyenv activate .aws-cli-ve
+  321  cd /Users/work/.pyenv/versions/2.7.14/envs/
+  322  ls -al
+  323  cd ~/
+  324  pyenv virtualenv 2.7.14 ~/cli-ve
+  325  pyenv virtualenv 2.7.14 cli-ve
+  326  pyenv activate cli-ve
+  327  which pip
+  328  pip --version
+  329  pip install --upgrade awscli
+  330  aws --version
+  331  pyenv deactivate
+  332  aws --version
+  333  which aws
+  334  pyenv global 3.6.4
+  335  aws --version
+  336  pyenv versions
+  337  pyenv virtualenv 3.6.4 aws-cli-ve
+  338  pyenv activate aws-cli-ve
+  339  pip install --upgrade awscli
+  340  aws --version
+  341  pyenv deactivate
+  342  pyenv versions
+  343  pyenv virtualenv-delete cli-ve
+  344  pyenv versions
+  345  pyenv virtualenv 2.7.14 aws-cli-ve
+  346  pyenv activate aws-cli-ve
+  347  aws --version
+  348  ls .aws
+  349  pwd
+  350  ls /Users/work/.pyenv/versions/aws-cli-ve
+  351  aws help
+  352  aws ls
+  353  aws ec2 ls
+  354  aws s3api help
+  355  aws configure help
+  356  aws configure
+  357  aws configure ls
+  358  aws configure list
+  359  aws configure help
+  360  aws configure
+  361  ls .aws
+  362  pyenv deactivate
+  363  pyenv activate aws-cli-ve
+  364  aws help
+  365  pyenv activate aws-cli-ve
+  366  aws configure help
+  367  curl --slient 'https://raw.githubusercontent.com/stuartcryan/custom-iterm-applescripts-for-alfred/master/custom_iterm_script_iterm_3.1.1.applescript' | pbcopy 
+  368  curl 'https://raw.githubusercontent.com/stuartcryan/custom-iterm-applescripts-for-alfred/master/custom_iterm_script_iterm_3.1.1.applescript' | pbcopy 
+  369  cd "/Users/work/Desktop"
+  370  /Users/work/Library/Application\ Support/Alfred\ 3/Alfred.alfredpreferences/workflows/user.workflow.9065B93E-027F-47DA-9804-3DE9CDD22D8B/dd ; exit;
+  371  pyenv activate aws-cli-ve
+  372  pyenv deactivate
+  373  pyenv activate aws-cli-ve
+  374  pyenv deactivate
+  375  pyenv activate aws-cli-ve
+  376  aws sts help
+  377  aws sts assume-role --role-arn "arn:aws-cn:iam::280086432788:role/TestRole" --role-session-name "Daqiang-Test"
+  378  aws sts assume-role --role-arn "arn:aws-cn:iam::280086432788:role/TestRole"
+  379  aws sts assume-role --role-arn "arn:aws-cn:iam::280086432788:role/TestRole" --role-session-name "daqiang"
+  380  aws s3 ls
+  381  aws s3 ls assume-role --role-arn "arn:aws-cn:iam::280086432788:role/TestRole"
+  382  aws configure
+  383  aws s3 ls
+  384  ls -al
+  385  cd .aws
+  386  ls
+  387  cat config
+  388  cd ..
+  389  aws ec2 help
+  390  aws ec2 ls
+  391  aws ec2 list
+  392  aws configure
+  393  aws s3 ls
+  394  cat .aws/config
+  395  cat .aws/credentials
+  396  aws ec2 describe-regions --output table
+  397  aws ec2 describe-regions
+  398  aws ls
+  399  aws s3api ls
+  400  aws s3api help
+  401  aws s3api list-buckets
+  402  pyenv deactivate
+  403  pyenv activate aws-cli-ve
+  404  pyenv deactivate
+  405  cd Desktop
+  406  ls
+  407  cd test
+  408  cd ../cache
+  409  git clone https://github.com/awslabs/aws-java-sample.git\n
+  410  java --version
+  411  type java
+  412  which java
+  413  where java
+  414  javac --version
+  415  java --version
+  416  which java
+  417  type java
+  418  javac --version
+  419  echo $JAVA_HOME
+  420  brew install gradle
+  421  ls -al
+  422  which gem
+  423  gem -v
+  424  which ruby
+  425  cat ./.bash_profile
+  426  sudo find / -name java*
+  427  sudo find / -name java
+  428  echo "export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin/"
+  429  cat ./.bash_profile
+  430  echo "export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home" >> ./.bash_profile
+  431  cat ./.bash_profile
+  432  echo "export PATH=$JAVA_HOME:$PATH"
+  433  echo "export PATH=$JAVA_HOME:$PATH" >> ./.bash_profile
+  434  source ./.bash_profile
+  435  echo $JAVA_HOME
+  436  /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin/java -v
+  437  /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin/java --version
+  438  /Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/bin/javac --version
+  439  type java
+  440  /usr/bin/java --version
+  441  histroy 
+  442  history
+  443  brew ls
+  444  echo $aws_access_key_id
+  445  cat .aws/credentials
+  446  ls .aws
+  447  cat .aws/config
+  448  gradle -v
+  449  gradle -v --illegal-access=warn
+  450  npm -v
+  451  nvm -v
+  452  nvm --version
+  453  nvm ls
+  454  npm install yarn
+  455  npm ls
+  456  find ~/ -name yarn
+  457  rm -rf node_modules
+  458  npm ls
+  459  npm uninstall yarn
+  460  npm ls
+  461  npm install yarn -g
+  462  yarn -v
+  463  nvm use 8
+  464  nvm ls
+  465  npm install yarn -g
+  466  yarn -v
+  467  npm install hexo -g
+  468  npm install hexo-cli -g
+  469  npm unisntall hexo
+  470  npm uninstall hexo
+  471  hexo -v
+  472  npm install pm2 -g
+  473  npm ls
+  474  npm list
+  475  npm install help
+  476  npm uninstall help
+  477  npm install vue-cli -g
+  478  /Volumes/VMware\ Fusion_sdifen.com/keygen ; exit;
+  479  node
+  480  node -v
+  481  ssh -i dev@172.16.10.175
+  482  ssh  dev@172.16.10.175
+  483  ls -al
+  484  ssh -i xinzhili-shared.pem ubuntu@54.223.189.191
+  485  ssh -i xinzhili-shared.pem -p 22222 ubuntu@54.223.189.191
+  486  ssh dev@172.16.10.138
+  487  scp Desktop/link.txt dev@daqiang
+  488  scp Desktop/link.txt dev@daqiang:'~/'
+  489  scp Desktop/link.txt dev@192.168.0.109:'~/'
+  490  scp -r dev@192.168.0.109:'~/' Desktop
+  491  ls
+  492  ssh dev@172.16.10.175
+  493  scp Desktop/jdk-8u161-macosx-x64\ \(1\).dmg xinzhilici@172.16.10.126:'~/'
+  494  scp Desktop/test.json xinzhilici@172.16.10.126:'~/'
+  495  cat .zshrc
+  496  cat .bash_profile
+  497  ssh xinzhilici@172.16.10.126
+  498  /Library/Application Support/Jenkins/jenkins-runner.sh
+  499  sh /Library/Application Support/Jenkins/jenkins-runner.sh
+  500  /Library/Application\ Support/Jenkins/jenkins-runner.sh
+  501  echo $user.home
+  502  echo $user
+  503  /Library/Application\ Support/Jenkins/jenkins-runner.sh
+  504  ls
+  505  pwd
+  506  cd /Library/Application\ Support/Jenkins/
+  507  ls
+  508  ssh xinzhilici@172.16.10.126
+  509  cd /Users/Shared 
+  510  ls -al
+  511  sudo chgrp -R wheel Jenkins
+  512  sudo chown -R root Jenkins
+  513  sudo chgrp -R daemon Jenkins
+  514  ls -al
+  515  cd /Library/LaunchDaemons 
+  516  sudo vim org.jenkins-ci.plist
+  517  history
+  518  ps -e | grep jenk
+  519  sudo kill -9 65100
+  520  ps -e | grep jenk
+  521  launchctl load ./org.jenkins-ci.plist
+  522  ps -e | grep jenk
+  523  launchctl unload ./org.jenkins-ci.plist
+  524  sudo launchctl load ./org.jenkins-ci.plist
+  525  aunchctl unload ./org.jenkins-ci.plist
+  526  sudo launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
+  527  sudo launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist
+  528  sudo launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
+  529  sudo launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist
+  530  sudo launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist
+  531  ps -e | grep jenk
+  532  cat /Users/Shared/Jenkins/Home/secrets/initialAdminPassword
+  533  sudo /Users/Shared/Jenkins/Home/secrets/initialAdminPassword
+  534  sudo cat /Users/Shared/Jenkins/Home/secrets/initialAdminPassword
+  535  pwd
+  536  cd ../Preference
+  537  ls -al
+  538  pwd
+  539  cat org.jenkins-ci.plist
+  540  cd ../Preference
+  541  ls -al
+  542  cd ..
+  543  cd Preferences
+  544  ls -al
+  545  ls -al | grep jen
+  546  pwd
+  547  cat /Library/LaunchDaemons/org.jenkins-ci.plist
+  548  sudo cat /Users/Shared/Jenkins/Home/secrets/initialAdminPassword
+  549  ipconfig
+  550  ifconfig
+  551  ifconfig | grep 172
+  552  java --version
+  553  cd /Users/work/Desktop/cache/aws-java-sample 
+  554  git config
+  555  git config -l
+  556  pyenv activate aws-cli-ve
+  557  aws -v
+  558  aws --version
+  559  aws ls
+  560  exit
+  561  cd /Volumes/Mac/TestFarm/MyResource/DeveloperEnvKit 
+  562  ls
+  563  git status
+  564  git add .
+  565  git status
+  566  git commit -m "add some ops config"
+  567  git push
+  568  ls ~/.ssh
+  569  ssh-add 
+  570  ssh-add work_rsa
+  571  ssh-add work_rsa.pub
+  572  ls -al
+  573  ls -al ~/.ssh
+  574  cat ~/.ssh/config
+  575  vim ~/.ssh/config
+  576  ssh-add ~/.ssh/id_rsa
+  577  cat ~/.ssh/id_rsa
+  578  cat ~/.ssh/id_rsa.pub
+  579  git push
+  580  git -T git@github.com
+  581  git -T  ldaqiangl@github.com
+  582  history | grep git
+  583  ssh -T git@github.com
+  584  java --version
+  585  which java
+  586  mysql 
+  587  brew install mysql
+  588  ps -e | grep mysql
+  589  mysql --version
+  590  mysql.server start
+  591  ps -e | grep mysql
+  592  mysql -uroot
+  593  mysql --initialize
+  594  mysql
+  595  mysql -uroot
+  596  mysql -uroot -p dfqqfd123
+  597  mysql -u root -p
+  598  mysql -u daqiang
+  599  mysql -u daqiang -p
+  600  mysql -u root -p
+  601  mysql -u daqiang -p
+  602  cd /Volumes/Mac/TestFarm/Application/Server/apache-tomcat-9.0.0.M26/bin 
+  603  ./startup.sh
+  604  ps -e | grep jenkins
+  605  sudo kill -9 62??
+  606  ps -aux | grep jenk
+  607  ps 
+  608  ps -e | grep jenkins
+  609  ps -au | grep jenk
+  610  ps -ax
+  611  ps -ax | grep jenk
+  612  ls -al
+  613  vim .bash_profile
+  614  vim .zshrc
+  615  cd /Volumes/Mac/TestFarm/Application/Server/apache-tomcat-9.0.0.M26/bin 
+  616  ./startup.sh
+  617  gradle -v
+  618  cd /Volumes/Mac/TestFarm/Application/Server/apache-tomcat-9.0.0.M26/bin 
+  619  ln -s ./startup.sh ~/bin/tomcat-start
+  620  ls ~/bin
+  621  ls -s ./shutdown.sh ~/bin/tomcat-stop
+  622  ./shutdown.sh
+  623  ln -s ./shutdown.sh ~/bin/tomcat-stop
+  624  ls ~/bin
+  625  tomcat-start
+  626  sh ~/bin/tomcat-start
+  627  ls -al ~/bin
+  628  cd ~/bin
+  629  mv tomcat-start tomcat-start.sh
+  630  ls -al
+  631  mv tomcat-stop tomcat-stop.sh
+  632  tomcat-start.sh
+  633  sh tomcat-stop.sh
+  634  cd /Volumes/Mac/TestFarm/Application/Server/apache-tomcat-9.0.0.M26/bin/startup.sh 
+  635  cd /Volumes/Mac/TestFarm/Application/Server/apache-tomcat-9.0.0.M26/bin/
+  636  ./startup.sh
+  637  ls -al ~/bin
+  638  pwd
+  639  rm -rf ~/bin
+  640  ls -al ~/bin
+  641  mkdir ~/bin
+  642  ln -s /Volumes/Mac/TestFarm/Application/Server/apache-tomcat-9.0.0.M26/bin/startup.sh tomcat-start
+  643  ln -s /Volumes/Mac/TestFarm/Application/Server/apache-tomcat-9.0.0.M26/bin/shutdown.sh tomcat-stop
+  644  tomcat-start
+  645  ls -al ~/bin
+  646  ln -s /Volumes/Mac/TestFarm/Application/Server/apache-tomcat-9.0.0.M26/bin/shutdown.sh ~/bin/tomcat-stop
+  647  ln -s /Volumes/Mac/TestFarm/Application/Server/apache-tomcat-9.0.0.M26/bin/startup.sh ~/bin/tomcat-start
+  648  tomcat-start
+  649  tomcat-stop
+  650  tomcat-start
+  651  cd /Volumes/Mac/TestFarm/Java/JavaEE/FrameWork/struts-2.5.16/apps/struts2app 
+  652  pwd
+  653  tomcat-stop
+  654  echo $JAVA_HOME
+  655  vim ~/.bash_profile
+  656  cd /Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home 
+  657  pwd
+  658  vim ~/.bash_profile
+  659  jdk8 
+  660  cat ~/.bash_profile
+  661  vim ~/.bash_
+  662  vim ~/.bash_profile
+  663  source ~/.bash_profile
+  664  jdk9
+  665  jdk9 
+  666  vim ~/.bash_profile
+  667  jdk9
+  668  jdk8
+  669  echo $JAVA_HOME
+  670  java --version
+  671  vim ~/.bash_profile
+  672  source ~/.bash_profile
+  673  jdk9 
+  674  vim ~/.bash_profile
+  675  source ~/.bash_profile
+  676  jdk9 
+  677  echo $JAVA_HOME
+  678  java --version
+  679  nvm ls
+  680  npm install -g react-native-cli
+  681  brew install watchman
+  682  cd /Volumes/Mac/TestFarm/Application/ReactNative/AwesomeProject 
+  683  react-native run-ios
+  684  cd /Users/work/Desktop/xinzhili 
+  685  git clone git@git.xzlcorp.com:mobile/ios-patient-oc.git
+  686  cd .ss
+  687  ls -al ~/.ssh
+  688  cat ~/.ssh/config
+  689  ssh-add ~/.ssh/id_rsa
+  690  ssh-add ~/.ssh/work_rsa
+  691  git clone git@git.xzlcorp.com:mobile/ios-patient-oc.git
+  692  cd ios-patient-oc
+  693  pod install
+  694  cd XinZhiLi
+  695  ls
+  696  pod install
+  697  cd /Volumes/Mac/TestFarm/ProgrameTools/Xcode/XcodeThemes/xcode-themes 
+  698  sh install.sh
+  699  cd /Volumes/Mac/TestFarm/ProgrameTools/Xcode/XcodeThemes/Solarized-Dark-for-Xcode 
+  700  sh install.sh
+  701  cat ~/.zshrc
+  702  ls
+  703  cd ..
+  704  ls
+  705  git clone https://github.com/dracula/xcode.git
+  706  pyenv activate aws-cli-ve
+  707  aws ls
+  708  ssh dev@172.16.10.178
+  709  ssh dev@172.16.10.138
+  710  ssh -i dev@172.16.10.138:'~/owncloud-10.0.7.tar.bz2' ~/
+  711  scp dev@172.16.10.138:'~/owncloud-10.0.7.tar.bz2' ~/
+  712  ls
+  713  owncloud-10.0.7.tar.bz2
+  714  ping 192.168.0.109
+  715  clear
+  716  scp ~/owncloud-10.0.7.tar.bz2 dev@192.168.0.109:'~/'
+  717  ssh dev@172.16.10.138
+  718  ssh dev@192.168.0.109
+  719  scp -r dev@172.16.10.38:'/etc/apache2/sites-available/' ~/Desktop
+  720  scp -r dev@172.16.10.138:'/etc/apache2/sites-available/' ~/Desktop
+  721  scp ~/Desktop/sites-available/owncloud.conf dev@192.168.0.109:'/etc/apache2/sites-available/'
+  722  scp ~/Desktop/sites-available/owncloud.conf dev@192.168.0.109:'~/'
+  723  sudo ln -s /etc/apache2/sites-available/owncloud.conf /etc/apache2/sites-enabled/owncloud.conf
+  724  brew ls
+  725  mysql
+  726  history | grep mysql
+  727  mysql -u root -p
+  728  mysql -u root
+  729  ps -e | grep mysql
+  730  mysql.server start
+  731  mysql -u root -p
+  732  mysql -u root -p dfqqfd123
+  733  mysql -u root -p
+  734  ping http://pmtech.me/
+  735  ping pmtech.me
+  736  whois pmtech.me
+  737  ls ~/.ssh
+  738  ssh-add .ssh/work_rsa
+  739  npm ls
+  740  nvm ls
+  741  npm install webpack -g
+  742  ssh -i xinzhili-prod.pem ec2-user@52.80.158.2
+  743  ssh -i xinzhili-prod.pem ubuntu@54.222.188.178
+  744  ping 54.222.188.178
+  745  ls -al
+  746  ssh -i xinzhili-dev.pem ubuntu@54.222.158.44
+  747  ls .ssh
+  748  ssh -i xinzhili-prod.pem ubuntu@54.222.188.178
+  749  ssh -i xinzhili-prod.pem ec2-user@52.80.158.2
+  750  ssh -i xinzhili-prod.pem ubuntu@54.222.188.178
+  751  scp -i xinzhili-prod.pem ubuntu@
+  752  ssh -i xinzhili-prod.pem ubuntu@54.222.188.178
+  753  ls -al
+  754  ls -a
+  755  exit
+  756  ping xzl-doctor-web-dev.s3-website.cn-north-1.amazonaws.com.cn
+  757  ping 54.222.48.17
+  758  cd /Users/work/Desktop/xinzhili/doctor-web 
+  759  yarn install
+  760  pyenv versions
+  761  pyenv -h
+  762  pyenv global 2.7.14
+  763  yarn install
+  764  yarn run prerelease
+  765  ls
+  766  ls -l
+  767  yarn run build
+  768  npm install cnpm -g
+  769  npm run build
+  770  npm run prerelease
+  771  yarn install
+  772  yarn run build
+  773  ssh -i xinzhili-shared.pem ubuntu@54.223.189.191
+  774  ssh -i xinzhili-shared.pem -p 22222  ubuntu@54.223.189.191
+  775  cat /Users/work/.Trash/doctor-web
+  776  ls /Users/work/.Trash/doctor-web
+  777  ls /Users/work/.Trash
+  778  rm -fr /Users/work/.Trash
+  779  cd ~/
+  780  ls
+  781  cd ~/Desktop/xinzhili/doctor-web
+  782  yarn run prerelease
+  783  yarn install
+  784  /usr/bin/daemon
+  785  yarn run dev
+  786  yarn run prerelease
+  787  cd ~/Desktop
+  788  cd libpng-1.6.28
+  789  make
+  790  make install
+  791  ls
+  792  ls -l
+  793  ./configure
+  794  make check
+  795  make install
+  796  pip ls
+  797  pip3 list
+  798  pip list
+  799  ./configure
+  800  pyenv versions
+  801  ls | grep install
+  802  ls -l
+  803  make
+  804  ./configure
+  805  pip list
+  806  pip ls
+  807  pip3 list
+  808  pip list
+  809  pip3 list
+  810  scp -i xinzhili-shared.pem -p 22222  ubuntu@54.223.189.191:'~/log.txt' ~/Desktop
+  811  scp -i xinzhili-shared.pem  ubuntu@54.223.189.191:'~/log.txt' ~/Desktop
+  812  scp -i xinzhili-shared.pem -P 22222  ubuntu@54.223.189.191:'~/log.txt' ~/Desktop
+  813  which pip
+  814  pip version
+  815  pip -v
+  816  pip --version
+  817  pip install zlib
+  818  pip install zlib-dev
+  819  pip install zlib1g-dev
+  820  brew install zlib
+  821  zlib
+  822  brew ls
+  823  brew install zlib1g-dev
+  824  make
+  825  make install
+  826  cat pngpriv.h
+  827  ./configure
+  828  ./configure --prefix=~/bin
+  829  ./configure --prefix=/Users/work/bin
+  830  make 
+  831  brew install libpng
+  832  yarn run build
+  833  /usr/local/opt/libpng/lib/libpng16.16.dylib
+  834  cd /usr/local 
+  835  sudo ln -s libpng /Users/work/homebrew/Cellar/libpng 
+  836  sudo ln -sv /Users/work/homebrew/Cellar/libpng  libpng
+  837  yarn run build
+  838  mkdir opt
+  839  sudo mkdir opt
+  840  rm libpng
+  841  sudo rm libpng
+  842  cd opt
+  843  sudo ln -sv /Users/work/homebrew/Cellar/libpng  libpng
+  844  rm libpng
+  845  sudo rm libpng
+  846  sudo mkdir libpng/lib
+  847  sudo mkdir libpng
+  848  cd libpng
+  849  sudo mkdir lib
+  850  cd lib
+  851  sudo ln -s /Users/work/homebrew/Cellar/libpng/1.6.34/lib/libpng16.16.dylib  libpng16.16.dylib
+  852  sudo ln -s /Users/work/homebrew/Cellar/libpng/1.6.34/lib/libpng16.16.dylib  libpng.dylib
+  853  sudo ln -s /Users/work/homebrew/Cellar/libpng/1.6.34/lib/libpng16.16.dylib  libpng16.16.dylib
+  854  yarn run build
+  855  yarn run dev
+  856  pwd
+  857  cd ~/
+  858  mysql 
+  859  mysql -u root 
+  860  mysql -u root -p
+  861  ps -e | grep mysql
+  862  brew install mysql
+  863  cd ~/Desktop/xinzhili/ios-patient-oc/XinZhiLi
+  864  pod install
+  865  pod repo update
+  866  pod install
+  867  pod update Bugtags
+  868  pod install
+  869  s
+  870  ssh -i xinzhili-prod.pem ec2-user@52.80.158.2
+  871  xcrun | xcpretty 
+  872  xcrun man
+  873  man xcrun
+  874  xcrun  momc
+  875  xcrun  momc -h
+  876  echo $(dirname "$PWD") 
+  877  /Volumes/Mac/TestFarm/Application/Server/jenkins.war 
+  878  ssh -
+  879  ssh dev@172.16.10.138
+  880  ssh xinzhilici@172.16.10.126
+  881  ssh dev@172.16.10.138
+  882  clear
+  883  ssh xinzhilici@172.16.10.126
+  884  ping http://172.16.10.126/
+  885  curl http://172.16.10.126/
+  886  ssh xinzhilici@172.16.10.126
+  887  cd Desktop/xinzhili/SSAS
+  888  ls
+  889  cd PerformanceEvaluationSystem
+  890  ls
+  891  yarn install
+  892  yarn install 
+  893  npm install chromedriver 
+  894  npm -v
+  895  npm install chromedriver 
+  896  yarn isntall chromedriver
+  897  yarn install
+  898  cd ~/
+  899  cd Desktop/xinzhili/SSAS
+  900  cd PerformanceEvaluationSystem
+  901  yarn install
+  902  yarn run build
+  903  cd ~/
+  904  cd Desktop
+  905  ls
+  906  scp node_modules.zip xinzhilici@172.16.10.126:'~/Desktop'
+  907  cd xinzhili/SSAS/PerformanceEvaluationSystem
+  908  yarn run dev
+  909  cd Desktop/xinzhili/SSAS/PerformanceEvaluationSystem
+  910  yarn run server
+  911  npm install pm2 -g
+  912  yarn run server
+  913  ps -e | grep pm
+  914  pm2 stop
+  915  pm2 -h
+  916  pm2 stop app
+  917  yarn run server
+  918  ps -e | grep pm
+  919  pm2 stop app
+  920  ps -e | grep pm
+  921  tomcat-start
+  922  tomcat-stop
+  923  history | grep ln
+  924  cd /
+  925  ssh xinzhilici@172.16.10.126

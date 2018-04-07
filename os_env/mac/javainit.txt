@@ -1,0 +1,54 @@
+/usr/bin/javah
+/usr/bin/javapackager
+/usr/bin/java
+/usr/bin/javap
+/usr/bin/javaws
+/usr/bin/javac
+/usr/bin/javadoc
+/usr/libexec/java_home
+/usr/share/man/man1/javap.1
+/usr/share/man/man1/javah.1
+/usr/share/man/man1/java.1
+/usr/share/man/man1/javaws.1
+/usr/share/man/man1/java_home.1
+/usr/share/man/man1/javadoc.1
+/usr/share/man/man1/javac.1
+/usr/share/man/mann/javascript.n
+/usr/share/vim/vim80/indent/javascript.vim
+/usr/share/vim/vim80/indent/java.vim
+/usr/share/vim/vim80/ftplugin/javascript.vim
+/usr/share/vim/vim80/ftplugin/java.vim
+/usr/share/vim/vim80/autoload/javascriptcomplete.vim
+/usr/share/vim/vim80/syntax/javascript.vim
+/usr/share/vim/vim80/syntax/java.vim
+/usr/share/vim/vim80/syntax/javacc.vim
+/usr/share/vim/vim80/compiler/javac.vim
+/usr/share/file/magic/java
+/usr/share/file/magic/javascript
+/usr/share/java
+/System/Library/Tcl/tcllib1.12/javascript
+/System/Library/Tcl/tcllib1.12/javascript/javascript.tcl
+/System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/Documentation/man/javap.1
+/System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/Documentation/man/javah.1
+/System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/Documentation/man/java.1
+/System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/Documentation/man/javaws.1
+/System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/Documentation/man/javadoc.1
+/System/Library/Frameworks/JavaVM.framework/Versions/A/Resources/Documentation/man/javac.1
+/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/javah
+/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/javapackager
+/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java
+/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/javap
+/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/javaws
+/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/javac
+/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/javadoc
+/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home
+/private/etc/openldap/schema/java.ldif
+/private/etc/openldap/schema/java.schema
+find: /private/var/db/ConfigurationProfiles/Store: Operation not permitted
+find: /private/var/folders/v1/96n96g652qn5bfvmscr8g30w0000gn/0/SafariFamily: Operation not permitted
+find: /private/var/folders/v1/96n96g652qn5bfvmscr8g30w0000gn/0/com.apple.LaunchServices.dv: Operation not permitted
+find: /private/var/folders/v1/96n96g652qn5bfvmscr8g30w0000gn/0/com.apple.nsurlsessiond: Operation not permitted
+find: /private/var/folders/v1/96n96g652qn5bfvmscr8g30w0000gn/0/com.apple.routined: Operation not permitted
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000y800007k/0/com.apple.nsurlsessiond: Operation not permitted
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.nsurlsessiond: Operation not permitted
+find: /private/var/folders/zz/zyxvpxvq6csfxvn_n00000z000007r/0/com.apple.routined: Operation not permitted

@@ -1,0 +1,151 @@
+Building configuration...
+
+Current configuration : 2736 bytes
+!
+! Last configuration change at 04:40:06 UTC Thu Apr 5 2018
+!
+version 15.4
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname router
+!
+boot-start-marker
+boot-end-marker
+!
+!
+enable secret 5 $1$/LvQ$xNrXwxtYMWFPajboi1cj9/
+enable password admin
+!
+no aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip dhcp excluded-address 172.16.9.1 172.16.9.30
+!
+ip dhcp pool LAN
+ network 172.16.9.0 255.255.255.0
+ default-router 172.16.9.1 
+ dns-server 202.106.0.20 202.99.166.4 
+!
+!
+!
+ip domain name xzlcorp.com
+ip name-server 202.106.0.20
+ip name-server 202.99.166.4
+ip cef
+no ipv6 cef
+!
+multilink bundle-name authenticated
+!
+!
+cts logging verbose
+!
+!
+license udi pid CISCO2901/K9 sn FJC1946A191
+!
+!
+username admin privilege 15 secret 5 $1$1rYc$kzuv8jbUQ9F9NYpYNUTQ91
+!
+redundancy
+!
+!
+!
+!
+!
+! 
+!
+crypto isakmp policy 10
+ encr aes
+ authentication pre-share
+ group 2
+crypto isakmp key aws123 address 54.222.158.44  
+!
+!
+crypto ipsec transform-set OpenSwan esp-aes esp-sha-hmac 
+ mode tunnel
+!
+!
+!
+crypto map OpenSwan 10 ipsec-isakmp 
+ set peer 54.222.158.44
+ set transform-set OpenSwan 
+ match address 120
+!
+!
+!
+!
+!
+interface Embedded-Service-Engine0/0
+ no ip address
+ shutdown
+!
+interface GigabitEthernet0/0
+ ip address 103.254.65.243 255.255.255.248
+ ip mtu 1400
+ ip nat outside
+ ip virtual-reassembly in
+ ip tcp adjust-mss 1360
+ duplex auto
+ speed auto
+ crypto map OpenSwan
+!
+interface GigabitEthernet0/1
+ ip address 172.16.9.1 255.255.255.0
+ ip nat inside
+ ip virtual-reassembly in
+ duplex auto
+ speed auto
+!
+ip forward-protocol nd
+!
+ip http server
+no ip http secure-server
+!
+ip nat inside source static udp 172.16.9.5 1194 interface GigabitEthernet0/0 1194
+ip nat inside source list 115 interface GigabitEthernet0/0 overload
+ip nat inside source static tcp 172.16.9.5 1723 interface GigabitEthernet0/0 1723
+ip route 0.0.0.0 0.0.0.0 103.254.65.241
+ip route 172.16.10.0 255.255.255.0 172.16.9.5
+!
+!
+!
+access-list 1 permit 172.16.9.0 0.0.0.255
+access-list 5 permit 172.16.10.0 0.0.0.255
+access-list 23 permit 10.10.10.0 0.0.0.127
+access-list 100 permit ip 172.16.9.0 0.0.0.255 172.31.1.0 0.0.0.255
+access-list 105 permit icmp any any echo-reply
+access-list 115 deny   ip 172.16.9.0 0.0.0.255 172.31.0.0 0.0.255.255
+access-list 115 deny   ip 172.16.9.0 0.0.0.255 10.16.0.0 0.0.255.255
+access-list 115 permit ip 172.16.9.0 0.0.0.255 any
+access-list 120 permit ip 172.16.0.0 0.0.255.255 172.31.0.0 0.0.255.255
+!
+control-plane
+!
+!
+!
+line con 0
+line aux 0
+line 2
+ no activation-character
+ no exec
+ transport preferred none
+ transport -ta mop udptn v120 sshoutput pad telnet rlogin lapb
+ stopbits 1
+line vty 0 4
+ password adminadmin
+ login
+ transport input none
+!
+scheduler allocate 20000 1000
+!
+end
