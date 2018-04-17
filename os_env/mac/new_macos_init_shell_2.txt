@@ -1,0 +1,645 @@
+
+
+
+ 1376  git clone https://github.com/kpwn/yalu102.git
+ 1377  /Users/work/Desktop/yalu102/yalu102/reload ; exit;
+ 1378  find /Applications/Xcode.app/ -name IOKit.framework
+ 1379  ssh root@192.168.0.118
+ 1380  ssh root@192.168.0.109
+ 1381  ssh dev@192.168.0.109
+ 1382  scp -\r  ~/Desktop/win_jj dev@192.168.0.109:'~/'
+ 1383  ssh root@192.168.0.118
+ 1384  ping 192.168.0.118
+ 1385  ssh root@192.168.0.109
+ 1386  ssh root@192.168.0.118
+ 1387  ssh--t rsa -C 'me@ldaqiangl.com'
+ 1388  ssh root@192.168.0.118
+ 1389  ifconfig
+ 1390  brew install libimobiledevice\n\n
+ 1391  iproxy 2222 22
+ 1392  which iproxy
+ 1393  sudo iproxy 22222 22
+ 1394  iproxy 2222 22
+ 1395  ssh root@192.168.0.118 -p 22222
+ 1396  ssh root@192.168.0.118 -p 2222
+ 1397  cd Desktop
+ 1398  ls
+ 1399  cd ocaml-usbmux-1.3.2
+ 1400  ./configure
+ 1401  make
+ 1402  ./configure
+ 1403  brew install opam
+ 1404  netstat 
+ 1405  iproxy -v
+ 1406  iproxy help
+ 1407  iproxy --h
+ 1408  iproxy -h
+ 1409  man iproxy
+ 1410  opam install usbmux
+ 1411  opam init
+ 1412  opam install usbmux
+ 1413  gandalf
+ 1414  cd ~/
+ 1415  opam install usbmux
+ 1416  /Users/work/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+ 1417  eval `opam config env`
+ 1418  vim .bash_profile
+ 1419  source .bash_profile
+ 1420  vim .zshrc
+ 1421  vim .bash_profile
+ 1422  source .bash_profile
+ 1423  nvm -v
+ 1424  nvm --version
+ 1425  npm --version
+ 1426  node -v
+ 1427  opam config setup -a
+ 1428  opam install usbmux\n
+ 1429  opam depext usbmux.1.3.2
+ 1430  opam install usbmux\n
+ 1431  gandalf
+ 1432  opam switch
+ 1433  opam config env
+ 1434  opam switch 4.02.0
+ 1435  opam install usbmux
+ 1436  gandalf.
+ 1437  gandalf
+ 1438  sudo `which gandalf` --mappings etc/mapping --daemonize --verbose
+ 1439  gandalf
+ 1440  which gandalf
+ 1441  history 
+ 1442  sudo `which gandalf` --mappings etc/mapping --daemonize --verbose
+ 1443  ls
+ 1444  which gandalf
+ 1445  mkdir .gandalf
+ 1446  ls -al
+ 1447  sudo `which gandalf` --mappings .gandalf/mapping --daemonize --verbose
+ 1448  cd .gandalf
+ 1449  vim mapping
+ 1450  sudo `which gandalf` --mappings .gandalf/mapping --daemonize --verbose
+ 1451  ls
+ 1452  cat mapping
+ 1453  gandalf -m mapping
+ 1454  gandalf -m ./mapping
+ 1455  gandalf
+ 1456  mv mapping mapping.json
+ 1457  ls
+ 1458  gandalf -m ./mapping.json
+ 1459  vim mapping.json
+ 1460  gandalf -m ./mapping.json
+ 1461  mv mapping.json mapping
+ 1462  vim mapping
+ 1463  gandalf -m ~/.gandalf/mapping
+ 1464  vim mapping
+ 1465  gandalf -m ~/.gandalf/mapping
+ 1466  which gandalf
+ 1467  gandalf -s
+ 1468  cd ..
+ 1469  gandalf -s
+ 1470  man gandalf
+ 1471  sudo `which gandalf` --mappings ~/.gandalf/mapping   --daemonize --verbose
+ 1472  ps -e | grep gandalf
+ 1473  gandalf -s
+ 1474  gandalf -e
+ 1475  gandalf -r
+ 1476  sudo `which gandalf` --mappings ~/.gandalf/mapping --verbose
+ 1477  man gandalf
+ 1478  vim .gandalf/mapping
+ 1479  cat .gandalf/mapping
+ 1480  vim .gandalf/mapping
+ 1481  gandalf -s
+ 1482  gandalf -m .gandalf/mapping
+ 1483  gandalf -e
+ 1484  gandalf
+ 1485  ssh root@192.168.0.118
+ 1486  ssh root@192.168.0.118 -p 2222
+ 1487  ssh root@192.168.0.118 -p 22222
+ 1488  ssh root@192.168.0.118 -p 2000
+ 1489  ps -e | grep usbmuxd
+ 1490  gandalf -s
+ 1491  lsof -i 2000
+ 1492  lsof -i 87
+ 1493  lsof -i: 87
+ 1494  netstat -apn | grep 87
+ 1495  netstat -apn
+ 1496  netstat -tln
+ 1497  netstat -tln | grep 22
+ 1498  netstat -tln | grep 2000
+ 1499  lsof -i :22
+ 1500  sudo kill -9 88991
+ 1501  lsof -i :2000
+ 1502  lsof -i :2222
+ 1503  lsof -i :22222
+ 1504  netstat -tln | usb
+ 1505  netstat -tln | grep usb
+ 1506  cat .gandalf/mapping
+ 1507  vim .gandalf/mapping
+ 1508  gandalf -m .gandalf/mapping
+ 1509  cd .gandalf
+ 1510  mv mapping myMap.txt
+ 1511  cat myMap.txt
+ 1512  gandalf -m myMap.txt
+ 1513  vim myMap.txt
+ 1514  mv myMap.txt mapping_file
+ 1515  ls
+ 1516  ls -al
+ 1517  vim mapping_file
+ 1518  gandalf -m mapping_file
+ 1519  vim mapping_file
+ 1520  gandalf -m mapping_file
+ 1521  man gandalf
+ 1522  gandalf -m -h
+ 1523  gandalf -m help
+ 1524  gandalf --help
+ 1525  vim mapping_file
+ 1526  gandalf -m mapping_file
+ 1527  gandalf -s
+ 1528  ssh root@192.168.0.118 -p 2000
+ 1529  sudo `which gandalf` --mappings ~/.gandalf/mapping_file  --verbose
+ 1530  gandalf -s
+ 1531  ps -e | grep gandalf
+ 1532  sudo kill -9 95097
+ 1533  sudo kill -9 88318
+ 1534  sudo kill -9 94637
+ 1535  ps -e | grep gandalf
+ 1536  sudo `which gandalf` --mappings ~/.gandalf/mapping_file --daemonize  --verbose
+ 1537  ps -e | grep gandalf
+ 1538  gandalf -s
+ 1539  ssh root@192.168.0.118 -p 2000
+ 1540  ps -e | grep gandalf
+ 1541  gandalf -s
+ 1542  lsof -i :2000
+ 1543  kill 94864
+ 1544  kill 95983
+ 1545  lsof -i :2000
+ 1546  ssh -p 2000 root@192.168.0.118
+ 1547  lsof -i :2000
+ 1548  vim .gandalf/mapping_file
+ 1549  ps -e | grep gandalf
+ 1550  sudo kill -9 95614
+ 1551  sudo `which gandalf` --mappings ~/.gandalf/mapping_file --daemonize --verbose
+ 1552  ps -e | grep gand
+ 1553  ssh root@192.168.0.118 -p 20002
+ 1554  ssh root@192.168.0.113 -p 20002
+ 1555  vim .gandalf/mapping_file
+ 1556  gandalf -r
+ 1557  sudo kill -9 98019
+ 1558  sudo kill -9 97876
+ 1559  sudo `which gandalf` --mappings ~/.gandalf/mapping_file --daemonize --verbose
+ 1560  gandalf -s
+ 1561  ssh root@localhost -p 2000
+ 1562  lsof -i :2000
+ 1563  lsof -i :22
+ 1564  lsof -i :20002
+ 1565  lsof -i :80
+ 1566  exit
+ 1567  cat .gandalf/mapping_file
+ 1568  gandalf -s
+ 1569  vim .ssh/config
+ 1570  ssh root@localhost -p 2000
+ 1571  ls .ssh
+ 1572  ssh macmini
+ 1573  cat .ssh/id_rsa.pub
+ 1574  ssh jailbreak_iphone
+ 1575  ssh mobile@localhost -p 2000
+ 1576  ssh jailbreak_iphone
+ 1577  ssh macmini
+ 1578  sudo vim /etc/hosts
+ 1579  ping http://cicd.xzlcorp.com/
+ 1580  ping cicd.xzlcorp.com
+ 1581  sudo vim /etc/hosts
+ 1582  ping cicd.xzlcorp.com
+ 1583  ssh macmini
+ 1584  sudo vim /etc/hosts
+ 1585  exit
+ 1586  cd Desktop/xinzhili/ios-patient-oc/XinZhiLi
+ 1587  ls
+ 1588  pod install
+ 1589  ssh-add ~/.ssh/work_rsa
+ 1590  ssh-add ~/.ssh/id_rsa
+ 1591  cd ~/
+ 1592  ps -e | grep gan
+ 1593  history | grep gan
+ 1594  ssh jailbreak_iphone
+ 1595  sudo `which gandalf` --mappings ~/.gandalf/mapping_file --daemonize --verbose
+ 1596  ps -e | grep gan
+ 1597  ssh jailbreak_iphone
+ 1598  gandalf -s
+ 1599  ssh jailbreak_iphone
+ 1600  scp -r jailbreak_iphone:'/var/containers/' ~/Desktop
+ 1601  ps -e | grep gan
+ 1602  gandalf -s
+ 1603  ssh jailbreak_iphone
+ 1604  class-dump
+ 1605  \n work@bogon  ~ 
+ 1606  sudo cp -rf ~/Desktop/class-dump.dmg /usr/bin
+ 1607  brew install class-dump
+ 1608  ping http://ssas.xzlcorp.com/
+ 1609  ping ssas.xzlcorp.com
+ 1610  sudo vim /etc/hosts
+ 1611  ping ssas.xzlcorp.com
+ 1612  sudo vim /etc/hosts
+ 1613  ls -al
+ 1614  brew install class-dump
+ 1615  ls
+ 1616  cd Desktop/xinzhili/ios-patient-oc
+ 1617  sh ios_ci.sh
+ 1618  cd /usr/local/bin
+ 1619  ls -al
+ 1620  sudo chmod 777 class-dump
+ 1621  ls -al
+ 1622  cd ..
+ 1623  ls
+ 1624  cd opt
+ 1625  ls
+ 1626  git clone https://github.com/theos/theos.git
+ 1627  sudo git clone https://github.com/theos/theos.git
+ 1628  ls
+ 1629  cd theos
+ 1630  ls -al
+ 1631  make 
+ 1632  make install
+ 1633  ./configure
+ 1634  sudo ./configure 
+ 1635  ls
+ 1636  cd bin
+ 1637  ls -al
+ 1638  ls
+ 1639  ls -al
+ 1640  sudo chmod 777 ldid
+ 1641  ls -al
+ 1642  whois 120.55.113.165
+ 1643  history | grep checkout
+ 1644  brew install dpkg
+ 1645  \n
+ 1646  echo "PATH="/Users/work/homebrew/opt/gnu-tar/libexec/gnubin:$PATH"" >> .bash_profile
+ 1647  vim .bash_profile
+ 1648  brew ls
+ 1649  vim .bash_profile
+ 1650  sudo vim /etc/profile
+ 1651  sudo vim /etc/bashrc
+ 1652  ls /etc
+ 1653  ssh jailbreak_iphone
+ 1654  ps -e | grep gand
+ 1655  sudo kill -9 42479
+ 1656  gandalf -s
+ 1657  /Users/work/.opam/4.02.0/bin/gandalf --mappings /Users/work/.gandalf/mapping_file --daemonize --verbose
+ 1658  gandalf -s
+ 1659  ps -e | grep gand
+ 1660  sudo gandalf --mappings ~/.gandalf/mapping_file --daemonize --verbose
+ 1661  gandalf -s
+ 1662  ssh jailbreak_iphone
+ 1663  lsof -i :2000
+ 1664  gandalf -s
+ 1665  cat .gandalf/mapping_file
+ 1666  gandalf -s
+ 1667  ssh jailbreak_iphone
+ 1668  gandalf -s
+ 1669  ps -e | grep gand
+ 1670  sudo gandalf --mappings /Users/work/.gandalf/mapping_file --daemonize --verbose
+ 1671  gandalf 0s
+ 1672  gandalf -s
+ 1673  ssh jailbreak_iphone
+ 1674  cd /usr/local/opt
+ 1675  cd theos
+ 1676  ls
+ 1677  ls -l
+ 1678  cd lib
+ 1679  ls
+ 1680  ls -al
+ 1681  cd ..
+ 1682  ssh jailbreak_iphone
+ 1683  scp -r jailbreak_iphone:'/Library/Frameworks/CydiaSubstrate.framework' ./
+ 1684  sudo scp -r jailbreak_iphone:'/Library/Frameworks/CydiaSubstrate.framework' ./
+ 1685  scp -r jailbreak_iphone:'/Library/Frameworks/CydiaSubstrate.framework' ~/Desktop
+ 1686  ls
+ 1687  cd lib
+ 1688  ls
+ 1689  cd ..
+ 1690  ls
+ 1691  mv -rf CydiaSubstrate.dylib lib
+ 1692  mv CydiaSubstrate.dylib lib
+ 1693  sudo mv CydiaSubstrate.dylib lib
+ 1694  ls
+ 1695  ls li
+ 1696  ls lib
+ 1697  cd lib/CydiaSubstrate.dylib
+ 1698  ls
+ 1699  cd..
+ 1700  cd ..
+ 1701  exit
+ 1702  gandalf -s
+ 1703  ls
+ 1704  vim .bash_profile
+ 1705  source .bash_profile
+ 1706  vim .bash_profile
+ 1707  source .bash_profile
+ 1708  cat .bash_profile
+ 1709  echo THEOS
+ 1710  echo $THEOS
+ 1711  cd $THEOS
+ 1712  ls
+ 1713  cd ~/
+ 1714  echo $THEOS_DEVICE_IP
+ 1715  echo $THEOS_DEVICE_PORT
+ 1716  vim .bash_profile
+ 1717  source .bash_profile
+ 1718  echo $THEOS_DEVICE_IP
+ 1719  cat /etc/hostconfig
+ 1720  cat /Library/Preferences/SystemConfiguration/preferences.plist
+ 1721  cd /usr/local/opt/theos
+ 1722  ls
+ 1723  cd lib
+ 1724  ls
+ 1725  cd ..
+ 1726  ls bin
+ 1727  ls -l bin
+ 1728  dpkg-deb -v
+ 1729  cd lib
+ 1730  ls
+ 1731  mv CydiaSubstrate.dylib libsubstrate.dylib
+ 1732  sudo mv CydiaSubstrate.dylib libsubstrate.dylib
+ 1733  ls
+ 1734  sudo mv libsubstrate.dylib CydiaSubstrate.dylib
+ 1735  ls
+ 1736  ls CydiaSubstrate.dylib
+ 1737  mv CydiaSubstrate.dylib/CydiaSubstrate ./
+ 1738  sudo mv CydiaSubstrate.dylib/CydiaSubstrate ./
+ 1739  ls
+ 1740  sudo mv CydiaSubstrate libsubstrate.dylib
+ 1741  ls
+ 1742  ls CydiaSubstrate.dylib/Headers
+ 1743  sudo mv CydiaSubstrate.dylib/Headers/CydiaSubstrate.h ../include
+ 1744  ls ../include
+ 1745  cd ../include
+ 1746  sudo mv CydiaSubstrate.h substrate.h
+ 1747  ls
+ 1748  brew install wget
+ 1749  ssh brufen
+ 1750  dpkg -s mobilesubstrate | grep Version
+ 1751  cd Desktop
+ 1752  mkdir substrate
+ 1753  dpkg-deb -x mobilesubstrate_0.9.6301_iphoneos-arm.deb substrate
+ 1754  which dpkg-deb
+ 1755  ls -al /Users/work/homebrew/bin/dpkg-deb
+ 1756  sudo chmod 777 /Users/work/homebrew/bin/dpkg-deb
+ 1757  ls -al /Users/work/homebrew/bin/dpkg-deb
+ 1758  sudo chmod 777 /Users/work/homebrew/Cellar/dpkg/1.19.0.5/bin/dpkg-deb
+ 1759  ls -al /Users/work/homebrew/bin/dpkg-deb
+ 1760  ls -al /Users/work/homebrew/Cellar/dpkg/1.19.0.5/bin/dpkg-deb
+ 1761  sudo chmod 777 /Users/work/homebrew/bin/dpkg-deb
+ 1762  ls -al /Users/work/homebrew/bin/dpkg-deb
+ 1763  ssh asiplin
+ 1764  ssh macmini
+ 1765  ssh my_aliyun
+ 1766  ps -e | grep gand
+ 1767  ps -e | grep gan\\n
+ 1768  ps -e | grep gan\n
+ 1769  history | grep gand
+ 1770  sudo gandalf --mappings /Users/work/.gandalf/mapping_file --daemonize --verbose
+ 1771  gandalf -s
+ 1772  ssh jailbreak_iphone
+ 1773  cd /usr/local
+ 1774  ls
+ 1775  cd opt
+ 1776  ls
+ 1777  cd theos
+ 1778  ls
+ 1779  ls templates
+ 1780  cd templates/ios
+ 1781  ls
+ 1782  cd dhowett
+ 1783  ls
+ 1784  cd ..
+ 1785  ls
+ 1786  sudo mkdir iphone
+ 1787  cd iphone
+ 1788  git clone https://github.com/theos/templates.git
+ 1789  sudo git clone https://github.com/theos/templates.git
+ 1790  ls
+ 1791  cd templates
+ 1792  ls
+ 1793  cd ios
+ 1794  ls
+ 1795  pwd
+ 1796  cd ..
+ 1797  ls
+ 1798  cd ..
+ 1799  ls
+ 1800  ls ios
+ 1801  ls iphone/templates/ios
+ 1802  /usr/local/opt/theos/bin/nic.pl
+ 1803  cd ..
+ 1804  cd..
+ 1805  cd ..
+ 1806  ls
+ 1807  sudo mv -r /usr/local/opt/theos ~/opt
+ 1808  sudo mv /usr/local/opt/theos ~/opt
+ 1809  mkdir ~/.theos
+ 1810  ls | grep th
+ 1811  ls ~/ | grep th
+ 1812  ls -al ~/
+ 1813  ls -al ~/ | grep th
+ 1814  cd ~/
+ 1815  rm -fr opt
+ 1816  ls opt
+ 1817  rm -fr .theos
+ 1818  mv opt .theos
+ 1819  sudo mv opt .theos
+ 1820  cd .theos
+ 1821  ls
+ 1822  echo $THEOS
+ 1823  cd ~/
+ 1824  vim .bash_profile
+ 1825  source .bash_profile
+ 1826  echo $THEOS
+ 1827  cat .bash_profile
+ 1828  nic.pl
+ 1829  .theos/bin/nic.pl
+ 1830  sh .theos/bin/nic.pl
+ 1831  which prel
+ 1832  which perl
+ 1833  /Users/work/homebrew/bin/perl .theos/bin/nic.pl
+ 1834  perl -v
+ 1835  cat .theos/bin/nic.pl
+ 1836  history | grep theos
+ 1837  cd /usr/local/opt
+ 1838  sudo git clone https://github.com/theos/templates.git
+ 1839  ls
+ 1840  rm -fr templates
+ 1841  sudo rm -fr templates
+ 1842  history | grep clone
+ 1843  sudo git clone https://github.com/theos/theos.git
+ 1844  cd theos/bin
+ 1845  wget http://joedj.net/ldid
+ 1846  sudo wget http://joedj.net/ldid
+ 1847  ls | grep id
+ 1848  sudo chmod 777 ldid
+ 1849  sudo cp /Users/work/Desktop/cache/jailbreak_resource/iphone_device/CydiaSubstrate.framework/CydiaSubstrate ../lib/libsubstate.dylib
+ 1850  ls ../lib/
+ 1851  mv ../lib/libsubstate.dylib ../lib/libsubstrate.dylib
+ 1852  sudo mv ../lib/libsubstate.dylib ../lib/libsubstrate.dylib
+ 1853  ls ../lib/
+ 1854  sudo cp /Users/work/Desktop/cache/jailbreak_resource/iphone_device/CydiaSubstrate.framework/Headers/CydiaSubstrate.h ../include/libsubstrate.h
+ 1855  ls ../include
+ 1856  cd ../include
+ 1857  sudo mv libsubstrate.h substrate.h
+ 1858  ls
+ 1859  ls -al ../bin
+ 1860  cd ..
+ 1861  ./bin/install.exec
+ 1862  cd ..
+ 1863  cd opt
+ 1864  sudo rm -rf theos
+ 1865  sudo git remote set-url origin https://github.com/theos/theos.git
+ 1866  git remote set-url origin https://github.com/theos/theos.git
+ 1867  history | grep clone
+ 1868  sudo git clone https://github.com/theos/theos.git
+ 1869  cd theos/bin
+ 1870  history 
+ 1871  history | grep wget
+ 1872  sudo wget http://joedj.net/ldid
+ 1873  sudo chmod 777 ldid
+ 1874  cd ..
+ 1875  ls
+ 1876  git remote set-url origin https://github.com/theos/theos.git
+ 1877  sudo git remote set-url origin https://github.com/theos/theos.git
+ 1878  brew install ldid
+ 1879  cd ..
+ 1880  sudo rm -rf theos
+ 1881  cd ~/
+ 1882  git clone https://github.com/theos/theos.git
+ 1883  vim .bash_profile
+ 1884  ls theos
+ 1885  cd theos
+ 1886  brew install xz
+ 1887  xz -v
+ 1888  xz --help
+ 1889  echo $THEOS
+ 1890  source ~/.bash_profile
+ 1891  echo $THEOS
+ 1892  cd ~/
+ 1893  sudo cpan IO::Compress::Lzma
+ 1894  brew install xz
+ 1895  brew reinstall xz
+ 1896  sudo cpan IO::Compress::Lzma
+ 1897  sudo cpan IO::Compress::Lzmacpan Compress::Raw::Lzma
+ 1898  cpan Compress::Raw::Lzma
+ 1899  ls -al | grep cp
+ 1900  ls .cpan
+ 1901  rm -rf .cpan
+ 1902  sudo rm -fr .cpan
+ 1903  cpan Compress::Raw::Lzma
+ 1904  find /usr/local/lib/liblzma.*
+ 1905  sudo find /usr/local/lib/liblzma.*
+ 1906  sudo find / -name "lzma*"
+ 1907  sudo ln -s /usr/local/include /Users/work/homebrew/include/
+ 1908  sudo ln -s /Users/work/homebrew/include/ /usr/local/include
+ 1909  ls /usr/local
+ 1910  ls /usr/local/include
+ 1911  ls -al /usr/local
+ 1912  ls -al /Users/work/homebrew/include/
+ 1913  ls -al /Users/work/homebrew/include/ | inc
+ 1914  ls -al /Users/work/homebrew/include/ | grep inc
+ 1915  rm -f  /Users/work/homebrew/include/include
+ 1916  ls -al /Users/work/homebrew/include/ | grep inc
+ 1917  cd /usr/local/include
+ 1918  ls
+ 1919  ls -al
+ 1920  cd ~/
+ 1921  cpan Compress::Raw::Lzma
+ 1922  ls -al | grep .c
+ 1923  rm -rf .cpan
+ 1924  cpan Compress::Raw::Lzma
+ 1925  git clone --recursive https://github.com/theos/theos.git $THEOS
+ 1926  rm -rf theos
+ 1927  git clone --recursive https://github.com/theos/theos.git $THEOS
+ 1928  curl https://ghostbin.com/ghost.sh -o $THEOS/bin/ghost
+ 1929  chmod +x $THEOS/bin/ghost
+ 1930  nic.pl
+ 1931  ls
+ 1932  cd iosreproject
+ 1933  ls
+ 1934  cat Makefile
+ 1935  cd ..
+ 1936  history | grep substrate
+ 1937  cp /Users/work/Desktop/cache/jailbreak_resource/iphone_device/CydiaSubstrate.framework/Headers/CydiaSubstrate.h ~/theos/include/libsubstrate.h
+ 1938  cp /Users/work/Desktop/cache/jailbreak_resource/iphone_device/CydiaSubstrate.framework/CydiaSubstrate ~/theos/lib/libsubstrate.dylib
+ 1939  mv ~/theos/include/libsubstrate.h ~/theos/include/substrate.h
+ 1940  ls ~/theos/li
+ 1941  ls ~/theos/lib
+ 1942  sudo vim /etc/hosts
+ 1943  ssh-add .ssh/id_rsa
+ 1944  ssh-add .ssh/work_rsa
+ 1945  sudo vim /etc/hosts
+ 1946  ssh share_nginx
+ 1947  ssh prod_nginx
+ 1948  scp -r prod_nginx:'~/' ~/Desktop
+ 1949  ssh prod_nginx
+ 1950  gandalf -s
+ 1951  ps -e | grep gand
+ 1952  sudo gandalf --mappings /Users/work/.gandalf/mapping_file --daemonize --verbose
+ 1953  gandalf -s
+ 1954  ssh jailbreak_iphone
+ 1955  gandalf -s
+ 1956  ssh jailbreak_iphone
+ 1957  gandalf -s
+ 1958  ssh jailbreak_iphone
+ 1959  ls
+ 1960  ssh jailbreak_iphone
+ 1961  scp -r jailbreak_iphone:'/Applications/Cydia.app' ~/Desktop
+ 1962  ssh jailbreak_iphone
+ 1963  gandalf -s
+ 1964  ssh jailbreak_iphone
+ 1965  ls
+ 1966  cat log.txt
+ 1967  rm log.txt
+ 1968  ls
+ 1969  history | grep th
+ 1970  history | grep ~/
+ 1971  history | grep nic
+ 1972  rm -rf iosreproject
+ 1973  cd Desktop
+ 1974  cd cache
+ 1975  ls
+ 1976  cd jailbreak_resource
+ 1977  ls
+ 1978  /Users/work/homebrew/bin/perl .theos/bin/nic.pl
+ 1979  nic.pl
+ 1980  ls
+ 1981  cd iosreproject
+ 1982  ls
+ 1983  cat control
+ 1984  cat Makefile
+ 1985  echo $THEOS_MAKE_PATH
+ 1986  vim Makefile
+ 1987  ls
+ 1988  cat Tweak.xm
+ 1989  ls
+ 1990  cat control
+ 1991  make
+ 1992  vim Makefile
+ 1993  make
+ 1994  vim Makefile
+ 1995  make
+ 1996  vim Makefile
+ 1997  make
+ 1998  vim Makefile
+ 1999  make
+ 2000  ls 
+ 2001  ls -l
+ 2002  ls obj
+ 2003  ls obj/debug
+ 2004  ls -al obj
+ 2005  ls -al
+ 2006  make package
+ 2007  history | grep IO::Compress::Lzma
+ 2008  cpan IO::Compress::Lzma
+ 2009  make package
+ 2010  cpan -f -i IO::Compress::Lzma
+ 2011  sudo cpan -f -i IO::Compress::Lzma
+ 2012  make package
+ 2013  ls
+ 2014  ls packages
+ 2015  which cpan
+ 2016  brew ls 
+ 2017  brew ls  | grep c

@@ -1,0 +1,450 @@
+
+  927  brew ls
+  928  pyenv ls
+  929  pyenv -help
+  930  pyenv --help
+  931  pyenv install list
+  932  pyenv install -h
+  933  pyenv install -l
+  934  pyenv install zlib
+  935  cd /Users/work/homebrew/Cellar/zlib/1.2.11/include
+  936  pwd
+  937  which zlib
+  938  zlib
+  939  cd ~/
+  940  vim .bash_profile
+  941  echo $PATH
+  942  history >> ~/Desktop/log.txt
+  943  xcode-select --install
+  944  pyenv activate aws-cli-ve
+  945  aws ls
+  946  aws configure
+  947  exit
+  948  pyenv activate aws-cli-ve
+  949  pyenv deactivate aws-cli-ve
+  950  pyenv ls
+  951  pyenv -h
+  952  pyenv versions
+  953  pyenv activate aws-cli-ve
+  954  pyenv deactivate
+  955  ssh xinzhilici@172.16.10.126
+  956  gradle build
+  957  gradle install
+  958  gradle dependencies
+  959  ls .ssh
+  960  ssh-add .ssh/work_rsa
+  961  vim .ssh/config
+  962  ssh xinzhilici@17.216.10.126
+  963  ssh xinzhilici@172.16.10.126
+  964  ssh macmini
+  965  ssh dev@172.16.10.138
+  966  ssh asiplin
+  967  ssh dev@172.16.10.175
+  968  ssh brufen
+  969  brew install nginx
+  970  nginx start
+  971  nginx -h
+  972  nginx -v
+  973  nginx 
+  974  ps -e | grep nginx
+  975  sudo kill -9 10226
+  976  ps -e | grep nginx
+  977  sudo kill -9 10228
+  978  nginx -g -h
+  979  nginx -g help
+  980  nginx -g 
+  981  nginx
+  982  ps -e | grep nginx
+  983  sudo kill -9 10915
+  984  sudo kill -9 10917
+  985  man nginx
+  986  ssh asiplin
+  987  man nginx
+  988  nginx 
+  989  ps -e | grep nginx
+  990  nginx stop
+  991  man nginx
+  992  nginx -s SIGTERM
+  993  nginx -s
+  994  nginx -s help
+  995  nginx -s SIGTERM
+  996  man nignx
+  997  man ngixn
+  998  man nginx
+  999  nginx stop SIGTERM
+ 1000  nginx -s stop
+ 1001  ps -e | grep nginx
+ 1002  nginx -s start
+ 1003  man nginx
+ 1004  ssh macmini
+ 1005  nvm ls
+ 1006  brew ls
+ 1007  ssh macmini
+ 1008  cd /Users/work/Desktop/xinzhili/ios-patient-oc 
+ 1009  sh ios_ci.sh
+ 1010  ls .ssh
+ 1011  cat .ssh/id_rsa.pub
+ 1012  ssh -i xinzhili-shared.pem -p 22222 ubuntu@54.223.189.191
+ 1013  vim .ssh/config
+ 1014  ls -al | grep shared
+ 1015  ssh share_nginx
+ 1016  ssh-add -L
+ 1017  ssh-add .ssh/id_rsa
+ 1018  ssh-add -L
+ 1019  ssh-add -K xinzhili-shared.pem
+ 1020  ssh-add -L
+ 1021  ssh -A ubuntu@54.223.189.191
+ 1022  ssh -A share_nginx
+ 1023  ssh ubuntu@10.16.2.145
+ 1024  ssh ubuntu@10.16.2.162
+ 1025  ssh share_nginx
+ 1026  ssh -i xinzhili-shared.pem ec2-user@54.223.195.22
+ 1027  ssh share_nginx
+ 1028  pyenv activate aws-cli-ve
+ 1029  aws ec2 list
+ 1030  aws iam list-instance-profiles-for-role
+ 1031  aws iam list-instance-profiles-for-role ecsInstanceRole
+ 1032  aws iam list-instance-profiles-for-role --role-name ecsInstanceRole
+ 1033  aws iam list-instance-profiles-for-role --role-name TestRole
+ 1034  aws iam list-instance-profiles-for-role --role-name Test_S3_Acess_Role
+ 1035  pyenv deactivate
+ 1036  vim .ssh/config
+ 1037  ssh prod_nat
+ 1038  ssh prod_nginx
+ 1039  vim .ssh/config
+ 1040  ssh local_jenk
+ 1041  ssh local_nat
+ 1042  vim .ssh/config
+ 1043  ls 
+ 1044  ssh local_nat
+ 1045  ssh local_jenk
+ 1046  ssh share_nginx
+ 1047  ssh -i xinzhili-shec2-user@54.223.195.22
+ 1048  ssh share_nginx
+ 1049  ssh -i xinzhili-shared.pem ubutnu@54.223.189.191
+ 1050  ssh -i xinzhili-shared.pem ubuntu@54.223.189.191
+ 1051  ssh share_nginx
+ 1052  ssh -i xinzhili-shared.pem ubuntu@54.223.189.191
+ 1053  ssh share_nginx
+ 1054  vim .ssh/config
+ 1055  ssh local_mas
+ 1056  ssh local_mqtt_api
+ 1057  ssh share_nginx
+ 1058  ssh dev@172.16.10.124
+ 1059  ssh ubuntu@172.16.10.124
+ 1060  vim .ssh/config
+ 1061  ssh my_aliyun
+ 1062  ls -al | grep lda
+ 1063  ssh my_aliyun
+ 1064  ping 172.16.10.88
+ 1065  ssh macmini
+ 1066  ping 172.16.10.127
+ 1067  ping 172.16.10.126
+ 1068  ping 172.16.10.128
+ 1069  ping 172.16.10.126
+ 1070  ping 172.16.10.127
+ 1071  ssh macmini
+ 1072  ping 172.16.10.126
+ 1073  ping 172.16.10.128
+ 1074  ping 172.16.10.127
+ 1075  ping 172.16.10.126
+ 1076  ssh macmini
+ 1077  ping 172.16.10.128
+ 1078  ssh macmini
+ 1079  ping 172.31.2.37
+ 1080  ping http://cicd.xzlcorp.com/
+ 1081  curl http://cicd.xzlcorp.com/
+ 1082  ping cicd.xzlcorp.com
+ 1083  ssh macmini
+ 1084  ssh-add .ssh/work_rsa
+ 1085  cd Desktop/xinzhili/ios-patient-oc/
+ 1086  git pull 
+ 1087  git branch
+ 1088  git pull 
+ 1089  git fetch --tags --progress git@git.xzlcorp.com:mobile/ios-patient-oc.git +refs/heads/*:refs/remotes/origin/*
+ 1090  git status
+ 1091  git rev-parse remotes/origin/master^{commit}
+ 1092  git branch -a -v --no-abbrev --contains 5530fe1f22d387f40ef99ebe4b50fdd45075eb35
+ 1093  git checkout -f 5530fe1f22d387f40ef99ebe4b50fdd45075eb35
+ 1094  git branch
+ 1095  git rev-list --no-walk 328f6757969b20851960b3a8716c260b7cddfc3b
+ 1096  git checkout -f 5530fe1f22d387f40ef99ebe4b50fdd45075eb35
+ 1097  git pull
+ 1098  git pull git@git.xzlcorp.com:mobile/ios-patient-oc.git origin/master
+ 1099  git pull git@git.xzlcorp.com:mobile/ios-patient-oc.git master
+ 1100  git status
+ 1101  git branch 
+ 1102  git pull -h
+ 1103  git pull --help
+ 1104  git fetch 
+ 1105  git branch
+ 1106  git remote show origin
+ 1107  git checkout -t origin/test
+ 1108  git branch
+ 1109  git pull
+ 1110  git checkout -t origin/test
+ 1111  ssh share_nginx
+ 1112  git checkout -t origin/test
+ 1113  git checkout -d test
+ 1114  git checkout origin/test
+ 1115  git checkout -b origin/test
+ 1116  git branch
+ 1117  git branch | grep dev
+ 1118  git branch 
+ 1119  cd Desktop
+ 1120  mkdir -p /d/d/t
+ 1121  mkdir -p d/d/t
+ 1122  fir
+ 1123  ssh macmini
+ 1124  vim test.sh
+ 1125  ssh macmini
+ 1126  scp macmini:'/Users/xinzhilici/.jenkins/workspace/ios-patient-oc-build/.Build/Product/2018_04_06_21_04/XinZhiLi.xcarchive' ~/Desktop
+ 1127  scp -r macmini:'/Users/xinzhilici/.jenkins/workspace/ios-patient-oc-build/.Build/Product/2018_04_06_21_04/XinZhiLi.xcarchive' ~/Desktop
+ 1128  /Users/work/Desktop/XinZhiLi.xcarchive 
+ 1129  /Users/work/Desktop/xinzhili/ios-patient-oc/EnvConfig/Product/ExportOptions.plist 
+ 1130  cd ..
+ 1131  sh ex.sh
+ 1132  /Users/work/Desktop/xinzhili/ios-patient-oc/EnvConfig/Product/ExportOptions.plist
+ 1133  cat /Users/work/Desktop/xinzhili/ios-patient-oc/EnvConfig/Product/ExportOptions.plist
+ 1134  sh ex.sh
+ 1135  cd xinzhili/ios-patient-oc
+ 1136  ls
+ 1137  sh ios_ci.sh
+ 1138  cd Desktop
+ 1139  sh ex.sh
+ 1140  sh ios_ci.sh
+ 1141  git log | grep zhousuhua
+ 1142  git log >> ~/Desktop/log.txt
+ 1143  sh ex.sh
+ 1144  /Users/work/Desktop/xinzhili/ios-patient-oc/.Build/Product/2018_04_06_22_42 
+ 1145  /Users/work/Desktop/xinzhili/ios-patient-oc/.Build/Product/2018_04_06_22_42/Product-XinZhiLi.ipa 
+ 1146  cd ~/Desktop
+ 1147  sh ex.sh
+ 1148  fir 
+ 1149  sh ex.sh
+ 1150  git log --pretty='%s%b%B'
+ 1151  git commit --allow-empty -C $target_commit && git reset HEAD^ --hard\n
+ 1152  git log --online
+ 1153  git log --oneline --decorate
+ 1154  cat ~/.ssh/config| grep ali
+ 1155  cat ~/.ssh/config| grep 47
+ 1156  git shortlog
+ 1157  curl -s "http://cicd.xzlcorp.com/job/ios-patient-oc-build/$BUILD_NUMBER/api/xml?wrapper=changes&xpath=//changeSet//comment"
+ 1158  47.104.24.248
+ 1159  cd ~/
+ 1160  ssh share_nginx
+ 1161  vim .ssh/config
+ 1162  ssh share_gitlab
+ 1163  ssh share_nginx
+ 1164  ssh asiplin
+ 1165  yarn run dev
+ 1166  curl -X POST -d "client_id=a148b78b6f4d5b671d8d394c5b7625883ca1eafb5d96228d928d941c5a0a839d&client_secret=6d949bf8d817bd29d63c228f523800f36e9e864ba7d0a5d6a39d8e2c131c73c1&grant_type=password&username=dongfuqiang@xinzhili.cn&password=dfq890409DFQ" https://git.xzlcorp.com/oauth/authorize
+ 1167  curl -X POST -d "client_id=a148b78b6f4d5b671d8d394c5b7625883ca1eafb5d96228d928d941c5a0a839d&client_secret=6d949bf8d817bd29d63c228f523800f36e9e864ba7d0a5d6a39d8e2c131c73c1&grant_type=code&username=dongfuqiang@xinzhili.cn&password=dfq890409DFQ" https://git.xzlcorp.com/oauth/authorize
+ 1168  curl -X GET -d https://git.xzlcorp.com/oauth/authorize\?redirect_uri\=http%3A%2F%2Fcicd.xzlcorp.com%2FsecurityRealm%2FfinishLogin%3Fstate%3Dhttp%253A%252F%252Fcicd.xzlcorp.com%252F\&response_type\=code\&client_id\=a148b78b6f4d5b671d8d394c5b7625883ca1eafb5d96228d928d941c5a0a839d
+ 1169  \ncurl -X https://git.xzlcorp.com/oauth/authorize\?redirect_uri\=http%3A%2F%2Fcicd.xzlcorp.com%2FsecurityRealm%2FfinishLogin%3Fstate%3Dhttp%253A%252F%252Fcicd.xzlcorp.com%252F\&response_type\=code\&client_id\=a148b78b6f4d5b671d8d394c5b7625883ca1eafb5d96228d928d941c5a0a839d
+ 1170  \ncurl  https://git.xzlcorp.com/oauth/authorize\?redirect_uri\=http%3A%2F%2Fcicd.xzlcorp.com%2FsecurityRealm%2FfinishLogin%3Fstate%3Dhttp%253A%252F%252Fcicd.xzlcorp.com%252F\&response_type\=code\&client_id\=a148b78b6f4d5b671d8d394c5b7625883ca1eafb5d96228d928d941c5a0a839d
+ 1171  ssh share_nginx
+ 1172  ping 103.254.65.241
+ 1173  cat  /etc/hosts
+ 1174  sudo echo "172.16.10.126 cicd.xzlcorp.com" >> /etc/hosts
+ 1175  echo "172.16.10.126 cicd.xzlcorp.com" >> /etc/hosts
+ 1176  sudo echo "ddd" >> /etc/hosts
+ 1177  sudo vim /etc/hosts
+ 1178  ssh asiplin
+ 1179  ssh broadcasthost
+ 1180  ssh brufen
+ 1181  scp -r asiplin:'~/bin' ~/Desktop
+ 1182  scp -r ~/Desktop/bin brufen:'~/bin'
+ 1183  ssh brufen
+ 1184  ssh account.jetbrains.com
+ 1185  ssh asiplin
+ 1186  ssh macmini
+ 1187  history | grep sass
+ 1188  history | grep npm
+ 1189  ssh brufen
+ 1190  ssh asiplin
+ 1191  cat .ssh/config
+ 1192  :q
+ 1193  exit
+ 1194  history | grep homebrew
+ 1195  history | grep /usr/bin/ruby
+ 1196  history | grep curl
+ 1197  ssh share_nginx
+ 1198  ssh macmini
+ 1199  scp share_nginx:'log.txt' ~/
+ 1200  ssh share_
+ 1201  ssh share_nginx
+ 1202  which source
+ 1203  java -v
+ 1204  jdk9
+ 1205  java -v
+ 1206  echo $JAVA_HOME
+ 1207  java -v
+ 1208  java --version
+ 1209  java -version
+ 1210  jdk9
+ 1211  java -version
+ 1212  jdk8
+ 1213  java -h
+ 1214  jdk9
+ 1215  java -v
+ 1216  java -version
+ 1217  jdk8
+ 1218  java -version
+ 1219  which gradle
+ 1220  exit
+ 1221  ssh macmini
+ 1222  curl -X POST \\n  -H "X-LC-Id: 5v2prFeaNJYNbFaUnrUQIdKu-gzGzoHsz"          \\n  -H "X-LC-Key: RADvIN04S31vGvtdvlSpMGaC,master"        \\n  -H "Content-Type: application/json" \\n  -d '{\n        "where": {"channels" : ["public"]}\n        "data": {"alert" : "Hello from LeanCloud"}\n     }' \\n  https://5v2prfea.push.lncld.net/1.1/push
+ 1223  go -v
+ 1224  which go
+ 1225  brew ls
+ 1226  cd Desktop/xinzhili/ios-patient-oc/XinZhiLi
+ 1227  pod install
+ 1228  \ncurl: curl -i -k -X GET -G --compressed -H 'Accept: application/json' -H 'Content-Type: application/json; charset=utf-8' -H 'X-LC-Prod: 1' -H 'X-LC-Sign: d6c3559c160ddccc29257504386f9815,1523259907791' -H 'User-Agent: AVOS Cloud iOS-v4.2.0 SDK' -H 'Accept-Language: zh-Hans-CN;q=1, en;q=0.9' -H 'Accept-Encoding: gzip' -H 'X-LC-Id: HHDFnsPUenJxQTKpQWV5ChDV-gzGzoHsz' "https://api.leancloud.cn/1.1/statistics/apps/HHDFnsPUenJxQTKpQWV5ChDV-gzGzoHsz/sendPolicy"
+ 1229  curl -i -k -X GET -G --compressed -H 'Accept: application/json' -H 'Content-Type: application/json; charset=utf-8' -H 'X-LC-Prod: 1' -H 'X-LC-Sign: d6c3559c160ddccc29257504386f9815,1523259907791' -H 'User-Agent: AVOS Cloud iOS-v4.2.0 SDK' -H 'Accept-Language: zh-Hans-CN;q=1, en;q=0.9' -H 'Accept-Encoding: gzip' -H 'X-LC-Id: HHDFnsPUenJxQTKpQWV5ChDV-gzGzoHsz' "https://api.leancloud.cn/1.1/statistics/apps/HHDFnsPUenJxQTKpQWV5ChDV-gzGzoHsz/sendPolicy"
+ 1230  curl -i -k -X GET -G --compressed -H 'Accept: application/json' -H 'Content-Type: application/json; charset=utf-8' -H 'X-LC-Prod: 1' -H 'X-LC-Sign: dbfe2756729a33942294a82fe636025c,1523259907775' -H 'User-Agent: AVOS Cloud iOS-v4.2.0 SDK' -H 'Accept-Language: zh-Hans-CN;q=1, en;q=0.9' -H 'Accept-Encoding: gzip' -H 'X-LC-Id: HHDFnsPUenJxQTKpQWV5ChDV-gzGzoHsz' --data-urlencode 'appId=HHDFnsPUenJxQTKpQWV5ChDV-gzGzoHsz' "https://app-router.leancloud.cn/1/route"
+ 1231  curl -i -k -X GET -G --compressed -H 'Accept: application/json' -H 'Content-Type: application/json; charset=utf-8' -H 'X-LC-Prod: 1' -H 'X-LC-Sign: 215ad4cb580b43928c60b5eb9440b320,1523263674435' -H 'User-Agent: AVOS Cloud iOS-v4.2.0 SDK' -H 'Accept-Language: zh-Hans-CN;q=1, en-CN;q=0.9' -H 'Accept-Encoding: gzip' -H 'X-LC-Id: HHDFnsPUenJxQTKpQWV5ChDV-gzGzoHsz' --data-urlencode 'appId=HHDFnsPUenJxQTKpQWV5ChDV-gzGzoHsz' "https://app-router.leancloud.cn/1/route"
+ 1232  curl -i -k -X GET -G --compressed -H 'Accept: application/json' -H 'Content-Type: application/json; charset=utf-8' -H 'X-LC-Prod: 1' -H 'X-LC-Sign: 4ef41e0c9c8adc122725de84a5107c05,1523263674439' -H 'User-Agent: AVOS Cloud iOS-v4.2.0 SDK' -H 'Accept-Language: zh-Hans-CN;q=1, en-CN;q=0.9' -H 'Accept-Encoding: gzip' -H 'X-LC-Id: HHDFnsPUenJxQTKpQWV5ChDV-gzGzoHsz' "https://api.leancloud.cn/1.1/statistics/apps/HHDFnsPUenJxQTKpQWV5ChDV-gzGzoHsz/sendPolicy"
+ 1233  curl -i -k -X POST -d '{"requests":[{"path":"\/1.1\/installations","method":"POST","body":{"__type":"Object","timeZone":"Asia\/Shanghai","badge":0,"deviceType":"ios","apnsTopic":"cn.xinzhili.patients.development","__internalId":"TdHLf0A7dadAhKTnaEiDRKD","deviceToken":"d8a22a5c570926b7430c0ac503c7cd8bf4a115cef2385f045e97dd8f4b15e3d7"}}]}' --compressed -H 'Accept: application/json' -H 'Content-Type: application/json; charset=utf-8' -H 'X-LC-Prod: 1' -H 'X-LC-Sign: f2c579f7ebe350f16da0ebe1515a96b6,1523264127984' -H 'User-Agent: AVOS Cloud iOS-v4.2.0 SDK' -H 'Accept-Language: zh-Hans-CN;q=1, en-CN;q=0.9' -H 'Accept-Encoding: gzip' -H 'X-LC-Id: HHDFnsPUenJxQTKpQWV5ChDV-gzGzoHsz' "https://api.leancloud.cn/1.1/batch/save"
+ 1234  cd ~/
+ 1235  ssh macmini
+ 1236  cat .ssh/id_rsa.pub
+ 1237  ssh brufen
+ 1238  ssh asiplin
+ 1239  brew install go
+ 1240  ssh my_aliyun
+ 1241  go
+ 1242  brew ls
+ 1243  brew install go
+ 1244  go
+ 1245  cd ~/Desktop
+ 1246  git clone https://github.com/bmuschko/gradle-in-action-source.git
+ 1247  gradle bootrun
+ 1248  gradlew clean
+ 1249  gradle build
+ 1250  ./gradlew bootRun
+ 1251  gradle 
+ 1252  gradle dependencies
+ 1253  gradle tasks
+ 1254  gradle build --all
+ 1255  gradle build ToDoApp
+ 1256  brew install maven
+ 1257  brew ls
+ 1258  maven 
+ 1259  m2 
+ 1260  mv ls
+ 1261  mv -h
+ 1262  mv --h
+ 1263  mv help
+ 1264  mv --help
+ 1265  which mv
+ 1266  mvn ls
+ 1267  mv list
+ 1268  mvn info spring
+ 1269  mvn search spring
+ 1270  man mvn
+ 1271  mvn -h
+ 1272  mvn install spring
+ 1273  ./gradlew allprojects
+ 1274  gradle allprojects
+ 1275  cd /Volumes/Mac/TestFarm/ProgrameTools/Gradle/my-gradle/ch3 
+ 1276  gradle showDesc1
+ 1277  gradle build
+ 1278  gradle tasks
+ 1279  cd ../ch2
+ 1280  gradle tasks
+ 1281  cat build.gradle
+ 1282  cd ../ch3
+ 1283  gradle tasks
+ 1284  gradle showDes1
+ 1285  gradle showDes2
+ 1286  gradle showDes3
+ 1287  gradle clean
+ 1288  gradle 
+ 1289  gradle tasks
+ 1290  gradle tasks --all
+ 1291  gradle build showDes3
+ 1292  gradle showDes3
+ 1293  gradle show tasks
+ 1294  gradle properties
+ 1295  gradle allprojects
+ 1296  gradle showDes
+ 1297  gradle showDes3
+ 1298  gradle hello
+ 1299  gradle showDes3
+ 1300  gradle hello
+ 1301  gradle showDes3
+ 1302  gradle showDes2
+ 1303  brew install groovy\n
+ 1304  gradle showDes2
+ 1305  ls
+ 1306  cd ch2
+ 1307  ls
+ 1308  cd ../ch3
+ 1309  ls
+ 1310  gradle showDes2
+ 1311  cd ch3
+ 1312  gradle showDes2
+ 1313  gradle properties
+ 1314  gradle allprojects.first
+ 1315  gradle allprojects
+ 1316  gradle projects
+ 1317  ssh share_nginx
+ 1318  ssh brufen
+ 1319  ssh asiplin
+ 1320  tar -C $GOROOT -xzf ~/Desktop/go1.10.1.darwin-amd64.tar.gz
+ 1321  tar -c $GOROOT -xzf ~/Desktop/go1.10.1.darwin-amd64.tar.gz
+ 1322  tar -d $GOROOT -xzf ~/Desktop/go1.10.1.darwin-amd64.tar.gz
+ 1323  tar $GOROOT -xzf ~/Desktop/go1.10.1.darwin-amd64.tar.gz
+ 1324  go 
+ 1325  cd ..
+ 1326  vim .bash_profile
+ 1327  echo $GOROOT
+ 1328  vim .bash_profile
+ 1329  source .bash_profile
+ 1330  go -v
+ 1331  cd Desktop/test
+ 1332  go build
+ 1333  ls
+ 1334  ls -al
+ 1335  ./test
+ 1336  /Users/work/Desktop/test/test ; exit;
+ 1337  go build
+ 1338  ls
+ 1339  ./hello
+ 1340  cd Desktop/cache/gradletest
+ 1341  gradle build
+ 1342  gradle combinFileTask
+ 1343  gradle combinFileT
+ 1344  ping 172.31.2.214
+ 1345  ping 172.31.2.37
+ 1346  cat .ssh/config
+ 1347  ssh local_nat
+ 1348  ping 172.31.2.37
+ 1349  ping 172.31.2.214
+ 1350  go version
+ 1351  which go
+ 1352  echo $GOROOT
+ 1353  cat .bash_profile
+ 1354  java version
+ 1355  java -version
+ 1356  jdk9
+ 1357  java -version
+ 1358  vim /etc/hosts
+ 1359  sudo vim /etc/hosts
+ 1360  gradle build
+ 1361  gradle dependencies
+ 1362  gradle dependence
+ 1363  gradle dependences
+ 1364  gradle dependencies
+ 1365  gradle build
+ 1366  go version
+ 1367  ssh-add .ssh/id_rsa
+ 1368  ssh-add .ssh/work_rsa
+ 1369  ssh share_nginx
+ 1370  cd Desktop/xinzhili/ios-patient-oc/XinZhiLi
+ 1371  pod install
+ 1372  pod search Sentry
+ 1373  ssh root@192.168.0.118
+ 1374  cd Desktop
+ 1375  ls
