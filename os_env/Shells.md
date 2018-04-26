@@ -1,6 +1,12 @@
 # Shell 命令集中
 
-### 系统相关
+### cut
+
+### sed
+
+### nl （给目标查询添加行号 显示）
+
+
 
 ### 用户相关
 
@@ -20,6 +26,29 @@
 
   ```bash
   cut -d: -f1 /etc/passwd | xargs groups
+  ```
+
+  ​
+
+- 磁盘情况查看
+
+  ```bash
+  df 
+
+  df -h /etc
+
+  du -sh /* 2> /dev/null
+  ```
+
+- 重定向
+
+  ```
+  # 标准输入、标准输出、错误输出 代号分别为 0、1、2
+
+  # > 、 >> 为标准输出
+  # < 为标准输入 << 为输入退出指定
+  # 2> 为错误输出
+
   ```
 
   ​
@@ -52,6 +81,9 @@
   awk -F ':' '{print $1}' /etc/passwd
   # 或者
    compgen -u
+   
+   # 查询所有登录用户的登录信息
+   cut -d ':' -f1 /etc/passwd |head -n 3 | xargs finger
   ```
 
 #### 用户操作脚本
