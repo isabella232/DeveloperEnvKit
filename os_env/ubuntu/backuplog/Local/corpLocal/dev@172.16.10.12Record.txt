@@ -1,0 +1,1039 @@
+    1  docker ps
+    2  echo $HOST_IP
+    3  vim ~/.bashrc
+    4  vim ~/.zshrc 
+    5  echo $HOST_IP
+    6  vim ~/.zshrc 
+    7  docker
+    8  docker pull openzipkin/zipkin-cassandra
+    9  docker images
+   10  docker pull quay.io/openzipkin/zipkin-cassandra
+   11  docker images | grep zipkin
+   12  history | grep run
+   13  docker run  --name zipkin_csd zipkin-cassandra 
+   14  docker run  --name zipkin_csd quay.io/openzipkin/zipkin-cassandra 
+   15  ps -ef | grep run
+   16  docker ps
+   17  docker stop zipkin_csd
+   18  jjjs
+   19  docker rnm zipkin_csd
+   20  docker rm zipkin_csd
+   21  ls
+   22  top
+   23  ls
+   24  pwd
+   25  sudo apt upgrade
+   26  top
+   27  ps aux | grep postgres
+   28  ps aux | grep java
+   29  docker ps
+   30  wget https://anonscm.debian.org/cgit/pkg-postgresql/postgresql-common.git/plain/pgdg/apt.postgresql.org.sh
+   31  chmod +x apt.postgresql.org.sh
+   32  ./apt.postgresql.org.sh
+   33  sudo ./apt.postgresql.org.sh
+   34  sudo apt update
+   35  sudo apt upgrade
+   36  sudo apt install postgresql
+   37  ps aux | grep postgresql
+   38  tail -f /var/log/postgresql/postgresql-9.6-main.log 
+   39  sudo tail -f /var/log/postgresql/postgresql-9.6-main.log 
+   40  sudo apt remove postgresql
+   41  sudo rm -rf /etc/apt/sources.list.d/pgdg.list
+   42  ls
+   43  sudo service docker restart
+   44  docker ps
+   45  echo $SHELL
+   46  docker ps
+   47  docker images
+   48  history | grep run
+   49  docker run -dp --name zipkin_csd 9042:9042 zipkin-cassandra
+   50  docker run --name zipkin_csd -dp 9042:9042 zipkin-cassandra
+   51  docker run --name zipkin_csd -dp 9042:9042 quay.io/openzipkin/zipkin-cassandra
+   52  docker logs -f zipkin_csd
+   53  sudo apt upgrade
+   54  docker ps
+   55  docker ps -a
+   56  docker start turbine_srv
+   57  docker logs -f turbine_srv
+   58  docker ps
+   59  docker stop turbine_srv
+   60  docker rm turbine_srv
+   61  history | grep turbine
+   62  bash
+   63  docker run -e HOST_IP=172.16.10.12 -dp 8989:8989 --name turbine_srv registry.xzlcorp.com/corp/turbine-server
+   64  docker logs -f turbine-server
+   65  docker logs -f turbine_srv
+   66  docker stop turbine_srv && docker rm turbine_srv
+   67  docker pull registry.xzlcorp.com/corp/turbine-server
+   68  docker run -e HOST_IP=172.16.10.12 -dp 8989:8989 --name turbine_srv registry.xzlcorp.com/corp/turbine-server
+   69  docker logs -f turbine_srv
+   70  cd /etc/nginx
+   71  ls
+   72  cd sites-enabled
+   73  ls
+   74  cat https
+   75  top
+   76  ls
+   77  pwd
+   78  wget https://www.atlassian.com/software/confluence/downloads/binary/atlassian-confluence-5.10.7-x64.bin
+   79  docker ps
+   80  docker stop zipkin_csd
+   81  docker rm zipkin_csd
+   82  history | grep csd
+   83  ls
+   84  sudo su jenkins
+   85  docker run -e ZIPKIN_VERSION=1.13.1 --name zipkin_csd -dp 9042:9042 quay.io/openzipkin/zipkin-cassandra
+   86  docker logs -f zipkin_csd
+   87  s
+   88  sudo su jenkins
+   89  pwd
+   90  ls
+   91  ./atlassian-confluence-5.10.7-x64.bin
+   92  ls -al
+   93  chmod +x atlassian-confluence-5.10.7-x64.bin
+   94  ls
+   95  ./atlassian-confluence-5.10.7-x64.bin
+   96  sudo ./atlassian-confluence-5.10.7-x64.bin
+   97  sudo su jenkins
+   98  docker logs -f zipkin_csd
+   99  docker stop zipkin_csd && docker rm zipkin_csd
+  100  docker run -e ZIPKIN_VERSION=1.13.1 -e CASSANDRA_VERSION=2.2.8 --name zipkin_csd -dp 9042:9042 quay.io/openzipkin/zipkin-cassandra
+  101  docker logs -f zipkin_csd
+  102  docker ps
+  103  history | grep csd
+  104  docker ps
+  105  ps -ef | grep java
+  106  sudo service restart confluence
+  107  docker ps
+  108  docker logs -f zipkin_csd
+  109  docker ps
+  110  docker ps 
+  111  docker restart zipkin_csd
+  112  docker logs -f zipkin_csd 
+  113  sudo apt upgrade
+  114  docker ps
+  115  sudo vim /etc/hosts
+  116  sudo service networking restart
+  117  systemctl status networking.service
+  118  ping baidu.com
+  119  ls
+  120  sudo su jenkins
+  121  ls
+  122  sudo su jenkins
+  123  ls -la
+  124  docker ps
+  125  docker ps -a
+  126  docker logs --tail 1000 zipkin_csd
+  127  docker ps
+  128  docker ps -a
+  129  docker restart zipkin_csd
+  130  docker restart turbine_srv
+  131  docker ps
+  132  redis-c
+  133  redis-cli
+  134  hostname -i
+  135  ifocn
+  136  ifconfig
+  137  redis-cli
+  138  ls -la
+  139  redis-cli --help
+  140  redis-cli -n 1
+  141  redis-cli
+  142  redis-cli -n 1
+  143  redis-cli
+  144  redis-cli -n 1
+  145  redis-cli
+  146  redis-cli -n 1
+  147  redis-cli
+  148  redis-cli -n 1
+  149  redis-cli
+  150  redis-cli -n 1
+  151  ll
+  152  free -h
+  153  ls
+  154  cd sonatype-work
+  155  ls
+  156  ls -la
+  157  cd nexus
+  158  ls
+  159  ls -la
+  160  cd ..
+  161  ls
+  162  ls -la
+  163  ls
+  164  sl
+  165  sl -la
+  166  ls -la
+  167  ls
+  168  ls -la
+  169  cd ..
+  170  ls
+  171  cd nexus-2.13.0-01
+  172  ls
+  173  cd nexus
+  174  ls
+  175  ls -la
+  176  cd ..
+  177  ls
+  178  cd ..
+  179  ls
+  180  cd bin
+  181  ls
+  182  cd ..
+  183  ls
+  184  ps aux | grep nexus
+  185  vim nexus-2.13.0-01/bin/jsw/conf/wrapper.conf
+  186  ls -la
+  187  ls
+  188  cd nexus-2.13.0-01
+  189  ls
+  190  cd ..
+  191  ls
+  192  cd sonatype-work
+  193  ls
+  194  ls -la
+  195  pwd
+  196  cd nexus
+  197  ls
+  198  ls -la
+  199  cd ..
+  200  ls
+  201  cd ..
+  202  ls
+  203  ls -la
+  204  ls
+  205  cd nexus-2.13.0-01
+  206  ls
+  207  cd nexus
+  208  ls
+  209  cd WEB-INF
+  210  ls
+  211  cd bundles
+  212  ls
+  213  cd ..
+  214  ls
+  215  cd lib
+  216  ls
+  217  cd ..
+  218  ls
+  219  cd classes
+  220  ls
+  221  cd org
+  222  ls
+  223  cd sonatype
+  224  ls
+  225  cd nexus
+  226  ls
+  227  cd webapp
+  228  ls
+  229  cd ..
+  230  ls
+  231  cd ..
+  232  ls
+  233  cd ..
+  234  ls
+  235  cd ..
+  236  ls
+  237  cd ..
+  238  ls
+  239  cd plugin-repository
+  240  ls
+  241  cd ..
+  242  ls
+  243  cd ..
+  244  ls
+  245  cd ..
+  246  ls
+  247  cd bin
+  248  ls
+  249  cd ..
+  250  ls
+  251  cd tmp
+  252  ls
+  253  cd ..
+  254  ls
+  255  cd ..
+  256  ls
+  257  ls -la
+  258  ls
+  259  ls -la
+  260  cd sn
+  261  ls
+  262  cd sonatype-work
+  263  ls
+  264  ls -la
+  265  cd ..
+  266  ls
+  267  cd nexus-2.13.0-01
+  268  ls
+  269  cat conf/nexus.properties
+  270  cd ..
+  271  ls
+  272  cd nexus-2.13.0-01
+  273  ls
+  274  cd nexus
+  275  ls
+  276  ls -la
+  277  cd ..
+  278  ls
+  279  cd ..
+  280  ls
+  281  ls -la
+  282  ps aux | grep nexus
+  283  cd /home/nexus
+  284  ls
+  285  cd nexus-2.13.0-01
+  286  ls
+  287  cd ..
+  288  ls
+  289  cd sno
+  290  cd sonatype-work
+  291  ls
+  292  cd nexus
+  293  ls
+  294  ls -la
+  295  cd orient
+  296  ls
+  297  cd plugins
+  298  ls
+  299  cd ..
+  300  ls
+  301  cd ..
+  302  ls
+  303  cd indexer
+  304  ls
+  305  cd ..
+  306  ls
+  307  cd so
+  308  ls
+  309  cd storage
+  310  ls
+  311  cd ..
+  312  ls
+  313  cd backup
+  314  ls
+  315  cd ..
+  316  ls
+  317  cd felix-cache
+  318  ls
+  319  cd ..
+  320  ls
+  321  ls -la
+  322  ls
+  323  cd ..
+  324  ls
+  325  zip -r nexus.zip nexus
+  326  sudo apt install zip
+  327  zip -r nexus.zip nexus
+  328  sudo zip -r nexus.zip nexus
+  329  ls
+  330  du -h nexus.zip
+  331  pwd
+  332  ls
+  333  sudo su nexus
+  334  ls
+  335  sl
+  336  sudo su nexus
+  337  ps aux | grep nexus
+  338  kill -9 4697
+  339  sudo kill -9 4697
+  340  ps aux | grep nexus
+  341  sudo kill -9 4699
+  342  ps aux | grep nexus
+  343  docker login
+  344  docker ps
+  345  docker logs -f zipkin_csd
+  346  docker logs -f zipkin_csd --tail 1
+  347  docker logs -f zipkin_csd --tail 100
+  348  nc 172.16.10.12 9024
+  349  nc 172.16.10.12 9042
+  350  nc -zv 172.16.10.12 9042
+  351  ls
+  352  docker ps
+  353  docker logs -f turbine_srv
+  354  docker logs -f turbine_srv --tail 1
+  355  docker logs -f turbine_srv --tail 100
+  356  brew info jenkins
+  357  docker ps
+  358  docker ps -a
+  359  history | grep zipkin
+  360  history | grep turbine
+  361  docker ps
+  362  docker ps -a
+  363  docker restart zipkin_csd
+  364  docker ps
+  365  nc -zv localhost 9042
+  366  docker ps
+  367  df -h
+  368  docker logs zipkin_csd
+  369  docker ps
+  370  docker stop zipkin_csd
+  371  docker rm zipkin_csd
+  372  history | grep zipkin_csd
+  373  docker run -e ZIPKIN_VERSION=1.13.1 -e CASSANDRA_VERSION=2.2.8 --name zipkin_csd -dp 9042:9042 quay.io/openzipkin/zipkin-cassandra
+  374  docker ps 
+  375  docker logs zipkin_csd
+  376  docker logs -f zipkin_csd
+  377  docker ps
+  378  docker logs -f zipkin_csd
+  379  ls
+  380  docker ps
+  381  df
+  382  df -h
+  383  ls -la
+  384  ls
+  385  docker ps
+  386  docker run -ti quay.io/openzipkin/zipkin-cassandra /bin/sh
+  387  ls
+  388  pwd
+  389  ls
+  390  sudo vim /etc/nginx/sites-enabled/https
+  391  ls
+  392  pwd
+  393  sudo /home/dev/certbot-auto renew --pre-hook "service nginx stop" --post-hook "service nginx start"
+  394  ls -la
+  395  sudo vim /etc/nginx/sites-enabled/gzip ht
+  396  sudo vim /etc/nginx/sites-enabled/https
+  397  ls -la
+  398  pwd
+  399  sudo vim /etc/nginx/sites-enabled/https
+  400  sudo vim /etc/nginx/sites-enabled/gzip
+  401  sudo vim /etc/nginx/sites-enabled/https
+  402  ls -la
+  403  ls
+  404  ls -la
+  405  cat Release.key
+  406  ls
+  407  ls -l
+  408  ls
+  409  ls -la
+  410  cat smb.conf
+  411  ls
+  412  ls -la
+  413  ls
+  414  sl
+  415  ls
+  416  sudo su
+  417  sudo service nginx restart
+  418  uname -s
+  419  nginx --help
+  420  nginx -help
+  421  nginx -h
+  422  cd /etc/nginx
+  423  ls
+  424  vim sites-enabled/https
+  425  cd /etc/letsencrypt
+  426  ls
+  427  cd live
+  428  ls
+  429  cd keys
+  430  ls
+  431  cd live
+  432  sudo su
+  433  ll
+  434  vim /etc/nginx/sites-available/default
+  435  vim /etc/nginx/sites-available/ghost
+  436  pwd
+  437  exit
+  438  docker ps
+  439  ping 172.31.2.214
+  440  docker ps
+  441  docker stop turbine_srv && docker rm turbine_srv
+  442  history | grep turbine
+  443  docker run -e HOST_IP=172.16.10.12 -dp 8989:8989 --name turbine_srv registry.xzlcorp.com/corp/turbine-server
+  444  docker logs -f turbine_srv
+  445  docker stop turbine_srv && docker rm turbine_srv
+  446  docker pull registry.xzlcorp.com/corp/turbine-server
+  447  docker run -e HOST_IP=172.16.10.12 -dp 8989:8989 --name turbine_srv registry.xzlcorp.com/corp/turbine-server
+  448  docker logs -f turbine_srv
+  449  docker ps
+  450  curl localhost:8989/info
+  451  curl localhost:8989/health
+  452  curl localhost:8989/env
+  453  docker logs -f turbine_srv
+  454  docker ps
+  455  curl localhost:8990/info
+  456  docker ps
+  457  docker ps -a
+  458  docker restart zipkin_csd
+  459  docker restart turbine_srv
+  460  docker ps
+  461  docker ps -a
+  462  docker rm turbine_srv
+  463  history | grep turbine_srv
+  464  docker pull registry.xzlcorp.com/corp/turbine-server
+  465  docker run -e HOST_IP=172.16.10.12 -dp 8989:8989 --name turbine_srv registry.xzlcorp.com/corp/turbine-server
+  466  docker ps
+  467  docker logs -f turbine_srv
+  468  git status
+  469  top
+  470  pwd
+  471  exit
+  472  docker ps
+  473  docker ps -a
+  474  docker restart turbine_srv
+  475  docker restart zipkin_csd
+  476  docker ps
+  477  top
+  478  sudo service jenkins stop
+  479  sudo service jenkins status
+  480  history | grep jenkins
+  481  sudo su jenkins
+  482  docker ps
+  483  fluentd
+  484  curl -L https://toolbelt.treasuredata.com/sh/install-ubuntu-xenial-td-agent2.sh | sh
+  485  /etc/init.d/td-agent restart
+  486  sudo /etc/init.d/td-agent restart
+  487  tail -f /var/log/td-agent/td-agent.log
+  488  ls
+  489  vim in_docker.conf
+  490  fluentd -c in_docker.conf
+  491  ps -ef
+  492  docker ps
+  493  docker ps -a
+  494  docker restart zipkin_csd
+  495  docker restart turbine_srv
+  496  docker logs -f turbine_srv 
+  497  docker ps
+  498  docker logs -f turbine_srv --tail 1000
+  499  docker logs -f turbine_srv
+  500  docker ps -a
+  501  top
+  502  jps
+  503  ps -ef | grep java
+  504  sudo kill 2233 2300 2779 2780
+  505  docker ps
+  506  top
+  507  sudo kill 2233 2300 2779 2780
+  508  ps -ef | grep java
+  509  docker ps -a
+  510  docker restart turbine_srv
+  511  docker logs -f turbine_srv
+  512  docker logs -f turbine_srv --tail 1000
+  513  df -h
+  514  docker ps
+  515  docker stop zipkin_csd
+  516  docker stop turbine_srv
+  517  docker start turbine_srv
+  518  docker logs -f turbine_srv
+  519  docker restart zipkin_srv
+  520  docker restart zipkin_csd
+  521  docker logs
+  522  docker ps
+  523  top
+  524  docker ps
+  525  docker restart zipkin_csd
+  526  docker ps
+  527  docker logs -f zipkin_csd
+  528  docker ps -a
+  529  docker restart zipkin_csd
+  530  docker logs -f zipkin_csd --tail 1000
+  531  docker ps
+  532  pwd
+  533  docker ps
+  534  docker stop zipkin_csd
+  535  docker restart zipkin_csd
+  536  docker ps
+  537  docker restart zipkin_csd
+  538  docker ps
+  539  docker logs -f zipkin_csd --tail 1000
+  540  docker ps
+  541  top
+  542  docker ps
+  543  docker ps -a
+  544  docker rm thirsty_feynman focused_pike cocky_carson
+  545  docker rm tender_kalam silly_shockley reverent_mestorf gigantic_lamarr
+  546  docker ps
+  547  docker ps -a
+  548  docker zipkin_csd
+  549  docker restart zipkin_csd
+  550  docker restart turbine_srv
+  551  docker ps
+  552  docker logs turbine_srv --tail 1000
+  553  docker restart turbine_srv
+  554  docker logs turbine_srv --tail 1000
+  555  java -version
+  556  jps
+  557  ps -ef | grep java
+  558  top
+  559  free -m
+  560  ps -ef | grep java
+  561  sudo /etc/init.d/confluence
+  562  sudo systemctl disable confluence
+  563  sudo systemctl disable nexus
+  564  docker ps
+  565  docker ps -a
+  566  docker logs turbine_srv --tail 1
+  567  docker rm turbine_srv
+  568  history | grep run
+  569  docker run -e HOST_IP=172.16.10.12 -dp 8989:8989 --name turbine_srv registry.xzlcorp.com/corp/turbine-server
+  570  docker ps
+  571  free -h
+  572  ls
+  573  docker ps
+  574  hostname -i
+  575  /sbin/ip route|awk '/default/ { print $3 }'
+  576  /sbin/ip route|awk '/default/ { print $4 }'
+  577  /sbin/ip route|awk '/default/ { print $2 }'
+  578  /sbin/ip route|awk '/default/ { print $3 }'
+  579  /sbin/ip route
+  580  docker-machine ip host_name
+  581  docker ip
+  582  ip r | awk '/default/{print $3}'
+  583  ip --help
+  584  ip inet
+  585  ip help
+  586  ip address
+  587  ifconfig eth0 | grep -oP 'inet addr:\K\S+'
+  588  hostname -i
+  589  sudo vim /etc/hosts
+  590  hostname -i
+  591  sudo vim /etc/hosts
+  592  hostname
+  593  sudo vim /etc/hosts
+  594  hostname -i
+  595  docker ps
+  596  docker images
+  597  docker ps -a
+  598  docker ps -aq | xargs docker start
+  599  docker ps
+  600  docker rm -f sentry-redis
+  601  ls
+  602  docker ps
+  603  docker logs -f turbine_srv 
+  604  docker logs -f --tail turbine_srv 
+  605  docker logs -f --tail 1 turbine_srv 
+  606  docker logs -f zipkin_csd
+  607  ls -la
+  608  docker ps
+  609  free -h
+  610  docker ps
+  611  free -h
+  612  docker ps
+  613  ps -ef | grep post
+  614  pg_dump --table=s_user.t_area --column-inserts dev > t_area.sql
+  615  pg_dump --help
+  616  pg_dump --table=s_user.t_area --column-inserts dev -U postgres -h localhost > t_area.sql
+  617  history | grep pg
+  618  ps aux | grep nginx
+  619  sudo vim /etc/nginx/sites-enabled/https
+  620  ls
+  621  sudo vim /etc/nginx/sites-enabled/gzip
+  622  sudo vim /etc/nginx/sites-enabled/default
+  623  sudo service nginx restart
+  624  systemctl status nginx.service
+  625  sudo vim /etc/nginx/sites-enabled/default
+  626  sudo vim /etc/nginx/sites-available/default
+  627  cd /etc/nginx/sites-enabled
+  628  ls
+  629  sudo ln -s ../sites-available/default
+  630  sudo ln -s ../sites-available/default .
+  631  sudo ln -fs ../sites-available/default .
+  632  ls
+  633  sudo vim default
+  634  sudo service nginx restart
+  635  sudo service nginx stop
+  636  sudo service nginx start
+  637  journalctl -xe
+  638  sudo journalctl -xe
+  639  ls
+  640  sudo rm -rf gzip
+  641  sudo service nginx start
+  642  sudo service nginx restart
+  643  ifconfig
+  644  hostname -i
+  645  ls
+  646  ls -la
+  647  cat default
+  648  :q
+  649  sudo vim default
+  650  ls
+  651  sudo service nginx restart
+  652  ls -la
+  653  ls
+  654  ls -la
+  655  sudo vim default
+  656  sudo service nginx restart
+  657  hostname -i
+  658  cat default
+  659  sudo vim default
+  660  sudo service nginx restart
+  661  hostname -i 
+  662  cat default
+  663  ssh dev@172.16.10.13
+  664  sudo vim default
+  665  sudo service nginx restart
+  666  docker run -d -p 9000:9000 portainer/portainer
+  667  docker ps
+  668  hostname -i
+  669  netstat -nap | grep :2375\n
+  670  sudo netstat -nap | grep :2375\n
+  671  ls
+  672  hostname -i
+  673  ls
+  674  redis-cli
+  675  redis-cli --help
+  676  redis-cli -n 3
+  677  redis-cli -n 4
+  678  redis-cli -d 4
+  679  redis-cli --help
+  680  redis-cli -n 4
+  681  docker ps
+  682  docker stop backstabbing_visvesvaraya
+  683  ls
+  684  doc ps
+  685  sudo service nginx start
+  686  curl 0.0.0.0
+  687  sudo vim /etc/nginx/sites-enabled/default
+  688  docker ps
+  689  df -h
+  690  docker images
+  691  docker images | grep zipkin
+  692  history | grep csd
+  693  docker ps
+  694  docker inspect zipkin_csd | grep env
+  695  docker inspect zipkin_csd 
+  696  docker stop zipkin_csd && docker rm zipkin_csd
+  697  docker pull quay.io/openzipkin/zipkin-cassandra
+  698  docker images | zipkin
+  699  docker images | grep zipkin
+  700  docker rmi a62ea6e3068e
+  701  history | grep zipkin_csd
+  702  docker run -e ZIPKIN_VERSION=1.13.1 -e CASSANDRA_VERSION=2.2.8 --name zipkin_csd -dp 9042:9042 quay.io/openzipkin/zipkin-cassandra
+  703  docker logs -f zipkin_csd
+  704  docker ps
+  705  history | grep zipkin
+  706  sudo vim /etc/nginx/sites-enabled/https
+  707  sudo vim /etc/letsencrypt/live/pan.xzlcorp.com/fullchain.pem
+  708  sudo vim /etc/nginx/sites-enabled/https
+  709  sudo vim /etc/letsencrypt/live/pan.xzlcorp.com/privkey.pem
+  710  sudo service nginx restart
+  711  ps -ef | grep redis
+  712  redis-cli --help
+  713  redis-cli -n 4
+  714  docker ps
+  715  df -h
+  716  docker logs -f zipkin_csd --tail 1000
+  717  docker ps
+  718  docker logs -f turbine_srv --tail 1000
+  719  docker ps
+  720  history | grep turbin
+  721  docker ps
+  722  docker stop turbine_srv && docker rm turbine_srv
+  723  docker pull registry.xzlcorp.com/corp/turbine-server
+  724  docker run -e HOST_IP=172.16.10.12 -d -p 8989:8989 -p 8990:8990 --name turbine_srv registry.xzlcorp.com/corp/turbine-server
+  725  docker ps
+  726  docker logs -f turbine_srv 
+  727  docker restart turbine_srv
+  728  docker logs -f turbine_srv 
+  729  git status
+  730  docker ps
+  731  redis-cli -n 4
+  732  docker ps
+  733  df -h
+  734  redis-cli -n 2
+  735  docker ps -a
+  736  docker restart turbine_srv
+  737  docker restart zipkin_csd
+  738  exit
+  739  redis-cli -n 2
+  740  docker ps
+  741  docker ps -a
+  742  docker pull quay.io/openzipkin/zipkin-cassandra
+  743  history | grep run
+  744  docker rm zipkin_csd
+  745  docker run -e ZIPKIN_VERSION=1.24.0 -e CASSANDRA_VERSION=2.2.8 --name zipkin_csd -dp 9042:9042 quay.io/openzipkin/zipkin-cassandra
+  746  docker logs -f zipkin_csd
+  747  docker stop zipkin_csd && docker rm zipkin_csd
+  748  docker run  --name zipkin_csd -dp 9042:9042 quay.io/openzipkin/zipkin-cassandra
+  749  docker logs -f zipkin_csd
+  750  docker ps
+  751  docker stop zipkin_csd
+  752  docker rm zipkin_csd
+  753  docker run -e ZIPKIN_VERSION=1.19.2 -e CASSANDRA_VERSION=2.2.8 --name zipkin_csd -dp 9042:9042 quay.io/openzipkin/zipkin-cassandra
+  754  docker logs -f zipkin_csd
+  755  docker stop zipkin_csd
+  756  docker rm zipkin_csd
+  757  docker run -e ZIPKIN_VERSION=1.19.2  --name zipkin_csd -dp 9042:9042 quay.io/openzipkin/zipkin-cassandra
+  758  docker logs -f zipkin_csd
+  759  docker rm zipkin_csd && stop zipkin_csd
+  760  docker stop zipkin_csd && rm zipkin_csd
+  761  docker ps -s
+  762  docker run --name zipkin_es -d p 9200:9200 -p 9300:9300 quay.io/openzipkin/zipkin-elasticsearch
+  763  history | grep run
+  764  docker run --name zipkin_es -d -p 9200:9200 -p 9300:9300 quay.io/openzipkin/zipkin-elasticsearch
+  765  docker logs -f zipkin_
+  766  docker logs -f zipkin_es
+  767  docker ps
+  768  docker run --name zipkin_dep -e STORAGE_TYPE=elasticsearch  -d -p 9200:9200 -p 9300:9300 quay.io/openzipkin/zipkin-elasticsearch
+  769  docker run --name zipkin_dep -e STORAGE_TYPE=elasticsearch  -d quay.io/openzipkin/zipkin-elasticsearch
+  770  docker rm zipkin_dep
+  771  docker run --name zipkin_dep -e STORAGE_TYPE=elasticsearch  -d quay.io/openzipkin/zipkin-elasticsearch
+  772  docker logs -f zipkin_dep
+  773  netstat -anp | grep 9200
+  774  curl localhost:9200
+  775  docker stop zipkin_dep && docker rm zipkin_dep
+  776  docker run --name zipkin_dep -e STORAGE_TYPE=elasticsearch -e ES_HOSTS=localhost -e ES_NODES_WAN_ONLY=true  -d quay.io/openzipkin/zipkin-elasticsearch
+  777  docker logs -f zipkin_dep
+  778  docker ps
+  779  ls
+  780  docker ps
+  781  ls
+  782  pwd
+  783  cd ..
+  784  ls
+  785  which redis
+  786  where is redis
+  787  clear
+  788  ps -ef | grep redis
+  789  cd /usr/bin
+  790  ls
+  791  ll
+  792  clear
+  793  ll | grep redis
+  794  ls | grep redis
+  795  docker ps
+  796  docker logs -f zipkin_dep
+  797  docker images
+  798  docker images | dep
+  799  docker images | grep dep
+  800  history | grep dep
+  801  docker stop zipkin_dep && docker rm zipkin_dep
+  802  docker run --name zipkin_dep -e STORAGE_TYPE=elasticsearch -e ES_HOSTS=localhost -d quay.io/openzipkin/zipkin-dependencies sh -c 'crond -f'
+  803  docker run --name zipkin_dep -e STORAGE_TYPE=elasticsearch -e ES_HOSTS=localhost -d openzipkin/zipkin-dependencies sh -c 'crond -f'
+  804  docker ps
+  805  docker logs -f zipkin_dep
+  806  ls
+  807  wget -O zipkin-dependencies.jar 'https://search.maven.org/remote_content?g=io.zipkin.dependencies&a=zipkin-dependencies&v=LATEST'
+  808  STORAGE_TYPE=elasticsearch java -jar zipkin-dependencies.jar
+  809  docker ps
+  810  history | grep elastic
+  811  STORAGE_TYPE=elasticsearch java -jar zipkin-dependencies.jar
+  812  docker ps
+  813  STORAGE_TYPE=elasticsearch java -jar zipkin-dependencies.jar
+  814  docker ps
+  815  STORAGE_TYPE=elasticsearch java -jar zipkin-dependencies.jar
+  816  docker logs -f zipkin_dep
+  817  history | grep dep
+  818  docker ps
+  819  docker inspect zipkin_dep
+  820  history | grep zipkin_dep
+  821  docker stop zipkin_dep && docker rm zipkin_dep
+  822  docker run --name zipkin_dep -e STORAGE_TYPE=elasticsearch -e ES_HOSTS=172.16.10.12 -d openzipkin/zipkin-dependencies sh -c 'crond -f'
+  823  docker ps
+  824  docker logs -f zipkin_dep
+  825  docker ps
+  826  docker logs -f zipkin_dep
+  827  docker ps
+  828  redis-cli -n 2
+  829  ls
+  830  sudo vim /etc/nginx/sites-enabled/https
+  831  sudo cp fullchain.pem /etc/letsencrypt/live/pan.xzlcorp.com/
+  832  sudo cp privkey.pem /etc/letsencrypt/live/pan.xzlcorp.com/
+  833  sudo service nginx restart
+  834  docke ps
+  835  docker ps
+  836  os
+  837  ps
+  838  docker ps
+  839  docker ps -a
+  840  docker start turbine_srv
+  841  exit
+  842  docker ps
+  843  docker ps -a
+  844  docker start 133fffa235ee 2bd002ddeb17 a44faa4f3d8d 9f30dd00a6f0 918dd4f887ad
+  845  docker ps 
+  846  docker ps
+  847  df -h
+  848  docker images
+  849  cd /dev/sda1
+  850  docker ps
+  851  echo "" > $(docker inspect --format='{{.LogPath}}' 2bd002ddeb17\n\n
+  852  ls
+  853  sudo lsof | grep '(deleted)'
+  854  sudo docker rm -f 918dd4f887ad
+  855  f -h
+  856  df -g
+  857  df -h
+  858  docker ps
+  859  docker images
+  860  sudo docker rmi -f 98eb22b6f309
+  861  df -h
+  862  sudo docker rmi -f 693bce725149 8ff49f49c21e
+  863  df -h
+  864  df
+  865  fg
+  866  df -h
+  867  sudo df -h
+  868  df -h 
+  869  ls -la
+  870  sudo reboot
+  871  ps aux | grep redis
+  872  df -h
+  873  ls
+  874  docker ps -a
+  875  ls -l
+  876  ls -la
+  877  ls
+  878  df -h
+  879  df -gh
+  880  df -h
+  881  docker ps -a
+  882  docker start zipkin_dep
+  883  docker start zipkin_es
+  884  docker start turbine_srv
+  885  docker logs -f zipkin_es
+  886  df -h
+  887  ls -la
+  888  docker ps
+  889  ls -la
+  890  exit
+  891  docker ps
+  892  df -h
+  893  sudo service httpd stataus
+  894  sudo service nginx restart
+  895  ls
+  896  ps aux | grep php
+  897  sudo vim /etc/nginx/sites-enabled/https
+  898  ls
+  899  ls -la
+  900  ls
+  901  cd drive
+  902  ls
+  903  cd ..
+  904  ls
+  905  sudo vim /etc/nginx/sites-enabled/https
+  906  ps aux | grep php
+  907  php-fpm7.0 --help
+  908  php-fpm
+  909  cat fullchain.pem
+  910  ls
+  911  ls -l
+  912  ls -la
+  913  ping pan.xzlcorp.com
+  914  ls
+  915  curl 127.0.0.1
+  916  ls
+  917  sudo vim /etc/nginx/sites-enabled/https
+  918  sudo su
+  919  df -h
+  920  docker ps
+  921  docker rm -f 133fffa235ee 2bd002ddeb17 9f30dd00a6f0
+  922  df -h
+  923  ls -la
+  924  ls
+  925  ls -la
+  926  docker ps
+  927  ls -la
+  928  docker images
+  929  docker --help
+  930  docker run --help
+  931  ls -la
+  932  ls
+  933  ls -la
+  934  ls
+  935  git show
+  936  ls -la
+  937  exi
+  938  exit
+  939  java
+  940  exit
+  941  docker ps
+  942  docker ps -a
+  943  history
+  944  history | grep docker
+  945  docker run --name zipkin_dep -e STORAGE_TYPE=elasticsearch -e ES_HOSTS=172.16.10.12 -e ES_NODES_WAN_ONLY=true  -d quay.io/openzipkin/zipkin-elasticsearch
+  946  docker ps
+  947  docker logs -f zipkin_dep
+  948  docker rm -f zipkin_dep
+  949  docker run --name zipkin_dep --log-opt max-size=10m -e STORAGE_TYPE=elasticsearch -e ES_HOSTS=172.16.10.12 -e ES_NODES_WAN_ONLY=true  -d quay.io/openzipkin/zipkin-elasticsearch
+  950  docker logs -f zipkin_dep
+  951  ls
+  952  docker rm -f zipkin_dep
+  953  ls
+  954  sudo apt update
+  955  sudo apt upgrade
+  956  sudo apt autore
+  957  sudo apt autoremove
+  958  sudo apt update linux-*
+  959  sudo apt upgrade linux-image*
+  960  sudo apt upgrade docker
+  961  sudo apt install docker
+  962  docker ps
+  963  docker run --name zipkin_dep --log-opt max-size=10m -e STORAGE_TYPE=elasticsearch -e ES_HOSTS=172.16.10.12 -e ES_NODES_WAN_ONLY=true  -d quay.io/openzipkin/zipkin-elasticsearch
+  964  docker logs -f zipkin_dep
+  965  docker run --name zipkin_es -d -p 9200:9200 -p 9300:9300 quay.io/openzipkin/zipkin-elasticsearch\n\n
+  966  docker logs -f zipkin_es
+  967  docker ps
+  968  docker ps -a
+  969  docker logs -f turbine_srv
+  970  docker ps
+  971  docker logs -f turbine_srv
+  972  docker ps
+  973  history | grep turbine
+  974  docker inspect turbine
+  975  docker inspect turbine_srv
+  976  docker rm -f turbine_srv
+  977  history | grep tur
+  978  docker run -e HOST_IP=172.16.10.12 -d -p 8989:8989 -p 8990:8990 --name turbine_srv registry.xzlcorp.com/corp/turbine-server
+  979  docker ps
+  980  docker rm -f turbine_srv
+  981  docker run -e HOST_IP=172.16.10.12 -d -p 9009:9009 -p 8989:8989 -p 8990:8990 --name turbine_srv registry.xzlcorp.com/corp/turbine-server
+  982  docker ps
+  983  docker logs -f turbine_srv
+  984  ls
+  985  df -h
+  986  kls
+  987  ls
+  988  docker ps
+  989  docker stop zipkin_*
+  990  docker stop zipkin_es
+  991  docker stop zipkin_dep
+  992  docker ps
+  993  cd /etc/redis
+  994  ls
+  995  vim redis.conf
+  996  cat redis.conf
+  997  sudo cat redis.conf
+  998  sudo vim redis.conf
+  999  docker ps
+ 1000  cd
+ 1001  ls
+ 1002  docker ps
+ 1003  free
+ 1004  free -h
+ 1005  top
+ 1006  exit
+ 1007  docker ps
+ 1008  docker run --name zipkin_es -d -p 9200:9200 -p 9300:9300 quay.io/openzipkin/zipkin-elasticsearch\n\n
+ 1009  docker run --name zipkin_dep -e STORAGE_TYPE=elasticsearch -e ES_HOSTS=172.16.10.12 -e ES_NODES_WAN_ONLY=true  -d quay.io/openzipkin/zipkin-elasticsearch
+ 1010  docker ps
+ 1011  docker logs -f wechat_srv
+ 1012  docker ps
+ 1013  ls -la
+ 1014  docker logs -f wechat_srv
+ 1015  hostname -i
+ 1016  docker logs -f wechat_srv
+ 1017  docker ps
+ 1018  docker restart wechat_srv
+ 1019  docker logs -f wechat_srv
+ 1020  ls
+ 1021  ssh -i privkey.pem ec2-user@ec2-54-223-189-191.cn-north-1.compute.amazonaws.com.cn
+ 1022  cd /
+ 1023  ls
+ 1024  cd home
+ 1025  ls
+ 1026  cd dev
+ 1027  ls
+ 1028  exit
+ 1029  ls
+ 1030  cd .ssh
+ 1031  ls
+ 1032  cat authorized_keys
+ 1033  ssh -p 22222 ubuntu@54.223.189.191
+ 1034  ssh -i authorized_keys ubuntu@54.223.189.191
+ 1035  cd ..
+ 1036  cat fullchain.pem
+ 1037  ls -al
+ 1038  echo $SHELL
+ 1039  history

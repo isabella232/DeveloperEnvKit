@@ -1,0 +1,128 @@
+    1  sudo yum update
+    2  ls -la
+    3  ping 10.16.2.13
+    4  ls -la
+    5  ls
+    6  ls -la
+    7  cat .ssh/authorized_keys 
+    8  ls
+    9  ls -la
+   10  ls
+   11  du -h nexus.zip 
+   12  ls
+   13  ls -la
+   14  du -h nexus.zip 
+   15  vim nexus.zip 
+   16  ls -la
+   17  ls
+   18  ping ip-10-16-2-13
+   19  ls
+   20  scp -i xinzhili-shared.pem nexus.zip ubuntu@ip-10-16-2-13:~/
+   21  ls
+   22  ls -la
+   23  ls
+   24  rm -rf nexus.zip 
+   25  ls
+   26  vim xinzhili-shared.pem
+   27  chmod 400 xinzhili-shared.pem 
+   28  ssh -i xinzhili-shared.pem ubuntu
+   29  ssh -i xinzhili-shared.pem ubuntu@10.16.2.13
+   30  date
+   31  sudo dpkg-reconfigure tzdata
+   32  ssh -i xinzhili-shared.pem ubuntu@10.16.2.13
+   33  ls
+   34  ssh -i xinzhili-shared.pem ubuntu@10.16.2.13
+   35  ssh -i xinzhili-shared.pem ubuntu@10.16.2.129
+   36  ssh -i xinzhili-shared.pem ubuntu@10.16.2.145
+   37  ssh -i xinzhili-shared.pem 1478085594_gitlab_backup.tar  ubuntu@10.16.2.10.16.2.145
+   38  ssh -i xinzhili-shared.pem 1478085594_gitlab_backup.tar  ubuntu@10.16.2.145:~/
+   39  scp -i xinzhili-shared.pem 1478085594_gitlab_backup.tar  ubuntu@10.16.2.145:~/
+   40  sudo vim /etc/sysctl.conf 
+   41  ping 10.0.0.250
+   42  ls -la
+   43  ls
+   44  ssh -i "xinzhili-shared.pem" ubuntu@ec2-54-223-189-191.cn-north-1.compute.amazonaws.com.cn
+   45  ssh -p 22222 -i "xinzhili-shared.pem" ubuntu@ec2-54-223-189-191.cn-north-1.compute.amazonaws.com.cn
+   46  ls
+   47  ls -la
+   48  ls
+   49  ssh -p 22222 -i "xinzhili-shared.pem" ubuntu@ec2-54-223-189-191.cn-north-1.compute.amazonaws.com.cn
+   50  ls -la
+   51  ssh -p 22222 -i "xinzhili-shared.pem" ubuntu@ec2-54-223-189-191.cn-north-1.compute.amazonaws.com.cn
+   52  free -h
+   53  free 
+   54  ssh -p 22222 -i "xinzhili-shared.pem" ubuntu@ec2-54-223-189-191.cn-north-1.compute.amazonaws.com.cn
+   55  ping 104.236.153.76
+   56  ls
+   57  ssh 10.16.2.13
+   58  q
+   59  exit
+   60  history 
+   61  history  | lesss
+   62  history 
+   63  history  | lesss
+   64  history  | less
+   65  exit
+   66  docker images
+   67  docker ps
+   68  ssh root@10.16.2.145
+   69  ssh ec2-user@10.16.2.145
+   70  exit
+   71  ssh root@54.223.189.191
+   72  ping 10.16.2.145
+   73  ssh -i xinzhili-shared.pem root@10.16.2.145
+   74  ssh -i xinzhili-shared.pem ubuntu@10.16.2.145
+   75  ssh -i xinzhili-shared.pem ec2-user@ec2-54-223-189-191.cn-north-1.compute.amazonaws.com.cn
+   76  ls
+   77  cd /
+   78  ls
+   79  cd home/
+   80  ls
+   81  cd ec2-user/
+   82  ls
+   83  ssh ec2-user@10.16.1.85
+   84  ssh root@10.16.1.85
+   85  ssh ec2-user@54.223.189.191
+   86  ssh ec2-user@10.16.2.145
+   87  ssh ec2-user@ec2-54-222-188-178.cn-north-1.compute.amazonaws.com.cn
+   88  exit
+   89  history >> SHARED-NAT-daqiang-his.txt
+   90  cat SHARED-NAT-daqiang-his.txt 
+   91  ssh -i xinzhili-shared.pem ubuntu@10.16.2.13
+   92  ssh -i xinzhili-shared.pem ubuntu@10.16.2.145
+   93  ls
+   94  ssh -i xinzhili-shared.pem ubuntu@10.16.1.85
+   95  exit
+   96  ls
+   97  history >> SHARED-NAT-daqiang-his.txt
+   98  cat SHARED-NAT-daqiang-his.txt 
+   99  ssh -i xinzhili-shared.pem ubuntu@10.16.2.13
+  100  ssh -i xinzhili-shared.pem ubuntu@10.16.2.162
+  101  ssh -i xinzhili-shared.pem ubuntu@10.16.2.145
+  102  exit
+  103  ls
+  104  ssh -i xinzhili-shared.pem ubuntu@10.16.2.13
+  105  ls
+  106  exit
+  107  ls
+  108  vi hisgrep.sh 
+  109  sh hisgrep.sh 
+  110  vi hisgrep.sh 
+  111  cat hisgrep.sh 
+  112  vi hisgrep.sh 
+  113  sh hisgrep.sh 
+  114  ls
+  115  mv SHARED-NAT-daqiang-his.txt Desktop/
+  116  mv SHARED-NAT-daqiang-his.txt Desktop
+  117  ls
+  118  ls Desktop/
+  119  ls -l Desktop 
+  120  cd Desktop 
+  121  ls -al
+  122  exit
+  123  history >> SHARED-NAT
+  124  ls
+  125  cat SHARED-NAT 
+  126  histroy >> SHARED-NAT-daqiang-his.txt 
+  127  history >> SHARED-NAT
+  128  history >> SHARED-NAT-daqiang-his.txt

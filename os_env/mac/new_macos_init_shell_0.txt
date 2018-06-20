@@ -839,6 +839,7 @@
   839  sudo mkdir opt
   840  rm libpng
   841  sudo rm libpng
+
   842  cd opt
   843  sudo ln -sv /Users/work/homebrew/Cellar/libpng  libpng
   844  rm libpng
@@ -855,6 +856,7 @@
   855  yarn run dev
   856  pwd
   857  cd ~/
+
   858  mysql 
   859  mysql -u root 
   860  mysql -u root -p
@@ -868,6 +870,7 @@
   868  pod install
   869  s
   870  ssh -i xinzhili-prod.pem ec2-user@52.80.158.2
+
   871  xcrun | xcpretty 
   872  xcrun man
   873  man xcrun

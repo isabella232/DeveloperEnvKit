@@ -1,0 +1,37 @@
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+export PATH=~/bin:~/homebrew/bin:$PATH
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH=$PYENV_ROOT/bin:$PATH
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+
+export PATH=~/homebrew/Cellar/zlib/1.2.11/include:$PATH
+
+export JAVA_8_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home
+export JAVA_9_HOME=/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home
+export JAVA_HOME=$JAVA_8_HOME
+alias jdk8="export JAVA_HOME=$JAVA_8_HOME"
+alias jdk9="export JAVA_HOME=$JAVA_9_HOME"
+
+export PATH=:/Users/work/.nvm/versions/node/v9.5.0/bin:/Users/work/homebrew/Cellar/zlib/1.2.11/include:/Users/work/.pyenv/plugins/pyenv-virtualenv/shims:/Users/work/.pyenv/shims:/Users/work/.pyenv/bin:/Users/work/bin:/Users/work/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS
+
+export PATH=$JAVA_HOME:$PATH
+
+
+export GOROOT=$HOME/go
+export PATH=$PATH:$GOROOT/bin
+
+
+eval `opam config env`
+PATH=/Users/work/homebrew/opt/gnu-tar/libexec/gnubin:/Users/work/.opam/4.02.0/bin:/Users/work/.opam/4.02.0/bin:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home::/Users/work/.nvm/versions/node/v9.5.0/bin:/Users/work/homebrew/Cellar/zlib/1.2.11/include:/Users/work/.pyenv/plugins/pyenv-virtualenv/shims:/Users/work/.pyenv/shims:/Users/work/.pyenv/bin:/Users/work/bin:/Users/work/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Users/work/go/bin
+
+export THEOS=~/theos
+export PATH=$THEOS/bin:$PATH
+export THEOS_DEVICE_IP="daqiang'sMacBook Pro.local" THEOS_DEVICE_PORT=22
+
+export ANDROID_HOME=/Users/work/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools/bin/

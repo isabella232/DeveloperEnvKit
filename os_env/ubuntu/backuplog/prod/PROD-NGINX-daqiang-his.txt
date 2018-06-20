@@ -1,0 +1,1000 @@
+  194  sudo mv www.xinzhili.cn.crt  /etc/ssl/
+  195  sudo mv www.xinzhili.cn.key  /etc/ssl/
+  196  ls
+  197  vim /etc/nginx/sites-enabled/https 
+  198  sudo vim /etc/nginx/sites-enabled/https 
+  199  sudo service nginx restart 
+  200  sudo vim /etc/nginx/sites-enabled/https 
+  201  sudo service nginx restart 
+  202  sudo vim /etc/nginx/sites-enabled/https 
+  203  sudo service nginx restart 
+  204  sudo vim /etc/nginx/sites-enabled/https 
+  205  ls
+  206  sudo vim /etc/nginx/sites-enabled/api
+  207  sudo vim /etc/nginx/sites-enabled/https 
+  208  cd /etc/nginx/sites-available/
+  209  ls
+  210  sudo cp https api
+  211  sudo vim api 
+  212  ping api.xinzhili.cn
+  213  ls
+  214  sudo vim api 
+  215  ls -la
+  216  ls
+  217  sudo certbot certonly --email ops@xinzhili.cn --standalone -d api.xinzhili.cn
+  218  ls
+  219  sudo vim api 
+  220  sudo service nginx restart 
+  221  ls -la
+  222  ls
+  223  ls -la
+  224  ls
+  225  cd
+  226  cd /etc/ssl
+  227  l
+  228  sls
+  229  sudo vim www.xinzhili.cn.key 
+  230  ls
+  231  sudo vim www.xinzhili.cn.crt 
+  232  ls
+  233  sudo service nginx stop
+  234  sudo certbot certonly --email ops@xinzhili.cn --standalone -d api.xinzhili.cn
+  235  sudo service nginx restart 
+  236  ls -la
+  237  ls
+  238  ls -la
+  239  ls
+  240  cat www.xinzhili.cn.key 
+  241  ls
+  242  sudo vim /etc/nginx/sites-enabled/https 
+  243  psql
+  244  ls
+  245  sudo ls /etc/letsencrypt/live/
+  246  ls
+  247  ls -la
+  248  ls
+  249  ls -la
+  250  ls
+  251  ls -la
+  252  ls
+  253  rm -rf 1521657740.zip IntermediateCA.cer SSLAssistant getting_started.txt ssl_certificate.cer 
+  254  ls
+  255  cd /etc/nginx/sites-available/
+  256  ls
+  257  cat api 
+  258  ls
+  259  sudo vim api 
+  260  ls
+  261  cd ..
+  262  ls
+  263  cd sites-enabled/
+  264  ls
+  265  sudo ln -s ../sites-available/api .
+  266  ls
+  267  sudo service nginx restart 
+  268  ls -la
+  269  ls
+  270  sl
+  271  ls
+  272  ls -la
+  273  ls
+  274  sudo vim api 
+  275  sudo service nginx restart 
+  276  ls -la
+  277  sudo vim api 
+  278  sudo service nginx restart 
+  279  sudo vim api 
+  280  ls
+  281  sudo vim default 
+  282  sudo vim api 
+  283  sudo service nginx restart 
+  284  ls -la
+  285  ls
+  286  ls -la
+  287  ls
+  288  cd
+  289  ls
+  290  cd /etc/nginx/
+  291  ls
+  292  cd sites-enabled/
+  293  ls
+  294  sudo rm -rf api 
+  295  ls
+  296  sudo service nginx restart 
+  297  sudo vim /etc/nginx/sites-enabled/https 
+  298  sudo service nginx restart 
+  299  ls
+  300  sudo vim /etc/nginx/sites-enabled/https 
+  301  ls
+  302  sudo service nginx stop && sudo certbot certonly --email ops@xinzhili.cn --standalone -d sentry.xinzhili.cn && sudo service nginx start
+  303  ls -la
+  304  ls
+  305  cd /etc/nginx/sites-available/
+  306  ls
+  307  cat api 
+  308  sudo cp api sentry
+  309  ls
+  310  sudo vim sentry 
+  311  ls
+  312  cd ..
+  313  ls
+  314  cd sites-enabled/
+  315  ls
+  316  sudo ln -s ../sites-available/sentry .
+  317  ls
+  318  sudo service nginx restart 
+  319  cd
+  320  cd /etc/nginx/sites-enabled/
+  321  ls
+  322  sudo ln -s ../sites-available/api .
+  323  ls
+  324  sudo service nginx restart 
+  325  ls -la
+  326  ls
+  327  sudo vim /etc/nginx/sites-enabled/api 
+  328  sudo vim /etc/nginx/sites-available/https 
+  329  sudo vim /etc/nginx/sites-available/api 
+  330  ls
+  331  ls -la
+  332  psql -h local-pg.cuauwtxtbfew.rds.cn-north-1.amazonaws.com.cn -U postgres -d dev
+  333  sudo apt install postgresql-client-common
+  334  psql -h local-pg.cuauwtxtbfew.rds.cn-north-1.amazonaws.com.cn -U postgres -d dev
+  335  sudo apt install postgresql-client
+  336  ls
+  337  sudo su
+  338  sudo service nginx stop && sudo certbot certonly --email ops@xinzhili.cn --standalone -d m.xinzhili.cn && sudo service nginx start
+  339  ls
+  340  ls -al
+  341  ls
+  342  ls -la
+  343  ls
+  344  cd /etc/nginx/sites-available/
+  345  ls
+  346  sudo cp -a api m
+  347  ls
+  348  sudo vim m
+  349  ls
+  350  cat m 
+  351  ls
+  352  ls -la
+  353  ls
+  354  cd ..
+  355  ls
+  356  cd sites-enabled/
+  357  ls
+  358  sudo ln -s ../sites-available/m .
+  359  ls
+  360  sudo service nginx restart 
+  361  ls
+  362  ls -la
+  363  ls
+  364  sudo vim m 
+  365  sudo service nginx restart 
+  366  ls
+  367  zip -r nginx.zip /etc/nginx/sites-available
+  368  sudo apt install zup
+  369  sudo apt install zi[
+  370  sudo apt install zip
+  371  ls -al
+  372  ls
+  373  zip -r nginx.zip /etc/nginx/sites-available
+  374  ls
+  375  ls -la
+  376  ls
+  377  ls -la
+  378  ls
+  379  rm -rf nginx.zip 
+  380  ls
+  381  mkdir temp
+  382  ls
+  383  mv 1525721725.zip temp/
+  384  ls
+  385  cd temp/
+  386  ls
+  387  unzip -x 1525721725.zip 
+  388  ls
+  389  vim /etc/nginx/sites-enabled/api 
+  390  cat ssl_certificate.crt IntermediateCA.crt >> www.xinzhili.cn.crt
+  391  ls
+  392  cat ssl_certificate.cer IntermediateCA.cer  >> www.xinzhili.cn.crt 
+  393  ls
+  394  cat www.xinzhili.cn.crt 
+  395  ls
+  396  sl
+  397  ls
+  398  sudo mv www.xinzhili.cn.crt /etc/ssl/
+  399  sudo vim /etc/nginx/sites-enabled/https 
+  400  sudo service nginx restart 
+  401  sudo vim /etc/nginx/sites-enabled/api 
+  402  sudo vim /etc/nginx/sites-enabled/default 
+  403  sudo vim /etc/nginx/sites-enabled/m 
+  404  sudo service nginx restart 
+  405  ls
+  406  cd ..
+  407  ls
+  408  rm -rf temp/
+  409  ls
+  410  sudo vim /etc/nginx/sites-enabled/default 
+  411  ls
+  412  sudo vim /etc/nginx/sites-enabled/sentry 
+  413  sudo service nginx restart 
+  414  ls
+  415  ls -al
+  416  ls
+  417  ls -la
+  418  ls
+  419  ls -la
+  420  ls
+  421  cd /etc/nginx/sites-
+  422  cd /etc/nginx/sites-enabled/
+  423  ls
+  424  vim m 
+  425  sudo vim m 
+  426  sudo service nginx restart 
+  427  sudo vim m 
+  428  ls
+  429  sudo vim api 
+  430  ls
+  431  cat m 
+  432  curl http://10.0.1.71:9004/m/patient/public/agreement.html
+  433  curl http://10.0.1.71:9004/env
+  434  curl http://10.0.1.71:9004/env | python -mjson.tool
+  435  sudo apt upgrade 
+  436  cd /etc/nginx/sites-enabled/
+  437  ls
+  438  cat m 
+  439  ls
+  440  sudo vim /etc/apt/sources.list
+  441  ls
+  442  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+  443  echo "deb https://mirrors.tuna.tsinghua.edu.cn/docker/apt/repo ubuntu-xenial main" | sudo tee /etc/apt/sources.list.d/docker.list
+  444  sudo apt update 
+  445  sudo apt upgrade 
+  446  ls
+  447  docker ps
+  448  sudo vim /etc/nginx/sites-available/wiki
+  449  sudo vim /etc/nginx/sites-available/wiki 
+  450  ls
+  451  cd /etc/nginx/sites-available/
+  452  ls
+  453  cd ..
+  454  ls
+  455  cd sites-enabled/
+  456  ls
+  457  sudo ln -s ../sites-available/wiki .
+  458  ls
+  459  sudo service nginx restart 
+  460  curl wiki.xinzhili.cn
+  461  sudo vim wiki 
+  462  sudo service nginx restart 
+  463  sudo vim wiki 
+  464  sudo service nginx restart 
+  465  sudo vim wiki 
+  466  sudo service nginx restart 
+  467  sudo vim wiki 
+  468  sudo service nginx restart 
+  469  sudo vim wiki 
+  470  sudo service nginx restart 
+  471  sudo vim wiki 
+  472  sudo service nginx restart 
+  473  sudo vim wiki 
+  474  sudo service nginx restart 
+  475  sudo vim wiki 
+  476  sudo service nginx restart 
+  477  sudo service nginx stop && sudo certbot certonly --email ops@xinzhili.cn --standalone -d wiki.xinzhili.cn && sudo service nginx start
+  478  sudo vim /etc/nginx/sites-enabled/m 
+  479  sudo vim /etc/nginx/sites-enabled/default 
+  480  ls
+  481  sudo vim /etc/nginx/sites-enabled/https 
+  482  sudo vim api
+  483  sudo vim /etc/nginx/sites-enabled/default 
+  484  sudo vim /etc/nginx/sites-enabled/wiki 
+  485  sudo vim /etc/nginx/sites-enabled/api 
+  486  sudo vim /etc/nginx/sites-enabled/default 
+  487  sudo vim /etc/nginx/sites-enabled/api 
+  488  sudo service nginx restart 
+  489  sudo vim /etc/nginx/sites-enabled/api 
+  490  sudo vim /etc/nginx/sites-enabled/wiki 
+  491  sudo service nginx restart 
+  492  systemctl status nginx.service
+  493  sudo vim /etc/nginx/sites-enabled/api 
+  494  sudo vim /etc/nginx/sites-enabled/wiki 
+  495  sudo service nginx restart 
+  496  ls
+  497  ls -la
+  498  ls
+  499  sudo vim /etc/nginx/sites-enabled/wiki 
+  500  sudo vim /etc/nginx/sites-enabled/sentry 
+  501  sudo service nginx restart 
+  502  ls
+  503  sudo vim /etc/nginx/sites-enabled/m 
+  504  sudo service nginx restart 
+  505  sudo vim /etc/nginx/sites-enabled/https 
+  506  sudo vim /etc/nginx/sites-enabled/api 
+  507  sudo vim /etc/nginx/sites-enabled/m 
+  508  sudo vim /etc/nginx/sites-enabled/wiki 
+  509  sudo vim /etc/nginx/sites-enabled/api 
+  510  sudo vim /etc/nginx/sites-enabled/https 
+  511  sudo vim /etc/nginx/sites-enabled/wiki 
+  512  sudo service nginx restart 
+  513  sudo vim /etc/nginx/sites-enabled/wiki 
+  514  sudo service nginx restart 
+  515  systemctl status nginx.service
+  516  sudo service nginx restart 
+  517  sudo vim /etc/nginx/sites-enabled/wiki 
+  518  sudo service nginx restart 
+  519  sudo vim /etc/nginx/sites-enabled/https 
+  520  sudo service nginx restart 
+  521  sudo vim /etc/nginx/sites-enabled/https 
+  522  sudo service nginx restart 
+  523  sudo vim /etc/nginx/sites-enabled/https 
+  524  sudo service nginx restart 
+  525  sudo vim /etc/nginx/sites-enabled/https 
+  526  sudo service nginx restart 
+  527  tail -f /var/log/nginx/access.log
+  528  tail -1000f /var/log/nginx/access.log
+  529  ls
+  530  tail -1000f /var/log/nginx/error.log
+  531  tail -1000f /var/log/nginx/access.log
+  532  sudo vim /etc/nginx/sites-enabled/api 
+  533  sudo service nginx restart 
+  534  sudo vim /etc/nginx/sites-enabled/api 
+  535  sudo service nginx restart 
+  536  ls
+  537  sudo vim /etc/nginx/sites-enabled/api 
+  538  cat /etc/nginx/sites-enabled/api 
+  539  cat /etc/nginx/sites-enabled/default 
+  540  cat /etc/nginx/sites-enabled/api 
+  541  ls
+  542  sudo vim /etc/nginx/sites-enabled/api 
+  543  sudo service nginx restart 
+  544  sudo vim /etc/nginx/sites-enabled/api 
+  545  sudo service nginx restart 
+  546  tail -1000f /var/log/nginx/access.log
+  547  sudo vim /etc/nginx/sites-enabled/api 
+  548  sudo service nginx restart 
+  549  sudo vim /etc/nginx/sites-enabled/api 
+  550  sudo service nginx restart 
+  551  sudo vim /etc/nginx/sites-enabled/
+  552  sudo service nginx restart 
+  553  sudo vim /etc/nginx/sites-enabled/https 
+  554  sudo vim /etc/nginx/sites-enabled/default 
+  555  sudo service nginx reload 
+  556  ls -la
+  557  ls
+  558  ls -la
+  559  ls
+  560  ls -la
+  561  ls
+  562  sudo service nginx stop && sudo certbot certonly --email ops@xinzhili.cn --standalone -d sentry.xinzhili.cn && sudo service nginx start
+  563  ls
+  564  ls -la
+  565  ls
+  566  sudo vim /etc/nginx/sites-enabled/https 
+  567  sudo service nginx reload 
+  568  sudo vim /etc/nginx/sites-enabled/https 
+  569  sudo vim /etc/nginx/sites-enabled/default 
+  570  sudo vim /etc/nginx/sites-enabled/https 
+  571  sudo vim /etc/nginx/sites-enabled/default 
+  572  sudo vim /etc/nginx/sites-enabled/https 
+  573  sudo vim /etc/nginx/sites-enabled/default 
+  574  sudo service nginx reload 
+  575  sudo vim /etc/nginx/sites-enabled/default 
+  576  sudo vim /etc/nginx/sites-enabled/https 
+  577  sudo service nginx reload 
+  578  sudo service nginx reload
+  579  sudo service nginx restart 
+  580  sudo vim /etc/nginx/sites-enabled/https 
+  581  cd /var/www/html
+  582  ls
+  583  ls -la
+  584  ls
+  585  cat index.nginx-debian.html 
+  586  sudo cp index.nginx-debian.html index.html
+  587  ls
+  588  sudo service nginx restart 
+  589  ls -la
+  590  cat index.
+  591  cat index.html 
+  592  ls
+  593  cd ..
+  594  ls
+  595  cd 
+  596  sudo vim /etc/nginx/sites-enabled/https 
+  597  sudo service nginx restart 
+  598  sudo vim /etc/nginx/sites-enabled/https 
+  599  sudo service nginx restart 
+  600  sudo vim /etc/nginx/sites-enabled/https 
+  601  sudo service nginx restart 
+  602  sudo vim /etc/nginx/sites-enabled/https 
+  603  sudo service nginx restart 
+  604  sudo vim /etc/nginx/sites-enabled/https 
+  605  sudo service nginx restart 
+  606  sudo vim /etc/nginx/sites-enabled/https 
+  607  sudo service nginx restart 
+  608  ls -la
+  609  ls
+  610  sudo vim /etc/nginx/sites-enabled/https 
+  611  sudo service nginx restart 
+  612  sudo vim /etc/nginx/sites-enabled/https 
+  613  sudo vim /etc/nginx/sites-enabled/default 
+  614  sudo vim /etc/nginx/sites-enabled/https 
+  615  sudo vim /etc/nginx/sites-enabled/default 
+  616  sudo service nginx restart 
+  617  ls
+  618  cd /var/www/html/
+  619  ls
+  620  cat index.
+  621  cat index.html 
+  622  cd
+  623  sudo vim /etc/nginx/sites-enabled/default 
+  624  sudo service nginx restart 
+  625  sudo vim /etc/nginx/sites-enabled/default 
+  626  sudo service nginx restart 
+  627  ls -la
+  628  ls
+  629  sudo vim /etc/nginx/sites-enabled/api 
+  630  sudo vim /etc/nginx/sites-enabled/default 
+  631  sudo vim /etc/nginx/sites-enabled/https 
+  632  sudo vim /etc/nginx/sites-enabled/default 
+  633  sudo service nginx restart 
+  634  sudo vim /etc/nginx/sites-enabled/https 
+  635  sudo service nginx restart 
+  636  sudo vim /etc/nginx/sites-enabled/https 
+  637  sudo service nginx restart 
+  638  sudo vim /etc/nginx/sites-enabled/https 
+  639  sudo service nginx restart 
+  640  sudo vim /etc/nginx/sites-enabled/https 
+  641  sudo service nginx restart 
+  642  sudo vim /etc/nginx/sites-enabled/https 
+  643  sudo service nginx restart 
+  644  sudo vim /etc/nginx/sites-enabled/default 
+  645  sudo apt upgrade 
+  646  ls -la
+  647  cd /etc/nginx/sites-available/
+  648  ls
+  649  cat api 
+  650  ls
+  651  cat m 
+  652  sudo cp api ys
+  653  sudo vim ys 
+  654  ls
+  655  cat ys 
+  656  sudo su
+  657  sudo service nginx restart 
+  658  journalctl -xe
+  659  ls
+  660  sudo su
+  661  sudo service nginx restart 
+  662  ls
+  663  cd /etc/ss
+  664  cd /etc/ssl
+  665  ls
+  666  cd certs/
+  667  ls
+  668  cd ..
+  669  ls
+  670  cat www.xinzhili.cn.key 
+  671  ls
+  672  cat www.xinzhili.cn.crt 
+  673  cat www.xinzhili.cn.key 
+  674  ls
+  675  mkdir temp
+  676  l
+  677  sls
+  678  sudo mkdir temp
+  679  ls
+  680  cd temp/
+  681  ls
+  682  sudo vim www.xinzhili.cn.crt
+  683  ls
+  684  sudo vim www.xinzhili.cn.key
+  685  ls
+  686  cd ..
+  687  ls
+  688  cd /etc/nginx/sites-available/
+  689  ls
+  690  sudo vim ys 
+  691  ls
+  692  cd ../sites-enabled/
+  693  ls
+  694  sudo ln -s /etc/nginx/sites-available/ys .
+  695  ls
+  696  sudo service nginx restart 
+  697  ls
+  698  ls -la
+  699  ls
+  700  ls -la
+  701  ls
+  702  cd /etc/nginx/sites-enabled/
+  703  ls
+  704  cd /etc/ss
+  705  ls
+  706  cd /etc/ss;
+  707  cd /etc/ssl
+  708  ls
+  709  sudo cp www.xinzhili.cn.crt www.xinzhili.cn.crt.old 
+  710  sudo cp www.xinzhili.cn.key www.xinzhili.cn.key.old
+  711  ls
+  712  sudo cp temp/www.xinzhili.cn.key .
+  713  sudo cp temp/www.xinzhili.cn.crt .
+  714  ls
+  715  sudo service nginx restart 
+  716  ls
+  717  sudo vim /etc/nginx/sites-enabled/ys 
+  718  sudo service nginx restart 
+  719  ls
+  720  sudo vim /etc/nginx/sites-enabled/wiki 
+  721  ls
+  722  ls -la
+  723  sudo service nginx stop && sudo certbot certonly --email ops@xinzhili.cn --standalone -d wiki.xinzhili.cn && sudo service nginx start
+  724  sudo vim /etc/nginx/sites-enabled/m 
+  725  sudo vim /etc/nginx/sites-enabled/https 
+  726  sudo vim /etc/nginx/sites-enabled/ys 
+  727  sudo service nginx restart 
+  728  git status 
+  729  ls
+  730  sudo vim /etc/nginx/sites-enabled/ys 
+  731  nginx -t -c /etc/nginx/nginx.conf 
+  732  sudo nginx -t -c /etc/nginx/nginx.conf 
+  733  sudo service nginx restart 
+  734  vim /var/log/nginx/access.log
+  735  history
+  736  vim /var/log/nginx/access.log
+  737  tail -f /var/log/nginx/access.log
+  738  tail -100  -f /var/log/nginx/access.log
+  739  tail --help
+  740  tail -n 1000 -f /var/log/nginx/access.log
+  741  tail /var/log/nginx/access.log | grep 18/Apr/2017:12:03
+  742  tail /var/log/nginx/access.log | grep 2017:12:03
+  743  cat /var/log//nginx/access.log | grep 2017:12:03
+  744  exit
+  745  sudo vim /etc/nginx/sites-enabled/https 
+  746  sudo service nginx stop && sudo certbot certonly --email ops@xinzhili.cn --standalone -d sentry.xinzhili.cn && sudo service nginx start
+  747  ls
+  748  ls -la
+  749  sudo vim /etc/nginx/sites-enabled/default 
+  750  sudo vim /etc/nginx/sites-enabled/wiki 
+  751  ls
+  752  ls -la
+  753  ls
+  754  ls -la
+  755  ls
+  756  ls -la
+  757  ls
+  758  cd /etc/nginx/
+  759  ls
+  760  ls -la
+  761  cd sites-available/
+  762  ls
+  763  ls -la
+  764  ls
+  765  sudo vim mt
+  766  sudo vim wiki 
+  767  sudo vim mt
+  768  ls
+  769  man nginx
+  770  sudo nginx -t
+  771  ls
+  772  cd ..
+  773  ls
+  774  cd sites-enabled/
+  775  ls
+  776  sudo ln -s ../sites-available/mt .
+  777  ls
+  778  ls -la
+  779  sudo ln -s ../sites-available/mt .
+  780  sudo nginx -t
+  781  sudo service nginx restart 
+  782  ls
+  783  lsl
+  784  sudo service nginx stop && sudo certbot certonly --email ops@xinzhili.cn --standalone -d mt.xinzhili.cn && sudo service nginx start
+  785  sudo vim /etc/nginx/sites-enabled/m
+  786  ls
+  787  sudo vim /etc/nginx/sites-enabled/mt 
+  788  sudo nginx -t
+  789  sudo service nginx restart 
+  790  sudo vim /etc/nginx/sites-enabled/m
+  791  cd /etc/nginx/sites-enabled/
+  792  grep mobile .
+  793  grep mobile -r .
+  794  ls
+  795  cat api 
+  796  ls
+  797  cat https 
+  798  vim /etc/nginx/sites-enabled/default 
+  799  cd /etc/nginx/sites-enabled/
+  800  ls
+  801  vim https 
+  802  sudo vim https 
+  803  sudo service nginx restart
+  804  systemctl status nginx.service
+  805  systemctl restart nginx.service
+  806  sudo su
+  807  sudo vim /etc/nginx/sites-enabled/https 
+  808  sudo su
+  809  exit
+  810  ssh 10.16.2.13
+  811  exit
+  812  vim /etc/nginx/sites-enabled/https 
+  813  vim /etc/nginx/sites-enabled/m
+  814  vim /etc/nginx/sites-enabled/default 
+  815  vim /etc/nginx/sites-enabled/api 
+  816  exit
+  817  vim /etc/nginx/sites-enabled/api 
+  818  sudo vim /etc/nginx/sites-enabled/temp-maven
+  819  sudo su
+  820  exit
+  821  vim /etc/nginx/sites-enabled/temp-maven 
+  822  sudo vim /etc/nginx/sites-enabled/temp-maven 
+  823  sudo su
+  824  curl 10.16.2.13:8081
+  825  exit
+  826  ping 10.0.1.252
+  827  vim /etc/nginx/sites-enabled/temp-mis
+  828  sudo vim /etc/nginx/sites-enabled/temp-maven
+  829  sudo vim /etc/nginx/sites-enabled/temp-mis
+  830  sudo su
+  831  cat /etc/nginx/sites-enabled/temp-mis 
+  832  curl 10.0.252:9099
+  833  curl 10.0.1.252:9099
+  834  ping 10.0.1.252
+  835  curl 10.0.1.252:9099/welcome
+  836  sudo vim /etc/nginx/sites-enabled/temp-mis 
+  837  sudo service nginx restart
+  838  vim /etc/nginx/sites-enabled/api 
+  839  curl http://10.0.1.71:9004
+  840  curl http://10.0.1.252:9099
+  841  sudo vim /etc/nginx/sites-enabled/temp-mis 
+  842  sudo service nginx restart
+  843  exit
+  844  curl http://10.16.2.13
+  845  curl http://10.16.2.13:8081
+  846  ping 10.16.2.13
+  847  ping 10.0.1.208
+  848  ping 10.16.2.13
+  849  curl http://10.16.2.13:8081
+  850  exit
+  851  cat /etc/nginx/sites-enabled/temp-m
+  852  cat /etc/nginx/sites-enabled/temp-maven 
+  853  exit
+  854  sudo vim /etc/nginx/sites-enabled/https 
+  855  sudo vim /etc/nginx/sites-available/api 
+  856  sudo /etc/nginx/
+  857  sudo vim /etc/nginx/sites-enabled/temp-mis 
+  858  sudo service nginx restart
+  859  sudo vim /etc/nginx/sites-enabled/api 
+  860  sudo service nginx restart 
+  861  systemctl status nginx.service
+  862  sudo vim /etc/nginx/sites-enabled/api 
+  863  systemctl status nginx.service
+  864  sudo service nginx restart 
+  865  systemctl status nginx.service
+  866  sudo vim /etc/nginx/sites-enabled/api 
+  867  sudo service nginx restart 
+  868  systemctl status nginx.service
+  869  sudo vim /etc/nginx/sites-enabled/api 
+  870  sudo service nginx restart 
+  871  systemctl status nginx.service
+  872  sudo vim /etc/nginx/sites-enabled/api 
+  873  sudo service nginx restart 
+  874  sudo vim /etc/nginx/sites-enabled/api 
+  875  sudo service nginx restart 
+  876  systemctl status nginx.service
+  877  sudo vim /etc/nginx/sites-enabled/api 
+  878  systemctl status nginx.service
+  879  sudo service nginx restart 
+  880  sudo vim /etc/nginx/sites-enabled/api 
+  881  sudo service nginx restart 
+  882  nginx --version
+  883  nginx --help
+  884  nginx -h
+  885  cd /etc/nginx/
+  886  ls
+  887  vim nginx.conf 
+  888  ls -la
+  889  ls
+  890  cat nginx.conf 
+  891  vim /etc/nginx/sites-available/mqtt.dev
+  892  cat /etc/nginx/nginx.conf 
+  893  vim /etc/nginx/nginx.conf 
+  894  sudo vim /etc/nginx/sites-available/mqtt.dev
+  895  cd /etc/nginx/
+  896  ll
+  897  vim nginx.conf 
+  898  vim sites-enabled/mqtt
+  899  cd sites-available/
+  900  ll
+  901  cd ../
+  902  cd sites-enabled/
+  903  sudo ln -s ../sites-available/mqtt.dev .
+  904  ll
+  905  sudo service nginx restart
+  906  sudo service nginx status
+  907  cd ..
+  908  vim nginx.conf 
+  909  sudo vim nginx.conf 
+  910  sudo mkdir stream-enabled
+  911  cp sites-available/mqtt.dev stream-enabled/
+  912  sudo cp sites-available/mqtt.dev stream-enabled/
+  913  cd sites-enabled/
+  914  sudo rm mqtt.dev 
+  915  cd ..
+  916  sudo service nginx restart
+  917  sudo service nginx status
+  918  ls -la
+  919  git status 
+  920  ls
+  921  ll -a
+  922  cd /etc/nginx/
+  923  ll
+  924  cd sites-enabled/
+  925  ll
+  926  vim sentry 
+  927  certbot renew --dry-run
+  928  history 
+  929  history | grep certbot
+  930  sudo service nginx stop && sudo certbot certonly --email ops@xinzhili.cn --standalone -d sentry.xinzhili.cn && sudo service nginx start
+  931  docker ps
+  932  ls -la
+  933  ls
+  934  ls -la
+  935  docker ps
+  936  sudo service nginx stop && sudo certbot certonly --email ops@xinzhili.cn --standalone -d sentry.xinzhili.cn && sudo service nginx start
+  937  ls -la
+  938  git status 
+  939  ls
+  940  python
+  941  python3.5
+  942  ls -la
+  943  python3.5 aqi.py 
+  944  sudo apt install python3.6
+  945  sudo apt install python3
+  946  apt search python
+  947  apt search python3
+  948  ls -la
+  949  python aqi.py q
+  950  ls -la
+  951  ls
+  952  cat aqi.py 
+  953  nohup python3.5 aqi.py &
+  954  ls
+  955  cat nohup.out 
+  956  ps aux | grep python
+  957  cat nohup.out 
+  958  ls -la
+  959  cat nohup.out 
+  960  ls -la
+  961  cat aqi.py 
+  962  ls
+  963  cat nohup.out 
+  964  ls
+  965  ps aux | grep python
+  966  kill -9 15143
+  967  ls
+  968  cat nohup.out 
+  969  ls
+  970  python3.5 aqi.py 
+  971  nohup python3.5 aqi.py &
+  972  cat nohup.out 
+  973  ls -la
+  974  ls
+  975  ls -la
+  976  sudo vim /etc/nginx/sites-enabled/m
+  977  sudo vim /etc/nginx/sites-enabled/https 
+  978  sudo vim m
+  979  sudo vim /etc/nginx/sites-enabled/m
+  980  sudo service nginx restart 
+  981  sudo vim /var/log/nginx/access.log
+  982  sudo iptables -A INPUT -m string --algo bm --string "User-Agent: Mozilla/5.0 Jorgee" -j DROP
+  983  sudo service nginx restart 
+  984  sudo vim /var/log/nginx/access.log
+  985  tail -f  /var/log/nginx/access.log
+  986  rkhunter
+  987  sudo apt install rkhunter
+  988  User-Agent: Mozilla/5.0 Jorgee
+  989  sudo apt install rkhunter
+  990  rkhunter
+  991  tail -f  /var/log/nginx/access.log
+  992  sudo vim /etc/nginx/sites-enabled/ys 
+  993  sudo vim /etc/nginx/nginx.conf 
+  994  sudo iptables
+  995  sudo iptables --help
+  996  iptables -L
+  997  sudo iptables -L
+  998  iptables -A INPUT -p tcp --dport 80 -m string --algo bm --string "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)" -j DROP
+  999  iptables -A INPUT -p tcp --dport 443 -m string --algo bm --string "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)" -j DROP
+ 1000  sudo iptables -A INPUT -p tcp --dport 443 -m string --algo bm --string "Mozilla/5.0 Jorgee" -j DROP
+ 1001  sudo iptables -L
+ 1002  tail -f  /var/log/nginx/access.log
+ 1003  sudo iptables -A INPUT -m string --algo bm --string "Mozilla/5.0 Jorgee" -j DROP
+ 1004  tail -f  /var/log/nginx/access.log
+ 1005  sudo iptables save
+ 1006  sudo iptables --save
+ 1007  sudo iptables restart
+ 1008  sudo service iptables restart
+ 1009  iptables --help
+ 1010  iptables --check
+ 1011  sudo iptables --check
+ 1012  sudo iptables -L
+ 1013  sudo service ufw restart 
+ 1014  tail -f  /var/log/nginx/access.log
+ 1015  sudo vim /var/log/nginx/access.log
+ 1016  du -h  /var/log/nginx/access.log
+ 1017  sudo vim /var/log/nginx/access.log
+ 1018  du -h  /var/log/nginx/access.log
+ 1019  cd /var/log/nginx/
+ 1020  ls
+ 1021  tail -f  /var/log/nginx/error.log
+ 1022  cd
+ 1023  sudo vim /etc/nginx/nginx.conf 
+ 1024  sudo vim   /var/log/nginx/access.log
+ 1025  ls -la
+ 1026  sudo vim /etc/nginx/nginx.conf 
+ 1027  sudo service nginx restart 
+ 1028  git status 
+ 1029  tail -f  /var/log/nginx/error.log
+ 1030  tail -f  /var/log/nginx/access.log
+ 1031  sudo vim /etc/nginx/nginx.conf 
+ 1032  tail -f  /var/log/nginx/error.log
+ 1033  sudo vim /etc/nginx/nginx.conf 
+ 1034  sudo vim /var/log/nginx/access.log
+ 1035  tail -f  /var/log/nginx/error.log
+ 1036  sudo vim /var/log/nginx/access.log
+ 1037  tail -f  /var/log/nginx/access.log
+ 1038  sudo vim /etc/nginx/nginx.conf 
+ 1039  sudo service nginx restart 
+ 1040  tail -f  /var/log/nginx/access.log
+ 1041  vim  /var/log/nginx/access.log
+ 1042  sudo vim /var/log/nginx/access.log
+ 1043  docker ps
+ 1044  ps -ef | grep nginx
+ 1045  who
+ 1046  users
+ 1047  who -a
+ 1048  history
+ 1049  history -d 1048 1047 1049
+ 1050  history
+ 1051  history -d 1048
+ 1052  history
+ 1053  clear -c
+ 1054  exit
+ 1055  tail -f  /var/log/nginx/access.log
+ 1056  tail -f1000  /var/log/nginx/access.log
+ 1057  tail -f 1000  /var/log/nginx/access.log
+ 1058  tail --help
+ 1059  tail -1000f  /var/log/nginx/access.log
+ 1060  history
+ 1061  sudo vim /etc/nginx/nginx.conf
+ 1062  ps -ef | grep nginx
+ 1063  ll /usr/sbin/nginx
+ 1064  cd /usr/sbin/nginx
+ 1065  cd /usr/sbin
+ 1066  ll
+ 1067  ll | grep ^l
+ 1068  cd /etc/nginx/
+ 1069  ls
+ 1070  vim nginx.conf 
+ 1071  history
+ 1072  ls
+ 1073  sz sites-*
+ 1074  vim sites-enabled/
+ 1075  vim proxy_params 
+ 1076  cat nginx.conf
+ 1077  :q
+ 1078  ls
+ 1079  cat sites-available/
+ 1080  cd sites-available/
+ 1081  ls
+ 1082  cd api
+ 1083  vim api
+ 1084  cat m
+ 1085  ls
+ 1086  cat mqtt.dev 
+ 1087  ls
+ 1088  cat ys
+ 1089  ls
+ 1090  cat default 
+ 1091  l
+ 1092  ls
+ 1093  cat sentry 
+ 1094  :q
+ 1095  ls
+ 1096  cat mt
+ 1097  ls
+ 1098  cat wiki
+ 1099  ps -ef | grep nginx
+ 1100  cd /etc/c
+ 1101  history
+ 1102  cd /etc/nginx
+ 1103  ls
+ 1104  cd sites-enabled/
+ 1105  ls
+ 1106  cd default
+ 1107  vim default 
+ 1108  exit
+ 1109  nmap -sP 10.0.0.0/24
+ 1110  ls
+ 1111  cd /
+ 1112  ls
+ 1113  cd home/
+ 1114  ls
+ 1115  cd /
+ 1116  cd ~/
+ 1117  ls
+ 1118  pwd
+ 1119  cat aqi.py 
+ 1120  ps -aux
+ 1121  ps -aux | grep nginx
+ 1122  su -
+ 1123  sudo su
+ 1124  eixt
+ 1125  exit
+ 1126  type ping
+ 1127  ping 10.0.2.214
+ 1128  ls
+ 1129  ssh ubuntu@10.0.2.214
+ 1130  cd /
+ 1131  ls
+ 1132  ls -l
+ 1133  cd dev/
+ 1134  ls
+ 1135  cd /
+ 1136  find *.pem
+ 1137  search .pem
+ 1138  type ssh
+ 1139  ls -l
+ 1140  find ssh
+ 1141  find .ssh
+ 1142  find .ssh/
+ 1143  cd etc/
+ 1144  ls -al
+ 1145  cd ssh/
+ 1146  ls
+ 1147  ls -l
+ 1148  ls -al
+ 1149  cat ssh_config 
+ 1150  ifconfig
+ 1151  docker images
+ 1152  docker ps
+ 1153  cat sshd_config 
+ 1154  ssh ec2-user@10.0.2.214
+ 1155  ssh root@10.0.2.214
+ 1156  exit
+ 1157  ps -aux
+ 1158  ps -aux | grep ngix
+ 1159  ps -aux | grep nginx
+ 1160  pwd
+ 1161  ls
+ 1162  cat aqi.py 
+ 1163  ifconfig
+ 1164  cd .ssh/
+ 1165  ls
+ 1166  cat known_hosts 
+ 1167  cat authorized_keys 
+ 1168  cat /etc/ssh/sshd_config 
+ 1169  ls
+ 1170  cd .ssh/
+ 1171  ls
+ 1172  exit
+ 1173  ps -aux
+ 1174  ps -aux | grep ssh
+ 1175  ping 10.0.2.61
+ 1176  ssh 10.0.2.61
+ 1177  exit
+ 1178  ps -aux | grep ssh
+ 1179  ssh ec2-user@10.0.0.250
+ 1180  cd .ssh/
+ 1181  ls
+ 1182  ssh -i authorized_keys ec2-user@10.0.0.250
+ 1183  ssh 10.0.0.250
+ 1184  cd ..
+ 1185  ls
+ 1186  ping 10.0.0.0250
+ 1187  ping 10.0.0.250
+ 1188  ping 10.0.2.51
+ 1189  traceroute 10.0.2.51
+ 1190  type tracer
+ 1191  ps -aux
+ 1192  exit
+ 1193  history >> PROD-NGINX-daqiang-his.txt

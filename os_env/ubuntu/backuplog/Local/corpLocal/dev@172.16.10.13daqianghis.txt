@@ -1,0 +1,1000 @@
+  151  ps aux | grep postgres
+  152  sudo apt install postgresql-9.6
+  153  sudo apt remove postgresql-9.6
+  154  sudo apt autoremove 
+  155  sudo apt install postgresql-9.6
+  156  ps aux | grep postgres
+  157  sudo service postgresql start 9.5
+  158  ps aux | grep postgres
+  159  sudo service postgresql start
+  160  sudo vim /etc/postgresql/9.6/main/postgresql.conf 
+  161  sudo vim /etc/postgresql/9.6/main/pg_hba.conf 
+  162  sudo su postgres 
+  163  ps aux | grep postgres
+  164  sudo service postgresql@9.6-main stop
+  165  ps aux | grep postgres
+  166  sudo service postgresql start 9.5
+  167  ps aux | grep postgres
+  168  sudo vim /etc/postgresql/9.6/main/postgresql.conf 
+  169  sudo service postgresql start 9.6
+  170  sudo service postgresql stop
+  171  sudo systemctl daemon-reload
+  172  sudo service postgresql start
+  173  sudo apt remove postgresql-9.6
+  174  sudo apt install postgresql-9.6
+  175  sudo apt remove postgresql-9.5
+  176  sudo apt install postgresql-9.6
+  177  ps aux | grep post
+  178  sudo service postgresql start
+  179  ps aux | grep post
+  180  sudo service postgresql start 9.6
+  181  ps aux | grep post
+  182  sudo apt install postgresql-9.6d
+  183  sudo apt install postgresql-9.6
+  184  sudo apt upgrade 
+  185  sudo systemctl status postgresql
+  186  ps aux | grep post
+  187  sudo apt remove postgresql-6 postgresql-client-9.5 postgresql-contrib-9.6 postgresql-common 
+  188  sudo apt remove postgresql-9.6 postgresql-client-9.5 postgresql-contrib-9.6 postgresql-common 
+  189  sudo systemctl status postgresql
+  190  sudo vim /etc/postgresql/9.5/
+  191  sudo apt install postgresql
+  192  sudo systemctl status postgresql
+  193  sudo apt install postgresql-client-9.6
+  194  ps aux | grep postgresql
+  195  ps aux | grep post
+  196  ls
+  197  sudo cp //var/lib/postgresql/9-5-backup .
+  198  ls
+  199  du -h 9-5-backup 
+  200  sudo apt remove postgresql*
+  201  sudo apt install postgresql-client-9.6
+  202  sudo systemctl status postgresql
+  203  sudo service 
+  204  sudo systemctl status postgresql
+  205  ps aux | grep postgresql
+  206  sudo apt remove postgresql*
+  207  sudo apt install postgresql
+  208  sudo systemctl status postgresql
+  209  ps aux | grep postgres
+  210  sudo service postgresql start
+  211  ps aux | grep postgres
+  212  sudo systemctl status postgresql
+  213  vim /lib/systemd/system/postgresql.service
+  214  vim /etc/init.d/postgresql 
+  215  sudo apt install postgresql-common 
+  216  ps aux | grep postgres
+  217  sudo ps aux | grep postgres
+  218  ls
+  219  sudo apt remove postgresql*'
+  220  sudo apt remove postgresql*
+  221  sudo apt auto remove 
+  222  sudo apt autoremove 
+  223  sudo apt install postgresql-9.5
+  224  ps aux | grep postgresql
+  225  ps aux | grep post
+  226  sudo apt remove postgresql-9.5
+  227  sudo rm /etc/apt/sources.list.d/pgdg.list 
+  228  sudo apt update 
+  229  sudo apt install postgresql
+  230  sudo apt install postgresql-client
+  231  sudo service postgresql start
+  232  sudo systemctl status postgre
+  233  sudo systemctl status postgresql
+  234  ps aux | grep pos
+  235  ps aux | grep postgres
+  236  tail -f /var/log/postgresql/postgresql-9.6-main.log 
+  237  /etc/init.d/postgresql restart
+  238  ps aux | grep postgres
+  239  ls /etc/postgresql/9.5/
+  240  sudo ls /etc/postgresql/9.5/
+  241  systemctl status postgreql
+  242  systemctl status postgresql.service 
+  243  pa aux
+  244  ps
+  245  ps aux
+  246  ps aux | grep 32597
+  247  sudo service postgresql status
+  248  sudo apt remove postgresql*
+  249  sudo rm -rf /var/lib/postgresql
+  250  sudo rm -rf /etc/postgresql
+  251  sudo rm -rf /etc/postgresql-common/
+  252  sudo rm -rf /etc/postgresql-common
+  253  ls
+  254  sudo apt install postgresql
+  255  ps aux | grep post
+  256  ps aux | grep postgresql
+  257  sudo service postgresql start
+  258  ps aux | grep postgresql
+  259  sudo systemctl status postgresql
+  260  ps aux | grep postgresql
+  261  tail -f /var/log/postgresql/postgresql-9.6-main.log 
+  262  sudo tail -f /var/log/postgresql/postgresql-9.6-main.log 
+  263  sudo tail -f /usr/lib/postgresql/9.5/bin/initdb 
+  264  l
+  265  sudo su postgres 
+  266  ls
+  267  ls -la
+  268  ls
+  269  ls -la
+  270  ps aux | grep postgres
+  271  vim /etc/postgresql/9.6/main/postgresql.conf
+  272  vim /etc/postgresql/9.6/main/postgresql.conf 
+  273  vim /etc/postgresql/9.6/main/pg_hba.conf 
+  274  sudo vim /etc/postgresql/9.6/main/pg_hba.conf 
+  275  vim /etc/postgresql/9.6/main/pg_hba.conf 
+  276  sudo vim /etc/postgresql/9.6/main/pg_hba.conf 
+  277  sudo vim /etc/postgresql/9.6/main/postgresql.conf 
+  278  sudo service postgresql stop 9.6
+  279  sudo apt remove postgresql-9.6
+  280  sudo service postgresql stop 9.6
+  281  ps aux | grep postgres
+  282  sudo service postgresql start
+  283  ps aux | grep postgres
+  284  sudo rm -rf /etc/postgresql/9.6
+  285  sudo rm -rf /usr/lib/postgresql/9.6
+  286  sudo rm -rf /var/lib/postgresql/9.6
+  287  sudo vim /var/lib/postgresql/pg_upgrade_server.log 
+  288  sudo rm -rf  /var/lib/postgresql/pg_upgrade_server.log 
+  289  sudo vim  /var/lib/postgresql/pg_upgrade_internal.log 
+  290  sudo rm  /var/lib/postgresql/pg_upgrade_internal.log 
+  291  sudo vim  /var/lib/postgresql/pg_upgrade_utility.log 
+  292  sudo rm  /var/lib/postgresql/pg_upgrade_utility.log 
+  293  ls -la
+  294  ls
+  295  rm -rf pgweb_linux_amd64* scws-1.2.2* vendor.zip 
+  296  ls
+  297  rm -rf pg_upgrade_*
+  298  ls
+  299  ls -la
+  300  sudo apt install postgresql-9.6
+  301  sudo -iu postgres
+  302  ls -la
+  303  sudo apt remove postgresql*
+  304  sudo rm -rf /etc/postgresql-common 
+  305  sudo rm -rf /var/lib/postgresql
+  306  sudo rm -rf /var/log/postgresql
+  307  sudo apt install postgresql-9.6 
+  308  sudo su postgres 
+  309  sudo deluser postgres
+  310  sudo delgroup postgres
+  311  ls
+  312  sudo vim /etc/apt/sources.list
+  313  sudo apt update 
+  314  sudo apt install postgresql
+  315  ps aux | grep postgres
+  316  sudo systemctl status postgresql
+  317  cat /lib/systemd/system/postgresql.service
+  318  sudo service postgresql start
+  319  cat /lib/systemd/system/postgresql.service
+  320  sudo systemctl status postgresql
+  321  ps aux | grep postgres
+  322  /etc/init.d/postgresql status
+  323  /etc/init.d/postgresql force-reload
+  324  sudo /etc/init.d/postgresql force-reload
+  325  /etc/init.d/postgresql status
+  326  sudo /etc/init.d/postgresql restart
+  327  ps aux | grep postgres
+  328  sudo -iu postgre
+  329  sudo su postgre
+  330  sudo su postgres 
+  331  sudo su - postgres
+  332  sudo apt remove postgresql*
+  333  sudo pg_createcluster 9.6 main --start
+  334  sudo apt install postgresql
+  335  sudo pg_createcluster 9.6 main --start
+  336  sudo dpkg-reconfigure locales
+  337  sudo pg_createcluster 9.6 main --start
+  338  sudo su postgres 
+  339  sudo pg_createcluster 9.6 main --start
+  340  export LC_ALL="en_US.UTF-8"
+  341  sudo pg_createcluster 9.6 main --start
+  342  ps aux | grep postgres
+  343  ls
+  344  cp 9-5-backup /var/lib/postgresql
+  345  cp 9-5-backup /var/lib/postgresql/
+  346  sudo cp 9-5-backup /var/lib/postgresql/
+  347  sudo su postgres 
+  348  sudo vim /etc/postgresql/9.6/main/pg_hba.conf 
+  349  sudo service postgresql restart
+  350  psql -h 172.16.10.13 -d dev
+  351  psql -h 172.16.10.13 -U postgres -d dev
+  352  sudo vim /etc/postgresql/9.6/main/pg_hba.conf 
+  353  sudo vim /etc/postgresql/9.6/main/postgresql.conf 
+  354  sudo service postgresql restart
+  355  sudo vim /etc/postgresql/9.6/main/pg_hba.conf 
+  356  sudo service postgresql restart
+  357  sudo vim /etc/postgresql/9.6/main/pg_hba.conf 
+  358  sudo service postgresql restart
+  359  sudo vim /etc/postgresql/9.6/main/pg_hba.conf 
+  360  sudo service postgresql restart
+  361  ls
+  362  ps aux | grep pos
+  363  top
+  364  free -h
+  365  ls
+  366  sudo vim /etc/apt/sources.list
+  367  sudo ./apt.postgresql.org.sh 
+  368  sudo su postgres 
+  369  sudo apt upgrade 
+  370  docker ps
+  371  docker logs -f gatekeeper_srv
+  372  ls
+  373  docker ps
+  374  docker logs -f medicine_svc
+  375  docker ps
+  376  docker logs -f patient_api_svc
+  377  docker ps
+  378  docker logs -f patient_api_svc
+  379  docker ps
+  380  docker restart gatekeeper_srv
+  381  docker logs -f gatekeeper_srv 
+  382  docker ps
+  383  sudo apt upgrade 
+  384  ls
+  385  docker ps
+  386  sudo service docker restart 
+  387  docker ps
+  388  docker ps -a
+  389  docker rm -f hopeful_wilson big_mccarthy boring_hypatia
+  390  docker ps -a
+  391  docker ps -a -q | xargs docker start
+  392  docker ps
+  393  docker ps -q | xargs docker stop
+  394  docker ps
+  395  docker start config_srv 
+  396  docker logs -f config_srv 
+  397  ls
+  398  ls -la
+  399  docker ps -a -q
+  400  docker ps -a -q |xargs docker start
+  401  docker ps
+  402  docker logs -f auth_srv 
+  403  docker logs -f gatekeeper_srv 
+  404  docker logs -f medicine_svc 
+  405  docker logs -f dpc_svc 
+  406  docker logs -f medicine_svc 
+  407  docker logs -f gatekeeper_srv 
+  408  docker ps
+  409  docker logs -f gatekeeper_srv 
+  410  free
+  411  free -h
+  412  htop
+  413  top
+  414  docker ps
+  415  docker ps | wc -l
+  416  top
+  417  docker logs -f gatekeeper_srv 
+  418  docker logs -f auth_srv 
+  419  docker ps
+  420  docker logs -f auth_srv 
+  421  docker ps
+  422  pwd
+  423  top
+  424  docker ps
+  425  docker run -e HOST_IP=$(hostname -i) --server.port=9007 -dp 9007:9007 --name doctor_api_svc registry.xzlcorp.com/corp/doctor-api-service
+  426  docker run -e HOST_IP=$(hostname -i) -dp 9010:9010 --name doctor_api_svc registry.xzlcorp.com/corp/doctor-api-service
+  427  docker logs -f doctor-api-service
+  428  docker logs -f doctor_api_svc
+  429  docker stop doctor_api_svc && docker rm doctor_api_svc
+  430  docker pull registry.xzlcorp.com/corp/doctor-api-service
+  431  docker run -e HOST_IP=$(hostname -i) -dp 9010:9010 --name doctor_api_svc registry.xzlcorp.com/corp/doctor-api-service
+  432  docker logs -f doctor_api_svc
+  433  docker logs -f patient_api_svc
+  434  docker logs -f mas_svc
+  435  docker ps
+  436  docker logs -f patient_api_svc
+  437  docker logs -f patient_api_svc
+  438  docker logs -f mas_svc
+  439  docker ps
+  440  curl localhost:9005/info
+  441  docker ps
+  442  docker restart config_srv
+  443  docker ps
+  444  docker logs -f config_srv
+  445  ls
+  446  docker ps
+  447  curl localhost:8888/env
+  448  curl localhost:8888/config
+  449  curl localhost:8888/info
+  450  docker ps
+  451  docker logs -f config_srv
+  452  netstat -anp | grep 8888
+  453  docker ps
+  454  docker logs -f auth_srv
+  455  docker ps
+  456  docker logs -f user_svc
+  457  docker logs -f patient_api_svc
+  458  docker logs -f mas_svc
+  459  time
+  460  date
+  461  docker log -f patient_api_svc
+  462  docker logs -f patient_api_svc
+  463  docker logs -f config_srv 
+  464  d
+  465  docker ps
+  466  docker logs -f config_srv
+  467  docker ps
+  468  docker restart patient_api_svc
+  469  docker logs -f patient_api_svc
+  470  docker ps
+  471  docker restart config_srv
+  472  docker logs -f config_srv
+  473  docker logs -f patient_api_svc
+  474  docker logs -f config_srv
+  475  docker restart patient_api_svc
+  476  docker logs -f patient_api_svc
+  477  docker ps
+  478  docker ps -a
+  479  docker ps
+  480  docker ps -qa --no-trunc --filter 'status=exited' | xargs --no-run-if-empty docker rm
+  481  docker images --filter 'dangling=true' -q | xargs --no-run-if-empty docker rmi
+  482  docker ps
+  483  docker images
+  484  docker ps
+  485  exit 
+  486  ls -la
+  487  ps aux | grep postgres
+  488  ps aux | grep postgres | wc -l
+  489  vim /etc/postgresql/9.6/main/postgresql.conf 
+  490  docker ps
+  491  docker restart mas_svc
+  492  docker restart medical_svc
+  493  docker logs -f mas_svc
+  494  docker logs -f patient_api_svc
+  495  docker logs -f mas_svc
+  496  docker logs -f patient_api_svc
+  497  docker stop medical_svc
+  498  docker start medical_svc
+  499  docker logs patient_api_svc
+  500  docker logs patient_api_svc -f
+  501  ducker stop medical_svc
+  502  docker stop medical_svc
+  503  docker start medical_svc
+  504  ps aux | grep postf
+  505  ps aux | grep postg
+  506  docker ps
+  507  docker restart user_svc 
+  508  docker logs -f user_svc 
+  509  ps aux | grep postgres
+  510  sudo service postgresql restart 
+  511  ps aux | grep postgres
+  512  docker ps
+  513  docker logs -f patient_api_svc
+  514  docker restart patient_api_svc
+  515  docker logs -f patient_api_svc
+  516  docker restart config_srv
+  517  docker logs -f config_srv
+  518  docker ps
+  519  docker logs -f config_srv
+  520  docker logs -f user_svc
+  521  docker restart config_srv
+  522  docker logs -f config_srv
+  523  docker logs -f gatekeeper_srv
+  524  docker logs -f patient_api_svc
+  525  docker logs -d medical_svc
+  526  docker logs -f medical_svc
+  527  docker logs -f patient_api_svc
+  528  docker stop medical_svc
+  529  docker start medical_svc
+  530  docker logs -f auth_srv
+  531  docker ps
+  532  docker logs -f gatekeeper_srv
+  533  ls
+  534  sudo apt upgrade 
+  535  ls
+  536  docker ps
+  537  docker 
+  538  docker start config_srv 
+  539  docker logs -f config_srv 
+  540  ps aux | grep post
+  541  ps aux | grep postgres
+  542  docker logs -f notify_svc
+  543  docker logs -f notify_svc_sidecar 
+  544  docker logs -f medicine_src
+  545  docker logs -f medicine_svc 
+  546  docker help logs
+  547  docker logs -f --tail 1000 auth_srv
+  548  docker logs -f --tail 1000 config_srv
+  549  docker logs user_svc -f 
+  550  ps aux | grep postgres
+  551  sudo su jenins
+  552  sudo su jenkins
+  553  ls
+  554  docker ps
+  555  docker restart config_srv
+  556  docker ps
+  557  history | grep doctor_api_svc
+  558  hostname -i
+  559  docker stop doctor_api_svc
+  560  docker rm doctor_api_svc
+  561  docker pull registry.xzlcorp.com/corp/doctor-api-service
+  562  docker run -e HOST_IP=$(hostname -i) -dp 9010:9010 --name doctor_api_svc registry.xzlcorp.com/corp/doctor-api-service
+  563  docker ps
+  564  docker logs -f doctor_api_svc
+  565  git status
+  566  ls
+  567  docker ps
+  568  docker logs -f --tail 1000 patient_api_svc
+  569  docker logs -f --tail 1000 config_srv
+  570  ls
+  571  docker ps
+  572  docker logs -f config_srv 
+  573  docker logs -f config_srv  
+  574  docker logs -f --tail 1 config_srv 
+  575  docker logs -f --tail 100 config_srv 
+  576  jps
+  577  ps -ef | grep java
+  578  kill -3 4641
+  579  sudo kill -3 4641
+  580  docker logs -f --tail 1000 config_srv 
+  581  docker restart config_srv 
+  582  docker logs -f --tail 1 config_srv 
+  583  docker logs -f user_svc
+  584  docker ps -qa --no-trunc --filter 'status=exited' | xargs --no-run-if-empty docker rm | true
+  585  docker images --filter 'dangling=true' -q | xargs --no-run-if-empty docker rmi | true
+  586  docker images --filter 'dangling=true' -q | xargs --no-run-if-empty docker rmi 
+  587  docker images --filter 'dangling=true' -q | xargs --no-run-if-empty docker rmi || true
+  588  redis-cli
+  589  docker logs
+  590  docker logs -f medical_svc
+  591  docker logs -f medaical_svc
+  592  docker logs -f medical_svc
+  593  docker ps 
+  594  docker logs -f mas_svc
+  595  docker ps
+  596  docker logs -f patient_api_svc
+  597  docker logs mas_svc
+  598  docker logs -f mas_svc
+  599  docker logs -f patient_api_svc
+  600  docker logs -f mas)svc
+  601  docker logs -f mas_svc
+  602  docker logs -f medical_svc
+  603  docker logs -f user_svc
+  604  docker log -f patient_api_svc
+  605  docker logs -f patient_api_svc
+  606  docker logs -f mas_svc
+  607  docker logs -f patient_api_svc
+  608  docker logs -f user_sv
+  609  docker logs -f user_svc
+  610  docker ps
+  611  docker logs -f user_svc
+  612  docker logs -f patient_api_svc
+  613  docker logs -f medical_svc
+  614  docker ps
+  615  docker logs -f user_svc
+  616  docker logs -f patient_api_svc
+  617  docker restart patient_api_svc
+  618  docker logs -f patient_api_svc
+  619  docker ps
+  620  docker logs -f patient_api_svc 
+  621  exit
+  622  docker ps
+  623  docker ps -q
+  624  docker ps -q | docker stop
+  625  docker ps -q | xargs docker stop
+  626  docker ps
+  627  date
+  628  exit
+  629  docker ps
+  630  ex
+  631  exit
+  632  docker logs -f patient_api_svc
+  633  docker ps -a
+  634  history 
+  635  history  | grep docker
+  636  d
+  637  docker logs -f patient_api_svc
+  638  ls
+  639  docker ps
+  640  pg_dump -h 172.16.10.13 -U postgres -d dev -s -n s_chat -n s_doctor -n s_mas -n s_medical  -n s_push -n s_user > all_except_medicine.sql
+  641  vim all_except_medicine.sql 
+  642  pg_dump --help
+  643  pg_dump -h 172.16.10.13 -U postgres -d dev -n s_medicine> s_medicine.sql
+  644  du -h s_medicine.sql 
+  645  vim s_medicine.sql 
+  646  ls
+  647  pwd
+  648  ls
+  649  vim s_medicine.sql 
+  650  pg_dump -h 172.16.10.13 -U postgres -d dev > all.sql
+  651  vim all.sql 
+  652  psql
+  653  sudo su postgres ;
+  654  vim all.sql 
+  655  sudo su postgres ;
+  656  ls
+  657  pg_dump -h 172.16.10.13 -U postgres -d dev -n s_medicine> s_medicine.sql
+  658  vim s_medicine.sql 
+  659  ls
+  660  pg_dump -h 172.16.10.13 -U postgres -d dev -n s_medicine> s_medicine.sql
+  661  pg_dump -h 172.16.10.13 -U postgres -d dev 
+  662  psql -h 172.16.10.13 -U postgres -d dev 
+  663  psql -h 172.16.10.13 -U postgres -d dev --help
+  664  pg_dump -h 172.16.10.13 -U postgres -d dev --help
+  665  pg_dump -h 172.16.10.13 -U postgres -d dev -s > all.txt
+  666  vim all.txt 
+  667  pg_dump -h 172.16.10.13 -U postgres -d dev -s > s_all.sql
+  668  vim s_all.sql 
+  669  ls
+  670  pg_dump -h 172.16.10.13 -U postgres -d dev -s > s_all.sql
+  671  pg_dump -h 172.16.10.13 -U postgres -d dev --help
+  672  pg_dump --help
+  673  pg_dump -h 172.16.10.13 -U postgres -d dev -t s_medicine.t_medicine > t_medicine.sql
+  674  vim t_medicine.sql 
+  675  pg_dump --column-inserts --data-only --table=<table> <database>
+  676  pg_dump -h 172.16.10.13 -U postgres --column-inserts --data-only --table=s_medicine.t_medicine dev
+  677  pg_dump -h 172.16.10.13 -U postgres --column-inserts --data-only --table=s_medicine.t_medicine dev > t_medicine.sql 
+  678  vim t_medicine.sql 
+  679  ls
+  680  rm -rf all.*
+  681  ls
+  682  rm -rf *.sql
+  683  ls
+  684  pg_dump -h 172.16.10.13 -U postgres --data-only --table=s_medicine.t_medicine dev > t_medicine.sql 
+  685  vim t_medicine.sql 
+  686  du -h t_medicine.sql 
+  687  ls
+  688  pg_dump -h 172.16.10.13 -U postgres -d dev -s > s_all-20161114.sql
+  689  vim s_all-20161114.sql 
+  690  ls
+  691  mv t_medicine.sql t_medicine20161114.sql 
+  692  git status 
+  693  ls
+  694  top
+  695  lsb_release -a
+  696  curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
+  697  sudo curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
+  698  su root
+  699  sudo curl -s https://deb.nodesource.com/gpgkey/nodesource.gpg.key | apt-key add -
+  700  sudo apt-get update
+  701  sudo apt-get install nodejs
+  702  node -v
+  703  js
+  704  js -v
+  705  npm -v
+  706  sudo apt-get install npm
+  707  curl https://ghost.org/archives/ghost-0.11.3.zip
+  708  wget https://ghost.org/archives/ghost-0.11.3.zip
+  709  npm install --production
+  710  npm
+  711  npm -v
+  712  ll
+  713  unzip ghost-0.11.3.zip 
+  714  ll
+  715  unzip ghost-0.11.3.zip ghost
+  716  mkdir ghost
+  717  exit
+  718  js -v
+  719  ll
+  720  ll ghost
+  721  mv ghost-0.11.3.zip ghost
+  722  cd ghost/
+  723  ll
+  724  unzip ghost-0.11.3.zip 
+  725  ll
+  726  npm install --production
+  727  sudo npm install --production
+  728  exit
+  729  ll
+  730  cd ghost/
+  731  ll
+  732  npm install --production
+  733  cat package.json 
+  734  python
+  735  g++
+  736  gcc -v
+  737  sudo npm install -g node-gyp
+  738  npm install --production
+  739  sudo npm install --production
+  740  sudo apt-get install nodejs-legacy
+  741  nodejs -v
+  742  sudo npm install --production
+  743  npm start --production
+  744  ll
+  745  vim config.js 
+  746  npm start --production
+  747  vim config.js 
+  748  npm start --production
+  749  sudo npm start --production
+  750  sudo npm install forever -g
+  751  NODE_ENV=production forever start index.js 
+  752  forever list
+  753  NODE_ENV=production sudo forever start index.js 
+  754  forever list
+  755  forever stop 0
+  756  forever list
+  757  sudo forever start index.js 
+  758  forever list
+  759  forever sudo start index.js 
+  760  vim config.js 
+  761  npm start
+  762  sudo npm start --production
+  763  sudo forever start index.js 
+  764  forever list
+  765  ll
+  766  npm install forever-monitor
+  767  vim package.json 
+  768  :q
+  769  vim forever/prod.json
+  770  ll
+  771  sudo forever start index.js 
+  772  forever list
+  773  sudo apt-get install supervisor
+  774  vim /etc/supervisor/conf.d/ghost.conf
+  775  sudo vim /etc/supervisor/conf.d/ghost.conf
+  776  supervisor start ghost
+  777  supervisorctl start ghost
+  778  sudo vim /etc/supervisor/conf.d/ghost.conf
+  779  sudo supervisorctl start ghost
+  780  sudo vim /etc/supervisor/conf.d/ghost.conf
+  781  pwd
+  782  ll
+  783  sudo node /home/dev/ghost/index.js
+  784  ll
+  785  forever 
+  786  forever list
+  787  forever stop 0
+  788  forever list
+  789  sudo node /home/dev/ghost/index.js
+  790  vim config.
+  791  vim config.js 
+  792  sudo node /home/dev/ghost/index.js NODE_ENV="production"
+  793  vim config.js 
+  794  sudo supervisorctl 
+  795  sudo supervisorctl /etc/supervisor/conf.d/ghost.conf 
+  796  NODE_ENV=production forever start index.js
+  797  forever list
+  798  exit
+  799  cd ghost/
+  800  forever start index.js 
+  801  forever list
+  802  exit
+  803  forever list
+  804  cat ghost/config.js 
+  805  docker ps
+  806  top
+  807  docker ps
+  808  hostname -i
+  809  ifconfig 
+  810  ssh asipilin@172.16.10.11
+  811  sudo apt upgrade 
+  812  docker ps
+  813  docker images
+  814  ps aux | grep java
+  815  ps aux | grep post
+  816  free -h
+  817  docker ps
+  818  docker ps -a
+  819  free -h
+  820  docker ps
+  821  hostname -i
+  822  git diff
+  823  ls
+  824  vim t_area.sql 
+  825  vim t_medicine20161114.sql 
+  826  vim t_area.sql 
+  827  pwd
+  828  ls
+  829  vim t_medicine20161114.sql 
+  830  ping dev@172.16.10.13
+  831  ping 219.232.117.240/
+  832  ping 219.232.117.240
+  833  curl 219.232.117.240
+  834  docker ps
+  835  history | grep pg
+  836  pg_dump --table=s_user.t_area --column-inserts dev -U postgres -h localhost > 201701051_t_area.sql
+  837  ls
+  838  docker logs -f medicine_svc 
+  839  docker ps
+  840  ls
+  841  docker ps
+  842  sudo apt install nginx
+  843  curl 0.0.0.0
+  844  ls
+  845  ls -la
+  846  docker logs -f medicine_svc 
+  847  docker ps
+  848  history | grep sidecar
+  849  curl localhost:8100/health
+  850  curl localhost:8100/status
+  851  docker inspect notify_svc
+  852  docker ps
+  853  docker inspect notify_svc_sidecar 
+  854  docker inspect notify_svc_sidecar | grep health
+  855  docker inspect notify_svc_sidecar | grep HEALTH
+  856  docker ps
+  857  docker restart notify_svc_sidecar 
+  858  docker logs -f notify_svc_sidecar 
+  859  docker ps
+  860  docker logs -f notify_svc_sidecar 
+  861  ls
+  862  docker logs -f notify_svc
+  863  docker logs -f notify_svc_sidecar 
+  864  docker ps
+  865  ifconfig 
+  866  docker logs -f gatekeeper_srv 
+  867  docker logs
+  868  docker los
+  869  docker log
+  870  docker ps
+  871  docker logs -f gatekeeper_srv --tail 1000
+  872  pwd
+  873  docker ps
+  874  docker restart gatekeeper_srv 
+  875  docker logs -f gatekeeper_srv --tail 1000
+  876  df -h
+  877  docker logs -f gatekeeper_srv --tail 1000
+  878  docker restart gatekeeper_srv 
+  879  docker logs -f gatekeeper_srv --tail 1000
+  880  docker ps
+  881  docker logs -f gatekeeper_srv --tail 1000
+  882  docker ps
+  883  docker logs -f gatekeeper_srv --tail 1000
+  884  docker ps
+  885  docker logs -f medicine_svc 
+  886  ls
+  887  docker logs -f medicine_svc 
+  888  docker ps
+  889  docker logs -f gatekeeper_srv 
+  890  docker logs -f gatekeeper_srv --tail 1000
+  891  docker ps
+  892  docker logs -f gatekeeper_srv 
+  893  docker restart gatekeeper_srv 
+  894  docker logs -f gatekeeper_srv --tail 1
+  895  ls
+  896  docker logs -f medicine_svc 
+  897  docker logs -f medicine_svc --tail 1000
+  898  docker logs -f medicine_svc --tail 10000
+  899  docker ps
+  900  docker logs -f medicine_svc 
+  901  docker ps
+  902  docker logs -f medicine_svc 
+  903  ls
+  904  sudo mkdir postgresql-log
+  905  ll
+  906  ll /
+  907  history | grep postgres
+  908  history | grep psql
+  909  psql -h 172.16.10.13 -U postgres -d dev
+  910  vim /etc/postgresql/9.6/main/postgresql.conf 
+  911  cd /var/lib/postgresql/9.6/main/
+  912  sudo cd /var/lib/postgresql/9.6/main/
+  913  su _
+  914  su -
+  915  sudo 
+  916  sudo cd
+  917  sudo cd /var/lib/postgresql/
+  918  cd /var/lib/postgresql/
+  919  ll
+  920  cd 9.6/
+  921  cat /etc/passwd
+  922  su postgres
+  923  su posgres
+  924  su postgres
+  925  sudo su
+  926  cd ~
+  927  ll
+  928  sudo su
+  929  exit
+  930  ps -aux | grep psql
+  931  ps -aux 
+  932  history | grep psql
+  933  psql -h 172.16.10.13 -U postgres -d dev
+  934  whereis pg_log
+  935  psql -h 172.16.10.13 -U postgres -d dev
+  936  cat /etc/postgresql/9.6/main/postgresql.conf 
+  937  vim /etc/postgresql/9.6/main/postgresql.conf 
+  938  whoami 
+  939  pwd
+  940  ls
+  941  /var/log/postgresql/
+  942  cd /var/log/postgresql/
+  943  ls
+  944  vim postgresql-9.6-main.log
+  945  vim postgresql-9.6-main.log.1
+  946  ls /etc/init.d/
+  947  sudo /etc/init.d/postgresql restart
+  948  ps -aux
+  949  cd ~
+  950  sudo /etc/init.d/postgresql restart
+  951  ls /home/
+  952  vim /etc/postgresql/9.6/main/postgresql.conf 
+  953  sdo vim /etc/postgresql/9.6/main/postgresql.conf 
+  954  sudo vim /etc/postgresql/9.6/main/postgresql.conf 
+  955  sudo /etc/init.d/postgresql restart
+  956  ps -aux
+  957  sudo /etc/init.d/postgresql status
+  958  sudo vim /etc/postgresql/9.6/main/postgresql.conf 
+  959  sudo /etc/init.d/postgresql restart
+  960  sudo /etc/init.d/postgresql status
+  961  sudo vim /etc/postgresql/9.6/main/postgresql.conf 
+  962  sudo /etc/init.d/postgresql restart
+  963  sudo vim /etc/postgresql/9.6/main/postgresql.conf 
+  964  sudo /etc/init.d/postgresql restart
+  965  sudo vim /etc/postgresql/9.6/main/postgresql.conf 
+  966  sudo /etc/init.d/postgresql restart
+  967  sudo vim /etc/postgresql/9.6/main/postgresql.conf 
+  968  sudo /etc/init.d/postgresql restart
+  969  ps -elf | grep postgres
+  970  sudo vim /etc/postgresql/9.6/main/postgresql.conf 
+  971  sudo cp /etc/postgresql/9.6/main/postgresql.conf /etc/postgresql/9.6/main/postgresql.conf.origin
+  972  vim /etc/postgresql/9.6/main/postgresql.conf.origin 
+  973  sudo vim /etc/postgresql/9.6/main/postgresql.conf.origin 
+  974  sudo /etc/init.d/postgresql restart
+  975  sudo vim /etc/postgresql/9.6/main/postgresql.conf 
+  976  sudo /etc/init.d/postgresql restart
+  977  exit
+  978  docker ps
+  979  docker logs -f medicine_svc 
+  980  docker ps
+  981  history | psql
+  982  history | grep psql
+  983  psql -h 172.16.10.13 -U postgres -d dev
+  984  docker logs -f medicine_svc 
+  985  psql
+  986  ps
+  987  top
+  988  exit
+  989  ps
+  990  ps --help
+  991  ps -aux 
+  992  ps -aux | grep postgres
+  993  docker ps
+  994  exit
+  995  docker ps
+  996  docker logs medicine_svc 
+  997  docker ps
+  998  docker logs -f medicine_svc 
+  999  docker ps
+ 1000  docker logs -f medicine_svc 
+ 1001  docker ps
+ 1002  docker ps -a
+ 1003  docker start medicine_svc 
+ 1004  docker start notify_svc
+ 1005  docker start gatekeeper_srv 
+ 1006  docker start notify_svc_sidecar 
+ 1007  docker ps
+ 1008  exit
+ 1009  docker ps
+ 1010  docker exec 63e2e645d800 ls
+ 1011  ls
+ 1012  docker exec 63e2e645d800 ls
+ 1013  ls
+ 1014  docker exec 63e2e645d800 ls -a
+ 1015  ls
+ 1016  docker ps
+ 1017  ls
+ 1018  cd /opt
+ 1019  ls
+ 1020  cd ..
+ 1021  ls
+ 1022  cd
+ 1023  ls
+ 1024  docker exec 63e2e645d800 ls 
+ 1025  docker exec 63e2e645d800 cd opt
+ 1026  docker ps
+ 1027  history
+ 1028  history| grep notify
+ 1029  ifconfig
+ 1030  traceroute 172.31.2.214
+ 1031  sudo apt install traceroute
+ 1032  traceroute 172.31.2.214
+ 1033  traceroute 172.31.2.214 -n
+ 1034  docker ps
+ 1035  exit
+ 1036  docker ps
+ 1037  docker ps -a
+ 1038  docker start e8a60bc46960 52198c8082f2 63e2e645d800 f0ac13a25a92
+ 1039  docker ps
+ 1040  docker logs -f medicine_svc 
+ 1041  docker logs -f dp
+ 1042  docker ps
+ 1043  docker notify_svc
+ 1044  docker logs -f notify_svc
+ 1045  docker logs -f medicine_svc 
+ 1046  docker logs -f medicine_svc | grep "doctorAd"
+ 1047  docker logs -f medicine_svc | grep "doctor"
+ 1048  exit
+ 1049  docker ps
+ 1050  netstat
+ 1051  netstat -n
+ 1052  df -h
+ 1053  exit
+ 1054  docker logs -f notify_svc_sidecar 
+ 1055  ps aux 
+ 1056  docker ps
+ 1057  docker ps -a
+ 1058  docker ps
+ 1059  docker ps -a
+ 1060  docker logs -f notify_svc
+ 1061  docker logs -f notify_svc_sidecar 
+ 1062  docker logs -f notify_svc
+ 1063  docker ps
+ 1064  docker logs -f
+ 1065  docker logs -f notify_svc_sidecar 
+ 1066  docker ps
+ 1067  docker logs -f notify_svc
+ 1068  docker logs -f medicine_svc 
+ 1069  docker ps
+ 1070  docker image
+ 1071  docker images
+ 1072  docker restart medicine_svc 
+ 1073  docker logs -f medicine_svc 
+ 1074  docker restart medicine_svc 
+ 1075  docker logs -f medicine_svc 
+ 1076  docker ps
+ 1077  ssh http://172.16.10.11/
+ 1078  ssh 172.16.10.11
+ 1079  ssh dev@172.16.10.11
+ 1080  ssh asipilin@172.16.10.11
+ 1081  ls
+ 1082  exit
+ 1083  docker ps
+ 1084  docker logs --help
+ 1085  docker logs --tail 200 -f notify_svc
+ 1086  cd 
+ 1087  exit
+ 1088  docker ps
+ 1089  curl 'http://localhost:9020/push/notifies' -i -X POST -H 'Content-Type: application/json;charset=UTF-8' -d '{"title":"心之力","alert":"您好，【药名】在使用过程中可能会出现以下症状:【背痛4,关节肿胀】，如发现以上症状请及时与医生联系。","receivers":["10306"],"content":{"type":1,"data":{"type":1,"content":"您好，【药名】在使用过程中可能会出现以下症状:【背痛4,关节肿胀】，如发现以上症状请及时与医生联系。","createdAt":1504250980719}}}'
+ 1090  curl 'http://172.16.10.13:9020/push/notifies' -i -X POST -H 'Content-Type: application/json;charset=UTF-8' -d '{"title":"心之力","alert":"您好，【药名】在使用过程中可能会出现以下症状:【背痛4,关节肿胀】，如发现以上症状请及时与医生联系。","receivers":["10306"],"content":{"type":1,"data":{"type":1,"content":"您好，【药名】在使用过程中可能会出现以下症状:【背痛4,关节肿胀】，如发现以上症状请及时与医生联系。","createdAt":1504250980719}}}'
+ 1091  exit
+ 1092  ps -ef | grep not
+ 1093  exit
+ 1094  docker ps
+ 1095  docker logs tail -f 200
+ 1096  docker logs --help
+ 1097  docker logs --tail 200 -f
+ 1098  docker logs --tail 200 -f medicine_svc 
+ 1099  exit
+ 1100  docker logs --tail 200 -f medicine_svc 
+ 1101  docker ps
+ 1102  docker logs --tail 200 -f medicine_svc 
+ 1103  exit
+ 1104  docker images
+ 1105  docker restart medicine_svc 
+ 1106  docker logs -f medicine_svc 
+ 1107  docker ps
+ 1108  docker logs --help
+ 1109  docker logs -f --tail 200 notify_svc
+ 1110  docker ps
+ 1111  docker logs -f medicine_svc 
+ 1112  docker logs -f medicine_svc | grep survey
+ 1113  docker ps
+ 1114  exit
+ 1115  docker logs -f medicine_svc 
+ 1116  docker ps
+ 1117  docker pull douglarek/alpine-java9
+ 1118  docker images
+ 1119  docker run --hel
+ 1120  docker run --help
+ 1121  docker run -i douglarek/alpine-java9 /bin/sh
+ 1122  docker ps
+ 1123  docker run -it douglarek/alpine-java9 bash
+ 1124  ls -la
+ 1125  docker logs -f medicine_svc 
+ 1126  docker run -it douglarek/alpine-java9 bash
+ 1127  docker logs -f medicine_svc 
+ 1128  docker logs -f gatekeeper_srv 
+ 1129  docker ps
+ 1130  docker logs -f medicine_svc 
+ 1131  docker ps
+ 1132  exit
+ 1133  docker login registry.xzlcorp.com
+ 1134  docker ps
+ 1135  ls
+ 1136  cd /
+ 1137  ls
+ 1138  cd home/
+ 1139  ls
+ 1140  cd dev/
+ 1141  ls
+ 1142  ifconfig
+ 1143  ssh ec2-user@ec2-54-223-189-191.cn-north-1.compute.amazonaws.com.cn
+ 1144  ssh ec2-user@54.223.189.191
+ 1145  exit
+ 1146  ls
+ 1147  exit
+ 1148  ssh dev@172.16.10.14
+ 1149  exit
+ 1150  history >> dev@172.16.10.13daqianghis.txt

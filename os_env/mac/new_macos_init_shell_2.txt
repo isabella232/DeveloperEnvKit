@@ -63,6 +63,8 @@
  1435  opam install usbmux
  1436  gandalf.
  1437  gandalf
+
+
  1438  sudo `which gandalf` --mappings etc/mapping --daemonize --verbose
  1439  gandalf
  1440  which gandalf

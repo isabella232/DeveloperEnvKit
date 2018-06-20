@@ -1,0 +1,465 @@
+    1  sudo apt-get install language-pack-UTF-8
+    2  sudo apt-get install language-pack-UTF
+    3  sudo apt-get install language-pack
+    4  apt search language-pack
+    5  apt search language-pack | less
+    6  sudo apt update 
+    7  ping baidu.com
+    8  sudo apt update 
+    9  ls
+   10  ping mirrors.tuna.tsinghua.edu.cn
+   11  sudo apt update 
+   12  ping  cn-north-1b.clouds.archive.ubuntu.com
+   13  sudo apt upgrade 
+   14  sudo apt update 
+   15  sudo vim /etc/apt/sources.list
+   16  cd /etc/apt/
+   17  ls
+   18  sudo cp sources.list sources.list.origin
+   19  ls
+   20  sudo vim sources.list
+   21  cd
+   22  sudo apt update 
+   23  sudo su
+   24  ls
+   25  sudo apt update 
+   26  ping baidu.com
+   27  sudo apt update 
+   28  ping  cn-north-1b.clouds.archive.ubuntu.com
+   29  ping mirrors.tuna.tsinghua.edu.cn
+   30  curl baidu.com
+   31  sudo apt update 
+   32  sudo apt upgrade 
+   33  ls
+   34  cd /etc/apt/
+   35  ls
+   36  sudo rm -rf sources.list
+   37  sudo mv sources.list.origin sources.list
+   38  ls
+   39  cd
+   40  sudo apt update 
+   41  sudo apt upgrade 
+   42  ls -la
+   43  ls
+   44  ls -la
+   45  ls
+   46  ls -la
+   47  ls
+   48  ls -la
+   49  ls
+   50  ls -la
+   51  hostname
+   52  dnsmasq 
+   53  dnsmasq --help
+   54  ls
+   55  ls -la
+   56  hostname -i
+   57  ls -la
+   58  ls
+   59  ls -la
+   60  free -h
+   61  sudo apt upgrade 
+   62  ls -la
+   63  ls
+   64  ls -la
+   65  ls
+   66  sudo apt update 
+   67  ls
+   68  ls -la
+   69  ls
+   70  sudo apt install docker
+   71  sudo apt uninstall docker
+   72  sudo apt remove docker
+   73  apt search docker
+   74  sudo apt install docker-engine
+   75  sudo apt-get install apt-transport-https ca-certificates
+   76  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+   77  sudo apt-get update
+   78  apt-cache policy docker-engine
+   79  sudo apt install docker-engine
+   80  docker run -d -p 8081:8081 --name nexus sonatype/docker-nexus3
+   81  sudo  systemctl enable docker
+   82  sudo service docker start
+   83  docker ps
+   84  sudo docker ps
+   85  sudo groupadd docker
+   86  sudo gpasswd -a ubuntu docker
+   87  sudo service docker restart
+   88  docker ps
+   89  sudo docker ps
+   90  docker ps
+   91  ls -la
+   92  ls
+   93  git
+   94  ls -la
+   95  ping ip-10-16-2-13.cn-north-1.compute.internal
+   96  ls -la
+   97  git
+   98  git --version
+   99  ls -la
+  100  apt search nexus
+  101  ls
+  102  docker ps
+  103  docker run -d -p 8081:8081 --name nexus sonatype/docker-nexus3
+  104  docker cleanups
+  105  docker ps
+  106  docker images
+  107  docker --help
+  108  ls
+  109  ls -la
+  110  docker run -d -p 8081:8081 --name nexus sonatype/docker-nexus3
+  111  ls
+  112  ls /etc/systemd/system/docker.service.d
+  113  sudo mkdir -p /etc/systemd/system/docker.service.d
+  114  sudo tee /etc/systemd/system/docker.service.d/mirror.conf <<-'EOF'
+  115  [Service]
+  116  ExecStart=
+  117  ExecStart=/usr/bin/docker daemon -H fd:// --registry-mirror=https://qp23m2im.mirror.aliyuncs.com
+  118  EOF
+  119  sudo systemctl daemon-reload
+  120  sudo systemctl restart docker
+  121  docker ps
+  122  docker run -d -p 8081:8081 --name nexus sonatype/docker-nexus3
+  123  docker ps
+  124  curl -u admin:admin123 http://localhost:8081/service/metrics/ping
+  125  docker logs -f nexus 
+  126  curl -u admin:admin123 http://localhost:8081/service/metrics/ping
+  127  docker logs -f nexus 
+  128  curl -u admin:admin123 http://localhost:8081/service/metrics/ping
+  129  docker rm -f nexus
+  130  docker run -d -p 8081:8081 --name nexus -e JAVA_MAX_MEM=768m sonatype/docker-nexus3
+  131  docker logs -f nexus 
+  132  curl -u admin:admin123 http://localhost:8081/service/metrics/ping
+  133  ls -la
+  134  curl -u admin:admin123 http://localhost:8081/service/metrics/ping
+  135  free -h
+  136  ls -la
+  137  free -h
+  138  docker ps
+  139  docker start nexus 
+  140  docker ps
+  141  docker logs -f nexus 
+  142  curl -u admin:admin123 http://localhost:8081/service/metrics/ping
+  143  ls -la
+  144  ls
+  145  free -h
+  146  docker logs -f nexus 
+  147  curl -u admin:admin123 http://localhost:8081/service/metrics/ping
+  148  ls /opt/sonatype/nexus
+  149  sudo mkdir -p /opt/sonatype/nexus
+  150  chown -R 200 /opt/sonatype/nexus
+  151  sudo chown -R 200 /opt/sonatype/nexus
+  152  docker rm -f nexus 
+  153  mv /opt/sonatype/nexus /opt/sonatype/nexus-data
+  154  sudo mv /opt/sonatype/nexus /opt/sonatype/nexus-data
+  155  sudo chown -R 200 /opt/sonatype/nexus-data
+  156  docker run -d -p 8081:8081 --name nexus -v /opt/sonatype/nexus-data:/nexus-data sonatype/docker-nexus3
+  157  docker ps
+  158  docker logs -f nexus 
+  159  cd /opt/sonatype/nexus-data/
+  160  ls
+  161  ls -la
+  162  ls
+  163  cd db/
+  164  ls
+  165  cd ..
+  166  ls
+  167  cat port 
+  168  ls
+  169  ls -la
+  170  ls
+  171  mkdir x
+  172  ls
+  173  ls -la
+  174  cd
+  175  curl -u admin:admin123 http://localhost:8081/service/metrics/ping
+  176  ls -la
+  177  ls
+  178  df -h
+  179  sudo df -h
+  180  ls -la
+  181  ls
+  182  docker logs -f nexus 
+  183  ls
+  184  cd /opt/sonatype/nexus-data/
+  185  ls
+  186  cd etc/
+  187  ls
+  188  cat nexus.properties 
+  189  cd ..
+  190  ls
+  191  cd instances/
+  192  ls
+  193  cd ..
+  194  ls
+  195  cd cache/
+  196  ls
+  197  cd ..
+  198  ls
+  199  cd tmp/
+  200  ls
+  201  cd ..
+  202  ls
+  203  cd generated-bundles/
+  204  ls
+  205  cd ..
+  206  ls
+  207  cd
+  208  sudo ls /
+  209  ls
+  210  cd /opt/sonatype/nexus-data/
+  211  ls
+  212  cd db/
+  213  ls
+  214  cd ..
+  215  ls
+  216  cd cache/
+  217  ls
+  218  cd bundle0/
+  219  ls
+  220  cd ..
+  221  ls
+  222  cd ..
+  223  ls
+  224  cd blobs/
+  225  ls
+  226  cd default/
+  227  ls
+  228  cd ..
+  229  ls
+  230  cd default/
+  231  ls
+  232  cd content/
+  233  ls
+  234  ls -la
+  235  cd ..
+  236  ls
+  237  cd ..
+  238  ls
+  239  ls -la
+  240  cd ..
+  241  ls
+  242  cd ..
+  243  ls
+  244  ls -la
+  245  ls
+  246  docker rm -f nexus 
+  247  ls
+  248  cd nexus-data/
+  249  ls
+  250  ls -la
+  251  rm -rf *
+  252  sudo rm -rf *
+  253  ls
+  254  ls -la
+  255  sudo rm -rf .*
+  256  ls
+  257  ls -la
+  258  cd ..
+  259  ls
+  260  cd
+  261  docker run -d -p 8081:8081 --name nexus -v /opt/sonatype/nexus-data:/nexus-data sonatype/docker-nexus
+  262  docker run -d -p 8081:8081 --name nexus -v /opt/sonatype/nexus-data:/nexus-data sonatype/nexus
+  263  docker rm -f nexus 
+  264  docker run -d -p 8081:8081 --name nexus -v /opt/sonatype/nexus-data:/sonatype-work sonatype/nexus
+  265  docker logs -f nexus 
+  266  curl http://localhost:8081/nexus/service/local/status
+  267  docker ps -l
+  268  ls -la
+  269  ls
+  270  cd /opt/sonatype/
+  271  ls
+  272  cd nexus-data/
+  273  ls
+  274  ls -la
+  275  cd
+  276  ls
+  277  du -h nexus.zip 
+  278  ls
+  279  ls -la
+  280  mv nexus.zip /opt/sonatype/nexus-data/
+  281  ls
+  282  sudo mv nexus.zip /opt/sonatype/nexus-data/
+  283  cd /opt/sonatype/nexus-data/
+  284  ls
+  285  ls -la
+  286  vim nexus.
+  287  vim nexus.zip 
+  288  sudo mv nexus.zip ..
+  289  cd ..
+  290  ls
+  291  sudo mkdir tmp
+  292  ls
+  293  mv nexus.zip tmp/
+  294  ls
+  295  sudo mv nexus.zip tmp/
+  296  cd tmp/
+  297  ls
+  298  unzip -x nexus.zip 
+  299  sudo apt install unzop
+  300  sudo apt install unzi[
+  301  sudo apt install unzip
+  302  ls
+  303  unzip -x nexus.zip 
+  304  ls
+  305  sl
+  306  ls
+  307  sudo unzip -x nexus.zip 
+  308  ls
+  309  cd ne
+  310  ls
+  311  rm -rf nexus.zip
+  312  sudo rm -rf nexus.zip
+  313  ls
+  314  ls -la
+  315  ls
+  316  cd nexus/
+  317  ls
+  318  cd ..
+  319  ls
+  320  sudo cp nexus/* ../nexus-data/
+  321  sudo cp -a nexus/* ../nexus-data/
+  322  ls
+  323  sudo mv nexus/* ../nexus-data/
+  324  ls
+  325  docker stop nexus
+  326  ls
+  327  rm -rf ../nexus-da
+  328  rm -rf ../nexus-data/*
+  329  sudo rm -rf ../nexus-data/*
+  330  ls
+  331  sudo mv nexus/* ../nexus-data/
+  332  ls
+  333  cd me
+  334  cd nexus/
+  335  ls
+  336  ls -la
+  337  cd ..
+  338  ls
+  339  rm -rf nexus
+  340  ls
+  341  sudo rm -rf nexus
+  342  ls
+  343  cd ..
+  344  ls
+  345  cd nexus-data/
+  346  ls
+  347  ls -la
+  348  ls
+  349  cd 
+  350  docker start nexus 
+  351  docker logs -f nexus
+  352  ls
+  353  ls -la
+  354  ls
+  355  cd /opt/sonatype/nexus-data/
+  356  ls
+  357  ls -la
+  358  cd ..
+  359  ls
+  360  sudo chown -R 200 nexus-data
+  361  ls
+  362  sudo rm -rf tmp
+  363  ls
+  364  cd nexus-data/
+  365  ls
+  366  ls -la
+  367  cd storage/
+  368  ls -la
+  369  cd
+  370  docker start nexus
+  371  docker restart nexus
+  372  docker logs -f nexus 
+  373  docker restart nexus & docker logs -f -t1 nexus
+  374  ls
+  375  docker logs --help
+  376  docker logs -f --tail 1 nexus
+  377  docker restart nexus && docker logs -f --tail 1 nexus
+  378  curl http://localhost:8081/nexus/service/local/status
+  379  curl http://localhost:8081/content/repositories/central/org/springframework/boot/spring-boot-starter-data-redis/1.4.1.RELEASE/spring-boot-starter-data-redis-1.4.1.RELEASE.pom
+  380  curl http://localhost:8081/nexus/service/local/status
+  381  curl http://localhost:8081/nexus
+  382  ls
+  383  cd /opt/sonatype/nexus-data/
+  384  ls
+  385  vim conf/nexus.xml 
+  386  ls -la
+  387  cd
+  388  ls -la
+  389  ls
+  390  docker ps
+  391  docker run -d -p 8081:8081 --name nexus -v /opt/sonatype/nexus-data:/sonatype-work sonatype/nexus
+  392  docker rm -f nexus
+  393  docker run -d -p 8081:8081 --name nexus -e CONTEXT_PATH='/' -v /opt/sonatype/nexus-data:/sonatype-work sonatype/nexus
+  394  docker ps
+  395  docker logs -f nexus 
+  396  curl http://localhost:8081/nexus/service/local/status
+  397  curl http://localhost:8081/service/local/status
+  398  curl http://localhost:8081/central/content/commons-logging/commons-logging/1.2/commons-logging-1.2.pom
+  399  ls
+  400  wget https://jcenter.bintray.com/HTTPClient/HTTPClient/0.3-3/:HTTPClient-0.3-3.jar
+  401  wget https://akamai.bintray.com/8c/8c601a287ffbf8a89b9c491d5966b999cd71dd8b?__gda__=exp=1478702173~hmac=5762a1b7e5effc411256b651e7b7116b99648cc79b55760db7c6a75769ee7314&response-content-disposition=attachment%3Bfilename%3D%22HTTPClient-0.3-3.jar%22&response-content-type=application%2Foctet-stream&requestInfo=U2FsdGVkX1-KrwtavLLIo0dbLXT0xOMmW3TCqS0_Zm1GsTzcHl9WYxWA1PWUiH4vIZJOaS35IAgb9aMf91Ius128x8cGAmqWiSlTabpZxjFTbk5rNp2ni7obfH1qW8igua27Z48q8zsaCB1MPWZlXXP9j5eCpSTD_xTI80TKkaU
+  402  ls
+  403  wget https://jcenter.bintray.com/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.pom
+  404  rm -rf jsr311-api-1.1.1.pom 
+  405  docker start nexus 
+  406  docker logs -f nexus 
+  407  docker logs -f nexus --tail 1
+  408  ll -A
+  409  exot
+  410  exit
+  411  docker ps
+  412  df -h
+  413  docker images 
+  414  docker ps -a 
+  415  docker stop nexus
+  416  docker ps -a 
+  417  docker commit 35e61cb77ec1 nexus-20170710
+  418  docker images 
+  419  docker start nexus
+  420  docker save -o nexus-20170710.tar nexus-20170710
+  421  ls
+  422  scp nexus-20170710.tar root@45.32.254.110:/root/
+  423  pwd
+  424  ll -A
+  425  exit 
+  426  ls
+  427  ls -a
+  428  docker ps -a
+  429  docker images 
+  430  df -h
+  431  ls /var/lib/
+  432  echo $JAVA_HOME
+  433  curl 127.0.0.1:8081
+  434  docker ps -a
+  435  docker ps -l
+  436  docker logs nexus 
+  437  history 
+  438  ls /opt/sonatype/nexus-data/
+  439  ls
+  440  cd /opt/sonatype/
+  441  ls
+  442  tar -zcvf nexus-data.tar.gz nexus-data
+  443  sudo
+  444  sudo su
+  445  ls
+  446  cd ~
+  447  ls
+  448  ll -a
+  449  rm nexus-20170710.tar 
+  450  ll -A
+  451  df -h
+  452  docker ps
+  453  exit
+  454  history >> SHARED-MVN-daqiang-hist.txt
+  455  ls
+  456  cat SHARED-MVN-daqiang-hist.txt 
+  457  exit
+  458  ls
+  459  history >> SHARED-MVN-daqiang-hist.txt 
+  460  cat SHARED-MVN-daqiang-hist.txt 
+  461  rm SHARED-MVN-daqiang-hist.txt 
+  462  ls
+  463  ls -al
+  464  hisory >> SHARED-MVN-daqiang-his.txt
+  465  history >> SHARED-MVN-daqiang-his.txt

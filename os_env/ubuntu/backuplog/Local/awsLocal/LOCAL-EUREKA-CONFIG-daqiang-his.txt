@@ -1,0 +1,707 @@
+    1  sudo apt-get install language-pack-UTF-8
+    2  sudo apt-get install language-pack-UTF
+    3  sudo apt-get install language-pack
+    4  apt search language-pack
+    5  apt search language-pack | less
+    6  sudo apt update 
+    7  ping baidu.com
+    8  sudo apt update 
+    9  ls
+   10  ping mirrors.tuna.tsinghua.edu.cn
+   11  sudo apt update 
+   12  ping  cn-north-1b.clouds.archive.ubuntu.com
+   13  sudo apt upgrade 
+   14  sudo apt update 
+   15  sudo vim /etc/apt/sources.list
+   16  cd /etc/apt/
+   17  ls
+   18  sudo cp sources.list sources.list.origin
+   19  ls
+   20  sudo vim sources.list
+   21  cd
+   22  sudo apt update 
+   23  sudo su
+   24  ls
+   25  sudo apt update 
+   26  ping baidu.com
+   27  sudo apt update 
+   28  ping  cn-north-1b.clouds.archive.ubuntu.com
+   29  ping mirrors.tuna.tsinghua.edu.cn
+   30  curl baidu.com
+   31  sudo apt update 
+   32  sudo apt upgrade 
+   33  ls
+   34  cd /etc/apt/
+   35  ls
+   36  sudo rm -rf sources.list
+   37  sudo mv sources.list.origin sources.list
+   38  ls
+   39  cd
+   40  sudo apt update 
+   41  sudo apt upgrade 
+   42  ls -la
+   43  ls
+   44  ls -la
+   45  ls
+   46  ls -la
+   47  ls
+   48  ls -la
+   49  ls
+   50  ls -la
+   51  hostname
+   52  dnsmasq 
+   53  dnsmasq --help
+   54  ls
+   55  ls -la
+   56  hostname -i
+   57  ls -la
+   58  ls
+   59  ls -la
+   60  free -h
+   61  sudo apt upgrade 
+   62  ls -la
+   63  ls
+   64  ls -la
+   65  ls
+   66  sudo apt update 
+   67  ls
+   68  ls -la
+   69  ls
+   70  sudo apt install docker
+   71  sudo apt uninstall docker
+   72  sudo apt remove docker
+   73  apt search docker
+   74  sudo apt install docker-engine
+   75  sudo apt-get install apt-transport-https ca-certificates
+   76  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+   77  sudo apt-get update
+   78  apt-cache policy docker-engine
+   79  sudo apt install docker-engine
+   80  docker run -d -p 8081:8081 --name nexus sonatype/docker-nexus3
+   81  sudo  systemctl enable docker
+   82  sudo service docker start
+   83  docker ps
+   84  sudo docker ps
+   85  sudo groupadd docker
+   86  sudo gpasswd -a ubuntu docker
+   87  sudo service docker restart
+   88  docker ps
+   89  sudo docker ps
+   90  docker ps
+   91  ls -la
+   92  ls
+   93  git
+   94  ls -la
+   95  ping ip-10-16-2-13.cn-north-1.compute.internal
+   96  ls -la
+   97  git
+   98  git --version
+   99  ls -la
+  100  apt search nexus
+  101  docker ps
+  102  docker logs -f config_srv 
+  103  hostname
+  104  hostname -i 
+  105  docker logs -f config_srv 
+  106  docker logs -f eureka_srv 
+  107  hostname -i
+  108  ls
+  109  ls -la
+  110  docker logs -f eureka_srv 
+  111  sudo passwd ubuntu 
+  112  sudo vim /etc/ssh/ssh_config 
+  113  sudo vim /etc/ssh/sshd_config 
+  114  ls -la
+  115  sudo apt update 
+  116  sudo apt upgrade 
+  117  ls
+  118  ls -la
+  119  docker
+  120  docker login registry.xzlcorp.com
+  121  docker 
+  122  ls
+  123  ps aux | grep java
+  124  nc -vz 172.16.10.12 9042
+  125  ping 172.16.10.12
+  126  ping 172.16.10.13
+  127  ping 172.16.9.1
+  128  ping 172.16.10.31
+  129  nc -vz 172.16.10.12 9042
+  130  ping 172.16.10.88
+  131  ping 172.16.9.1
+  132  psql -h 172.16.10.13  -p 5432 -U postgres -d dev
+  133  sudo apt install postgresql-client-common
+  134  ls
+  135  ls -la
+  136  git status 
+  137  ls
+  138  psql -h 172.16.10.13  -p 5432 -U postgres -d dev
+  139  apt search postgresql-client
+  140  sudo apt install postgresql-client
+  141  psql
+  142  psql -h 172.16.10.13  -p 5432 -U postgres -d dev
+  143  ping 172.16.10.13
+  144  traceroute 
+  145  sudo apt install traceroute
+  146  traceroute 172.16.10.13
+  147  psql -h 172.16.10.13  -p 5432 -U postgres -d dev
+  148  apt search redis
+  149  apt show redis-tools
+  150  sudo apt install redis-tools
+  151  redis-cli  172.16.10.12 
+  152  redis-cli -h 172.16.10.12 
+  153  ls
+  154  docker logs -f eureka_srv 
+  155  docker logs
+  156  docker ps
+  157  docker logs -f eureka_srv 
+  158  ls
+  159  docker logs -f eureka_srv 
+  160  hostname -i
+  161  docker ps
+  162  docker logs -f --tail 1000 config_srv 
+  163  docker ps
+  164  exit
+  165  docker ps
+  166  exit
+  167  docker ps
+  168  docker logs zipkin_srv 
+  169  free -h
+  170  ps aux | grep java
+  171  top
+  172  docker ps
+  173  top
+  174  docker ps
+  175  docker restart eureka_srv 
+  176  docker logs -f eureka_srv --tail 1000
+  177  docker ps
+  178  docker inspect eureka_srv 
+  179  docker ps
+  180  df -h
+  181  ls
+  182  docker ps
+  183  docker images
+  184  df -h
+  185  docker ps
+  186  docker images
+  187  df -h
+  188  docker ps
+  189  docker ps -a
+  190  docker rm -f eureka_srv zipkin_srv config_srv
+  191  ls
+  192  docker images -f
+  193  docker images 
+  194  docker images -a -q
+  195  docker images -a -q | docker rmi -f
+  196  docker images -a -q | xargs docker rmi -f
+  197  df -h
+  198  ls
+  199  docker ps
+  200  docker logs -f config_srv 
+  201  ls
+  202  docker logs -f eureka_srv 
+  203  ls
+  204  ls -la
+  205  ls
+  206  ls -la
+  207  docker logs -f zipkin_srv 
+  208  top
+  209  ps -ef | grep java
+  210  docker restart config_srv 
+  211  df -h
+  212  docker ps
+  213  ls
+  214  docker restart config_srv 
+  215  ls -la
+  216  docker ps
+  217  docker images 
+  218  docker ps -a
+  219  docker ps
+  220  docker images
+  221  docker rmi -f registry.xzlcorp.com/corp/zipkin-dashboard registry.xzlcorp.com/corp/config-server
+  222  ls
+  223  ls -la
+  224  ls
+  225  ls -la
+  226  docker ps
+  227  ls
+  228  ls 
+  229  ls -la
+  230  du -h cac
+  231  du -h .cache
+  232  du -h .docker
+  233  docker ps
+  234  docker ps a-
+  235  docker ps -a
+  236  docker stop zipkin_srv 
+  237  docker restart config_srv 
+  238  cd /var/lib/docker/containers
+  239  sudo cd /var/lib/docker/containers
+  240  sudf -h
+  241  docker ps
+  242  du -h /var/lib/docker
+  243  sudo du -h /var/lib/docker
+  244  cd /var/lib/docker/containers
+  245  sudo cd /var/lib/docker/containers
+  246  sudo su
+  247  df -h
+  248  docker ps
+  249  docker logs -f zipkin_srv 
+  250  docker ps
+  251  docker restart zipkin_srv
+  252  docker logs -f zipkin_srv 
+  253  docker logs -f zipkin_srv --tail 1000
+  254  docker ps
+  255  df -h
+  256  docker ps
+  257  sudo su
+  258  docker ps
+  259  df -h
+  260  docker stop zipkin_srv && docker rm zipkin_srv
+  261  df -h
+  262  docker ps
+  263  sudo su
+  264  df -h
+  265  df -h 
+  266  du -h /var/lib/docker/containers
+  267  sudo du -h /var/lib/docker/containersD
+  268  sudo du -h /var/lib/docker/containers
+  269  sudo du -h /var/lib/docker
+  270  df -h 
+  271  docker logs
+  272  docker ps
+  273  docker logs -f zipkin_srv 
+  274  docker ps
+  275  exit
+  276  docker restart config_srv 
+  277  docker rm -f config_srv 
+  278  docker logs -f config_srv 
+  279  df -h
+  280  docker ps
+  281  docker rm -f eureka_srv 
+  282  df
+  283  docker ps -a
+  284  docker images -a
+  285  docker 
+  286  docker vi /etc/sysconfig/docker-storage
+  287  vi /etc/sysconfig/docker-storage
+  288  sudo vi /etc/sysconfig/docker-storage
+  289  docker images -aq --filter dangling=true
+  290  sudo lsof -nP | grep '(deleted)'
+  291  df -h
+  292  du -h /var/lib/docker/containers
+  293  sudo du -h /var/lib/docker/containers
+  294  sudo du -h /var/lib/docker/containers/
+  295  sudo cd
+  296  sudo su
+  297  ls
+  298  docker ps -q -f 'status=exited'
+  299  sudo u -h /var/lib/docker
+  300  sudo du -h /var/lib/docker
+  301  docker volume ls
+  302  docker restart 
+  303  sudo service docker  restart 
+  304  df -h
+  305  ls -la
+  306  docker ps
+  307  docker logs -f eureka_srv 
+  308  docker logs -f config_srv 
+  309  docker ps
+  310  docker ps -a
+  311  df -h
+  312  docker ps
+  313  df -h
+  314  docker stop zipkin_srv
+  315  docker rm zipkin_srv
+  316  df -h
+  317  docker ps
+  318  docker ps -a
+  319  ls
+  320  du /var/lib/docker
+  321  sudo du /var/lib/docker
+  322  sudo du -h /var/lib/docker
+  323  docker ps
+  324  df -h
+  325  docker stop config_srv && docker rm config_srv
+  326  df -h
+  327  docker ps
+  328  du -h /var
+  329  du --help
+  330  docker images
+  331  ls
+  332  cd ..
+  333  ls
+  334  cd /var/log
+  335  ls
+  336  du -h
+  337  cd ..
+  338  ls
+  339  ls cache
+  340  ls opt
+  341  cd ..
+  342  ls
+  343  du -help
+  344  du --help
+  345  du sch *
+  346  ncdu
+  347  df -h
+  348  ls
+  349  du -sch home
+  350  du -sch bin
+  351  du -sch boot
+  352  du -sch etc
+  353  sudo du -sch etc
+  354  sudo du -sch opt
+  355  sudo du -sch root
+  356  sudo du -sch tmp
+  357  sudo du -sch usr
+  358  sudo du -sch sys
+  359  sudo du -sch sbin
+  360  sudo du -sch lost+found
+  361  sudo du -sch lib
+  362  sudo du -sch lib64
+  363  sudo du -sch tmp
+  364  docker ps
+  365  ps
+  366  ls
+  367  ls -al
+  368  df -h
+  369  docker ps
+  370  docker ps -a
+  371  cd /var
+  372  ls
+  373  cd local/
+  374  ls
+  375  history
+  376  ls
+  377  docker ps
+  378  df -h
+  379  docker stop zipkin_srv && docker rm zipkin_srv
+  380  df -h
+  381  history | grep zipkin
+  382  docker ps
+  383  df -h
+  384  docker logs -f zipkin_srv 
+  385  docker ps
+  386  df -h
+  387  ls /var/log/docker
+  388  ls /var/lib/docker/containers
+  389  sudo ls /var/lib/docker/containers
+  390  sudo du -h /var/lib/docker/containers 
+  391  docker ps -a
+  392  sudo du -h /var/lib/docker/containers/0c875c638b9c7a14e3e38b0673a2b52ab91c437c156e1801d5a465513afb962f
+  393  docker logs --tail 1000 zipkin_srv 
+  394  docker ps
+  395  docker stop zipkin_srv && docker rm zipkin_srv
+  396  sudo du -h /var/lib/docker/containers/0c875c638b9c7a14e3e38b0673a2b52ab91c437c156e1801d5a465513afb962f
+  397  sudo du -h /var/lib/docker/containers
+  398  df -h
+  399  docker ps
+  400  history | grep zipkin
+  401  docker ps
+  402  docker logs -f zipkin_srv 
+  403  df -h
+  404  docker ps
+  405  history | grep zipkin
+  406  docker stop zipkin_srv && docker rm zipkin_srv
+  407  history | grep run
+  408  df -h
+  409  docker restart config_srv
+  410  docker ps
+  411  docker restart config_srv
+  412  docker ps
+  413  docker logs -f config_srv 
+  414  git clone https://git.xzlcorp.com/corp/config-repo.git
+  415  git remote -v
+  416  git config --global
+  417  git cconfig --global
+  418  git config --global
+  419  git config -l
+  420  git clone https://gdong@git.xzlcorp.com/corp/doctor-api-service.git
+  421  git clone https://git.xzlcorp.com/corp/config-repo.git
+  422  rm -rf config-repo/
+  423  git clone https://git.xzlcorp.com/corp/config-repo.git
+  424  docker restart config_srv
+  425  docker ps
+  426  git logs -f config_srv
+  427  docker log -f config_srv
+  428  docker logs config_srv
+  429  docker restart config_srv 
+  430  docker logs -f config_srv 
+  431  history | grep zipkin
+  432  docker run -e HOST_IP=$(hostname -i) -dp 9411:9411 --name zipkin_srv registry.xzlcorp.com/corp/zipkin-dashboard
+  433  docker ps
+  434  docker logs -f zipkin_srv 
+  435  docker ps
+  436  docker logs -f config_srv 
+  437  ls
+  438  docker logs -f eureka_srv 
+  439  ls -la
+  440  docker stop zipkin_srv 
+  441  cat ma
+  442  docker ps
+  443  dh -u
+  444  du -h
+  445  du -u /
+  446  du -h /
+  447  df
+  448  docker ps
+  449  docker restart eureka_srv 
+  450  docker logs -f eureka_srv 
+  451  exit
+  452  df -h
+  453  docker logs -f zipkin_srv --tail 1000
+  454  ls
+  455  docker ps
+  456  docker logs -f zipkin_srv 
+  457  ls
+  458  docker logs -f zipkin_srv 
+  459  docker ps
+  460  df -h
+  461  ls
+  462  docker ps
+  463  ping git.xzlcorp.com
+  464  docker logs -f config_srv 
+  465  ping baidu.com
+  466  curl baidu.com
+  467  curl git.xzlcorp.com
+  468  git clone https://git.xzlcorp.com/corp/config-repo.git
+  469  ls
+  470  git clone https://git.xzlcorp.com/corp/config-repo.git a
+  471  docker logs -f config_srv 
+  472  df -h
+  473  ls
+  474  rm -rf a
+  475  ls
+  476  docker logs -f config_srv 
+  477  docker restart config_srv 
+  478  docker logs -f config_srv 
+  479  date
+  480  docker restart eureka_srv 
+  481  docker logs -f eureka_srv 
+  482  docker ps
+  483  ping git.xzlcorp.com
+  484  nslookup git.xzlcorp.com
+  485  ping 54.223.189.191
+  486  docker logs
+  487  docker ps
+  488  docker logs -f config_srv --tail 1000
+  489  docker ps
+  490  docker logs -f config_srv --tail 1000
+  491  docker ps
+  492  docker logs -f config_srv 
+  493  ping git.xzlcorp.com
+  494  ping 54.223.189.191
+  495  docker logs -f config_srv 
+  496  ls
+  497  docker ps
+  498  docker inspect 022cfaa12bb1
+  499  docker inspect 022cfaa12bb1>config_server_inspect
+  500  ls
+  501  docker ps
+  502  docker logs -f config_srv 
+  503  docker ps
+  504  sudo apt update 
+  505  sudo vim /etc/apt/sources.list
+  506  sudo apt update 
+  507  sudo apt upgrade 
+  508  echo "deb https://mirrors.tuna.tsinghua.edu.cn/docker/apt/repo ubuntu-xenial main" | sudo tee /etc/apt/sources.list.d/docker.list
+  509  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+  510  sudo apt update 
+  511  sudo apt upgrade 
+  512  ls
+  513  docker ps
+  514  docker ps -a
+  515  docker restart config_srv 
+  516  docker logs -f config_srv 
+  517  docker start eureka_srv 
+  518  docker logs -f eureka_srv 
+  519  ls
+  520  docker start zipkin_srv 
+  521  docker logs -f zipkin_srv 
+  522  docker stop zipkin_srv 
+  523  docker ls
+  524  docker ps
+  525  du -f
+  526  df -h
+  527  docker ps
+  528  docker ps -a
+  529  docker ps -A
+  530  docker images 
+  531  history zipkin
+  532  history | grep zipkin
+  533  docker start zipkin_srv
+  534  docker run -e HOST_IP=$(hostname -i) -dp 9411:9411 --name zipkin_srv registry.xzlcorp.com/corp/zipkin-dashboard
+  535  docker ps
+  536  docker logs -f zipkin_srv 
+  537  docker ps
+  538  du -h
+  539  history 
+  540  df -h
+  541  docker ps
+  542  history 
+  543  df -h
+  544  docker ps
+  545  docker logs -f config_srv 
+  546  docker ps
+  547  docker logs -f config_srv 
+  548  top
+  549  man top
+  550  top
+  551  man top
+  552  top
+  553  man top
+  554  man top| grep sort
+  555  top
+  556  ls
+  557  docker ps
+  558  ls
+  559  docker ps
+  560  docker exec 27e3551ea8ef netstat -n
+  561  docker ps
+  562  exit
+  563  docker ps
+  564  free
+  565  free -h
+  566  docker logs -f mqtt_api_srv 
+  567  docker restart mqtt_api_srv 
+  568  docker logs -f mqtt_api_srv 
+  569  docker stop mqtt_api_srv
+  570  docker logs -f mqtt_api_srv 
+  571  docker ps
+  572  docker logs -f mqtt_api_srv 
+  573  docker stop mqtt_api_srv 
+  574  ls
+  575  docker ps
+  576  docker info mqtt_api_srv
+  577  docker info
+  578  docker show
+  579  docker
+  580  docker logs -f mqtt_api_srv 
+  581  docker logs -f eureka_srv 
+  582  docker logs eureka_srv | head -n 3000
+  583  docker logs -f mqtt_api_srv 
+  584  docker inspect mqtt_api_srv 
+  585  docker ps
+  586  $(hostname -i)
+  587  docker ps
+  588  docker inspect eureka_srv 
+  589  docker inspect mqtt_api_srv 
+  590  docker restart eureka_srv 
+  591  docker logs -f eureka_srv 
+  592  docker logs -f mqtt_api_srv 
+  593  docker restart mqtt_api_srv 
+  594  docker logs -f mqtt_api_srv 
+  595  docker stop mqtt_api_srv 
+  596  docker logs -f mqtt_api_srv 
+  597  docker restart mqtt_api_srv 
+  598  docker logs -f mqtt_api_srv 
+  599  docker logs -f stop
+  600  docker stop mqtt_api_srv 
+  601  docker logs -f config_srv --tail 1000
+  602  docker restart mqtt_api_srv 
+  603  docker logs -f config_srv --tail 1000
+  604  docker logs -f mqtt_api_srv 
+  605  docker logs -f zipkin_srv 
+  606  docker ps
+  607  df -h
+  608  docker logs -f mqtt_api_srv 
+  609  docker stop mqtt_api_srv 
+  610  docker logs -f mqtt_api_srv 
+  611  docker stop mqtt_api_srv 
+  612  docker logs -f mqtt_api_srv 
+  613  docker ps
+  614  docker stop mqtt_api_srv 
+  615  docker ps
+  616  docker stop mqtt_api_srv 
+  617  docker stop mq
+  618  docker ps
+  619  docker logs -f mqtt_api_srv 
+  620  docker stop mqtt_api_srv 
+  621  docker ps
+  622  docker logs -f zipkin_srv 
+  623  docker ps -a
+  624  git log
+  625  docker ps
+  626  docker logs -f zipkin_srv 
+  627  docker stop zipkin_srv 
+  628  ls -la
+  629  docker logs -f mqtt_api_srv 
+  630  ls -la
+  631  docker stop zipkin_srv 
+  632  docker restart mqtt_api_srv 
+  633  docker logs -f mqtt_api_srv --tail 1
+  634  docker logs -f mqtt_api_srv 
+  635  docker logs -f mqtt_api_srv --tail
+  636  docker logs -f mqtt_api_srv --tail 1
+  637  docker ps
+  638  docker logs -f mqtt_api_srv 
+  639  exit
+  640  docker ps
+  641  docker logs -f mqtt_api_srv 
+  642  ls
+  643  docker ps
+  644  which jekins
+  645  ps -ef | grep jekins
+  646  ssh 172.31.2.243
+  647  netstat -n
+  648  ssh 172.16.9.5
+  649  docker logs -f mqtt_api_srv 
+  650  docker logs -f mqtt_api_srv --tail 1
+  651  ls
+  652  ls -la
+  653  docker logs -f mqtt_api_srv --tail 1
+  654  docker logs -f mqtt_api_srv --tail 100
+  655  docker logs -f mqtt_api_srv --tail 1000
+  656  docker logs -f mqtt_api_srv 
+  657  docker logs -f mqtt_api_srv --tail 1
+  658  docker logs -f mqtt_api_srv --tail 100
+  659  docker logs -f mqtt_api_srv --tail 1
+  660  docker logs -f mqtt_api_srv --tail 100
+  661  docker logs -f mqtt_api_srv 
+  662  docker logs -f mqtt_api_srv --tail 1000
+  663  docker logs -f mqtt_api_srv --tail 100
+  664  docker logs -f mqtt_api_srv --tail 1000
+  665  docker logs -f mqtt_api_srv --tail  100
+  666  docker logs -f mqtt_api_srv --tail  1000
+  667  docker logs -f mqtt_api_srv 
+  668  ls -la
+  669  ls
+  670  docker logs -f mqtt_api_srv --tail 1000
+  671  docker ps
+  672  docker images
+  673  docker ps
+  674  docker images
+  675  docker logs -f config_srv --tail 1
+  676  docker ps
+  677  docker restart config_srv 
+  678  docker logs -f config_srv --tail 1
+  679  docker logs -f config_srv 
+  680  docker ps
+  681  docker restart mqtt_api_srv 
+  682  docker logs -f mqtt_api_srv --tail1 
+  683  docker logs -f mqtt_api_srv --tail 1
+  684  pwd
+  685  docker ps
+  686  host -ip
+  687  host -n
+  688  $HOST_I
+  689  echi $HOST_IP
+  690  echo $HOST_IP
+  691  docker ps
+  692  docker logs -f config_srv 
+  693  docker images
+  694  docker pull registry.xzlcorp.com/backend/config-server
+  695  docker logs -f config_srv 
+  696  docker run --name zipkin_es -d -p 9200:9200 -p 9300:9300 quay.io/openzipkin/zipkin-elasticsearch
+  697  docker ps
+  698  docker rm -f zipkin_es 
+  699  docker rm -f zipkin_srv 
+  700  docker ps
+  701  docker logs -f zipkin_srv 
+  702  docker restart zipkin_srv 
+  703  docker logs -f zipkin_srv 
+  704  docker logs -f config_srv 
+  705  docker logs -f eureka_srv 
+  706  docker logs -f mqtt_api_srv 
+  707  history >> LOCAL-EUREKA-CONFIG-daqiang-his.txt

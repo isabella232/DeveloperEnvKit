@@ -1,0 +1,328 @@
+    1  sshdconfig
+    2  sshd --help
+    3  vim /etc/ssh/ssh_config 
+    4  vi /etc/ssh/ssh_config
+    5  vi /etc/ssh/sshd_config 
+    6  vi /etc/ssh/sshd_config 
+    7  cat ~/.ssh/authorized_keys 
+    8  vi /etc/ssh/sshd_config 
+    9  vi /etc/ssh/sshd_config 
+   10  ls
+   11  ls
+   12  touch config.json
+   13  vi config.json 
+   14  apt-get install vim
+   15  ls
+   16  vim config.json 
+   17  ./shadowsocks-server --help
+   18  ./shadowsocks-server -c="config.json"
+   19  ./shadowsocks-server -c="config.json" -d
+   20  cat config.json 
+   21  vim config.json 
+   22  ./shadowsocks-server -c="config.json" -d
+   23  ./shadowsocks-server -c="config.json" > ss.log &
+   24  ps -ef|grep sh
+   25  ps -ef|grep sh
+   26  cat config.json 
+   27  ps
+   28  ls
+   29  cat ss.log 
+   30  date
+   31  ls
+   32  tail -f ss.log 
+   33  ls
+   34  top
+   35  ps -ef|grep ss
+   36  ps -ef|grep sh
+   37  ls
+   38  tail -f ss.log 
+   39  rm ss.log 
+   40  ls
+   41  history|grep shadowsocks-server 
+   42  ./shadowsocks-server -c="config.json" > ss.log &
+   43  tail -f ss.log 
+   44  git status
+   45  ls
+   46  cat ss.log
+   47  top
+   48  ls
+   49  ps -ef|grep shadowsocks-server 
+   50  cat ss.log
+   51  tail -f ss.log 
+   52  ping www.google.com
+   53  tail -f ss.log 
+   54  top
+   55  history|grep sh
+   56  kill 2786
+   57  ps -ef|grep shadow
+   58  ./shadowsocks-server -c="config.json" > ss.log &
+   59  ls
+   60  cat ss.log 
+   61  tail -f ss.log 
+   62  ps -ef|grep sha
+   63  ps -ef|grep java
+   64  tail -f ss.log 
+   65  ps
+   66  history
+   67  tail -f ss.log
+   68  ./shadowsocks-server -c="config.json" > ss.log &
+   69  top
+   70  ps 
+   71  ls
+   72  tail ss.log
+   73  ping www.google.com
+   74  ./shadowsocks-server -c="config.json" > ss.log &
+   75  ps
+   76  tail -f ss.log 
+   77  netstat -anp | grep 22222
+   78  ps
+   79  ps -ef
+   80  ps -ef | grep ss
+   81  ps -ef | grep shadow
+   82  ping www.google.com
+   83  cat ss.log 
+   84  pwd
+   85  pip 
+   86  apt-get install pip
+   87  apt-get install pip3
+   88  ls
+   89  py get-pip.py 
+   90  apt-get install python
+   91  python get-pip.py 
+   92  pip -v
+   93  pip install shadowsocks
+   94  ps -ef|grep shadowsocks-server 
+   95  kill 3880
+   96  ps -ef|grep shadowsocks-server 
+   97  ssserver -c=config.json 
+   98  ssserver -c=config.json  -d start
+   99  ssserver -c config.json  -d start
+  100  ps -ef | grep sha
+  101  ps -ef | grep ss
+  102  cat config.json 
+  103  cp config.json config-go.json 
+  104  vim config-go.json 
+  105  history
+  106  ./shadowsocks-server -c="config.json2" > ss.log &
+  107  kill 17811
+  108  ./shadowsocks-server -c="config-go.json" > ss.log &
+  109  ps -ef| grep shadow
+  110  cat config-go.json 
+  111  top
+  112  ps -ef | grep ss
+  113  ps -ef | grep shadow
+  114  sudo ps -ef | grep shadow
+  115  curl www.google.com
+  116  history | grep shadow
+  117  ls
+  118  tail ss.log
+  119  ls
+  120  cat config.json 
+  121  cat config-go.json 
+  122  ./shadowsocks-server -c="config-go.json" > ss-go.log &
+  123  ps -ef | grep shadow
+  124  ls
+  125  pwd
+  126  history | grep pip
+  127  history | grep ss
+  128  ssserver -c=config.json -d start
+  129  ssserver -c config.json -d start
+  130  ps -ef | grep ss
+  131  ls
+  132  apt-get
+  133  apt-get install node
+  134  apt-get install nodejs
+  135  apt-get update
+  136  apt-get install nodejs
+  137  nodejs -v
+  138  node -v
+  139  ks
+  140  ls
+  141  mkdir aqibot
+  142  mv index.js aqibot/
+  143  mb package.json aqibot/
+  144  mv package.json aqibot/
+  145  cd aqibot/
+  146  ls
+  147  npm install
+  148  npm 
+  149  apt-get install npm
+  150  npm -v
+  151  npm install 
+  152  npm install -g forever
+  153  forever start index.js 
+  154  nodejs index.js 
+  155  top
+  156  ps | grep nodejs
+  157  ps | grep index
+  158  top
+  159  vim index.js 
+  160  exit
+  161  vim aqibot/index.js 
+  162  cd aqibot/
+  163  nodejs index.js 
+  164  vim index.js 
+  165  nodejs index.js 
+  166  apt-get install node
+  167  apt-get uninstall nodejs
+  168  apt-get remove nodejs
+  169  curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+  170  curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+  171  apt-get install sudo 
+  172  curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+  173  sudo apt-get install -y nodejs
+  174  node -v
+  175  forever start index.js 
+  176  forever list
+  177  exit
+  178  forever list
+  179  forever stop 0
+  180  forever list
+  181  cd aqibot/
+  182  vim index.js 
+  183  forever start index.js 
+  184  forever list
+  185  forever list
+  186  tail -f /root/.forever/FX6r.log 
+  187  vim index.js 
+  188  forever list
+  189  forever restart 0
+  190  forever list
+  191  vim index.js 
+  192  forever list
+  193  forever restart 0
+  194  forever list
+  195  exit
+  196  forever list
+  197  forever restart 0
+  198  forever list
+  199  cat /root/.forever/FX6r.log
+  200  exit
+  201  date -R
+  202  cat /etc/localtime 
+  203  cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime 
+  204  date -R
+  205  exit
+  206  top
+  207  history
+  208  ps -ef | grep ss
+  209  ls
+  210  cat config.json 
+  211  tail -f ss.log
+  212  tail -f ss-go.log 
+  213  ls
+  214  rm ss.log
+  215  ls
+  216  ls
+  217  cat ss-go.log 
+  218  cat config.json 
+  219  ps -ef | grep ss
+  220  ls
+  221  cat config.json 
+  222  ssserver -c config.json -d restart
+  223  exit
+  224  ls
+  225  top
+  226  ls
+  227  ps aux | grep shadow
+  228  exit
+  229  pwd
+  230  ls
+  231  docker 
+  232  uname -r
+  233  sudo apt-get update
+  234  lsb_release 
+  235  ll
+  236  ls -Al
+  237  sudo apt-get install      apt-transport-https      ca-certificates      curl      gnupg2      software-properties-common
+  238  curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
+  239  sudo apt-key fingerprint 0EBFCD88
+  240  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/debian \
+  241     $(lsb_release -cs) \
+  242     stable"
+  243  sudo apt-get update
+  244  sudo apt-get install docker-ce
+  245  docker 
+  246  docker load -input nexus-20170710.tar 
+  247  docker load --input nexus-20170710.tar 
+  248  docker images
+  249  docker run -d -name nexus nexus-20170710
+  250  docker run -d --name nexus a4fc2be37993
+  251  docker ps
+  252  apt-get install nginx
+  253  vim /etc/nginx/sites-enabled/default 
+  254  vim /etc/nginx/sites-enabled/tmp-nexus
+  255  docker ps
+  256  vim /etc/nginx/sites-enabled/tmp-nexus
+  257  service nginx restart
+  258  service nginx status
+  259  tail -f /var/log/nginx/access.log 
+  260  ping 127.0.0.1:8081
+  261  curl 127.0.0.1:8081
+  262  docker ps
+  263  docker logs nexus-20170710.tar 
+  264  docker logs nexus
+  265  docker ps
+  266  docker stop nexus
+  267  docker images
+  268  docker ps
+  269  docker run -d --name nexus -p 8081:8081 a4fc2be37993
+  270  docker ps
+  271  docker ps -a 
+  272  docker rm db507780d286
+  273  docker run -d --name nexus -p 8081:8081 a4fc2be37993
+  274  docker ps
+  275  docker logs -f nexus
+  276  exit
+  277  ll
+  278  ls
+  279  ls
+  280  tar zxvf nexus-data.tar.gz 
+  281  ll
+  282  ls
+  283  cd nexus-data
+  284  ls
+  285  exit
+  286  ps
+  287  ps -aux
+  288  cat config.json 
+  289  ssserver -c config.json -d start
+  290  ls
+  291  ./shadowsocks-server -c config-go.json -d start
+  292  history | grep shadowsocks-server
+  293  ./shadowsocks-server -c="config-go.json" > ss-go.log &
+  294  exit
+  295  ps -aux
+  296  exit
+  297  ps -aux
+  298  ./shadowsocks-server status
+  299  history | grep ./shadowsocks-server
+  300  ll
+  301  ls 
+  302  tail -f ss-go.log 
+  303  ls -la
+  304  free -h
+  305  htop
+  306  top
+  307  ls -la
+  308  ps -aux 
+  309  docker ps
+  310  docker ps -a
+  311  cd /etc/nginx/
+  312  ls
+  313  ls -al
+  314  cd sites-available/
+  315  ls
+  316  cat default 
+  317  exit
+  318  ls .ssh/
+  319  vim .ssh/authorized_keys 
+  320  exit
+  321  exit
+  322  cd .ssh/
+  323  ls
+  324  vim authorized_keys 
+  325  exit
+  326  exit
+  327  curl http://www.google.com
+  328  history >> log.txt

@@ -1,0 +1,1000 @@
+    3  sudo apt-get install language-pack
+    4  apt search language-pack
+    5  apt search language-pack | less
+    6  sudo apt update 
+    7  ping baidu.com
+    8  sudo apt update 
+    9  ls
+   10  ping mirrors.tuna.tsinghua.edu.cn
+   11  sudo apt update 
+   12  ping  cn-north-1b.clouds.archive.ubuntu.com
+   13  sudo apt upgrade 
+   14  sudo apt update 
+   15  sudo vim /etc/apt/sources.list
+   16  cd /etc/apt/
+   17  ls
+   18  sudo cp sources.list sources.list.origin
+   19  ls
+   20  sudo vim sources.list
+   21  cd
+   22  sudo apt update 
+   23  sudo su
+   24  ls
+   25  sudo apt update 
+   26  ping baidu.com
+   27  sudo apt update 
+   28  ping  cn-north-1b.clouds.archive.ubuntu.com
+   29  ping mirrors.tuna.tsinghua.edu.cn
+   30  curl baidu.com
+   31  sudo apt update 
+   32  sudo apt upgrade 
+   33  ls
+   34  cd /etc/apt/
+   35  ls
+   36  sudo rm -rf sources.list
+   37  sudo mv sources.list.origin sources.list
+   38  ls
+   39  cd
+   40  sudo apt update 
+   41  sudo apt upgrade 
+   42  ls -la
+   43  ls
+   44  ls -la
+   45  ls
+   46  ls -la
+   47  ls
+   48  ls -la
+   49  ls
+   50  ls -la
+   51  hostname
+   52  dnsmasq 
+   53  dnsmasq --help
+   54  ls
+   55  ls -la
+   56  hostname -i
+   57  ls -la
+   58  ls
+   59  ls -la
+   60  free -h
+   61  sudo apt upgrade 
+   62  ls -la
+   63  ls
+   64  ls -la
+   65  ls
+   66  sudo apt update 
+   67  ls
+   68  ls -la
+   69  ls
+   70  sudo apt install docker
+   71  sudo apt uninstall docker
+   72  sudo apt remove docker
+   73  apt search docker
+   74  sudo apt install docker-engine
+   75  sudo apt-get install apt-transport-https ca-certificates
+   76  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+   77  sudo apt-get update
+   78  apt-cache policy docker-engine
+   79  sudo apt install docker-engine
+   80  docker run -d -p 8081:8081 --name nexus sonatype/docker-nexus3
+   81  sudo  systemctl enable docker
+   82  sudo service docker start
+   83  docker ps
+   84  sudo docker ps
+   85  sudo groupadd docker
+   86  sudo gpasswd -a ubuntu docker
+   87  sudo service docker restart
+   88  docker ps
+   89  sudo docker ps
+   90  docker ps
+   91  ls -la
+   92  ls
+   93  git
+   94  ls -la
+   95  ping ip-10-16-2-13.cn-north-1.compute.internal
+   96  ls -la
+   97  git
+   98  git --version
+   99  ls -la
+  100  apt search nexus
+  101  ls -la
+  102  ls
+  103  sudo add-apt-repository ppa:letsencrypt/letsencrypt
+  104  sudo apt-get update
+  105  sudo apt install certbot
+  106  ls
+  107  ls -la
+  108  ls
+  109  letsencrypt certonly --standalone -d git.xzlcorp.com
+  110  sudo letsencrypt certonly --standalone -d git.xzlcorp.com
+  111  sudo letsencrypt certonly --email ops@xinzhili.cn --standalone -d git.xzlcorp.com
+  112  sudo letsencrypt certonly --email ops@xinzhili.cn --standalone -d jenkins.xzlcorp.com
+  113  sudo letsencrypt certonly --email ops@xinzhili.cn --standalone -d registry.xzlcorp.com
+  114  ls
+  115  rm -rf certbot.log 
+  116  ls
+  117  cd /etc/
+  118  ls
+  119  cd nginx/
+  120  ls
+  121  cd sites-available/
+  122  ls
+  123  ls -la
+  124  ls
+  125  vim git
+  126  sudo vim git
+  127  sudo vim /etc/ssl/certs/dhparam.pem
+  128  ls
+  129  sudo vim git
+  130  ls
+  131  cd ..
+  132  ls
+  133  cd sites-enabled/
+  134  ls
+  135  sudo ln -s ../sites-available/git .
+  136  ls
+  137  cat git 
+  138  sudo service nginx restart
+  139  ls
+  140  ping 10.16.2.145
+  141  curl 10.16.2.145
+  142  ls -la
+  143  ls
+  144  cat git 
+  145  ls
+  146  sudo apt install zip
+  147  sudo su
+  148  ls
+  149  pwd
+  150  ls
+  151  pwd
+  152  ls -la
+  153  sudo chown -R ubuntu archive.zip 
+  154  pwd
+  155  sudo vim /etc/nginx/sites-enabled/git 
+  156  sudo service nginx restart
+  157  ls -la
+  158  ls
+  159  rm -rf archive.zip 
+  160  ls
+  161  ls -la
+  162  sudo vim /etc/nginx/sites-enabled/registry
+  163  cd /etc/nginx/sites-
+  164  cd /etc/nginx/sites-enabled/
+  165  ls
+  166  ls -la
+  167  ls
+  168  sudo cat git  > registry 
+  169  cat git
+  170  sudo vim registry 
+  171  sudo service nginx restart
+  172  ls -a
+  173  ls
+  174  sudo mv registry ../sites-available/
+  175  ls
+  176  sudo ln -s ../sites-available/registry .
+  177  ls
+  178  sudo service nginx restart
+  179  ls
+  180  ls -la
+  181  ls
+  182  sudo vim /etc/nginx/sites-enabled/git 
+  183  sudo service nginx restart
+  184  ls -la
+  185  ls
+  186  sudo vim /etc/nginx/sites-enabled/git 
+  187  sudo vim /etc/nginx/sites-enabled/registry 
+  188  sudo service nginx restart
+  189  sudo vim /etc/nginx/sites-enabled/registry 
+  190  sudo service nginx restart
+  191  sudo apt-get install iptables-persistent
+  192  sudo vim /etc/sysctl.conf
+  193  sudo sysctl -p
+  194  sudo vim /etc/ssh/sshd_config
+  195  service sshd restart
+  196  sudo service sshd restart
+  197  ls -la
+  198  sudo apt upgrade 
+  199  sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 22 -j DNAT --to-destination 10.16.2.145
+  200  sudo iptables -L
+  201  sudo iptables -t nat -A PREROUTING -i eth0 -p tcp --dport 22 -j DNAT --to-destination 10.16.2.145:22
+  202  sudo iptables -L
+  203  sudo iptables -t nat -A POSTROUTING -o eth0 -p tcp --dport 22 -j SNAT --to-source 10.16.1.85
+  204  sudo netfilter-persistent save
+  205  sudo vim /usr/share/netfilter-persistent/plugins.d/15-ip4tables
+  206  sudo vim /etc/iptables/rules.v4
+  207  sudo netfilter-persistent save
+  208  sudo vim /etc/iptables/rules.v4
+  209  sudo netfilter-persistent reload
+  210  sudo vim /etc/iptables/rules.v4
+  211  sudo netfilter-persistent save
+  212  sudo vim /etc/iptables/rules.v4
+  213  ls -la
+  214  ls
+  215  sudo vim /etc/nginx/sites-enabled/registry 
+  216  docker login 
+  217  docker login 10.16.2.145
+  218  docker login 10.16.2.145:5000
+  219  docker login 10.16.2.145
+  220  sudo vim /etc/nginx/sites-enabled/registry 
+  221  sudo service nginx restart 
+  222  sudo vim /etc/nginx/sites-enabled/registry 
+  223  sudo service nginx restart 
+  224  systemctl status nginx.service
+  225  sudo vim /etc/nginx/sites-enabled/registry 
+  226  sudo service nginx restart 
+  227  ls
+  228  sudo vim /etc/nginx/sites-enabled/registry 
+  229  ls
+  230  sudo service nginx restart 
+  231  ls -la
+  232  ls -la
+  233  sudo apt install nginx
+  234  sudo systemctl enable nginx
+  235  ls
+  236  sudo service nginx start
+  237  cd /etc/
+  238  ls
+  239  cd nginx/
+  240  ls
+  241  cd sites-available/
+  242  ls
+  243  vim maven
+  244  vim ../nginx.conf 
+  245  sudo vim ../nginx.conf 
+  246  sudo vim maven
+  247  ls
+  248  cd ..
+  249  ls
+  250  cd sites-enabled/
+  251  ls
+  252  sudo ln -s ../sites-available/maven .
+  253  ls
+  254  cat maven 
+  255  sudo service nginx restart
+  256  ping 10.16.2.13
+  257  ls -la
+  258  ls
+  259  ls -la
+  260  ping maven.xzlcorp.com
+  261  curl maven.xzlcorp.com
+  262  sudo vim /etc/nginx/sites-enabled/git 
+  263  cat /etc/ssl/certs/dhparam.pem;
+  264  ls
+  265  ls -la
+  266  sudo certbot certonly --email ops@xinzhili.cn --standalone -d jenkins.xlzcorp.com
+  267  sudo service nginx stop
+  268  sudo certbot certonly --email ops@xinzhili.cn --standalone -d jenkins.xlzcorp.com
+  269  nslookup jenkins.xzlcorp.com
+  270  ifconfig 
+  271  ls
+  272  sudo certbot certonly --email ops@xinzhili.cn --standalone -d jenkins.xlzcorp.com
+  273  ls
+  274  ifconfig 
+  275  sudo certbot certonly --email ops@xinzhili.cn --standalone -d jenkins.xlzcorp.com
+  276  ping jenkins.xzlcorp.com
+  277  nslookup jenkins.xzlcorp.com
+  278  ping 54.223.189.191
+  279  curl 54.223.189.191
+  280  sudo certbot certonly --email ops@xinzhili.cn --standalone -d jenkins.xlzcorp.com
+  281  sudo certbot certonly --email ops@xinzhili.cn --standalone -d git.xlzcorp.com
+  282  sudo ls /etc/letsencrypt/live/
+  283  ping git.xzlcorp.com
+  284  curl git.xzlcorp.com
+  285  sudo certbot certonly --email ops@xinzhili.cn --standalone -d git.xlzcorp.com
+  286  ping git.xzlcorp.com
+  287  curl git.xzlcorp.com
+  288  curl https://git.xzlcorp.com
+  289  sudo service nginx start
+  290  sudo certbot certonly --email ops@xinzhili.cn --standalone -d git.xlzcorp.com
+  291  sudo service nginx stop
+  292  sudo certbot certonly --email ops@xinzhili.cn --standalone -d git.xlzcorp.com
+  293  sudo apt update 
+  294  sudo apt update
+  295  sudo apt upgrade 
+  296  sudo certbot certonly --email ops@xinzhili.cn --standalone -d git.xlzcorp.com
+  297  sudo certbot certonly --email ops@xinzhili.cn --standalone -d jenkins.xlzcorp.com
+  298  sudo certbot certonly --email ops@xinzhili.cn --standalone -d xlzcorp.com
+  299  sudo certbot certonly --email ops@xinzhili.cn --standalone -d jenkins.xlzcorp.com
+  300  letsencrypt renew --dry-run --agree-tos
+  301  sudo letsencrypt renew 
+  302  sudo letsencrypt renew --agree-tos
+  303  sudo letsencrypt certonly --email ops@xinzhili.cn --standalone -d jenkins.xlzcorp.com
+  304  certbot --version
+  305  dig www.xzlcorp.com
+  306  sudo letsencrypt certonly --email ops@xinzhili.cn --standalone -d jenkins.xlzcorp.com
+  307  dig www.xzlcorp.com
+  308  sudo letsencrypt certonly --email ops@xinzhili.cn --standalone -d jenkins.xlzcorp.com
+  309  sudo letsencrypt certonly --standalone --email ops@xinzhili.cn -d jenkins.xlzcorp.com
+  310  vim /var/log/letsencrypt/letsencrypt.log
+  311  sudo vim /var/log/letsencrypt/letsencrypt.log
+  312  sudo letsencrypt certonly --standalone --email ops@xinzhili.cn -d jenkins.xzlcorp.com
+  313  ls
+  314  rm -rf certbot.log 
+  315  ls
+  316  ls -la
+  317  ls
+  318  sudo service nginx start
+  319  ping 10.16.2.162
+  320  cd /etc/nginx/
+  321  ls
+  322  cd sites-enabled/
+  323  ls
+  324  sudo ln -s ../sites-available/jenkins .
+  325  sudo service nginx restart 
+  326  ls
+  327  sudo vim jenkins 
+  328  sudo service nginx restart 
+  329  cd
+  330  ls
+  331  cd /etc/nginx/sites-
+  332  ls
+  333  cd /etc/nginx/
+  334  ls
+  335  cd sites-enabled/
+  336  ls
+  337  ls -la
+  338  ls
+  339  cd ..
+  340  ls
+  341  cd sites-available/
+  342  ls
+  343  sudo cp git jenkins
+  344  vim jenkins 
+  345  sudo vim jenkins 
+  346  sudo service nginx restart 
+  347  sudo vim /etc/nginx/nginx.conf 
+  348  sudo service nginx restart 
+  349  sudo su je
+  350  ls
+  351  sudo apt update 
+  352  sudo apt upgrade 
+  353  ls
+  354  sudo vim /etc/nginx/sites-enabled/jenkins 
+  355  sudo vim /etc/nginx/sites-enabled/git 
+  356  sudo vim /etc/nginx/sites-enabled/maven 
+  357  sudo vim /etc/nginx/def
+  358  sudo vim /etc/nginx/sites-enabled/default 
+  359  sudo vim /etc/nginx/nginx.conf 
+  360  ls
+  361  sudo su
+  362  /usr/bin/certbot renew --pre-hook "service nginx stop" --post-hook "service nginx start"
+  363  sudo /usr/bin/certbot renew --pre-hook "service nginx stop" --post-hook "service nginx start"
+  364  sudo vim /etc/nginx/sites-enabled/jenkins 
+  365  sudo service nginx restart 
+  366  ls -la
+  367  sudo vim /etc/nginx/sites-enabled/jenkins 
+  368  sudo vim /etc/nginx/nginx.conf 
+  369  sudo su
+  370  sudo /usr/bin/certbot renew --pre-hook "service nginx stop" --post-hook "service nginx start"
+  371  sudo vim /etc/nginx/sites-enabled/default 
+  372  ls
+  373  sudo certbot certonly --email ops@xinzhili.cn --standalone -d eureka.xzlcorp.com
+  374  sudo service nginx stop && sudo certbot certonly --email ops@xinzhili.cn --standalone -d eureka.xzlcorp.com && sudo service nginx start
+  375  sudo service nginx start 
+  376  ping eureka.xzlcorp.com
+  377  sudo service nginx stop && sudo certbot certonly --email ops@xinzhili.cn --standalone -d eureka.xzlcorp.com && sudo service nginx start
+  378  sudo service nginx start 
+  379  sudo service nginx stop && sudo certbot certonly --email ops@xinzhili.cn --standalone -d eureka.xzlcorp.com && sudo service nginx start
+  380  sudo service nginx stop && sudo certbot certonly --email ops@xinzhili.cn --standalone -d zipkin.xzlcorp.com && sudo service nginx start
+  381  cd /etc/nginx/sites-available/
+  382  ls
+  383  sudo cp jenkins eureka
+  384  sudo vim eureka 
+  385  cat registry 
+  386  sudo cp registry eureka 
+  387  sudo vim eureka 
+  388  cd
+  389  sudo service nginx restart 
+  390  ls
+  391  cd /etc/nginx/
+  392  ls
+  393  ls -al
+  394  ls
+  395  cd sites-enabled/
+  396  ls
+  397  sudo ln -s ../sites-available/eureka .
+  398  ls
+  399  sudo service nginx restart 
+  400  l
+  401  sls
+  402  ls
+  403  vim eureka 
+  404  cat eureka 
+  405  ping 10.0.1.252
+  406  sudo apt install traceroute
+  407  ping 10.0.1.252
+  408  curl 10.0.1.252:8761
+  409  traceroute 10.0.1.252
+  410  ping 10.0.1.252
+  411  curl 10.0.1.252:8761
+  412  ls
+  413  cd /etc/nginx/sites-available/
+  414  ls
+  415  cat eureka 
+  416  cd /etc/nginx/sites-available/
+  417  ls
+  418  sudo cp eureka zipkin
+  419  ls
+  420  sudo vim zipkin 
+  421  cd ..
+  422  ls
+  423  sl
+  424  cd sites-enabled/
+  425  ls
+  426  sudo ln -s ../sites-available/zipkin .
+  427  ls
+  428  sudo service nginx restart 
+  429  sudo vim /etc/nginx/sites-enabled/maven 
+  430  cd /etc/nginx/
+  431  ls
+  432  cd sites-enabled/
+  433  ls
+  434  cat eureka 
+  435  cat git 
+  436  ls
+  437  cat jenkins 
+  438  docker login registry.xzlcorp.com
+  439  ls
+  440  sudo vim /etc/nginx/sites-enabled/eureka 
+  441  sudo service nginx restart 
+  442  sudo vim /etc/nginx/sites-enabled/eureka 
+  443  sudo service nginx restart 
+  444  sudo vim /etc/nginx/sites-enabled/eureka 
+  445  sudo service nginx restart 
+  446  sudo apt upgrade 
+  447  sudo vim /etc/nginx/sites-enabled/zipkin 
+  448  sudo service nginx restart 
+  449  sudo vim /etc/nginx/sites-enabled/zipkin 
+  450  sudo service nginx restart 
+  451  sudo vim /etc/nginx/sites-enabled/eureka 
+  452  sudo service nginx restart 
+  453  sudo vim /etc/nginx/sites-enabled/eureka 
+  454  curl http://10.0.1.109:9009/turbine.stream
+  455  ping 10.0.1.109
+  456  curl http://10.0.1.109:9009
+  457  sudo vim /etc/nginx/sites-enabled/eureka 
+  458  ping  http://10.0.1.252:8761
+  459  curl  http://10.0.1.252:8761
+  460  sudo vim /etc/nginx/sites-enabled/eureka 
+  461  ls
+  462  sudo vim /etc/nginx/sites-enabled/eureka 
+  463  sudo service nginx restart 
+  464  sudo vim /etc/nginx/sites-enabled/eureka 
+  465  sudo service nginx restart 
+  466  sudo apt update 
+  467  sudo apt upgrade 
+  468  ls
+  469  sudo vim /etc/nginx/sites-enabled/zipkin 
+  470  sudo vim /etc/nginx/sites-enabled/eureka 
+  471  sudo  service nginx restart 
+  472  sudo vim /etc/nginx/sites-enabled/eureka 
+  473  ls
+  474  sudo vim /etc/nginx/sites-enabled/eureka 
+  475  sudo vim /etc/nginx/sites-enabled/zipkin 
+  476  sudo vim /etc/nginx/sites-enabled/eureka 
+  477  sudo service nginx restart 
+  478  sudo vim /etc/nginx/sites-enabled/eureka 
+  479  sudo service nginx restart 
+  480  sudo su 
+  481  ls
+  482  sudo certbot certonly --standalone --email ops@xinzhili.cn -d pan.xlzocorp.com
+  483  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d pan.xlzocorp.com && sudo service nginx start
+  484  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d pan.xzlcorp.com && sudo service nginx start
+  485  ls
+  486  ls -la
+  487  ls
+  488  ls -la
+  489  ls
+  490  ls -la
+  491  ls
+  492  ls -la
+  493  ls
+  494  cd
+  495  ls
+  496  ls -la
+  497  ls
+  498  sudo su 
+  499  ls
+  500  sudo chown -R ubuntu fullchain1.pem privkey1.pem 
+  501  ls
+  502  pwd
+  503  cd /etc/nginx/sites-available/
+  504  ls
+  505  ls -la
+  506  ls
+  507  sudo cp -a eureka leanote
+  508  ls
+  509  sudo vim leanote 
+  510  ls
+  511  cat leanote 
+  512  ls
+  513  cat leanote 
+  514  curl http://172.31.2.146:9003
+  515  cat eureka 
+  516  ;s
+  517  ls
+  518  cat jenkins 
+  519  ls
+  520  sudo vim /etc/nginx/sites-available/leanote 
+  521  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d note.xzlcorp.com && sudo service nginx start
+  522  ls
+  523  cd /etc/nginx/sites-available/
+  524  ls
+  525  cat leanote 
+  526  curl 10.16.2.204:9003
+  527  ping 10.16.2.204
+  528  ls
+  529  cat maven 
+  530  ping 10.16.2.204
+  531  curl 10.16.2.204
+  532  curl 10.16.2.204:9003
+  533  ls
+  534  ls -la
+  535  ls
+  536  cat leanote 
+  537  ls
+  538  cd ..
+  539  ls
+  540  cd sites-enabled/
+  541  ls
+  542  sudo ln -s ../sites-available/leanote .
+  543  ls
+  544  sudo service nginx restart 
+  545  sudo rm -rf /etc/nginx/sites-enabled/leanote 
+  546  ls
+  547  sudo service nginx restart 
+  548  zip -r nginx.zip /etc/nginx/sites-*
+  549  ls
+  550  l s-la
+  551  ls
+  552  ls -la
+  553  vim nginx.zip 
+  554  ls
+  555  ls -la
+  556  rm -rf nginx.zip 
+  557  zip -r nginx.zip /etc/nginx/sites-available
+  558  ls -la
+  559  ls
+  560  ls -la
+  561  ls
+  562  ls -la
+  563  pwd
+  564  ls
+  565  cd /etc/nginx/sites-enabled/
+  566  ls
+  567  cat eureka 
+  568  cat git 
+  569  cd
+  570  ls -la
+  571  ls
+  572  ls -la
+  573  ls
+  574  echo $JAVA_HOME
+  575  sudo add-apt-repository ppa:webupd8team/java
+  576  sudo apt install  oracle-java8-installer
+  577  apt search oracle
+  578  apt search oracle-java
+  579  sudo apt update 
+  580  apt search oracle-java
+  581  sudo apt install oracle-java8-installer
+  582  java -version
+  583  sudo vim /etc/nginx/sites-enabled/default 
+  584  sudo service nginx restart 
+  585  sudo vim /etc/nginx/sites-enabled/default 
+  586  sudo service nginx restart 
+  587  cd /etc/nginx/sites-enabled/
+  588  ls
+  589  sudo rm -rf eureka 
+  590  sudo service nginx restart 
+  591  cd
+  592  sudo service nginx restart 
+  593  sudo apt remove oracle-java8-installer oracle-java8-set-default 
+  594  java
+  595  ls
+  596  lsl
+  597  ls
+  598  cd /etc/nginx/sites-enabled/
+  599  ls
+  600  sudo ln -s ../sites-available/eureka .
+  601  ls
+  602  sudo service nginx restart 
+  603  ls -la
+  604  cd
+  605  ls /etc/nginx/sites-enabled/
+  606  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d eureka.xzlcorp.com -d git.xzlcorp.com -d jenkins.xzlcorp.com -d registry.xzlcorp.com -d zipkin.xzlcorp.com && sudo service nginx start
+  607  ls
+  608  sudo service nginx restart 
+  609  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d git.xzlcorp.com  && sudo service nginx start
+  610  ls -la
+  611  s
+  612  ls
+  613  sudo rm -rf /etc/nginx/sites-enabled/eureka 
+  614  ls
+  615  sudo service nginx restart 
+  616  cd /etc/nginx/sites-enabled/
+  617  ls
+  618  ls -la
+  619  ls
+  620  cd ../sites-available/
+  621  ls
+  622  lsl
+  623  ls
+  624  cat maven 
+  625  cat eureka 
+  626  ls
+  627  sudo mv eureka eureka.https
+  628  ls
+  629  cat eureka.https 
+  630  sudo cp -a maven eureka
+  631  ls
+  632  lsl
+  633  ls
+  634  cat eureka
+  635  cat eureka.https 
+  636  vim eureka
+  637  sudo vim eureka
+  638  sudo service nginx restart 
+  639  ls
+  640  cd ..
+  641  ls
+  642  lsl
+  643  cd sites-enabled/
+  644  ls
+  645  sudo ln -s ../sites-available/eureka .
+  646  sudo service nginx restart 
+  647  ls -la
+  648  sudo vim /etc/nginx/sites-enabled/eureka 
+  649  ls
+  650  cd /etc/nginx/sites-enabled/
+  651  ls
+  652  cd ..
+  653  ls
+  654  cd sites-available/
+  655  ls
+  656  cat eureka
+  657  cat eureka.https 
+  658  sudo vim eureka
+  659  sudo service nginx restart 
+  660  ls
+  661  cd /etc/nginx/sites-
+  662  cd /etc/nginx/sites-n
+  663  cd /etc/nginx/sites-available/
+  664  ls
+  665  cat eureka
+  666  cat eureka > s
+  667  ls
+  668  sudo cat eureka > s
+  669  sudo cp eureka s
+  670  ls
+  671  vim s 
+  672  sudo vim s 
+  673  ls
+  674  cd ..
+  675  ls
+  676  sudo ln -s sites-available/s sites-enabled/s
+  677  sudo service nginx restart 
+  678  ls
+  679  cd sites-enabled/
+  680  ls
+  681  sudo vim s 
+  682  ls -la
+  683  sudo rm -rf s
+  684  ls
+  685  sudo ln -s ../sites-available/s .
+  686  ls
+  687  sudo service nginx restart 
+  688  sudo vim s 
+  689  ls
+  690  cat s 
+  691  sudo vim s 
+  692  sudo service nginx restart 
+  693  curl -i http://10.0.1.237:9008/admin
+  694  cat eureka 
+  695  curl -i http://10.0.1.237:9008/admin
+  696  sudo vim s 
+  697  sudo service nginx restart 
+  698  sudo vim s 
+  699  sudo service nginx restart 
+  700  sudo vim s 
+  701  sudo service nginx restart 
+  702  systemctl status nginx.service
+  703  sudo service nginx restart 
+  704  systemctl status nginx.service
+  705  sudo vim s 
+  706  sudo service nginx restart 
+  707  sudo vim /etc/nginx/sites-enabled/s 
+  708  sudo service nginx restart 
+  709  sudo vim /etc/nginx/sites-enabled/s 
+  710  sudo apt upgrade 
+  711  cd /etc/nginx/sites-enabled/
+  712  ls
+  713  cat git 
+  714  cat jenkins 
+  715  sudo vim /etc/nginx/sites-enabled/eureka 
+  716  curl 10.0.1.109:9090
+  717  ls
+  718  sudo service nginx restart 
+  719  sudo vim /etc/nginx/sites-enabled/eureka 
+  720  sudo service nginx restart 
+  721  sudo vim /etc/nginx/sites-enabled/eureka 
+  722  ls
+  723  cd /etc/nginx/sites-enabled/
+  724  ls
+  725  cd ..
+  726  ls
+  727  cd a
+  728  cd sites-available/
+  729  ls
+  730  sudo cp eureka sba
+  731  sudo vim sba 
+  732  cd ../sites-enabled/
+  733  sudo ln -s ../sites-available/sba .
+  734  sudo service nginx restart 
+  735  sudo vim /etc/nginx/sites-enabled/eureka 
+  736  s
+  737  ls -la
+  738  ls
+  739  git status 
+  740  sudo vim /etc/nginx/sites-available/eureka
+  741  sudo vim /etc/nginx/sites-enabled/jenkins 
+  742  sudo service nginx restart 
+  743  sudo vim /etc/nginx/sites-enabled/git 
+  744  sudo service nginx restart 
+  745  sudo vim /etc/nginx/sites-enabled/s
+  746  sudo vim /etc/nginx/sites-enabled/sba 
+  747  sudo vim /etc/apt/sources.list
+  748  sudo vim /etc/apt/sources.list.d/docker.list
+  749  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+  750  echo "deb https://mirrors.tuna.tsinghua.edu.cn/docker/apt/repo ubuntu-xenial main" | sudo tee /etc/apt/sources.list.d/docker.list
+  751  sudo apt update 
+  752  sudo apt upgrade 
+  753  sudo apt autoremove 
+  754  sudo apt upgrade 
+  755  sudo crontab 
+  756  sudo crontab -l
+  757  sudo /usr/bin/certbot renew --pre-hook "service nginx stop" --post-hook "service nginx start"
+  758  ping acme-v01.api.letsencrypt.org
+  759  sudo apt update 
+  760  sudo apt upgrade 
+  761  sudo apt autoremove 
+  762  sudo su
+  763  ls
+  764  sudo su
+  765  ls
+  766  history | grep cert
+  767  sudo certbot certonly --email ops@xinzhili.cn --standalone -d zipkin.xzlcorp.com
+  768  sudo service nginx stop
+  769  sudo certbot certonly --email ops@xinzhili.cn --standalone -d zipkin.xzlcorp.com
+  770  sudo service nginx start 
+  771  ls
+  772  ping pan.xzlcorp.com
+  773  sudo certbot certonly --email ops@xinzhili.cn --standalone -d pan.xzlcorp.com
+  774  sudo service nginx stop
+  775  sudo certbot certonly --email ops@xinzhili.cn --standalone -d pan.xzlcorp.com
+  776  sudo service nginx start
+  777  ls
+  778  sudo su
+  779  ls /etc/letsencrypt/
+  780  ls
+  781  cd
+  782  ls
+  783  certbot --help
+  784  certbot renew
+  785  sudo certbot renew
+  786  sudo service nginx stop
+  787  sudo certbot renew
+  788  sudo service nginx restart
+  789  ls
+  790  ls -la
+  791  sudo certbot certonly --email ops@xinzhili.cn --standalone -d jenkins.xzlcorp.com
+  792  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d jenkins.xzlcorp.com  && sudo service nginx start
+  793  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d git.xzlcorp.com  && sudo service nginx start
+  794  ls
+  795  sudo su
+  796  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d registry.xzlcorp.com  && sudo service nginx start
+  797  ls
+  798  cd /etc/nginx/
+  799  ls
+  800  cd sites-available/
+  801  ls
+  802  cat sba 
+  803  ls -la
+  804  cat sba 
+  805  sudo cp -a sba mis
+  806  ls
+  807  cat mis 
+  808  sudo vim mis 
+  809  ls
+  810  ls -la
+  811  ls
+  812  sudo ln -s mis ../sites-enabled/mis
+  813  ls
+  814  ls -la
+  815  cd ../sites-enabled/
+  816  ls
+  817  ls -la
+  818  sudo rm -rf mis 
+  819  ls
+  820  sudo ln -s ../sites-available/mis .
+  821  ls
+  822  sudo service nginx restart 
+  823  ls -la
+  824  sudo vim /etc/nginx/sites-enabled/mis 
+  825  cat /etc/nginx/sites-enabled/sba 
+  826  cat /etc/nginx/sites-enabled/mis 
+  827  ls
+  828  ls -la
+  829  sudo service nginx restart 
+  830  ping 10.0.2.61
+  831  sudo vim /etc/nginx/sites-enabled/m
+  832  sudo vim /etc/nginx/sites-enabled/mis 
+  833  sudo service nginx restart 
+  834  ping     10.0.1.252
+  835  sudo vim /etc/nginx/sites-enabled/sba 
+  836  sudo vim /etc/nginx/sites-enabled/mis 
+  837  sudo vim /etc/nginx/sites-enabled/jenkins 
+  838  sudo vim /etc/nginx/sites-enabled/git 
+  839  sudo vim /etc/nginx/sites-enabled/registry 
+  840  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d pan.xzlcorp.com  && sudo service nginx start
+  841  ls
+  842  sudo cp /etc/letsencrypt/live/pan.xzlcorp.com/fullchain.pem .
+  843  sudo cp /etc/letsencrypt/live/pan.xzlcorp.com/privkey.pem .
+  844  ls
+  845  sudo vim /etc/nginx/sites-enabled/mis 
+  846  vim /etc/nginx/sites-enabled/mis 
+  847  ls
+  848  ls -la
+  849  ls
+  850  sudo vim /etc/nginx/sites-enabled/sba 
+  851  sudo service nginx restart
+  852  sudo service nginx status
+  853  sudo vim /etc/nginx/sites-enabled/sba 
+  854  sudo service nginx restart 
+  855  sudo vim /etc/nginx/sites-enabled/sba 
+  856  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d git.xzlcorp.com  && sudo service nginx start
+  857  sudo service nginx start
+  858  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d git.xzlcorp.com  && sudo service nginx start
+  859  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d jenkins.xzlcorp.com  && sudo service nginx start
+  860  sudo su
+  861  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d registry.xzlcorp.com  && sudo service nginx start
+  862  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d pan.xzlcorp.com  && sudo service nginx start
+  863  sudo service nginx start
+  864  ll
+  865  certbot list
+  866  vim /etc/ca-certificates.conf 
+  867  vim /etc/nginx/sites-enabled/git 
+  868  ls /etc/letsencrypt/renewal/git.xzlcorp.com.conf 
+  869  vim /etc/letsencrypt/renewal/git.xzlcorp.com.conf 
+  870  certbot 
+  871  certbot list
+  872  certbot renew /etc/letsencrypt/renewal/git.xzlcorp.com.conf 
+  873  vim /etc/nginx/sites-enabled/sba 
+  874  exit
+  875  docker ps
+  876  docker
+  877  docker logs
+  878  ps
+  879  docker ps
+  880  docker logs STATAUS
+  881  docker logs STATUS
+  882  docker ps -a
+  883  docker ps -p
+  884  docker ps -q
+  885  docker ps
+  886  docker ps -a
+  887  docker images 
+  888  exit
+  889  docker ps
+  890  exit
+  891  docker ps
+  892  clear
+  893  exit
+  894  docker ps
+  895  exit
+  896  docker ps
+  897  sudo vim /etc/nginx/sites-enabled/sba 
+  898  sudo vim /etc/nginx/sites-available/sba 
+  899  sudo service nginx restart 
+  900  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d git.xzlcorp.com  -d jenkins.xzlcorp.com && sudo service nginx start
+  901  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d registry.xzlcorp.com  && sudo service nginx start
+  902  cd /etc/letsencrypt/
+  903  ls
+  904  cd live/
+  905  ls
+  906  sudo su
+  907  cd
+  908  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d git.xzlcorp.com  && sudo service nginx start
+  909  sudo service nginx stop && sudo certbot certonly --standalone --email ops@xinzhili.cn -d jenkins.xzlcorp.com  && sudo service nginx start
+  910  ls -la
+  911  ls
+  912  ps -ef | grep nginx
+  913  cd /etc/nginx
+  914  ls
+  915  vim nginx.conf
+  916  vim sites-available/
+  917  vim conf.d
+  918  vim sites-enabled/
+  919  vim history
+  920  history
+  921  history>cmd.txt
+  922  cd
+  923  history>cmd
+  924  ls
+  925  sz cmd
+  926  sudo apt install lrzsz
+  927  ls
+  928  sz cmd
+  929  ls
+  930  sz cmd
+  931  ls
+  932  ls
+  933  sz cmd
+  934  ls
+  935  sz cmd
+  936  ls
+  937  sz cmd
+  938  history
+  939  ls
+  940  rm cmd
+  941  ls
+  942  vim certbot.log 
+  943  ls
+  944  cd ..
+  945  ls
+  946  cd /etc/nginx/
+  947  ls
+  948  cd sites-enabled/
+  949  ls
+  950  cd mis
+  951  vim mis
+  952  ls
+  953  cd ..
+  954  ls
+  955  ls
+  956  vim test
+  957  ls
+  958  man zip
+  959  zip /ect/nginx/ ./
+  960  zip -r ./nginx_conf.zip /etc/nginx/*
+  961  ls
+  962  rm -rf nginx_conf.zip 
+  963  ls
+  964  ifconfig
+  965  docker login 10.16.2.145
+  966  docker images
+  967  docker images -a
+  968  docker images ls
+  969  ps -ef | grep docker
+  970  ls
+  971  ssh 10.16.2.162
+  972  ssh ec2-user@10.16.2.162
+  973  ifconfig
+  974  ping 10.16.2.162
+  975  type ping
+  976  ping 10.16.1.0
+  977  ping 10.16.1.1
+  978  ping 10.16.2.1
+  979  exit
+  980  ls -al /bin/
+  981  echo $ENV
+  982  echo $env
+  983  echo $SHELL_ENV
+  984  env
+  985  java -version
+  986  java --version
+  987  java version
+  988  javac -version
+  989  which java
+  990  type java
+  991  ssh -p 22222 10.0.2.214
+  992  ssh ec2-user@10.0.2.214
+  993  exit
+  994  ls
+  995  ls -al
+  996  cd .ssh/
+  997  ls
+  998  cat authorized_keys 
+  999  ifconfig
+ 1000  exit
+ 1001  ls
+ 1002  history >> SHARED-NGINX-daqiang-his.txt

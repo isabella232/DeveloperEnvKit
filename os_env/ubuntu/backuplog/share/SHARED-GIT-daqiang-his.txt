@@ -1,0 +1,741 @@
+    1  sudo apt-get install language-pack-UTF-8
+    2  sudo apt-get install language-pack-UTF
+    3  sudo apt-get install language-pack
+    4  apt search language-pack
+    5  apt search language-pack | less
+    6  sudo apt update 
+    7  ping baidu.com
+    8  sudo apt update 
+    9  ls
+   10  ping mirrors.tuna.tsinghua.edu.cn
+   11  sudo apt update 
+   12  ping  cn-north-1b.clouds.archive.ubuntu.com
+   13  sudo apt upgrade 
+   14  sudo apt update 
+   15  sudo vim /etc/apt/sources.list
+   16  cd /etc/apt/
+   17  ls
+   18  sudo cp sources.list sources.list.origin
+   19  ls
+   20  sudo vim sources.list
+   21  cd
+   22  sudo apt update 
+   23  sudo su
+   24  ls
+   25  sudo apt update 
+   26  ping baidu.com
+   27  sudo apt update 
+   28  ping  cn-north-1b.clouds.archive.ubuntu.com
+   29  ping mirrors.tuna.tsinghua.edu.cn
+   30  curl baidu.com
+   31  sudo apt update 
+   32  sudo apt upgrade 
+   33  ls
+   34  cd /etc/apt/
+   35  ls
+   36  sudo rm -rf sources.list
+   37  sudo mv sources.list.origin sources.list
+   38  ls
+   39  cd
+   40  sudo apt update 
+   41  sudo apt upgrade 
+   42  ls -la
+   43  ls
+   44  ls -la
+   45  ls
+   46  ls -la
+   47  ls
+   48  ls -la
+   49  ls
+   50  ls -la
+   51  hostname
+   52  dnsmasq 
+   53  dnsmasq --help
+   54  ls
+   55  ls -la
+   56  hostname -i
+   57  ls -la
+   58  ls
+   59  ls -la
+   60  free -h
+   61  sudo apt upgrade 
+   62  ls -la
+   63  ls
+   64  ls -la
+   65  ls
+   66  sudo apt update 
+   67  ls
+   68  ls -la
+   69  ls
+   70  sudo apt install docker
+   71  sudo apt uninstall docker
+   72  sudo apt remove docker
+   73  apt search docker
+   74  sudo apt install docker-engine
+   75  sudo apt-get install apt-transport-https ca-certificates
+   76  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+   77  sudo apt-get update
+   78  apt-cache policy docker-engine
+   79  sudo apt install docker-engine
+   80  docker run -d -p 8081:8081 --name nexus sonatype/docker-nexus3
+   81  sudo  systemctl enable docker
+   82  sudo service docker start
+   83  docker ps
+   84  sudo docker ps
+   85  sudo groupadd docker
+   86  sudo gpasswd -a ubuntu docker
+   87  sudo service docker restart
+   88  docker ps
+   89  sudo docker ps
+   90  docker ps
+   91  ls -la
+   92  ls
+   93  git
+   94  ls -la
+   95  ping ip-10-16-2-13.cn-north-1.compute.internal
+   96  ls -la
+   97  git
+   98  git --version
+   99  ls -la
+  100  apt search nexus
+  101  ls -la
+  102  sudo apt-get install curl openssh-server ca-certificates postfix
+  103  curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh | sudo bash
+  104  sudo vim /etc/apt/sources.list.d/gitlab_gitlab-ce.list 
+  105  sudo apt update 
+  106  sudo apt install gitlab-ce
+  107  sudo vim /etc/gitlab/gitlab.rb 
+  108  sudo gitlab-ctl reconfigure
+  109  ls
+  110  sudo cp 1478085594_gitlab_backup.tar /var/opt/gitlab/backups/
+  111  sudo gitlab-ctl stop unicorn
+  112  sudo gitlab-ctl stop sidekiq
+  113  sudo gitlab-ctl status
+  114  sudo gitlab-rake gitlab:backup:restore BACKUP=1478085594
+  115  sudo su
+  116  sudo gitlab-rake gitlab:backup:restore BACKUP=1478085594
+  117  ls
+  118  ls -la
+  119  ls
+  120  sudo cp 1478085594_gitlab_backup.tar  /var/opt/gitlab/backups/
+  121  sudo chown -R git /var/opt/gitlab/backups/1478085594_gitlab_backup.tar
+  122  sudo gitlab-rake gitlab:backup:restore BACKUP=1478085594
+  123  sudo vim /etc/gitlab/gitlab.rb 
+  124  sudo gitlab-ctl reconfigure
+  125  ls -la
+  126  ls
+  127  ls -la
+  128  ls
+  129  sudo vim /etc/gitlab/gitlab.rb 
+  130  sudo gitlab-ctl reconfigure
+  131  sudo gitlab-ctl restart
+  132  sudo -u git -H bundle exec rake gitlab:shell:setup RAILS_ENV=production
+  133  sudo gitlab-ctl --help
+  134  sudo gitlab-rake gitlab:env:info
+  135  sudo gitlab-rake gitlab:shell:setup RAILS_ENV=production
+  136  sudo gitlab-ctl restart
+  137  ls
+  138  rm -rf 1478085594_gitlab_backup.tar
+  139  ls
+  140  sudo mv 1478140429_gitlab_backup.tar /var/opt/gitlab/backups/
+  141  sudo chown -R git /var/opt/gitlab/backups/1478140429_gitlab_backup.tar
+  142  sudo gitlab-rake gitlab:backup:restore BACKUP=1478140429
+  143  sudo vim /etc/gitlab/gitlab.rb 
+  144  ls -la
+  145  ls
+  146  sudo gitlab-ctl start
+  147  sudo gitlab-rake gitlab:check SANITIZE=true
+  148  ls -la
+  149  sudo gitlab-ctl restart
+  150  sudo apt-get install letsencrypt
+  151  sudo apt install certbot
+  152  apt search certbot
+  153  apt info letsencrypt
+  154  apt --help
+  155  apt show letsencrypt
+  156  sudo vim /etc/gitlab/gitlab.rb 
+  157  sudo su git
+  158  ls
+  159  cd
+  160  ls
+  161  sudo cp 1478153564_gitlab_backup.tar /var/opt/gitlab/backups/
+  162  sudo chown -R git /var/opt/gitlab/backups/1478153564_gitlab_backup.tar
+  163  ls
+  164  sudo gitlab-ctl stop unicorn
+  165  sudo gitlab-ctl stop sidekiq
+  166  sudo gitlab-ctl status
+  167  sudo gitlab-rake gitlab:backup:restore BACKUP=1478153564
+  168  sudo gitlab-ctl start
+  169  sudo gitlab-rake gitlab:check SANITIZE=true
+  170  sudo chown -R git /var/opt/gitlab/gitlab-rails/uploads
+  171  sudo gitlab-rake gitlab:check SANITIZE=true
+  172  sudo su git
+  173  sudo vim /etc/gitlab/gitlab.rb 
+  174  sudo gitlab-ctl restart
+  175  sudo gitlab-ctl reconfigure
+  176  sudo vim /etc/gitlab/gitlab.rb 
+  177  curl 127.0.0.1
+  178  sudo gitlab-ctl start
+  179  sudo vim /etc/gitlab/gitlab.rb 
+  180  sudo gitlab-ctl start
+  181  sudo gitlab-ctl reconfigure
+  182  sudo gitlab-ctl start
+  183  ls
+  184  systemctl status nginx
+  185  ls
+  186  ps aux | grep gitlab
+  187  sudo vim /etc/gitlab/gitlab.rb 
+  188  sudo gitlab-ctl reconfigure
+  189  sudo gitlab-ctl status
+  190  sudo vim /etc/gitlab/gitlab.rb 
+  191  sudo gitlab-ctl stop
+  192  sudo gitlab-ctl reconfigure
+  193  sudo gitlab-ctl start
+  194  sudo gitlab-ctl reconfigure
+  195  sudo gitlab-ctl status
+  196  sudo vim /etc/gitlab/gitlab.rb 
+  197  sudo gitlab-ctl reconfigure
+  198  sudo gitlab-ctl status
+  199  sudo vim /etc/gitlab/gitlab.rb 
+  200  sudo gitlab-ctl reconfigure
+  201  sudo gitlab-ctl status
+  202  sudo vim /etc/gitlab/gitlab.rb 
+  203  sudo gitlab-ctl reconfigure
+  204  sudo gitlab-ctl status
+  205  sudo gitlab-ctl restart
+  206  sudo gitlab-ctl status
+  207  sudo gitlab-ctl log
+  208  sudo gitlab-ctl tail
+  209  sudo cp archive/git.xzlcorp.com/fullchain1.pem /etc/gitlab/ssl/git.xzlcorp.com.crt
+  210  sudo mkdir /etc/gitlab/ssl
+  211  sudo cp archive/git.xzlcorp.com/fullchain1.pem /etc/gitlab/ssl/git.xzlcorp.com.crt
+  212  sudo cp archive/git.xzlcorp.com/privkey1.pem /etc/gitlab/ssl/git.xzlcorp.com.key
+  213  sudo cp archive/registry.xzlcorp.com/fullchain1.pem /etc/gitlab/ssl/registry.xzlcorp.com.crt
+  214  sudo cp archive/registry.xzlcorp.com/privkey1.pem /etc/gitlab/ssl/registry.xzlcorp.com.key
+  215  sudo gitlab-ctl restart
+  216  sudo gitlab-ctl status
+  217  ls -la
+  218  curl 127.0.0.1
+  219  curl 127.0.0.1:443
+  220  sudo gitlab-ctl status
+  221  sudo gitlab-ctl log
+  222  sudo gitlab-ctl tail
+  223  ls
+  224  ls -la
+  225  ls
+  226  unzip -x archive.zip 
+  227  sudo apt install unzip
+  228  ls
+  229  unzip -x archive.zip 
+  230  ls
+  231  cd /etc/gitlab/ssl/
+  232  ls
+  233  ls -la
+  234  cat registry.xzlcorp.com.crt 
+  235  ls
+  236  ls -la
+  237  ls
+  238  sudo gitlab-ctl restart
+  239  sudo gitlab-ctl tail
+  240  curl 127.0.0.1
+  241  sudo gitlab-ctl tail
+  242  cat /etc/gitlab/ssl/registry.xzlcorp.com.key
+  243  sudo vim /etc/gitlab/gitlab.rb 
+  244  sudo gitlab-ctl reconfigure
+  245  sudo gitlab-ctl staus
+  246  sudo gitlab-ctl status
+  247  ls
+  248  sudo vim /etc/sysctl.conf 
+  249  sudo sysctl -p
+  250  sudo apt-get install iptables-persistent
+  251  pwd
+  252  sudo apt-get remove iptables-persistent
+  253  sudo vim /etc/sysctl.conf 
+  254  sudo sysctl -p
+  255  ls -la
+  256  sudo vim /etc/gitlab/gitlab.rb 
+  257  sudo gitlab-ctl reconfigure
+  258  sudo gitlab-ctl status
+  259  cd /etc/nginx
+  260  ls
+  261  iptables -L
+  262  sudo iptables -L
+  263  ls
+  264  hostname -i
+  265  ls
+  266  ls -la
+  267  ls
+  268  rm -rf archive archive.zip 1478153564_gitlab_backup.tar *
+  269  ;s
+  270  ls
+  271  unzip -x archive.zip 
+  272  ls
+  273  sudo cp archive/registry.xzlcorp.com/privkey1.pem /etc/gitlab/ssl/registry.xzlcorp.com.key
+  274  sudo cp archive/registry.xzlcorp.com/fullchain1.pem /etc/gitlab/ssl/registry.xzlcorp.com.crt
+  275  sudo cp archive/git.xzlcorp.com/privkey1.pem /etc/gitlab/ssl/git.xzlcorp.com.key
+  276  sudo cp archive/git.xzlcorp.com/fullchain1.pem /etc/gitlab/ssl/git.xzlcorp.com.crt
+  277  ls
+  278  sudo gitlab-ctl restart
+  279  sudo gitlab-ctl status
+  280  ls -la
+  281  ls
+  282  ls -la
+  283  ls
+  284  cd /etc/gitlab/ssl/
+  285  ls
+  286  sudo vim /etc/gitlab/gitlab.rb 
+  287  ls
+  288  ls -la
+  289  ls
+  290  sudo gitlab-ctl reconfigure
+  291  sudo vim /etc/gitlab/gitlab.rb 
+  292  sudo gitlab-ctl reconfigure
+  293  sudo gitlab-ctl status
+  294  ls -la
+  295  sudo gitlab-ctl status
+  296  sudo gitlab-ctl port
+  297  ps aux | grep regi
+  298  cd /opt/gitlab/embedded/bin/registry
+  299  cd /opt/gitlab/embedded/bin/
+  300  ls
+  301  sudo cat config
+  302  sudo cat config.yml
+  303  cd ..
+  304  ls
+  305  cd conf/
+  306  ls
+  307  cd ..
+  308  ls
+  309  cd ..
+  310  ls
+  311  netstat 12912
+  312  netstat -nap | grep 12912 
+  313  sudp netstat -nap | grep 12912 
+  314  sudo netstat -nap | grep 12912 
+  315  pwd
+  316  docker login 127.0.0.1
+  317  sudo vim /etc/gitlab/gitlab.rb 
+  318  sudo gitlab-ctl reconfigure
+  319  ls -la
+  320  ls
+  321  ls -la
+  322  ls
+  323  ls -la
+  324  ls
+  325  ls -la
+  326  sudo vim /etc/gitlab/gitlab.rb 
+  327  sudo gitlab-ctl reconfigure
+  328  sudo vim /etc/gitlab/gitlab.rb 
+  329  sudo gitlab-ctl reconfigure
+  330  sudo vim /etc/gitlab/gitlab.rb 
+  331  sudo gitlab-ctl reconfigure
+  332  ls -la
+  333  ls
+  334  sudo vim /etc/gitlab/gitlab.rb 
+  335  ls -la
+  336  sudo apt upgrade 
+  337  sudo vim /etc/gitlab/gitlab.rb 
+  338  sudo gitlab-ctl reconfigugre
+  339  sudo gitlab-ctl reconfigure
+  340  ls -la
+  341  cd /var/opt/gitlab/
+  342  ls
+  343  cd backups/
+  344  ls
+  345  cd backups/
+  346  ls
+  347  sudo su
+  348  cd
+  349  sudo vim /etc/gitlab/gitlab.rb 
+  350  sudo gitlab-ctl reconfigure
+  351  sudo gitlab-rake gitlab:backup:create
+  352  sudo vim /etc/gitlab/gitlab.rb 
+  353  ls -la
+  354  sudo su
+  355  sudo gitlab-rake --help
+  356  sudo gitlab-rake gitlab:backup:delete
+  357  sudo gitlab-rake --tasls
+  358  sudo gitlab-rake --tasks
+  359  ls -la
+  360  ls
+  361  rm -rf archive*
+  362  ls
+  363  ls -la
+  364  sudo su -
+  365  sudo vim /etc/gitlab/gitlab.rb 
+  366  ls
+  367  sudo vim /etc/gitlab/gitlab.rb 
+  368  sudo gitlab-ctl reconfigure
+  369  ls -la
+  370  ls
+  371  ls -la
+  372  ls
+  373  ls -la
+  374  ls
+  375  ls -la
+  376  ls
+  377  ping maven.xzlcorp.com
+  378  ls -la
+  379  ls
+  380  ls -la
+  381  sudo su
+  382  sudo gitlab-ctl reconfigure
+  383  sudo su
+  384  ls -la
+  385  sudo vim /etc/gitlab/gitlab.rb 
+  386  sudo gitlab-rake gitlab:backup:create SKIP=registry
+  387  ls -la
+  388  sudo apt update 
+  389  sudo apt upgrade 
+  390  sudo apt update 
+  391  sudo apt upgrade 
+  392  ls
+  393  sudo gitlab-rake gitlab:backup:create SKIP=registry
+  394  cd /etc/gitlab/ssl/
+  395  ls
+  396  sudo zip gitlab-ssl.zip *
+  397  sudo su
+  398  ls
+  399  cd
+  400  ls
+  401  sudo chown -R ubuntu gitlab-ssl.zip gitlab.rb 
+  402  ls
+  403  pwd
+  404  sudo apt upgrade 
+  405  df -h
+  406  sudo apt upgrade 
+  407  sudo apt update 
+  408  sudo apt upgrade 
+  409  sudo apt autoremove 
+  410  sudo apt update 
+  411  sudo gitlab-ctl restart
+  412  docker ps
+  413  nginx --help
+  414  sudo apt upgrade 
+  415  ls -la
+  416  ls
+  417  git clone https://github.com/getsentry/raven-go.git
+  418  git clone git@bitbucket.org:zzzeek/sqlalchemy.git
+  419  git clone https://douglarek@bitbucket.org/zzzeek/sqlalchemy.git
+  420  git diff
+  421  sudo apt update 
+  422  sudo apt upgrade 
+  423  sudo apt autoremove
+  424  sudo apt upgrade 
+  425  free -h
+  426  ls
+  427  sudo vim /etc/apt/sources.list
+  428  ls /etc/apt/sources.list.d/
+  429  cat do
+  430  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+  431  echo "deb https://mirrors.tuna.tsinghua.edu.cn/docker/apt/repo ubuntu-xenial main" | sudo tee /etc/apt/sources.list.d/docker.list
+  432  ls /etc/apt/sources.list.d/
+  433  cat /etc/apt/sources.list.d/docker.list 
+  434  sudo apt update 
+  435  sudo apt upgrade 
+  436  sudo apt autoremove 
+  437  sudo apt upgrade 
+  438  sudo apt update 
+  439  sudo apt upgrade 
+  440  sudo apt update 
+  441  sudo apt upgrade 
+  442  sudo apt autoremove 
+  443  sudo apt upgrade 
+  444  ls
+  445  sudo apt upgrade 
+  446  sudo apt update 
+  447  sudo apt upgrade 
+  448  sudo apt update 
+  449  sudo apt upgrade 
+  450  ls -la
+  451  ls
+  452  ls -la
+  453  d
+  454  ls
+  455  sudo apt update 
+  456  sudo apt upgrade 
+  457  ls -la
+  458  sudo apt upgrade 
+  459  sudo apt update 
+  460  sudo apt ug
+  461  sudo apt upgrade 
+  462  curl crates-io.proxy.ustclug.org
+  463  ping crates-io.proxy.ustclug.org
+  464  cd /etc
+  465  ls
+  466  cd nginx
+  467  which nginx
+  468  sudo apt update 
+  469  sudo apt upgrade 
+  470  sudo apt update 
+  471  sudo apt upgrade 
+  472  sudo apt autoremove 
+  473  sudo apt update 
+  474  sudo apt upgrade 
+  475  sudo apt update 
+  476  sudo apt upgrade 
+  477  ls
+  478  gitlab-rails console production
+  479  sudo gitlab-rails console production
+  480  uname -a
+  481  sudo apt upgrade 
+  482  sudo apt update 
+  483  sudo apt upgrade 
+  484  sudo apt update 
+  485  sudo apt upgrade 
+  486  sudo gitlab-ctl restart
+  487  sudo apt update 
+  488  sudo apt upgrade 
+  489  sudo apt autoremove 
+  490  sudo apt upgrade 
+  491  ls -la
+  492  gitlab-ctl --help
+  493  gitlab-ctl -h
+  494  gitlab-psql
+  495  sudo gitlab-psql --help
+  496  sudo gitlab-psql 
+  497  sudo -u gitlab-psql /opt/gitlab/embedded/bin/psql -h /var/opt/gitlab/postgresql -d gitlabhq_production
+  498  sudo vim /etc/gitlab/gitlab.rb
+  499  gitlab-rails console production
+  500  sudo gitlab-rails console production
+  501  sudo apt update 
+  502  sudo apt upgrade 
+  503  sudo gitlab-ctl restart
+  504  ls
+  505  ls -la
+  506  ls
+  507  ls -la
+  508  sudo gitlab-ctl restart
+  509  sudo apt update
+  510  sudo apt upgrade 
+  511  sudo apt update 
+  512  sudo apt upgrade 
+  513  sudo gitlab-ctl restart
+  514  sudo gitlab-ctl --help
+  515  python3
+  516  sudo apt update 
+  517  sudo apt upgrade 
+  518  sudo gitlab-ctl restart
+  519  sudo apt update 
+  520  sudo apt upgrade 
+  521  sudo apt autoremove 
+  522  sudo apt update 
+  523  sudo apt upgrade 
+  524  sudo gitlab-ctl restart
+  525  sudo apt update 
+  526  sudo apt upgrade 
+  527  sudo apt update 
+  528  sudo apt upgrade 
+  529  sudo apt update 
+  530  docker ps
+  531  ps aux | grep post
+  532  ps aux | grep redis
+  533  top
+  534  free
+  535  free -h
+  536  top
+  537  sudo apt update 
+  538  sudo apt upgrade 
+  539  sudo apt update 
+  540  sudo apt upgrade 
+  541  sudo apt update 
+  542  sudo apt auto
+  543  sudo apt autoremove 
+  544  htop
+  545  free -h
+  546  sudo apt up
+  547  sudo apt update 
+  548  sudo apt upgrade 
+  549  sudo apt update 
+  550  sudo apt upgrade 
+  551  sudo apt update 
+  552  sudo apt upgrade 
+  553  sudo gitlab-ctl restart
+  554  sudo apt update 
+  555  sudo apt upgrade 
+  556  sudo apt autoremove 
+  557  ls -la
+  558  ls
+  559  sudo apt upgrade 
+  560  sudo apt update 
+  561  sudo apt upgrade 
+  562  ls -la
+  563  sudo apt update 
+  564  sudo apt upgrade 
+  565  sudo apt update 
+  566  sudo apt upgrade 
+  567  sudo apt update 
+  568  sudo apt upgrade 
+  569  sudo apt autoremove 
+  570  sudo apt update 
+  571  sudo apt upgrade 
+  572  cd /etc/
+  573  ls
+  574  docker 
+  575  docker ps
+  576  docker images
+  577  ls
+  578  ls nginx
+  579  s
+  580  exit
+  581  docker ls
+  582  docker ps
+  583  whereis nginx
+  584  ls /etc/
+  585  ls
+  586  exit
+  587  docker ps
+  588  ls
+  589  exit
+  590  ifconfig 
+  591  exit
+  592  sudo apt update 
+  593  sudo apt upgrade 
+  594  exit
+  595  sudo apt update 
+  596  sudo apt upgrade 
+  597  sudo apt upgrade 
+  598  ps aux | grep apt
+  599  sudo apt upgrade 
+  600  ps aux | grep apt
+  601  sudo apt upgrade 
+  602  sudo apt autoremove
+  603  sudo apt update 
+  604  sudo apt upgrade 
+  605  gitlab-ctl --version
+  606  gitlab-ctl status
+  607  sudo gitlab-ctl status
+  608  sudo apt update 
+  609  sudo apt upgrade 
+  610  sudo vim /etc/gitlab/gitlab.rb 
+  611  sudo gitlab-ctl reconfigure
+  612  tail -f /var/log/gitlab/nginx/
+  613  sudo su
+  614  ls -lal
+  615  ls
+  616  sudo vim gitlab.rb 
+  617  ls -la
+  618  sudo vim /etc/gitlab/gitlab.rb 
+  619  sudo gitlab-ctl reconfigure
+  620  sudo vim /etc/gitlab/gitlab.rb 
+  621  sudo apt update 
+  622  sudo apt upgrade 
+  623  ls -la
+  624  sudo gitlab-ctl restart
+  625  sudo atp upd
+  626  sudo apt update 
+  627  sudo apt upgrade 
+  628  sudo apt update 
+  629  sudo apt upgrade 
+  630  sudo apt update 
+  631  sudo apt upgrade 
+  632  sudo apt update 
+  633  sudo apt upgrade 
+  634  sudo apt update 
+  635  sudo apt upgrade 
+  636  sudo apt autoremove 
+  637  sudo apt autoclean 
+  638  sudo gitlab-ctl restart
+  639  sudo apt update 
+  640  sudo gitlab-ctl restart
+  641  sudo apt upgrade 
+  642  sudo apt update 
+  643  ls
+  644  sudo apt update 
+  645  docker ps
+  646  ps -ef | grep nginx
+  647  history
+  648  history>cmd.txt
+  649  ls
+  650  exit
+  651  ls
+  652  env
+  653  ps -ef | grep nginx
+  654  cd /var/log/gitlab/nginx
+  655  sudo /var/log/gitlab/nginx
+  656  sudo cd /var/log/gitlab/nginx
+  657  ls
+  658  sl
+  659  rz cmd.txt 
+  660  sudo apt install lrzsz
+  661  rz cmd.txt 
+  662  sz cmd.txt 
+  663  ls
+  664  ls
+  665  ps -ef | grep nginx
+  666  which nginx
+  667  whereis nginx
+  668  sudo which nginx
+  669  cd /opt/gitlab/embedded/sbin/
+  670  ls
+  671  cd nginx
+  672  cd /var/opt/gitlab/nginx
+  673  sudo cd /var/opt/gitlab/nginx
+  674  cd /var/opt/gitlab
+  675  ls
+  676  cd nginx
+  677  ls
+  678  sudo 
+  679  sudo cd nginx
+  680  sudo -i
+  681  ls
+  682  cd nginx
+  683  sudo -i
+  684  cd /etc/nginx
+  685  vim /etc/nginx
+  686  sudo -i
+  687  ls
+  688  cd
+  689  ls
+  690  vim gitlab.rb 
+  691  ls
+  692  sudo -i
+  693  ls
+  694  ls
+  695  clear
+  696  rz cmd.txt 
+  697  sz cmd.txt 
+  698  ls
+  699  exit
+  700  ssh 10.16.1.85
+  701  exit
+  702  ls
+  703  exit
+  704  docker ps
+  705  docker images
+  706  docker login
+  707  docker login registry.xzlcorp.com
+  708  docker images
+  709  docker ps
+  710  ls
+  711  rm cmd.txt 
+  712  ls
+  713  lsof -i -n | grep 6000
+  714  ps -ax | grep 6000
+  715  ps -ef | grep 6000
+  716  nestat -n | grep 6000
+  717  netstat -n | grep 6000
+  718  ps -ef | grep docker
+  719  sudo -i
+  720  ps -ef | grep docker
+  721  ps -ef | grep 5000
+  722  ls
+  723  ps -ef | grep docker
+  724  sudo -i
+  725  ls
+  726  history
+  727  history >> SHARED-NGINX-daqiang-his.txt
+  728  cat .ssh/authorized_keys 
+  729  exit
+  730  history >> SHARED-GIT-daqiang-his.txt
+  731  cat SHARED-
+  732  ls
+  733  cat SHARED-GIT-daqiang-his.txt 
+  734  cat SHARED-NGINX-daqiang-his.txt 
+  735  exit
+  736  ls
+  737  rm SHARED-NGINX-daqiang-his.txt 
+  738  exit
+  739  ls
+  740  rm SHARED-GIT-daqiang-his.txt 
+  741  history >> SHARED-GIT-daqiang-his.txt

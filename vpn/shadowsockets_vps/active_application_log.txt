@@ -1,0 +1,68 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.4  28668  4780 ?        Ss   Apr28   0:00 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    Apr28   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Apr28   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Apr28   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    Apr28   0:00 [kworker/u2:0]
+root         7  0.0  0.0      0     0 ?        S    Apr28   0:01 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    Apr28   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    Apr28   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    Apr28   0:00 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S<   Apr28   0:00 [khelper]
+root        12  0.0  0.0      0     0 ?        S    Apr28   0:00 [kdevtmpfs]
+root        13  0.0  0.0      0     0 ?        S<   Apr28   0:00 [netns]
+root        14  0.0  0.0      0     0 ?        S    Apr28   0:00 [khungtaskd]
+root        15  0.0  0.0      0     0 ?        S<   Apr28   0:00 [writeback]
+root        16  0.0  0.0      0     0 ?        SN   Apr28   0:00 [ksmd]
+root        17  0.0  0.0      0     0 ?        SN   Apr28   0:00 [khugepaged]
+root        18  0.0  0.0      0     0 ?        S<   Apr28   0:00 [crypto]
+root        19  0.0  0.0      0     0 ?        S<   Apr28   0:00 [kintegrityd]
+root        20  0.0  0.0      0     0 ?        S<   Apr28   0:00 [bioset]
+root        21  0.0  0.0      0     0 ?        S<   Apr28   0:00 [kblockd]
+root        23  0.0  0.0      0     0 ?        S    Apr28   0:00 [kswapd0]
+root        24  0.0  0.0      0     0 ?        S<   Apr28   0:00 [vmstat]
+root        25  0.0  0.0      0     0 ?        S    Apr28   0:00 [fsnotify_mark]
+root        31  0.0  0.0      0     0 ?        S<   Apr28   0:00 [kthrotld]
+root        32  0.0  0.0      0     0 ?        S<   Apr28   0:00 [ipv6_addrconf]
+root        33  0.0  0.0      0     0 ?        S<   Apr28   0:00 [deferwq]
+root        34  0.0  0.0      0     0 ?        S    Apr28   0:00 [kworker/u2:1]
+root        67  0.0  0.0      0     0 ?        S    Apr28   0:00 [khubd]
+root        68  0.0  0.0      0     0 ?        S<   Apr28   0:00 [ata_sff]
+root        69  0.0  0.0      0     0 ?        S<   Apr28   0:00 [kpsmoused]
+root        73  0.0  0.0      0     0 ?        S    Apr28   0:00 [scsi_eh_0]
+root        74  0.0  0.0      0     0 ?        S<   Apr28   0:00 [scsi_tmf_0]
+root        75  0.0  0.0      0     0 ?        S    Apr28   0:00 [scsi_eh_1]
+root        76  0.0  0.0      0     0 ?        S<   Apr28   0:00 [scsi_tmf_1]
+root        81  0.0  0.0      0     0 ?        S<   Apr28   0:00 [kworker/0:1H]
+root       100  0.0  0.0      0     0 ?        S    Apr28   0:00 [jbd2/vda1-8]
+root       101  0.0  0.0      0     0 ?        S<   Apr28   0:00 [ext4-rsv-conver]
+root       142  0.0  0.0      0     0 ?        S    Apr28   0:00 [kauditd]
+root       145  0.0  0.4  28872  4220 ?        Ss   Apr28   0:03 /lib/systemd/systemd-journald
+root       153  0.0  0.3  40808  3340 ?        Ss   Apr28   0:00 /lib/systemd/systemd-udevd
+root       174  0.0  0.0      0     0 ?        S    Apr28   0:00 [vballoon]
+root       376  0.0  0.7  25400  7716 ?        Ss   Apr28   0:00 dhclient -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases eth0
+root       451  0.0  0.2  27476  2780 ?        Ss   Apr28   0:00 /usr/sbin/cron -f
+root       453  0.0  0.2  19856  2568 ?        Ss   Apr28   0:00 /lib/systemd/systemd-logind
+message+   456  0.0  0.3  42228  3396 ?        Ss   Apr28   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       466  0.0  0.3 258672  3456 ?        Ssl  Apr28   0:00 /usr/sbin/rsyslogd -n
+root       467  0.0  0.1   4256  1668 ?        Ss   Apr28   0:00 /usr/sbin/acpid
+root       469  0.0  3.7 492716 38108 ?        Ssl  Apr28   0:20 /usr/bin/dockerd -H fd://
+ntp        470  0.0  0.4  33380  4368 ?        Ss   Apr28   0:01 /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 104:109
+root       472  0.0  0.1  14416  1928 tty1     Ss+  Apr28   0:00 /sbin/agetty --noclear tty1 linux
+root       481  0.0  0.2  91188  3032 ?        Ss   Apr28   0:00 nginx: master process /usr/sbin/nginx -g daemon on; master_process on;
+www-data   482  0.0  0.3  91568  3620 ?        S    Apr28   0:01 nginx: worker process                           
+www-data   483  0.0  0.3  91568  3620 ?        S    Apr28   0:01 nginx: worker process                           
+www-data   484  0.0  0.3  91568  3620 ?        S    Apr28   0:01 nginx: worker process                           
+www-data   485  0.0  0.3  91568  3620 ?        S    Apr28   0:00 nginx: worker process                           
+root       487  0.0  0.9 341232  9848 ?        Ssl  Apr28   0:14 docker-containerd -l unix:///var/run/docker/libcontainerd/docker-containerd.sock --metrics-interval=0 --start-timeout 2m --state-dir /var/run/docker/libcontainerd/containerd --shim docker-containerd-shim --runtime docker-runc
+root       631  0.0  0.5  55184  5372 ?        Ss   Apr28   0:00 /usr/sbin/sshd -D
+root      3720  0.0  0.7  83832  7216 ?        Ss   00:27   0:00 sshd: root@pts/0    
+root      3722  0.0  0.3  21940  3872 pts/0    Ss   00:27   0:00 -bash
+root      3740  0.0  0.0      0     0 ?        S    00:29   0:00 [kworker/0:2]
+root      3764  0.0  0.5 463860  5676 pts/0    Sl   00:32   0:00 ./shadowsocks-server -c=config.json
+root      3779  0.0  0.0      0     0 ?        S    00:34   0:00 [kworker/0:0]
+root      3786  0.0  0.1  14772  2004 pts/0    T    00:34   0:00 ping www.google.com
+root      3809  0.0  0.0      0     0 ?        S    00:39   0:00 [kworker/0:1]
+root      3814  0.0  0.5  81376  5856 ?        Ss   00:39   0:00 sshd: root [priv]   
+sshd      3815  0.0  0.3  56528  3292 ?        S    00:39   0:00 sshd: root [net]    
+root      3816  0.0  0.2  19072  2368 pts/0    R+   00:39   0:00 ps -aux

@@ -1,0 +1,541 @@
+    1  sudo apt-get install language-pack-UTF-8
+    2  sudo apt-get install language-pack-UTF
+    3  sudo apt-get install language-pack
+    4  apt search language-pack
+    5  apt search language-pack | less
+    6  sudo apt update 
+    7  ping baidu.com
+    8  sudo apt update 
+    9  ls
+   10  ping mirrors.tuna.tsinghua.edu.cn
+   11  sudo apt update 
+   12  ping  cn-north-1b.clouds.archive.ubuntu.com
+   13  sudo apt upgrade 
+   14  sudo apt update 
+   15  sudo vim /etc/apt/sources.list
+   16  cd /etc/apt/
+   17  ls
+   18  sudo cp sources.list sources.list.origin
+   19  ls
+   20  sudo vim sources.list
+   21  cd
+   22  sudo apt update 
+   23  sudo su
+   24  ls
+   25  sudo apt update 
+   26  ping baidu.com
+   27  sudo apt update 
+   28  ping  cn-north-1b.clouds.archive.ubuntu.com
+   29  ping mirrors.tuna.tsinghua.edu.cn
+   30  curl baidu.com
+   31  sudo apt update 
+   32  sudo apt upgrade 
+   33  ls
+   34  cd /etc/apt/
+   35  ls
+   36  sudo rm -rf sources.list
+   37  sudo mv sources.list.origin sources.list
+   38  ls
+   39  cd
+   40  sudo apt update 
+   41  sudo apt upgrade 
+   42  ls -la
+   43  ls
+   44  ls -la
+   45  ls
+   46  ls -la
+   47  ls
+   48  ls -la
+   49  ls
+   50  ls -la
+   51  hostname
+   52  dnsmasq 
+   53  dnsmasq --help
+   54  ls
+   55  ls -la
+   56  hostname -i
+   57  ls -la
+   58  ls
+   59  ls -la
+   60  free -h
+   61  sudo apt upgrade 
+   62  ls -la
+   63  ls
+   64  ls -la
+   65  ls
+   66  sudo apt update 
+   67  ls
+   68  ls -la
+   69  ls
+   70  sudo apt install docker
+   71  sudo apt uninstall docker
+   72  sudo apt remove docker
+   73  apt search docker
+   74  sudo apt install docker-engine
+   75  sudo apt-get install apt-transport-https ca-certificates
+   76  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+   77  sudo apt-get update
+   78  apt-cache policy docker-engine
+   79  sudo apt install docker-engine
+   80  docker run -d -p 8081:8081 --name nexus sonatype/docker-nexus3
+   81  sudo  systemctl enable docker
+   82  sudo service docker start
+   83  docker ps
+   84  sudo docker ps
+   85  sudo groupadd docker
+   86  sudo gpasswd -a ubuntu docker
+   87  sudo service docker restart
+   88  docker ps
+   89  sudo docker ps
+   90  docker ps
+   91  ls -la
+   92  ls
+   93  git
+   94  ls -la
+   95  ping ip-10-16-2-13.cn-north-1.compute.internal
+   96  ls -la
+   97  git
+   98  git --version
+   99  ls -la
+  100  apt search nexus
+  101  ls
+  102  sudo vim /etc/apt/sources.list
+  103  ls
+  104  sudo apt update 
+  105  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+  106  echo "deb https://mirrors.tuna.tsinghua.edu.cn/docker/apt/repo ubuntu-xenial main" | sudo tee /etc/apt/sources.list.d/docker.list
+  107  ls
+  108  sudo apt update 
+  109  ps aux | grep apt
+  110  sudo kill -9 1101
+  111  ps aux | grep apt
+  112  sudo apt update 
+  113  sudo apt upgrade 
+  114  sudo apt install emacs-nox
+  115  emacs
+  116  g
+  117  fg
+  118  ls
+  119  ls -al
+  120  vim
+  121  ls
+  122  sudo mkdir -p /etc/systemd/system/docker.service.d
+  123  sudo tee /etc/systemd/system/docker.service.d/mirror.conf <<-'EOF'
+  124  [Service]
+  125  ExecStart=
+  126  ExecStart=/usr/bin/docker daemon -H fd:// --registry-mirror=https://qp23m2im.mirror.aliyuncs.com
+  127  EOF
+  128  sudo systemctl daemon-reload
+  129  sudo systemctl restart docker
+  130  cat /etc/systemd/system/docker.service.d
+  131  cat /etc/systemd/system/docker.service.d/mirror.conf
+  132  docker ps
+  133  ls -la
+  134  ls
+  135  date
+  136  ls -la
+  137  env
+  138  ls -la
+  139  ls
+  140  git
+  141  git --version
+  142  sudo reboot 
+  143  sudo apt-get clean
+  144  sudo apt-get autoclean
+  145  sudo apt-get autoremove
+  146  dpkg --get-selections | grep linux-image
+  147  sudo apt-get remove --purge linux-image-4.4.0-45-generic
+  148  sudo apt update 
+  149  sudo dpkg --purge `COLUMNS=300 dpkg -l "*" | egrep "^rc" | cut -d\  -f3`
+  150  docker ps
+  151  python3
+  152  docker login registry.xzlcorp.com
+  153  docker ps
+  154  ls -la
+  155  ls
+  156  ls -la
+  157  ls
+  158  cat .sudo_as_admin_successful 
+  159  ls
+  160  pwd
+  161  ls -la
+  162  pwd
+  163  ls
+  164  mkdir jenkins
+  165  ls
+  166  hostname -i
+  167  ls
+  168  cd jenkins/
+  169  ls
+  170  cd jdk/
+  171  ls
+  172  ls -la
+  173  cd ..
+  174  ls
+  175  du -h jdk/
+  176  du -h jdk
+  177  cd jdk/
+  178  ks
+  179  ls
+  180  ls -la
+  181  cd ..
+  182  ls
+  183  ls -la
+  184  du -h jdk/
+  185  ping 10.16.2.162
+  186  sudo apt upgrade 
+  187  sudo vim /etc/apt/sources.list.d/docker.list 
+  188  sudo vim /etc/apt/sources.list
+  189  sudo apt upgrade 
+  190  sudo apt update 
+  191  sudo apt upgrade 
+  192  ls
+  193  ls -la
+  194  cd jenkins/
+  195  ls
+  196  java
+  197  sudo apt install openjdk-8
+  198  sudo apt install openjdk-8-jdk
+  199  java -version
+  200  ls
+  201  rm -rf jdk
+  202  ls
+  203  ls -la
+  204  ls
+  205  ls -la
+  206  ;s
+  207  ls
+  208  cd jenkins/
+  209  ls
+  210  ls -la
+  211  pwd
+  212  ls -la
+  213  hostname 0i
+  214  hostname -i
+  215  ls
+  216  cd workspace/dpc-service-build/
+  217  ls
+  218  ls -la
+  219  cd
+  220  cd .gradle/
+  221  ls
+  222  cd
+  223  docker ps
+  224  docker images
+  225  ls -la
+  226  emacs
+  227  ls
+  228  ls -la
+  229  hostname -i
+  230  ls -la
+  231  ls
+  232  cd jenkins/
+  233  ls
+  234  vim ~/.pip/pip.conf
+  235  mkdir .pip
+  236  vim ~/.pip/pip.conf
+  237  sudo apt install gcc
+  238  gcc
+  239  sudo apt-get install python-dev libxml2-dev libxslt-dev
+  240  sudo apt-get install python3-dev
+  241  sudo apt install  libssl-dev
+  242  ls -la
+  243  hostname -i
+  244  curl -L -s get.jenv.io | bash
+  245  sudo apt install unzip
+  246  curl -L -s get.jenv.io | bash
+  247  cat /home/ubuntu/.jenv/bin/jenv-init.sh
+  248  vim .bashrc 
+  249  ls
+  250  jenv
+  251  jenv list java
+  252  jenv list java --help
+  253  jenv list java 
+  254  jenv install java
+  255  jenv update 
+  256  jenv
+  257  jenv all
+  258  jenv list Jenkins
+  259  jenv repo update
+  260  jenv list java
+  261  jenv install 1.8.0
+  262  jenv install java
+  263  jenv install java 1.8.0_112
+  264  java -version
+  265  java
+  266  which  java
+  267  sudo apt remove java
+  268  sudo apt remove java-common 
+  269  java
+  270  which java
+  271  cd .jenv/candidates/java/current
+  272  ls
+  273  ls -la
+  274  java
+  275  sudo apt autoremove 
+  276  which java
+  277  ls -la
+  278  ls
+  279  vim .bashrc 
+  280  curl -s "https://get.sdkman.io" | bash
+  281  sudo apt install zip
+  282  curl -s "https://get.sdkman.io" | bash
+  283  cat .bashrc 
+  284  sdk
+  285  sdk version
+  286  sdk list java
+  287  sdk install
+  288  sdk install java
+  289  java
+  290  java -version
+  291  sdk 
+  292  sdk  uninstall java
+  293  sdk  uninstall java 8u111
+  294  ls
+  295  sudo apt upgrade 
+  296  ls
+  297  jenv
+  298  jenv enable
+  299  jenv enable-plugin
+  300  jenv  enable-plugin java
+  301  jenv selfupdate 
+  302  jenv
+  303  jenv version 
+  304  jenv 
+  305  jenv selfupdate 
+  306  vim .jenv/bin/jenv-init.sh 
+  307  ls
+  308  curl "http://219.232.117.240/AAQI/v1/ProductData/gtin/06923878310139?targetMarket=156&dataVersion=1.1&clientGln=6901234500387&mac=62EC7A4EC15C157919AD7F594868873C946AE581356CCBD793A4BD3B14F4EC7D"
+  309  curl -i "http://219.232.117.240/AAQI/v1/ProductData/gtin/06923878310139?targetMarket=156&dataVersion=1.1&clientGln=6901234500387&mac=62EC7A4EC15C157919AD7F594868873C946AE581356CCBD793A4BD3B14F4EC7D"
+  310  curl -vi "http://219.232.117.240/AAQI/v1/ProductData/gtin/06923878310139?targetMarket=156&dataVersion=1.1&clientGln=6901234500387&mac=62EC7A4EC15C157919AD7F594868873C946AE581356CCBD793A4BD3B14F4EC7D"
+  311  ping 219.232.117.240
+  312  sudo apt upgrade 
+  313  go
+  314  sudo apt install golang-go
+  315  go
+  316  go get -u -x github.com/douglarek/apidoc
+  317  export $GOPATH=$HOME/.go
+  318  mkdir .go
+  319  export $GOPATH=$HOME/.go
+  320  export GOPATH=$HOME/.go
+  321  go get -u -x github.com/douglarek/apidoc
+  322  .go/bin/apidoc 
+  323  .go/bin/apidoc -p
+  324  git clone https://github.com/douglarek/apidoc
+  325  cd apidoc/
+  326  ls
+  327  ../.go/bin/apidoc -p . -t "
+  328  "
+  329  ../.go/bin/apidoc -p . -t ""
+  330  ../.go/bin/apidoc -p . -t ","
+  331  ../.go/bin/apidoc -p . -t
+  332  ../.go/bin/apidoc -p . -t "a"
+  333  sudo mkdir -p /var/lib/jenkins/go
+  334  sudo chown -R ubuntu /var/lib/jenkins
+  335  ls -la
+  336  sudo rm -rf /var/lib/jenkins
+  337  java
+  338  java -version
+  339  sudo apt install libpng16-16
+  340  sudo apt install gcc
+  341  sudo apt autoremove 
+  342  sudo apt-get install libffi-dev
+  343  sudo apt-get install libssl-dev
+  344  sudo apt-get install python-dev
+  345  ls
+  346  sudo apt install g++
+  347  wget https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.3.9/apache-maven-3.3.9-bin.zip
+  348  ls
+  349  rm -rf apache-maven-3.3.9-bin.zip 
+  350  ls
+  351  cd jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven3.x/
+  352  ls
+  353  ls -la
+  354  cd ..
+  355  ls
+  356  cd
+  357  sudo apt update 
+  358  sudo apt upgrade 
+  359  sudo apt autoremove 
+  360  ls
+  361  touch .ssh/config
+  362  ls -la
+  363  cat .ssh/config 
+  364  sudo apt update 
+  365  sudo apt upgrade 
+  366  sudo apt autoremove 
+  367  /home/ubuntu/.jenv/candidates/java/current/bin/java
+  368  cat .ssh/authorized_keys 
+  369  docker ps
+  370  docker images
+  371  ps -aux
+  372  exit
+  373  docker 
+  374  docker ps
+  375  ll
+  376  cd jenkins/
+  377  ll
+  378  ps -aux | grep slave
+  379  pwd
+  380  ps -aux
+  381  ps -aux | grep jar
+  382  ps -aux | grep java
+  383  ll
+  384  cd .jenkins/
+  385  ll
+  386  cd cache/
+  387  ll
+  388  cd jars/
+  389  ll
+  390  cd ../
+  391  ls
+  392  ll 
+  393  ll -A
+  394  ../
+  395  cd ../
+  396  ls
+  397  ../
+  398  cd ../
+  399  ls
+  400  ll -A
+  401  cd jenkins/
+  402  ls
+  403  ll -A
+  404  cd workspace/
+  405  ll
+  406  cd patient-api-service-build
+  407  ll
+  408  cd ../
+  409  ll
+  410  cd ../
+  411  ls
+  412  ll -A
+  413  cd shiningpanda/
+  414  ll -A
+  415  cd jobs/
+  416  ll -A
+  417  cd 3d5878f2/
+  418  ll -A
+  419  cd ../
+  420  cd 6e3df1e2/
+  421  ls
+  422  exit
+  423  cd .jenkins/
+  424  ll -A
+  425  exit
+  426  df -h
+  427  docker images
+  428  docker rmi -f 2e045c8cc276
+  429  docker images -a
+  430  docker images -a -q
+  431  docker images -a -q | xargs docker rmi -f
+  432  df -h
+  433  docker ps
+  434  rm -rf .docker/config.json 
+  435  docker ps
+  436  sudo service docker restart 
+  437  docker ps
+  438  docker login
+  439  docker login registry.xzlcorp.com
+  440  cat .docker/config.json 
+  441  ls
+  442  tar zxvf java.tar.gz 
+  443  sudo mv jdk-9 /opt/
+  444  ls
+  445  JAVA_HOME="/opt/jdk-9"
+  446  export JAVA_HOME="/opt/jdk-9"
+  447  export PATH=$JAVA_HOME/bin:$PATH
+  448  java -version
+  449  jshell 
+  450  jenv
+  451  jenv local
+  452  jenv global
+  453  jenv all
+  454  jenv version 
+  455  jenv versions
+  456  jenv java version
+  457  sudo apt install java9
+  458  which java
+  459  cat /home/ubuntu/.jenv/candidates/java/current/bin/java
+  460  jenv
+  461  vim ~/.bashrc 
+  462  sdk 
+  463  sdk --help
+  464  sdk list
+  465  sdk install java
+  466  ls -la
+  467  which java
+  468  vim .bashrc 
+  469  jenv versions
+  470  jenv default
+  471  jenv default java
+  472  jenv list java
+  473  jenv update
+  474  jenv update kava
+  475  jenv update java
+  476  jenv selfupdate 
+  477  jenv list java
+  478  jenv install java 9
+  479  java -version
+  480  which java
+  481  java 
+  482  sudo add-apt-repository ppa:webupd8team/java
+  483  sudo apt update 
+  484  suddf -h
+  485  sudo dpkg --configure -a
+  486  sudo apt install oracle-java9-set-default
+  487  java -version
+  488  java 
+  489  java -version
+  490  ls
+  491  /usr/bin/java
+  492  /usr/bin/java -verison
+  493  /usr/bin/java -version
+  494  ls
+  495  cd jenkins/
+  496  ls
+  497  cd workspace/
+  498  ls
+  499  cd sidecar-build
+  500  ls
+  501  /home/ubuntu/jenkins/workspace/sidecar-build/gradlew clean build
+  502  /home/ubuntu/jenkins/workspace/sidecar-build/gradlew --version
+  503  /home/ubuntu/jenkins/workspace/sidecar-build/gradlew --version clean build
+  504  /home/ubuntu/jenkins/workspace/sidecar-build/gradlew --help
+  505  /home/ubuntu/jenkins/workspace/sidecar-build/gradlew tasks
+  506  /home/ubuntu/jenkins/workspace/sidecar-build/gradlew bootRun
+  507  /home/ubuntu/jenkins/workspace/sidecar-build/gradlew --version
+  508  cd ..
+  509  ls
+  510  cd patient-api-service-build
+  511  ls
+  512  ./gradlew clean build
+  513  vim build.gradle 
+  514  cd ..
+  515  ls
+  516  cd medicine-service-build
+  517  ls
+  518  ./gradlew  clean build
+  519  ls -la
+  520  ls
+  521  cd ..
+  522  ls
+  523  cd patient-api-service-build
+  524  ls
+  525  vim build.gradle 
+  526  ./gradlew clean build
+  527  vim build.gradle 
+  528  ./gradlew clean build
+  529  vim build.gradle 
+  530  ./gradlew clean build
+  531  vim gradle/wrapper/gradle-wrapper.properties 
+  532  ./gradlew wrapper
+  533  ./gradlew clean build
+  534  /home/ubuntu/.jenv/candidates/java/current
+  535  /home/ubuntu/.jenv/candidates/java/current/bin/java -version
+  536  jenv
+  537  jenv use java 1.8.0_112 
+  538  jenv default java 1.8.0_112 
+  539  /home/ubuntu/.jenv/candidates/java/current/bin/java -version
+  540  /home/ubuntu/.jenv/candidates/java/9/
+  541  history >> LOCAL-JENKINS-NODE-daqiang-his.txt

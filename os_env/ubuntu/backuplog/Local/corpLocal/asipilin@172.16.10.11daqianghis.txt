@@ -1,0 +1,1000 @@
+  907  rm -rf 1478140429_gitlab_backup.tar 
+  908  ls
+  909  sudo cp /var/opt/gitlab/backups/1478153564_gitlab_backup.tar .
+  910  ls
+  911  sudo chown -R asipilin 1478153564_gitlab_backup.tar 
+  912  pwd
+  913  ls
+  914  sudo su git
+  915  sudo su
+  916  ls
+  917  cd /var/opt/gitlab/
+  918  ls
+  919  sudo su
+  920  sudo gitlab-ctl stop
+  921  ls
+  922  docker ps
+  923  ps aux | grep java
+  924  ps aux | grep git
+  925  sudo gitlab-ctl stop
+  926  sudo passwd asipilin 
+  927  ls
+  928  sudo systemctl disable gitlab-runner.service 
+  929  sudo systemctl disable gitlab-runsvdir.service 
+  930  sudo apt remove gitlab-c
+  931  sudo apt remove gitlab-ce gitlab-ci-multi-runner 
+  932  sudo apt auto
+  933  sudo apt autoremove 
+  934  sudo apt update 
+  935  sudo apt upgrade 
+  936  ls
+  937  docker ps
+  938  docker login
+  939  docker login https://registry.xzlcorp.com
+  940  docker logs -f nostalgic_yonath 
+  941  docker logs -f user_svc 
+  942  docker logs -f mas_svc 
+  943  docker logs -f auth_srv 
+  944  docker images
+  945  docker ps
+  946  docker ps -a
+  947  docker rm -f nostalgic_yonath 
+  948  ls
+  949  docker logs -f user_svc 
+  950  hostname -i
+  951  ls -la
+  952  ifconfig 
+  953  hostname -i
+  954  ip addr show
+  955  /sbin/ip route|awk '/default/ { print $3 }'
+  956  docker logs -f user_svc 
+  957  git diff
+  958  ls
+  959  git diff
+  960  ls -la
+  961  ls
+  962  ls -la
+  963  ls
+  964  docker logs -f user_svc 
+  965  hostname -i
+  966  docker ps -a 
+  967  docker ps -a -q
+  968  docker ps -a -q | xargs docker rm -f
+  969  ifconfig 
+  970  hostname -i
+  971  sudo restart
+  972  sudo reboot 
+  973  hostname -i
+  974  sudo vim /etc/hosts
+  975  sudo reboot 
+  976  hostname -i
+  977  docker logs -f user_svc 
+  978  docker logs -f mas_svc 
+  979  docker logs -f auth_srv 
+  980  git diff
+  981  docker ps
+  982  docker ps
+  983  docker logs -f user_svc 
+  984  exit
+  985  docker ps
+  986  docker logs -f mas_svc 
+  987  docker ps
+  988  docker logs -f mas_svc 
+  989  docker ps
+  990  docker logs -f user_svc 
+  991  docker ps
+  992  docker logs -f user_svc 
+  993  docker ps
+  994  free -h
+  995  ls
+  996  docker run -it --name teamcity-server-instance -v /opt/tc/datadir:/data/teamcity_server/datadir -v /opt/tc/logs -p 8111:8111 jetbrains/teamcity-server -d
+  997  ls
+  998  docker ps
+  999  docker images
+ 1000  docker ps
+ 1001  docker images
+ 1002  docker ps
+ 1003  docker logs -f mas_svc 
+ 1004  exit
+ 1005  docker ps
+ 1006  docker logs -f mas_svc 
+ 1007  exot
+ 1008  exit
+ 1009  docker ps
+ 1010  docker logs -f auth_srv --tail 1000
+ 1011  docker ps
+ 1012  docker restart auth-server
+ 1013  docker restart auth_srv
+ 1014  docker ps
+ 1015  docker restart auth_srv 
+ 1016  docker logs -f auth_srv 
+ 1017  docker ps
+ 1018  docker restart auth_srv 
+ 1019  exit
+ 1020  docker ps
+ 1021  exit
+ 1022  docker logs -f 
+ 1023  docker ps
+ 1024  docker logs -f mas_svc 
+ 1025  exit
+ 1026  docker ps
+ 1027  docker logs -f mas_svc 
+ 1028  exot
+ 1029  exit
+ 1030  docker ps
+ 1031  docker ps -a
+ 1032  docker logs auth_srv 
+ 1033  ls
+ 1034  docker ps
+ 1035  history | grep run
+ 1036  docker logs auth_srv 
+ 1037  docker restart auth_srv 
+ 1038  docker logs -f auth_srv 
+ 1039  docker ps
+ 1040  docker logs -f auth_srv 
+ 1041  docker ps
+ 1042  docker logs -f user_svc 
+ 1043  docker logs
+ 1044  docker ps
+ 1045  docker logs -f auth_srv 
+ 1046  docker ps
+ 1047  docker logs auth_srv 
+ 1048  docker ps
+ 1049  docker logs -f user_svc --tail 1000
+ 1050  docker ps
+ 1051  docker logs -f auth_srv 
+ 1052  docker ps
+ 1053  docker logs -f user_svc 
+ 1054  docker ps
+ 1055  docker logs -f user_svc 
+ 1056  ls
+ 1057  docker ps
+ 1058  docker logs -f user_svc 
+ 1059  exit
+ 1060  docker ps
+ 1061  docker logs -f user_svc 
+ 1062  docker ps
+ 1063  docker restart auth_srv 
+ 1064  exit
+ 1065  doker ps
+ 1066  docker ps
+ 1067  docker logs -f mas_svc 
+ 1068  docker ps
+ 1069  docker logs -f mas_svc 
+ 1070  docker ps
+ 1071  docker logs -f mas_svc 
+ 1072  docker ps
+ 1073  docker logs -f mas_svc 
+ 1074  docker ps
+ 1075  docker logs -f user_svc 
+ 1076  docker ps
+ 1077  docker logs -f auth_srv 
+ 1078  docker ps
+ 1079  docker logs -f mas_svc 
+ 1080  docker ps
+ 1081  docker logs -f mas_svc 
+ 1082  exit
+ 1083  docker ps
+ 1084  docker logs -f mas_svc 
+ 1085  exit
+ 1086  docker ps
+ 1087  docker logs -f mas_svc 
+ 1088  exit
+ 1089  docker ps
+ 1090  docker ps -A
+ 1091  docker ps -a
+ 1092  docker logs user_svc 
+ 1093  docker ps
+ 1094  docker ps -A
+ 1095  docker ps -a
+ 1096  docker ps
+ 1097  docker logs -f user_svc 
+ 1098  docker ps
+ 1099  docker logs -f user_svc 
+ 1100  docker ps
+ 1101  docker logs -f user_svc 
+ 1102  docker ps
+ 1103  docker logs -f mas_svc 
+ 1104  docker logs -f mas_svc | grep 更换患者服药信息
+ 1105  docker logs -f mas_svc | grep 更新医生面板
+ 1106  docker logs --help
+ 1107  docker logs --detaul
+ 1108  docker logs -ft mas_svc | grep 更新医生面板
+ 1109  docker logs -fr mas_svc | grep 更新医生面板
+ 1110  docker logs -ft mas_svc | grep 更新医生面板
+ 1111  docker logs mas_svc 
+ 1112  docker logs 
+ 1113  docker logs -ft mas_svc | grep 更新医生面板
+ 1114  docker logs mas_svc | grep 更新医生面板
+ 1115  docker logs mas_svc | grep 更换患者服药信息状态
+ 1116  docker logs mas_svc | grep 2017-03-22 03:
+ 1117  docker logs mas_svc | grep 03:
+ 1118  exirt
+ 1119  exit
+ 1120  docker ps
+ 1121  docker logs -f mas_svc 
+ 1122  exit
+ 1123  docker os
+ 1124  docker ps
+ 1125  docker logs -f mas_svc 
+ 1126  docker logs -f mas_svc | grep 03:00:00
+ 1127  exit
+ 1128  docker ps
+ 1129  docker logs -f user_svc 
+ 1130  docker 
+ 1131  docker ps 
+ 1132  docker logs -f mas_svc 
+ 1133  exot
+ 1134  exit
+ 1135  ls
+ 1136  docker ps
+ 1137  docker logs -f user_svc --tail 1000
+ 1138  docker pos
+ 1139  docker ps
+ 1140  docker logs -f user_svc 
+ 1141  e
+ 1142  docker ps
+ 1143  docker logs -f user_svc 
+ 1144  ls
+ 1145  docker logs -f user_svc 
+ 1146  docker ps
+ 1147  docker logs user_svc 
+ 1148  docker ps
+ 1149  docker ps
+ 1150  docker logs -f user_svc 
+ 1151  docker ps
+ 1152  docker logs -f user_svc 
+ 1153  docker logs -f user_svc 
+ 1154  dockerps
+ 1155  docker               ps
+ 1156  docker logs -f user_svc 
+ 1157  docker ps
+ 1158  docker ps
+ 1159  docker logs -f user_svc 
+ 1160  docker ps
+ 1161  docker logs -f user_svc 
+ 1162  docker ps
+ 1163  docker logs -f mas_svc 
+ 1164  docker ps
+ 1165  exit
+ 1166  docker ps
+ 1167  docker restart auth_srv 
+ 1168  exit
+ 1169  docker ps
+ 1170  exit
+ 1171  docker ps
+ 1172  docker logs mas_svc | grep Job
+ 1173  docker ps
+ 1174  docker logs -f user_svc 
+ 1175  docker logs user_svc  | grep 04:00
+ 1176  docker ps
+ 1177  docker logs -f user_svc 
+ 1178  docker logs -f auth_srv 
+ 1179  docker ps
+ 1180  docker logs -f auth_srv | grep ---
+ 1181  docker logs -f auth_srv | grep HTTP
+ 1182  docker logs -f auth_srv 
+ 1183  docker logs -f auth_srv --tail 1000
+ 1184  docker logs -f auth_srv --tail 1000 | grep HTTP
+ 1185  docker logs -f auth_srv --tail 1000 
+ 1186  docker ps
+ 1187  docker logs -f auth_srv --tail 1000 
+ 1188  docker logs -f auth_srv --tail 1000 | grep NotifyServiceClient
+ 1189  docker logs -f auth_srv --tail 1000
+ 1190  docker logs -f user_svc 
+ 1191  docker ps
+ 1192  docker logs -f auth_srv 
+ 1193  docker ps
+ 1194  curl localhost:9005/hsytrix.stream
+ 1195  curl localhost:9005/hystrix.stream
+ 1196  curl localhost:9005/env
+ 1197  curl localhost:9000/hystrix.stream
+ 1198  curl localhost:9005/hystrix.stream
+ 1199  curl localhost:9003/hystrix.stream
+ 1200  curl localhost:9005/hystrix.stream
+ 1201  docker logs -f user_svc 
+ 1202  curl localhost:9005/hystrix.stream
+ 1203  docker ps
+ 1204  docker logs mas_svc 
+ 1205  w
+ 1206  docker ps
+ 1207  curl 'localhost:9000/hystrix.stream
+ 1208  curl 'localhost:9000/hystrix.stream'
+ 1209  curl 'localhost:9005/hystrix.stream'
+ 1210  curl 'localhost:9003/hystrix.stream'
+ 1211  curl 'localhost:9000/env'
+ 1212  docker ps
+ 1213  exit
+ 1214  docker ps
+ 1215  docker logs -f auth_srv 
+ 1216  docker ps
+ 1217  docker logs -f mas_svc 
+ 1218  exit
+ 1219  docker ps
+ 1220  docker logs -f user_svc 
+ 1221  docker ps
+ 1222  docker logs -f user_svc 
+ 1223  docker ps
+ 1224  exit
+ 1225  docker ps -a
+ 1226  docker restart user_svc 
+ 1227  docker restart mas_svc 
+ 1228  docker restart auth_srv 
+ 1229  exit
+ 1230  docker logs -f --tail 100 user_svc 
+ 1231  docker ps
+ 1232  docker logs -f user_svc 
+ 1233  docker ps
+ 1234  docker logs -f user_svc 
+ 1235  docker logs user_svc 
+ 1236  docker ps
+ 1237  docker logs -f user_svc 
+ 1238  docker ps
+ 1239  docker help logs 
+ 1240  docker logs -f user_svc 
+ 1241  docker ps
+ 1242  docker restart user_svc 
+ 1243  docker logs -f user_svc 
+ 1244  docker ps -a
+ 1245  docker stop user_svc 
+ 1246  docker ps
+ 1247  docker logs -f user_svc 
+ 1248  exit
+ 1249  docker logs -f user_svc 
+ 1250  docker ps
+ 1251  docker logs -f user_svc 
+ 1252  exit
+ 1253  docker ps
+ 1254  exit
+ 1255  docker ps
+ 1256  docker restart user_svc 
+ 1257  exit
+ 1258  docker ps
+ 1259  docker logs -f user_svc 
+ 1260  docker stop  user_svc 
+ 1261  docker start user_svc 
+ 1262  docker ps
+ 1263  docker logs -f user_svc 
+ 1264  docker ps
+ 1265  exit
+ 1266  ls
+ 1267  docker ps
+ 1268  docker logs -f user_svc 
+ 1269  docker -v
+ 1270  docker ps 
+ 1271  docker logs -f user_svc 
+ 1272  docker logs user_svc | 400
+ 1273  docker logs user_svc | grep 400
+ 1274  docker logs -f user_svc 
+ 1275  docker ps
+ 1276  docker logs -f user_svc 
+ 1277  docker ps
+ 1278  docker start user_svc 
+ 1279  docker logs -f user_svc 
+ 1280  docker ps
+ 1281  docker logs -f user_svc 
+ 1282  exit
+ 1283  docker ps
+ 1284  docker logs -f user_svc 
+ 1285  docker ps
+ 1286  docker logs -f auth_srv 
+ 1287  df -h
+ 1288  docker logs -f auth_srv  --tail 1000
+ 1289  docker ps
+ 1290  docker ps -a 
+ 1291  docker start mas_svc 
+ 1292  docker logs -f mas_svc 
+ 1293  docker ps
+ 1294  docker start mas_svc 
+ 1295  docker logs -f mas_svc 
+ 1296  exit
+ 1297  docker logs -f user_svc 
+ 1298  docker ps
+ 1299  docker logs -f auth_srv --tail 100
+ 1300  ls
+ 1301  docker restart auth_srv 
+ 1302  docker logs -f auth_srv 
+ 1303  docker logs -f auth_srv --tail 1
+ 1304  docker
+ 1305  docker ps
+ 1306  docker logs -f user_svc
+ 1307  docker ps
+ 1308  docker logs -f user_svc
+ 1309  docker ps
+ 1310  docker inspect 3c7dc0d92e03
+ 1311  docker inspect 3c7dc0d92e03>user_server_inspect
+ 1312  ls
+ 1313  vim user_server_inspect 
+ 1314  docker ps
+ 1315  docker logs -f user_svc 
+ 1316  exit
+ 1317  docker ps
+ 1318  docker logs -f user_svc
+ 1319  docker ps
+ 1320  docker logs -f user_svc
+ 1321  docker ps
+ 1322  docker logs -f user_svc
+ 1323  docker logs -f user_svc --tail 100
+ 1324  clear
+ 1325  docker logs -f user_svc --tail 100
+ 1326  docker ps
+ 1327  docker ps -A
+ 1328  docker ps -a
+ 1329  docker ps
+ 1330  docker start mas_svc 
+ 1331  docker logs -f mas_svc 
+ 1332  exit
+ 1333  docker ps
+ 1334  docker logs -f user_svc
+ 1335  docker ps
+ 1336  ls
+ 1337  clear
+ 1338  ls
+ 1339  docker ps
+ 1340  docker logs -f user_svc
+ 1341  ls
+ 1342  docker ps
+ 1343  docker user_svc
+ 1344  docker logs -f user_svc
+ 1345  docker ps
+ 1346  docker logs -f user_svc
+ 1347  docker ps
+ 1348  docker logs -f mas_svc 
+ 1349  exit
+ 1350  netstat -ntu
+ 1351  netstat -ntu | tail -n +3|awk '{ print $5}' | cut -d : -f 1 | sort | uniq -c| sort -n -r | head -n 3
+ 1352  netstat -ntu | tail -n +3 | awk '{ print $5}' | cut -d : -f 1 | sort | uniq -c| sort -n -r | head -n 5 | grep -v 127.0.0.1
+ 1353  docker ps
+ 1354  docker logs -f user_svc 
+ 1355  docker ps 
+ 1356  docker logs -f auth_srv 
+ 1357  docker ps
+ 1358  docker logs -f auth_srv 
+ 1359  docker logs -f auth_srv --tail 100
+ 1360  docker ps
+ 1361  docker restart auth_srv 
+ 1362  docker logs -f auth_srv 
+ 1363  docker logs -f auth_srv --tail 100
+ 1364  docker ps
+ 1365  netstat -at | grep 9003
+ 1366  netstat -at
+ 1367  netstat -a
+ 1368  netstat -a | grep 9003
+ 1369  netstat -ntu | grep 9003
+ 1370  lsb_release -a
+ 1371  docker logs -f auth_srv --tail 100
+ 1372  docker restart auth_srv 
+ 1373  docker logs -f auth_srv --tail 100
+ 1374  docker ps
+ 1375  docker logs -f auth_srv --tail 100
+ 1376  docker ps
+ 1377  docker logs -f auth_srv --tail 1000
+ 1378  docker ps
+ 1379  docker restart user_svc 
+ 1380  docker logs -f user_svc --tail 1000
+ 1381  docker ps
+ 1382  docker logs -f auth_srv --tail 1000
+ 1383  docker ps
+ 1384  docker ps -a
+ 1385  docker logs mas_svc 
+ 1386  docker start mas_svc 
+ 1387  docker logs -f mas_svc --tail 1000
+ 1388  docker start mas_svc 
+ 1389  docker logs -f mas_svc --tail 1000
+ 1390  exit
+ 1391  docker ps
+ 1392  docker logs -f user_svc --tail 1000
+ 1393  docker restart user_svc 
+ 1394  docker logs -f user_svc --tail 1000
+ 1395  docker ps
+ 1396  docker ls
+ 1397  docker restart user_svc 
+ 1398  docker logs -f user_svc  --tail 1000
+ 1399  exit
+ 1400  docker ps
+ 1401  docker logs -f mas_svc --tail 1000
+ 1402  docker logs -f mas_svc --tail 10000
+ 1403  exit
+ 1404  docker ps
+ 1405  docker logs -f mas_svc --tail 10000
+ 1406  docker ps
+ 1407  docker logs -f mas_svc | grep 统计每个患者每天服药状况数据
+ 1408  docker ps
+ 1409  docker logs -f mas_svc 
+ 1410  docker ps
+ 1411  docker logs mas_svc --tail 10000
+ 1412  docker logs mas_svc  | grep 2017-06-12\ 02:00
+ 1413  docker logs mas_svc  | grep Job\ START
+ 1414  docker logs mas_svc  | grep 2017-06-12\ 02:00:00
+ 1415  docker logs mas_svc  | grep 2017-06-11\ 02:00:00
+ 1416  docker logs mas_svc | grep 统计每个患者每天服药状况数据
+ 1417  docker ps
+ 1418  docker logs 
+ 1419  docker ps
+ 1420  docker logs -f mas_svc 
+ 1421  docker ps
+ 1422  docekr logs -f user_server_inspect 
+ 1423  docekr logs -f user_svc
+ 1424  docker logs -f user_svc
+ 1425  docker logs -f user_svc --tail 1000
+ 1426  docker logs -f user_svc --tail 100000
+ 1427  docker logs -f user_svc --tail 10000
+ 1428  exit
+ 1429  docker ps
+ 1430  docker logs -f mas_svc 
+ 1431  exit
+ 1432  docker ps
+ 1433  docker logs -f user_svc 
+ 1434  docker logs -f user_svc --tail 1000
+ 1435  docker logs -f user_svc | grep lock
+ 1436  docker logs -f user_svc | grep liquibase
+ 1437  docker ps
+ 1438  docker ps -a
+ 1439  docker images 
+ 1440  history | grep docker\ run
+ 1441  docker run -e HOST_IP=$(hostname -i) -dp 9030:9030 --name mas_svc_preview 5ab2ffddd897
+ 1442  docker ps
+ 1443  docker logs -f mas_svc_preview
+ 1444  docker logs -f mas_svc_preview 
+ 1445  docker ps
+ 1446  docker stop f2e2ab922c2d
+ 1447  docker ps
+ 1448  docker -a
+ 1449  docker ps -a 
+ 1450  docker ps
+ 1451  docker logs -f mas_svc
+ 1452  docker ps
+ 1453  docker logs -f mas_svc
+ 1454  docker ps
+ 1455  docker logs -f user_svc
+ 1456  docker ps
+ 1457  docker logs -f user_svc 
+ 1458  docker logs -f user_svc --tail 1000
+ 1459  docker ps
+ 1460  docker logs -f user_svc 
+ 1461  docker ps
+ 1462  docker logs -f user_svc 
+ 1463  docker logs -f auth_srv 
+ 1464  docker logs -f auth_srv  --tail 1000
+ 1465  docker logs -f auth_srv --tail
+ 1466  docker logs -f auth_srv --tail 1000
+ 1467  docker ps
+ 1468  docker logs -f user_svc --tail 1000
+ 1469  docker ps
+ 1470  docker ps
+ 1471  docker logs -f mas_svc 
+ 1472  ==>  Preparing: update s_mas.t_plan SET record_until = ? where id = ?
+ 1473  2017-06-21 14:50:25.662 DEBUG [mas-service,1e2987e640a3cf55,1a2f5cd4a918a05e,false] 1 --- [nio-9000-exec-7] c.x.m.d.P.updateByPrimaryKeySelective    : ==> Parameters: 2017-06-21 14:50:25.662(Timestamp), 35617(Long)
+ 1474  2017-06-21 14:50:25.663 DEBUG [mas-service,1e2987e640a3cf55,1a2f5cd4a918a05e,false] 1 --- [nio-9000-exec-7] c.x.m.d.P.updateByPrimaryKeySelective    : <==    Updates: 1
+ 1475  2017-06-21 14:50:25.663 DEBUG [mas-service,1e2987e640a3cf55,1a2f5cd4a918a05e,false] 1 --- [nio-9000-exec-7] c.x.m.dao.RecordMapper.selectByExample   : ==>  Preparing: select id, user_id, medicine_id, plan_id, medicine_name, take_time, count, status, source, confirmed_at, created_at, updated_at, deleted_at, note, dosage from s_mas.t_record WHERE ( deleted_at is null and plan_id = ? and take_time between ? and ? )
+ 1476  2017-06-21 14:50:25.663 DEBUG [mas-service,1e2987e640a3cf55,1a2f5cd4a918a05e,false] 1 --- [nio-9000-exec-7] c.x.m.dao.RecordMapper.selectByExample   : ==> Parameters: 35618(Long), 2017-06-21 13:40:00.0(Timestamp), 2017-06-21 14:40:00.0(Timestamp)
+ 1477  2017-06-21 14:50:25.669 DEBUG [mas-service,1e2987e640a3cf55,1a2f5cd4a918a05e,false] 1 --- [nio-9000-exec-7] c.x.m.dao.RecordMapper.selectByExample   : <==      Total: 1
+ 1478  2017-06-21 14:50:25.669 DEBUG [mas-service,1e2987e640a3cf55,1a2f5cd4a918a05e,false] 1 --- [nio-9000-exec-7] c.x.m.d.P.updateByPrimaryKeySelective    : ==>  Preparing: update s_mas.t_plan SET record_until = ? where id = ?
+ 1479  2017-06-21 14:50:25.669 DEBUG [mas-service,1e2987e640a3cf55,1a2f5cd4a918a05e,false] 1 --- [nio-9000-exec-7] c.x.m.d.P.updateByPrimaryKeySelective    : ==> Parameters: 2017-06-21 14:50:25.669(Timestamp), 35618(Long)
+ 1480  2017-06-21 14:50:25.669 DEBUG [mas-service,1e2987e640a3cf55,1a2f5cd4a918a05e,false] 1 --- [nio-9000-exec-7] c.x.m.d.P.updateByPrimaryKeySelective    : <==    Updates: 1
+ 1481  2017-06-21 14:50:25.669  INFO [mas-service,1e2987e640a3cf55,1a2f5cd4a918a05e,false] 1 --- [nio-9000-exec-7] cn.xinzhili.mas.job.RecordInsertTrigger  : 补全插入服药记录触发器
+ 1482  2017-06-21 14:50:25.670 DEBUG [mas-service,1e2987e640a3cf55,1a2f5cd4a918a05e,false] 1 --- [nio-9000-exec-7] c.x.m.d.P.updateByExampleSelective       : ==>  Preparing: update s_mas.t_plan SET ended_at = ? WHERE ( deleted_at is null and ended_at is null and user_id = ? and position_no <> ? )
+ 1483  2017-06-21 14:50:25.670 DEBUG [mas-service,1e2987e640a3cf55,1a2f5cd4a918a05e,false] 1 --- [nio-9000-exec-7] c.x.m.d.P.updateByExampleSelective       : ==> Parameters: 2017-06-21 14:50:25.424(Timestamp), 10109(Long), 0(Short)
+ 1484  2017-06-21 14:50:25.672 DEBUG [mas-service,1e2987e640a3cf55,1a2f5cd4a918a05e,false] 1 --- [nio-9000-exec-7] c.x.m.d.P.updateByExampleSelective       : <==    Updates: 34
+ 1485  docker ps
+ 1486  docker logs -f mas_svc 
+ 1487  docker logs -f mas_svc --tail 1000
+ 1488  2017-06-21 15:20:36.972 DEBUG [mas-service,abc36b17fb374069,d9c0d49e5c42b688,true] 1 --- [nio-9000-exec-2] c.x.m.d.P.updateByExampleSelective       : ==>  Preparing: update s_mas.t_plan SET ended_at = ? WHERE ( deleted_at is null and ended_at is null and user_id = ? and position_no <> ? )
+ 1489  2017-06-21 15:20:36.972 DEBUG [mas-service,abc36b17fb374069,d9c0d49e5c42b688,true] 1 --- [nio-9000-exec-2] c.x.m.d.P.updateByExampleSelective       : ==> Parameters: 2017-06-21 15:20:36.742(Timestamp), 10109(Long), 0(Short)
+ 1490  docker ps
+ 1491  docker logs -f mas_svc 
+ 1492  2017-06-21 15:55:32.690 DEBUG [mas-service,3571b5d996d5216b,e0405585cf80b806,false] 1 --- [nio-9000-exec-5] c.x.m.d.P.updateByExampleSelective       : ==> Parameters: 2017-06-21 15:55:32.335(Timestamp), 10109(Long), 0(Short)
+ 1493  docker logs -f mas_svc 
+ 1494  docker ps
+ 1495  docker logs -f mas_svc 
+ 1496  docker ps
+ 1497  docker logs -f user_svc 
+ 1498  docker logs -f user_svc  tail -100
+ 1499  docker logs -f user_svc 
+ 1500  docekr ps
+ 1501  docker ps
+ 1502  docker logs -f mas_svc 
+ 1503  docker ps
+ 1504  docker logs -f mas_svc 
+ 1505  docker ps
+ 1506  docker logs -f user_svc 
+ 1507  docker ps
+ 1508  docker logs -f user_svc
+ 1509  docker ps
+ 1510  docker logs -f mas_svc 
+ 1511  docker ps
+ 1512  docker logs mas_svc 
+ 1513  docker ps
+ 1514  docker logs -f mas_svc 
+ 1515  exit
+ 1516  docker ps
+ 1517  docker logs -f mas_svc 
+ 1518  docker ps
+ 1519  docker logs -f mas_svc 
+ 1520  docker ps
+ 1521  docker logs -f mas_svc 
+ 1522  docker ps
+ 1523  docker logs -f mas_svc 
+ 1524  docker ps
+ 1525  docke ps
+ 1526  docker ps
+ 1527  docker logs -f mas_svc 
+ 1528  docker ps
+ 1529  docker logs -f mas_svc 
+ 1530  docker ps
+ 1531  docker logs -f mas_svc 
+ 1532  docker ps
+ 1533  docker logs -f mas_svc 
+ 1534  docker ps
+ 1535  docker logs -f mas_svc 
+ 1536  docker ps
+ 1537  docker logs -f mas_svc 
+ 1538  docker ps
+ 1539  docker logs -f mas_svc 
+ 1540  docker ps
+ 1541  docker logs -f mas_svc 
+ 1542  docker logs mas_svc | grep Remind\ time
+ 1543  docker ps
+ 1544  docker logs -f mas_svc 
+ 1545  docker logs mas_svc | grep 2017-07-06\ 02:00
+ 1546  : 2(Short), 2017-07-05 02:00:03.961(Timestamp), 0(Short)
+ 1547  2017-07-06 02:00:03.983 DEBUG [mas-service,,,] 1 --- [ryBean_Worker-1] c.x.m.d.R.updateByExampleSelective       : <==    Updates: 388
+ 1548  2017-07-06 02:00:03.983  INFO [mas-service,,,] 1 --- [ryBean_Worker-1] cn.xinzhili.mas.job.RecordGenerator      : 补全插入服药记录触发器
+ 1549  docker ps
+ 1550  docker logs -f mas_svc 
+ 1551  docker ps
+ 1552  docker logs -f mas_svc 
+ 1553  exit
+ 1554  docker logs -f mas_svc 
+ 1555  exit
+ 1556  docker ps
+ 1557  docker logs -f mas_svc 
+ 1558  docker logs mas_svc | grep 补全插入服药记录触发器
+ 1559  exit
+ 1560  docker ps
+ 1561  docker logs -f mas_svc 
+ 1562  docker ps
+ 1563  docker restart mas_svc 
+ 1564  docker ps
+ 1565  docker logs -f mas_svc 
+ 1566  docker logs -f mas_svc --tail 1000
+ 1567  docker restart mas_svc 
+ 1568  docker logs -f mas_svc 
+ 1569  docker ps
+ 1570  docker logs -f mas_svc 
+ 1571  docker stop
+ 1572  docker ps
+ 1573  docker stop mas_svc 
+ 1574  docker ps
+ 1575  docker image
+ 1576  docker images
+ 1577  docker logs -f mas_svc 
+ 1578  docker ps
+ 1579  docker logs -f mas_svc --tail 100
+ 1580  docker ps
+ 1581  docker logs -f mas_svc 
+ 1582  docker ps
+ 1583  docker logs -f mas_svc 
+ 1584  docker ps
+ 1585  docker logs -f mas_svc 
+ 1586  exit
+ 1587  docker ps
+ 1588  docker logs -f mas_svc 
+ 1589  docker logs -f mas_svc --tail 1000
+ 1590  docker ps
+ 1591  docker os
+ 1592  docker pa
+ 1593  docker ps
+ 1594  docker pa
+ 1595  docker ps
+ 1596  docker logs -f mas_svc 
+ 1597  docker ps
+ 1598  docker logs -f mas_svc 
+ 1599  docker ps
+ 1600  exit
+ 1601  docker
+ 1602  docker ps
+ 1603  docker logs -f mas_svc 
+ 1604  ssh 172.31.2.38
+ 1605  exot
+ 1606  eixt
+ 1607  ssh 172.31.2.38
+ 1608  exit
+ 1609  docker ps
+ 1610  docker logs -f user_svc 
+ 1611  docker logs -f user_svc --tail 1000
+ 1612  docker ps
+ 1613  docker logs -f mas_svc 
+ 1614  docker ps
+ 1615  ulimit -u
+ 1616  exit
+ 1617  docker logs -f mas
+ 1618  docker logs -f mas_svc 
+ 1619  docker ps
+ 1620  docker logs -f mas_svc --tail 3000
+ 1621  docker logs -f mas_svc
+ 1622  docker ps
+ 1623  docker logs -f user_svc 
+ 1624  docker logs -f user_svc --tail 2000
+ 1625  exot
+ 1626  exit
+ 1627  docker images 
+ 1628  exit
+ 1629  docker ps
+ 1630  docker logs -f mas_svc 
+ 1631  docker logs -f mas_svc --tail 2000
+ 1632  exit
+ 1633  docker ps
+ 1634  docker ps -a
+ 1635  docker start mas_svc 
+ 1636  docker start user_svc 
+ 1637  docker start auth_srv 
+ 1638  history | grep docker
+ 1639  history | grep docker\ run
+ 1640  exit
+ 1641  docker ps
+ 1642  docker logs -f user_svc 
+ 1643  docker ps
+ 1644  docker logs -f user_svc 
+ 1645  docker ps
+ 1646  docker logs -f docker ps
+ 1647  docker ps
+ 1648  docker stop user_svc 
+ 1649  docker ps
+ 1650  docker ps -a
+ 1651  docker start user_svc 
+ 1652  docker ps
+ 1653  docker logs -f mas_svc --tail 3000
+ 1654  docker ps
+ 1655  docker logs -f mas_svc 
+ 1656  exit
+ 1657  docker ps
+ 1658  docker logs -f mas_svc 
+ 1659  docker ps
+ 1660  docker logs -f mas_svc 
+ 1661  exit
+ 1662  docker ps
+ 1663  docker logs -f user_svc 
+ 1664  docker ps
+ 1665  docker logs -f mas_svc 
+ 1666  exirt
+ 1667  exit
+ 1668  docker ps
+ 1669  docker logs -f mas_svc --tail 4000
+ 1670  docker ps
+ 1671  docker logs -f user_svc 
+ 1672  ls
+ 1673  docker ps
+ 1674  docker logs -f user_svc 
+ 1675  docker logs -f mas_svc 
+ 1676  docker logs -f mas_svc --tail 1000
+ 1677  ls
+ 1678  docker ps
+ 1679  docker ps -a
+ 1680  docker start 7386a9d76cfe 8eea4edc1843 6a9209b0f8bd
+ 1681  docker ps
+ 1682  ls
+ 1683  cat script.deb.sh 
+ 1684  docker ps
+ 1685  docker logs -f user_svc 
+ 1686  docker ps
+ 1687  docker logs -f mas_svc 
+ 1688  exit
+ 1689  docker ps
+ 1690  docker logs -f user_svc 
+ 1691  docker ps
+ 1692  docker logs mas_svc
+ 1693  docker ps
+ 1694  docker logs -f user_svc 
+ 1695  docker ps
+ 1696  docker logs -f user_svc 
+ 1697  docker ps
+ 1698  exit
+ 1699  quit
+ 1700  exit
+ 1701  docker ps
+ 1702  docker logs -f user_svc 
+ 1703  docker ps
+ 1704  docker logs -f user_svc | grep "ps
+ 1705  docker logs -f user_svc 
+ 1706  docker logs -f user_svc --tail 1000
+ 1707  docker logs -f auth_srv --tail 1000
+ 1708  docker ps
+ 1709  docker logs -f auth_srv 
+ 1710  docker logs -f auth_srv --tail 1000
+ 1711  exit
+ 1712  docker ps
+ 1713  docker logs -f user_svc 
+ 1714  docker ps
+ 1715  docker logs -f auth_srv 
+ 1716  docker logs tail -100
+ 1717  docker logs --help
+ 1718  docker logs -details auth_srv 
+ 1719  docker logs -f auth_srv 
+ 1720  docker ps
+ 1721  docker logs -f auth_srv 
+ 1722  docker logs --tail=100  auth_srv 
+ 1723  docker logs -f auth_srv 
+ 1724  docker logs --since="2017-08-14" -f auth_svc
+ 1725  docker logs --since="2017-08-14" auth_svc
+ 1726  docker logs --since="2017-08-14" --tail=100 auth_svc
+ 1727  docker logs --tail=100  auth_srv 
+ 1728  docker logs -f  --tail=100  auth_srv 
+ 1729  docker ps
+ 1730  docker logs -f user_svc 
+ 1731  docker ps
+ 1732  docker logs -f user_svc --tail 1000
+ 1733  .x.u.d.S.selectByExample                : ==> Parameters: 10201(Long), ASSISTANT(String)
+ 1734  2017-08-14 15:06:32.914 DEBUG [user-service,e5d90671a2057ed6,8e06486d987eef7a,true] 1 --- [nio-9005-exec-3] c.x.u.d.S.selectByExample                : <==      Total: 1
+ 1735  2017-08-14 15:06:32.915 DEBUG [user-service,e5d90671a2057ed6,8e06486d987eef7a,true] 1 --- [nio-9005-exec-3] c.x.u.d.StaffMapper.selectByPrimaryKey   : ==>  Preparing: select id, username, password, status, name, sex, tel, birthday, title, avatar, biography, experience, certificate, created_at, updated_at, deleted_at, note, expertise from s_user.t_staff where id = ?
+ 1736  docker logs -f auth_srv --tail 1000
+ 1737  docker ps
+ 1738  docker logs -f mas_svc 
+ 1739  docker ps -a
+ 1740  docker ps
+ 1741  docker logs -f mas_svc 
+ 1742  docker ps
+ 1743  dockerps
+ 1744  docker ps
+ 1745  docker logs -f mas_svc 
+ 1746  docker ps
+ 1747  docker restart mas_svc 
+ 1748  docker logs -f mas_svc 
+ 1749  docker ps
+ 1750  docker logs -f mas_svc -tail 1000
+ 1751  docker logs -f mas_svc --tail 1000
+ 1752  docker ps
+ 1753  docker logs -f mas_svc --tail 1000
+ 1754  docker ps
+ 1755  docker logs -f mas_svc --tail 1000
+ 1756  docker ps
+ 1757  docker logs 
+ 1758  docker logs -f mas_svc 
+ 1759  docker ps
+ 1760  docker logs -f user_svc 
+ 1761  docker ps
+ 1762  docker logs -f user_svc 
+ 1763  docker ps
+ 1764  docker logs -f user_svc 
+ 1765  docker ps
+ 1766  ls
+ 1767  docker ps
+ 1768  docker logs mas_svc 
+ 1769  docker logs -f user_svc 
+ 1770  exit
+ 1771  docker ps
+ 1772  docker logs mas_svc 
+ 1773  docker logs mas_svc -f
+ 1774  exit
+ 1775  docker ps
+ 1776  docker logs user_svc -f 500
+ 1777  docker logs user_svc -f -n 500
+ 1778  docker logs user_svc -f 
+ 1779  exit
+ 1780  docker ps
+ 1781  docker logs -f mas_svc 
+ 1782  jps
+ 1783  java
+ 1784  docker
+ 1785  docker logs --help
+ 1786  docker ps
+ 1787  docker logs user_svc -f 200
+ 1788  docker logs user_svc -f 
+ 1789  exit
+ 1790  docker ps
+ 1791  docker logs -f mas_svc 
+ 1792  docker ps
+ 1793  docker logs -f mas_svc 
+ 1794  docker ps
+ 1795  docker restart mas_svc 
+ 1796  docker logs -f mas_svc 
+ 1797  route
+ 1798  man dmesg
+ 1799  dmesg
+ 1800  man dmesg
+ 1801  dmesg | grep -in eth
+ 1802  man grep
+ 1803  lspci
+ 1804  lspci | grep -i ehternet
+ 1805  lspci
+ 1806  lspci | grep -i ethernet
+ 1807  man lspci
+ 1808  root -n
+ 1809  route -n
+ 1810  docker ps
+ 1811  docker logs -f mas_svc 
+ 1812  docker logs -f mas_svc --tail 1000
+ 1813  docker ps
+ 1814  docker s
+ 1815  docker ps
+ 1816  docker logs -f mas
+ 1817  docker logs -f mas_svc 
+ 1818  exi
+ 1819  exit
+ 1820  docker logs -f user_svc 
+ 1821  docker ps
+ 1822  docker logs -f user_svc 
+ 1823  docker ps
+ 1824  docker log
+ 1825  docker logs
+ 1826  docker logs --help
+ 1827  exit
+ 1828  docker logs -f user_svc 
+ 1829  docker restart user_svc 
+ 1830  docker logs -f user_svc 
+ 1831  docker restart user_svc 
+ 1832  docker logs -f user_svc 
+ 1833  docker ps
+ 1834  docker images
+ 1835  docker restart user_svc 
+ 1836  docker logs -f user_svc 
+ 1837  docker ps
+ 1838  docker docker images
+ 1839  docker images
+ 1840  docker ps
+ 1841  docker restart user_svc 
+ 1842  docker  logs -f user_svc 
+ 1843  docker  logs -f mas_svc 
+ 1844  echo $HOST_IP
+ 1845  hostname -i
+ 1846  docker ps
+ 1847  docker logs -f user_svc 
+ 1848  docker ps
+ 1849  docker logs -f user_svc 
+ 1850  docker logs -f mas_svc 
+ 1851  docker logs -f user_svc 
+ 1852  docker logs -f auth_srv 
+ 1853  docker ps
+ 1854  docker images
+ 1855  find registry
+ 1856  docker login 
+ 1857  docker login
+ 1858  docker login registry.xzlcorp.com
+ 1859  clear
+ 1860  docker login registry.xzlcorp.com
+ 1861  exit
+ 1862  docker ps
+ 1863  docker logs -f user_svc 
+ 1864  docker ps
+ 1865  docker image
+ 1866  docker images
+ 1867  exit
+ 1868  docker ps
+ 1869  dockker ps
+ 1870  docker images
+ 1871  docker restart mas-service
+ 1872  docker restart mas-server
+ 1873  docker ps
+ 1874  docker logs -f mas_svc 
+ 1875  ls
+ 1876  top
+ 1877  docker ps
+ 1878  docker images
+ 1879  exit
+ 1880  ls
+ 1881  top
+ 1882  aux -ps
+ 1883  echo $SHELL
+ 1884  cd /bin/
+ 1885  ls
+ 1886  ifconfig
+ 1887  ping http://192.168.122.1/
+ 1888  ping 192.168.122.1
+ 1889  cd /
+ 1890  ls
+ 1891  ls -a
+ 1892  ls -l
+ 1893  cd root/
+ 1894  ls
+ 1895  sudo cd root/
+ 1896  ls
+ 1897  pwd
+ 1898  su -
+ 1899  docker ps
+ 1900  docker login
+ 1901  docker login registry.xzlcorp.com
+ 1902  docker ps
+ 1903  docker images
+ 1904  exit
+ 1905  cat .ssh/authorized_keys 
+ 1906  history >> asipilin@172.16.10.11daqianghis.txt

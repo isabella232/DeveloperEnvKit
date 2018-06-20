@@ -1,0 +1,1000 @@
+ 1002  docker ps
+ 1003  docker logs --tail 1 -f doctor_api_svc 
+ 1004  docker logs --tail 100 -f doctor_api_svc 
+ 1005  docker restart doctor_api_svc 
+ 1006  docker logs --tail 100 -f doctor_api_svc 
+ 1007  docker ps
+ 1008  docker logs -f doctor_api_svc 
+ 1009  docker ps
+ 1010  docker logs -f doctor_api_svc 
+ 1011  docker logs -f --tail 1doctor_api_svc 
+ 1012  docker logs -f --tail 1 doctor_api_svc 
+ 1013  docker ps
+ 1014  docker logs -f --tail 1 doctor_api_svc 
+ 1015  ls -la
+ 1016  ls
+ 1017  docker logs -f medical_svc
+ 1018  ls
+ 1019  keytool -genkey -dname="CN=Gan Dong, OU=prod, O=xinzhili, L=Xicheng District, ST=Beijing, C=CN" -alias jwt-prod -keyalg RSA -keystore src/main/resources/jwt.jks
+ 1020  keytool -genkeypair -dname="CN=Gan Dong, OU=prod, O=xinzhili, L=Xicheng District, ST=Beijing, C=CN" -alias jwt-prod -keyalg RSA -keystore src/main/resources/jwt.jks
+ 1021  keytool -genkeypair  -alias jwt-prod -keyalg RSA -keystore src/main/resources/jwt.jks
+ 1022  keytool -genkeypair  -alias jwt-prod -keyalg RSA -keystore jwt.jks
+ 1023  ls
+ 1024  ls -al jwt.jks 
+ 1025  rm -rf jwt.jks 
+ 1026  docker ps
+ 1027  redis-cli -n 4
+ 1028  docker ps
+ 1029  docker logs -f medical_svc
+ 1030  docker ps
+ 1031  docker logs -f dpc_svc
+ 1032  docker ps
+ 1033  docker logs -f doctor_api_svc 
+ 1034  docker ps
+ 1035  docker restart medical_svc 
+ 1036  docker logs -f doctor_api_svc 
+ 1037  docker ps
+ 1038  docker logs -f medical_svc 
+ 1039  docker ps
+ 1040  docker logs -f doctor_api_svc
+ 1041  docker ps
+ 1042  docker logs -f medical_svc
+ 1043  docker logs -f doctor_api_svc
+ 1044  docker ps
+ 1045  docker logs -f medical_svc 
+ 1046  docker info
+ 1047  docker ps
+ 1048  docker images
+ 1049  docker df
+ 1050  docker system df
+ 1051  docker system
+ 1052  docker system df
+ 1053  docker stas
+ 1054  clear
+ 1055  docker ps
+ 1056  docker info
+ 1057  ls
+ 1058  ps -ef | grep docker
+ 1059  top
+ 1060  docker -H
+ 1061  docker --help
+ 1062  docker info 
+ 1063  docker ps
+ 1064  docker logs -f doctor_api_svc
+ 1065  docker ps
+ 1066  docker logs -f medical_svc
+ 1067  docker logs -f doctor_api_svc
+ 1068  docker ps
+ 1069  docker logs -f medical_svc
+ 1070  docker ps
+ 1071  docker ps -a
+ 1072  docker logs medical_svc 
+ 1073  exot
+ 1074  exit
+ 1075  docker
+ 1076  docker ps
+ 1077  docker logs -f medical_svc
+ 1078  docker ps
+ 1079  docker logs -f medical_svc
+ 1080  docker ps
+ 1081  docker logs -f medical_svc
+ 1082  docker logs -f medical_svc --tail 100
+ 1083  docker ps
+ 1084  docker logs -f medical_svc
+ 1085  docker ps
+ 1086  docker logs -f doctor_api_svc
+ 1087  docker ps
+ 1088  ssh 172.16.10.11
+ 1089  docker
+ 1090  dokcer ps
+ 1091  ssh 172.16.10.11
+ 1092  docker ps
+ 1093  ssh 172.16.10.11
+ 1094  ssh dev@172.16.10.11
+ 1095  docker logs -f medical_svc
+ 1096  ssh dev@172.16.10.11
+ 1097  docker ps
+ 1098  docker logs -f doctor_api_svc 
+ 1099  docker ps
+ 1100  docker logs -f dpc_svc 
+ 1101  docker ps
+ 1102  docker logs -f medical_svc 
+ 1103  ls
+ 1104  docker ps
+ 1105  docker logs -f doctor_api_svc 
+ 1106  ls
+ 1107  docker logs -f doctor_api_svc 
+ 1108  docker logs doctor_api_svc | grep true 
+ 1109  docker logs doctor_api_svc | grep ,true 
+ 1110  docker ps
+ 1111  docker logs -f medical_svc
+ 1112  exit
+ 1113  docker ps
+ 1114  docker logs -f medical_svc
+ 1115  docker ps
+ 1116  docker logs -f medical_svc
+ 1117  docker ps
+ 1118  docker logs  -f medical_svc 
+ 1119  exit
+ 1120  docker ps
+ 1121  docker logs -f doctor_api_svc
+ 1122  docker ps
+ 1123  docker logs -f medical_svc 
+ 1124  exit
+ 1125  docker ps
+ 1126  docker logs -f medical_svc
+ 1127  docker ps
+ 1128  docker logs -f medical_svc
+ 1129  docker ps
+ 1130  docker logs -f medical_svc
+ 1131  docker ps
+ 1132  docker logs -f doctor_api_svc 
+ 1133  docker ps
+ 1134  docker logs -f doctor_api+svc
+ 1135  docker logs -f doctor_api_svc
+ 1136  ls
+ 1137  docker ps
+ 1138  docker images
+ 1139  docker ps
+ 1140  docker ps
+ 1141  docker ps -a
+ 1142  docker logs -f medical_svc 
+ 1143  docker ps
+ 1144  docker logs -f medical_svc 
+ 1145  docker ps
+ 1146  docker ps -a
+ 1147  docker logs -f loving_swartz 
+ 1148  docker ps
+ 1149  docker logs -f doctor_api_svc
+ 1150  docker ps
+ 1151  docker logs -f docker_api_svc
+ 1152  docker logs -f  doctor_api_avc
+ 1153  docker logs -f  doctor_api_svc
+ 1154  ls
+ 1155  docker logs -f doctor_api_svc 
+ 1156  docker ps
+ 1157  docker logs -f doctor_api_avc
+ 1158  docker logs -f doctor_api_svc
+ 1159  docker ps
+ 1160  docker logs -f medical_svc
+ 1161  docker logs -f doctor_api_svc
+ 1162  docker logs -f medical_svc
+ 1163  docker ps
+ 1164  docker logs -f doctor_api_svc
+ 1165  docker ps
+ 1166  docker logs -f medical_svc
+ 1167  docker ps
+ 1168  docker logs -f doctor_api_svc
+ 1169  docker ps
+ 1170  docker logs -f doctor_api_svc 
+ 1171  docker ps
+ 1172  docker logs -f medical_svc 
+ 1173  ls
+ 1174  docker ps
+ 1175  docker logs medical_svc 
+ 1176  docker logs -tail medical_svc 
+ 1177  docker logs -f medical_svc 
+ 1178  docker logs -f medical_svc | grep ML
+ 1179  ls
+ 1180  docker ps
+ 1181  docker logs -f doctor_api_svc 
+ 1182  docker logs -f doctor_api_svc | grep MLComponent
+ 1183  docker logs -f doctor_api_svc
+ 1184  docker logs -f doctor_api_svc 
+ 1185  docker logs -f doctor_api_svc | grep MLComponent
+ 1186  docker logs -f medical_svc
+ 1187  docker logs -f medical_svc| grep 10233
+ 1188  docker logs -f medical_svc
+ 1189  docker ps
+ 1190  docker logs -f medical_svc
+ 1191  docker ps
+ 1192  docker logs -f doctor_api_svc 
+ 1193  docker logs -f medical_svc| grep 10233
+ 1194  docker logs -f medical_svc| grep ML
+ 1195  docker logs -f medical_svc| grep doctorAd
+ 1196  docker logs -f medical_svc
+ 1197  docker logs -f medical_svc|grep doctorAdvice
+ 1198  docker logs -f medical_svc
+ 1199  docker logs -f medical_svc|grep LittleReminderJob
+ 1200  docker logs -f medical_svc|grep doctorAdvice
+ 1201  docker logs -f medical_svc|grep LittleReminderJob
+ 1202  docker logs -f medical_svc|grep doctorAdvice
+ 1203  docker logs -f medical_svc
+ 1204  docker logs -f medical_svc|grep doctorAdvice
+ 1205  docker logs -f medical_svc|grep ERROR
+ 1206  docker logs -f medical_svc|grep doctorAdvice
+ 1207  docker logs -f medical_svc
+ 1208  docker logs -f medical_svc|grep doctorAdvice
+ 1209  docker logs -f medical_svc|grep ML
+ 1210  docker logs -f medical_svc|grep doctorAdvice
+ 1211  docker logs -f medical_svc
+ 1212  docker logs -f medical_svc| grep Reminder
+ 1213  docker logs -f medical_svc
+ 1214  docker logs -f medical_svc| grep doctorA
+ 1215  docker logs -f medical_svc
+ 1216  docker logs -f medical_svc| grep ML
+ 1217  docker logs -f medical_svc| grep doctorA
+ 1218  docker logs -f medical_svc| grep ML
+ 1219  docker logs -f medical_svc| grep Little
+ 1220  ls
+ 1221  docker logs -f medical_svc
+ 1222  docker logs -f medical_svc| grep doctorAdvice
+ 1223  date
+ 1224  docker logs -f medical_svc| grep doctorAdvice
+ 1225  docker logs -f medical_svc| grep DIAGNOSE_REMINDER
+ 1226  docker logs -f medi
+ 1227  docker logs -f medical_svc
+ 1228  docker logs -f medical_svc| grep doctorAdvice
+ 1229  docker logs -f medical_svc| grep ReminderType(code=2
+ 1230  docker logs -f medical_svc| grep "ReminderType(code=2"
+ 1231  docker logs -f medical_svc
+ 1232  docker logs -f medical_svc| grep doctorAdvice
+ 1233  docker logs -f doctor_api_svc 
+ 1234  docker ps
+ 1235  docker logs -f doctor_api_svc 
+ 1236  docker logs -f medical_svc 
+ 1237  ls
+ 1238  docker logs -f dpc_svc 
+ 1239  docker logs -f doctor_api_svc 
+ 1240  git show
+ 1241  git status 
+ 1242  docker logs -f doctor_api_svc 
+ 1243  docker ps
+ 1244  docker logs -f medical_svc | grep ML
+ 1245  docker logs -f medical_svc| grep ImageS
+ 1246  docker logs -f medical_svc 
+ 1247  docker logs -f medical_svc| grep doctorAdvice
+ 1248  docker logs -f medical_svc 
+ 1249  docker logs -f medical_svc| grep doctorAdvice
+ 1250  docker ps
+ 1251  docker logs -f medical_svc 
+ 1252  docker ps
+ 1253  docker logs -f doctor_api_svc 
+ 1254  docker ps
+ 1255  docker logs -f doctor_api_svc 
+ 1256  git status
+ 1257  docker logs -f doctor_api_svc 
+ 1258  docker logs -f dpc_svc 
+ 1259  docker ps
+ 1260  free -h
+ 1261  docker ps
+ 1262  docker logs -f medical_svc | grep doctorAdvice
+ 1263  docker logs -f medical_svc 
+ 1264  docker logs -f medical_svc | grep doctorAdvice
+ 1265  docker logs -f medical_svc 
+ 1266  docker logs -f medical_svc |grep little
+ 1267  docker logs -f medical_svc |grep Little
+ 1268  docker logs -f medical_svc | Erro
+ 1269  docker logs -f medical_svc | grep ERROR
+ 1270  docker logs -f medical_svc | grep exception
+ 1271  docker logs -f medical_svc | grep Runtime
+ 1272  docker logs -f medical_svc 
+ 1273  docker logs -f medical_svc | grep doctor
+ 1274  docker logs -f doctor_api_svc 
+ 1275  docker ps
+ 1276  docker logs -f doctor_api_svc 
+ 1277  docker ps
+ 1278  docker logs -f doctor_api_svc 
+ 1279  docker ps
+ 1280  docker logs -f doctor_api_svc 
+ 1281  docker logs -f fo
+ 1282  docker logs -f doctor_api_svc 
+ 1283  docker ps
+ 1284  docker logs -f doctor_api_svc 
+ 1285  docker logs -f medical_svc | grep doctorA
+ 1286  docker logs -f medical_svc | grep ERROR
+ 1287  docker logs -f medical_svc | grep Runtime
+ 1288  docker logs -f medical_svc 
+ 1289  docker logs -f medical_svc | grep ML
+ 1290  docker logs -f medical_svc 
+ 1291  docker logs -f medical_svc | grep ML
+ 1292  docker logs -f medical_svc | grep doctorA
+ 1293  docker logs -f medical_svc | grep ERROR
+ 1294  docker logs -f medical_svc | grep Runtime
+ 1295  docker logs -f medical_svc 
+ 1296  docker logs -f medical_svc | grep doctorA
+ 1297  docker logs -f medical_svc | grep ERROR
+ 1298  docker logs -f medical_svc | grep exception
+ 1299  docker logs -f medical_svc | grep Runtime
+ 1300  docker logs -f medical_svc | grep "job execute fail"
+ 1301  docker logs -f medical_svc | grep "2017-06-19 17:17:39"
+ 1302  docker logs -f medical_svc | grep "2017-06-19 17:17"
+ 1303  docker logs -f medical_svc | grep Exception
+ 1304  docker logs -f medical_svc | grep "job execute fail"
+ 1305  docker logs -f medical_svc | grep doctorA
+ 1306  docker logs -f medical_svc | grep "2017-06-19 17:54"
+ 1307  docker logs -f medical_svc | grep "2017-06-19 17:53"
+ 1308  docker logs -f medical_svc | grep doctorA
+ 1309  docker logs -f medical_svc | grep delete
+ 1310  docker logs -f medical_svc | grep "===delete"
+ 1311  docker ps
+ 1312  docker logs -f medical_svc | grep CancelJobComponent
+ 1313  cancelJobComponent
+ 1314  docker logs -f medical_svc | grep cancelJobComponent
+ 1315  docker logs -f medical_svc 
+ 1316  jps
+ 1317  javac
+ 1318  ls
+ 1319  s
+ 1320  docker ps
+ 1321  docker logs -f medical_svc 
+ 1322  docker ps
+ 1323  docker logs -f medical_svc 
+ 1324  docker images
+ 1325  docker ps
+ 1326  docker logs -f medical_svc | grep cancelJobComponent
+ 1327  docker logs -f medical_svc | grep 
+ 1328  docker logs -f medical_svc | grep cancelJobComponent
+ 1329  docker logs -f medical_svc 
+ 1330  docker ps
+ 1331  docker logs -f medical_svc
+ 1332  docker ps
+ 1333  docker ps -a
+ 1334  docker logs -f medical_svc
+ 1335  history | psql
+ 1336  history 
+ 1337  exit
+ 1338  docker ps
+ 1339  docker logs -f medical_svc 
+ 1340  docker ps
+ 1341  docker logs -f doctor_api_svc 
+ 1342  docker ps
+ 1343  docker logs -f medical_svc 
+ 1344  free -h
+ 1345  ls -la
+ 1346  wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
+ 1347  echo "deb https://artifacts.elastic.co/packages/5.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-5.x.list
+ 1348  sudo apt update 
+ 1349  sudo apt-get install logstash
+ 1350  sudo vim /etc/apt/sources.list.d/elastic-5.x.list 
+ 1351  sudo apt update 
+ 1352  sudo apt-get install logstash
+ 1353  sudo systemctl status logstash.service 
+ 1354  service logstash start
+ 1355  sudo service logstash start
+ 1356  sudo systemctl status logstash.service 
+ 1357  sudo vim /etc/logstash/startup.options 
+ 1358  sudo vim /etc/logstash/conf.d/
+ 1359  sudo apt install elasticsearch
+ 1360  sudo service elasticsearch start
+ 1361  free -h
+ 1362  ls
+ 1363  sudo vim /etc/logstash/conf.d/02-sb-input.conf
+ 1364  sudp vim /etc/logstash/conf.d/30-elasticsearch-output.conf
+ 1365  sudo vim /etc/logstash/conf.d/30-elasticsearch-output.conf
+ 1366  sudo service logstash restart
+ 1367  cat tmp.json 
+ 1368  cat >> tmp.json
+ 1369  cat tmp.json 
+ 1370  vim tmp.json 
+ 1371  nc localhost 5000 <  tmp.json
+ 1372  sudo vim /etc/logstash/startup.options 
+ 1373  curl localhost:9200
+ 1374  curl localhost:9200/
+ 1375  curl 'localhost:9200/_cat/indices?v'
+ 1376  curl localhost:9200/logstash-2017.06.20
+ 1377  curl localhost:9200/logstash-2017.06.20 | python -mjson
+ 1378  curl localhost:9200/logstash-2017.06.20 | python -mjson.tool
+ 1379  curl localhost:9200/logstash-2017.06.20 | python -mjson.tool | grep someField
+ 1380  curl localhost:9200/logstash-2017.06.20 | python -mjson.tool
+ 1381  free -h
+ 1382  ps aux 
+ 1383  ps aux | grep els
+ 1384  ps aux | grep ela
+ 1385  sudo apt install kibana 
+ 1386  sudo service kibana start
+ 1387  curl localhost:5601
+ 1388  pwd
+ 1389  hostname -i
+ 1390  sudo vim /etc/kibana/kibana.yml 
+ 1391  sudo service kibana restart 
+ 1392  nc localhost 5000 <  tmp.json
+ 1393  cat tmp.json 
+ 1394  ls -la
+ 1395  vim tmp.json 
+ 1396  cat tmp.json 
+ 1397  nc localhost 5000 <  tmp.json
+ 1398  vim tmp.json 
+ 1399  nc localhost 5000 <  tmp.json
+ 1400  curl 'localhost:9200/_cat/indices?v'
+ 1401  curl localhost:9200/logstash-2017.06.20 | python -mjson.tool
+ 1402  curl localhost:9200/logstash-2017.06.20 | python -mjson.tool | grep scm
+ 1403  sudo service kibana restart 
+ 1404  curl localhost:9200/logstash-2017.06.20/scm
+ 1405  curl localhost:9200/logstash-2017.06.20
+ 1406  curl localhost:9200/logstash-2017.06.20 | grep scm
+ 1407  curl localhost:9200/logstash-2017.06.20  > a.json
+ 1408  vim a.json 
+ 1409  nc localhost 5000 <  tmp.json
+ 1410  ls
+ 1411  vim a.json 
+ 1412  nc localhost 5000 <  a.json 
+ 1413  vim tmp.json 
+ 1414  nc localhost 5000 <  tmp.json 
+ 1415  free -h
+ 1416  nc localhost 5000 <  tmp.json 
+ 1417  sudo vim /etc/logstash/conf.d/02-sb-input.conf 
+ 1418  ls -la
+ 1419  sudo service logstash res
+ 1420  sudo service logstash restart
+ 1421  vim a.json 
+ 1422  nc localhost 5000 <  a.json 
+ 1423  vim a.json 
+ 1424  nc localhost 5000 <  a.json 
+ 1425  ls -la
+ 1426  sudo vim /etc/logstash/startup.options 
+ 1427  sudo vim /etc/logstash/logstash.yml 
+ 1428  ls
+ 1429  ls -la
+ 1430  sudo vim /etc/logstash/startup.options 
+ 1431  sudo vim /etc/logstash/logstash.yml 
+ 1432  sudo service logstash restaer
+ 1433  sudo service logstash restart
+ 1434  pwd
+ 1435  nc localhost 5000 <  a.json 
+ 1436  sudo vim /etc/kibana/kibana.yml 
+ 1437  service kibana status
+ 1438  ls -la
+ 1439  ls
+ 1440  sudo apt install shield
+ 1441  apt search x-pack
+ 1442  elasticsearch
+ 1443  cd /usr/share/elasticsearch
+ 1444  ls
+ 1445  sudo bin/elasticsearch-plugin install x-pack
+ 1446  cd ../kibana/
+ 1447  ls
+ 1448  sudo bin/kibana-plugin install x-pack
+ 1449  sudo service elasticsearch restart
+ 1450  sudo service kibana restart 
+ 1451  service kibana status
+ 1452  sudo vim /etc/kibana/kibana.yml 
+ 1453  curl http://172.16.10.14:5601/
+ 1454  curl https://172.16.10.14:5601/
+ 1455  cd
+ 1456  sudo vim /etc/kibana/kibana.yml 
+ 1457  sudo service kibana restart 
+ 1458  curl http://172.16.10.14:5601/
+ 1459  curl -I http://172.16.10.14:5601/
+ 1460  curl -H http://172.16.10.14:5601/
+ 1461  curl -i http://172.16.10.14:5601/
+ 1462  curl -i http://172.16.10.14:5601/login?next=%2F
+ 1463  sudo vim /etc/kibana/kibana.yml 
+ 1464  ls
+ 1465  docker ps
+ 1466  rz
+ 1467  sudo apt install lrzsz
+ 1468  docker logs -f --tail 1000 medical_svc 
+ 1469  docker ps
+ 1470  docker stop 68d51b0815fa
+ 1471  docker start 68d51b0815fa
+ 1472  docker ps
+ 1473  docker ps -a
+ 1474  docker logs -f --tail 1000 medical_svc 
+ 1475  history
+ 1476  history > historycmd.txt
+ 1477  ls
+ 1478  rz historycmd.txt 
+ 1479  sz historycmd.txt 
+ 1480  dcoker ps
+ 1481  docker ps
+ 1482  docker logs -f medical_svc 
+ 1483  ls
+ 1484  vim a.json 
+ 1485  ls
+ 1486  cd bin
+ 1487  ls
+ 1488  cd ..
+ 1489  ls
+ 1490  pwd
+ 1491  cd ..
+ 1492  ls
+ 1493  which logstash
+ 1494  docker ps
+ 1495  ls
+ 1496  cd ..
+ 1497  sl
+ 1498  ls
+ 1499  cd
+ 1500  ls
+ 1501  ls -a
+ 1502  vim .bashrc
+ 1503  ls
+ 1504  rm historycmd.txt 
+ 1505  ls
+ 1506  docker ps
+ 1507  uname
+ 1508  uname -a
+ 1509  ip
+ 1510  ip -a
+ 1511  ip -4
+ 1512  docker ps
+ 1513  docker logs -f doctor_api_svc 
+ 1514  docker logs -f medical_svc 
+ 1515  docker ps
+ 1516  ls
+ 1517  cd/
+ 1518  cd /
+ 1519  ls
+ 1520  cd etc/
+ 1521  ls
+ 1522  vim init
+ 1523  vim services
+ 1524  exit
+ 1525  docker logs -f medical_svc 
+ 1526  docker ps
+ 1527  docker logs -f medical_svc 
+ 1528  docker logs -f doctor_api_svc 
+ 1529  docker logs -f medical_svc 
+ 1530  docker logs -f doctor_api_svc 
+ 1531  ls
+ 1532  docker ps
+ 1533  docker logs -f medical_svc | grep doctorA
+ 1534  docker logs -f medical_svc | grep Exception
+ 1535  ls
+ 1536  docker logs -f medical_svc | grep doctorA
+ 1537  exit
+ 1538  docker logs -f doctor_api_svc 
+ 1539  docker logs -f medical_svc 
+ 1540  docker ps
+ 1541  docker logs -f medical_svc | grep imageFeedback
+ 1542  man grep
+ 1543  docker logs -f medical_svc | grep imageFeedback -A 50
+ 1544  docker logs -f medical_svc | grep "imageFeedback start" -A 50
+ 1545  docker logs -f medical_svc | grep "imageFeedback start" -A 10
+ 1546  ls
+ 1547  history
+ 1548  man nc
+ 1549  hostname -i
+ 1550  man hostname
+ 1551  hostname -a
+ 1552  hostname -A
+ 1553  docker ps
+ 1554  docker logs -f doctor_api_svc 
+ 1555  docker logs -f doctor_api_svc --tail 1000
+ 1556  docker ps
+ 1557  docker logs -f doctor_api_svc 
+ 1558  docker ps
+ 1559  docker logs -f doctor_api_svc 
+ 1560  docker ps
+ 1561  docker logs -f doctor_api_svc 
+ 1562  docker logs -f medical_svc | grep "imageFeedback start" -A 10
+ 1563  ls
+ 1564  docker ps
+ 1565  docker logs -f medical_svc | grep doctorA
+ 1566  docker logs -f medical_svc 
+ 1567  docker ps
+ 1568  docker logs -f medical_svc | grep "imageFeedback start"
+ 1569  e
+ 1570  docker logs -f medical_svc | grep "imageFeedback start"
+ 1571  docker logs -f medical_svc | grep "imageFeedback"
+ 1572  docker logs -f medical_svc | grep start
+ 1573  docker logs -f medical_svc | grep "imageFeedback start" -A 10 
+ 1574  docker ps
+ 1575  docker logs -f medical_svc 
+ 1576  docker ps
+ 1577  docker logs -f medical_svc 
+ 1578  docker ps
+ 1579  docker logs -f medical_svc 
+ 1580  docker logs -f medical_svc | grep "imageFeedback start" -A 10 
+ 1581  docker logs -f medical_svc | grep "imageFeedback start" -A20
+ 1582  docker logs -f medical_svc | grep "imageFeedback start" -A 20
+ 1583  docker logs -f doctor_api_svc 
+ 1584  docker ps
+ 1585  docker logs -f medical_svc 
+ 1586  docker logs -f medical_svc --tail 10000
+ 1587  docker ps
+ 1588  docker logs -f medical_svc --tail 1000
+ 1589  docker logs -f medical_svc --tail 5000
+ 1590  docker logs -f medical_svc | grep 2017-07-09
+ 1591  docker logs  medical_svc | grep 2017-07-09
+ 1592  docker logs  medical_svc | grep <==========\ 脑卒中
+ 1593  docker logs  medical_svc | grep 脑卒中
+ 1594  docker logs  medical_svc | grep 痛风
+ 1595  docker logs -f medical_svc 
+ 1596  docker ps
+ 1597  docker logs -f doctor_api_svc --tail 5000
+ 1598  docker logs -f medical_svc --tail 5000
+ 1599  exit
+ 1600  docker ps
+ 1601  docker logs -f dpc_svc 
+ 1602  docker logs dpc_svc | grep UPDATE\ t_doctor_advice
+ 1603  docker ps
+ 1604  docker logs -f doctor_api_svc 
+ 1605  docker ps
+ 1606  docker logs -f medical_svc 
+ 1607  docker ps
+ 1608  docker logs -f medical_svc 
+ 1609  docker ps
+ 1610  docker logs -f dpc_svc --tail 100
+ 1611  docker ps
+ 1612  docker logs -f doctor_api_svc 
+ 1613  docker logs -f doctor_api_svc --tail 100
+ 1614  exit
+ 1615  docker ps
+ 1616  docker logs -f doctor_api_svc 
+ 1617  docker logs -f doctor_api_svc --tail 3000
+ 1618  exit
+ 1619  docker ps
+ 1620  docker logs -f dpc_svc --tail 3000
+ 1621  docker ps
+ 1622  docker logs -f medical_svc 
+ 1623  docker ps
+ 1624  docker logs -f medical_svc 
+ 1625  docker logs -f dpc_svc 
+ 1626  docker ps
+ 1627  docker logs -f doctor_api_svc 
+ 1628  docker logs -f medical_svc 
+ 1629  docker ps
+ 1630  docker ps -a
+ 1631  docker start medical_svc 
+ 1632  docker start dpc_svc 
+ 1633  docker start doctor_api_svc 
+ 1634  docker ps
+ 1635  exit
+ 1636  docker logs -f dpc_svc 
+ 1637  docker ps
+ 1638  docker logs -f med
+ 1639  docker logs -f medical_svc --tail 3000
+ 1640  exit
+ 1641  docker ps
+ 1642  docker logs doctor_api_svc 
+ 1643  docker logs doctor_api_svc --tail 3000
+ 1644  docker logs -f doctor_api_svc 
+ 1645  docker logs -f doctor_api_svc --tail 1000
+ 1646  exit
+ 1647  docker logs -f dpc_svc 
+ 1648  docker start dpc_svc 
+ 1649  docker ps
+ 1650  docker logs -f doctor_api_svc 
+ 1651  docker ps
+ 1652  docker logs -f dpc_svc 
+ 1653  docker ps
+ 1654  docker stop dpc_svc 
+ 1655  docker ps
+ 1656  docker start dpc_svc 
+ 1657  docker ps
+ 1658  docker stop dpc_svc 
+ 1659  docker ps
+ 1660  docker stop dpc_svc 
+ 1661  docker start dpc_svc 
+ 1662  docker stop dpc_svc 
+ 1663  docker start dpc_svc 
+ 1664  docker stop dpc_svc 
+ 1665  docker start dpc_svc 
+ 1666  docker stop dpc_svc 
+ 1667  docker start dpc_svc 
+ 1668  docker stop dpc_svc 
+ 1669  docker start dpc_svc 
+ 1670  docker stop dpc_svc 
+ 1671  docker start dpc_svc 
+ 1672  docker stop dpc_svc 
+ 1673  docker start dpc_svc 
+ 1674  docker stop dpc_svc 
+ 1675  docker start dpc_svc 
+ 1676  exit
+ 1677  docker ps
+ 1678  docker logs -f medical_svc 
+ 1679  docker ps
+ 1680  eitexit
+ 1681  exit
+ 1682  docker ps
+ 1683  docker logs -f doctor_api_svc 
+ 1684  docker ps
+ 1685  docker ps -a
+ 1686  docker start 3ec78469cd89 2c7ae3c46b5c a4abc163b714 fea8cc4c0586
+ 1687  docker ps
+ 1688  docker logs -f dpc_svc 
+ 1689  docker ps
+ 1690  docker logs -f medical_svc 
+ 1691  docker ps
+ 1692  docker logs -f doctor_api_svc 
+ 1693  docker logs -f medical_svc 
+ 1694  exit
+ 1695  docker ps
+ 1696  docker logs -f doctor_api_svc 
+ 1697  docker ps
+ 1698  docker logs -f medical_svc 
+ 1699  docker logs -f medical_svc | grep "doctorA"
+ 1700  dh -u
+ 1701  df -h 
+ 1702  exit
+ 1703  docker ps
+ 1704  docker logs -f doctor_api_svc 
+ 1705  docker ps
+ 1706  docker logs -f dpc_svc --tail 1000
+ 1707  docker logs -f dpc_svc 
+ 1708  docker logs -f dpc_svc --tail
+ 1709  docker logs -f dpc_svc --tail 1000
+ 1710  ls
+ 1711  docker logs -f medical_svc | grep "doctorA"
+ 1712  docker logs -f doctor_api_svc 
+ 1713  docker ps
+ 1714  docker logs -f doctor_api_svc 
+ 1715  docker ps
+ 1716  docker logs -f medical_svc 
+ 1717  docker ps
+ 1718  docker logs -f doctor_api_svc 
+ 1719  docker ps
+ 1720  docker logs -f doctor_api_svc 
+ 1721  docker ps
+ 1722  docker logs -f doctor_api_svc 
+ 1723  docker ps
+ 1724  docker logs -f medical_svc 
+ 1725  docker ps
+ 1726  docker restart medical_svc 
+ 1727  docker logs -f medical_svc 
+ 1728  docker restart medical_svc 
+ 1729  docker logs -f medical_svc 
+ 1730  docker logs medical_svc 
+ 1731  docker logs -f medical_svc 
+ 1732  docker p
+ 1733  docker ps
+ 1734  docker logs -f medical_svc 
+ 1735  docker restart medical_svc 
+ 1736  docker logs -f medical_svc 
+ 1737  curl 'http://localhost:9001/web/medical/diagnosis' -H 'Authorization: Bearer  eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiJycG8xZTUiLCJ1c2VyX25hbWUiOiIxODMxMDM5ODYzNiIsInNjb3BlIjpbIlBBVElFTlQiXSwiZXhwIjoxNTAzMzkyMjQzLCJhdXRob3JpdGllcyI6WyJQQVRJRU5UX1JFQUQiLCJQQVRJRU5UX1dSSVRFIl0sImp0aSI6ImFiNDJhZjk5LWU3MTYtNDU4My1iZmYxLWNhNDJmOWI3NjFiYyIsImNsaWVudF9pZCI6InBhdGllbnRfYXBwIn0.g9nJdj-S1Km1yiHySWTp3S5kOtMTt5z-BNq7eo1MjWnNLceFn9N1gs9JCiEMM_Hbx578rLuWUHL05flrmtURfVCp64UMlzksL9QOGCosbeOuv5PTziTEJv5oyKjYWb_w5bXzVESyLJfHmr7yT1Iqraq5ZKMKV62K3cR-a7oF-u3Rw7H0Ml_H3jahNSwpcCAe848sChKDyA5y4JxhIEHVBAOiLzbczRgMovtV7VrVGB-b2ksvrTBG4ba60QP1Np-bg2_MGeLBP83gmo49ms3JZeP85Q_R0bNLm2P5fl2wyWzM_kvnRIQr-_1GGi2A6ytcquBUBoOoBN5OxLPesP15cQ' -H 'Accept-Encoding: gzip, deflate, br' -H 'Accept-Language: zh-CN,zh;q=0.8,en;q=0.6' -H 'Upgrade-Insecure-Requests: 1' -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.101 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8' -H 'Cache-Control: max-age=0' -H 'Cookie: SESSION=7f719a50-6ad0-4cdc-bbe5-8acdf94b0aa3' -H 'Connection: keep-alive' --compressed
+ 1738  docker ps
+ 1739  docker exec -it 5a36f66a878b sh
+ 1740  ls
+ 1741  rm -rf script.deb.sh 
+ 1742  ls
+ 1743  rm -rf media
+ 1744  ls
+ 1745  cd logs
+ 1746  ls
+ 1747  cd ..
+ 1748  ls
+ 1749  rm -rf logs
+ 1750  ls
+ 1751  route -n
+ 1752  uname
+ 1753  uname -n
+ 1754  uname -a
+ 1755  man uname
+ 1756  hostnam
+ 1757  hostname
+ 1758  man route
+ 1759  route -n
+ 1760  ifconfig
+ 1761  docker ps
+ 1762  docker logs -f medical_svc 
+ 1763  docker ps
+ 1764  docker logs -f doctor_api_svc 
+ 1765  iptables
+ 1766  iptables -h
+ 1767  netstat -nr
+ 1768  route -n
+ 1769  docker ps
+ 1770  docker logs -f doctor_api_svc 
+ 1771  docker ps
+ 1772  docker logs -f doctor_api_svc 
+ 1773  docker ps
+ 1774  fab
+ 1775  man fab
+ 1776  history | grep fab
+ 1777  man history
+ 1778  man fab
+ 1779  fab --help
+ 1780  pip -h
+ 1781  python -v
+ 1782  which python
+ 1783  python3
+ 1784  which python3
+ 1785  echo $PATH
+ 1786  cd /etc
+ 1787  ls
+ 1788  vim profile
+ 1789  vim profile.d
+ 1790  cd ..
+ 1791  ls
+ 1792  cd bin
+ 1793  ls
+ 1794  ls | grep pyth*
+ 1795  cd /
+ 1796  ls
+ 1797  cd usr
+ 1798  ls
+ 1799  cd bin
+ 1800  ls
+ 1801  exit
+ 1802  history 
+ 1803  sudo history | grep fa*
+ 1804  exit
+ 1805  docker ps
+ 1806  docker logs -f medical_svc 
+ 1807  docker ps
+ 1808  docker logs -f doctor_api_svc 
+ 1809  docker logs -f doctor_api_svc | grep 450
+ 1810  docker logs -f doctor_api_svc 
+ 1811  docker ps
+ 1812  docker logs -f medical_svc 
+ 1813  docker logs -f doctor_api_svc 
+ 1814  docker ps
+ 1815  docker logs -f doctor_api_svc 
+ 1816  docker logs -f medical_svc 
+ 1817  docker logs -f medical_svc | grep doctorA
+ 1818  docker logs -f medical_svc | grep 
+ 1819  docker logs -f medical_svc 
+ 1820  docker logs -f medical_svc | grep patientId
+ 1821  docker logs -f medical_svc 
+ 1822  docker logs -f medical_svc | grep doctorA
+ 1823  docker logs -f medical_svc 
+ 1824  docker logs -f medical_svc | grep doctorA
+ 1825  docker
+ 1826  docker ps
+ 1827  docker stop f6f4ddbca234
+ 1828  docker start f6f4ddbca234
+ 1829  docker export f6f4ddbca234> medical.tar
+ 1830  ls
+ 1831  rz medical.tar 
+ 1832  sz medical.tar 
+ 1833  docker ps
+ 1834  docker logs dpc_svc -s
+ 1835  docker logs dpc_svc -f tail
+ 1836  docker logs --help
+ 1837  docker logs --tail -f dpc_svc 
+ 1838  exit
+ 1839  docker ps
+ 1840  man sz
+ 1841  ls
+ 1842  rz medical.tar 
+ 1843  man rz
+ 1844  rz --help
+ 1845  ls
+ 1846  sz medical.tar 
+ 1847  ls
+ 1848  docker logs -f medical_svc | grep doctorA
+ 1849  ls
+ 1850  docker logs -f medical_svc | grep doctorA
+ 1851  ifconfig
+ 1852  docker logs -f medical_svc | grep doctorA
+ 1853  docker logs -f medical_svc 
+ 1854  docker logs -f medical_svc | grep doctorA
+ 1855  docker images -a
+ 1856  ls
+ 1857  rm medical.tar 
+ 1858  ls
+ 1859  docker ps
+ 1860  docker export f18a9c445375
+ 1861  docker export f18a9c445375 > medical.tar
+ 1862  ls
+ 1863  docker logs -f medical_svc | grep doctorA
+ 1864  docker logs -f medical_svc | grep exception
+ 1865  docker logs -f medical_svc | grep doctorA
+ 1866  docker logs -f medical_svc | grep exception
+ 1867  docker logs -f medical_svc | grep doctor
+ 1868  docker logs -f medical_svc | grep exception
+ 1869  docker logs -f medical_svc 
+ 1870  docker logs -f medical_svc | grep doctorA
+ 1871  docker ps
+ 1872  ls
+ 1873  sz medical.tar 
+ 1874  docker logs --tail -f dpc_svc 
+ 1875  docker logs --tail -f 200 dpc_svc 
+ 1876  docker logs --help
+ 1877  docker logs --tail 200 -f dpc_svc 
+ 1878  docker logs --tail 200 -f dpc_svc | grep WARN
+ 1879  docker logs --tail 200 -f dpc_svc 
+ 1880  docker logs -f doctor_api_svc 
+ 1881  docker logs -f medical_svc | grep exception
+ 1882  docker logs -f medical_svc | grep image
+ 1883  docker logs -f medical_svc | grep imageFeedback
+ 1884  docker logs -f medical_svc | grep imageFeedback -A 2
+ 1885  docker logs -f medical_svc | grep imageFeedback -A 10
+ 1886  docker logs -f doctor_api_svc 
+ 1887  ls
+ 1888  docker ps
+ 1889  docker logs -f doctor_api_svc 
+ 1890  docker ps
+ 1891  docker logs -f medi
+ 1892  ip
+ 1893  host
+ 1894  iptables
+ 1895  ip -a
+ 1896  ip -h
+ 1897  ip address
+ 1898  ls
+ 1899  docker ps
+ 1900  docker restart dpc_svc 
+ 1901  docker logs -f dpc_svc 
+ 1902  docker logs -f dpc_svc --tail 1
+ 1903  docker logs -f doctor_api_svc --tail 1
+ 1904  docker logs -f dpc_svc 
+ 1905  docker logs -f dpc_svc --tail -1
+ 1906  docker logs -f doctor_api_svc 
+ 1907  docker ps
+ 1908  docker images
+ 1909  docker restart doctor_api_svc 
+ 1910  docker logs -f doctor_api_svc 
+ 1911  docker restart doctor_api_svc 
+ 1912  docker logs -f doctor_api_svc 
+ 1913  docker ps
+ 1914  docker images
+ 1915  docker ops
+ 1916  docker ps
+ 1917  docker logs -f doctor_api_svc --tail 100
+ 1918  docker logs -f dpc_svc --tail 1000
+ 1919  docker ps
+ 1920  docker logs -f medical_svc | grep doctorA
+ 1921  docker logs -f medical_svc | grep doctorA -A 4
+ 1922  docker logs -f medical_svc | grep doctorA -A 7
+ 1923  docker logs -f medical_svc | grep doctorA -A 15
+ 1924  docker logs -f medical_svc
+ 1925  docker logs -f medical_svc | grep doctorA -A 15
+ 1926  docker logs -f medical_svc | grep advice -A 15
+ 1927  docker logs -f medical_svc | grep advice
+ 1928  docker logs -f medical_svc
+ 1929  docker logs -f medical_svc | grep advice
+ 1930  docker logs -f medical_svc 
+ 1931  man curl
+ 1932  docker logs -f dpc_svc 
+ 1933  docker logs -f dpc_svc | grep exception
+ 1934  docker logs -f dpc_svc 
+ 1935  docker ps
+ 1936  docker logs -f doctor_api_svc 
+ 1937  docker ps
+ 1938  docker logs -f medical_svc 
+ 1939  docker ps
+ 1940  docker stop 86079073445c
+ 1941  docker restart 86079073445c
+ 1942  docker logs -f medical_svc 
+ 1943  docker restart 86079073445c
+ 1944  docker logs -f medical_svc 
+ 1945  docker ps
+ 1946  ll
+ 1947  man ll
+ 1948  docker logs -f dpc_svc 
+ 1949  docker logs -f medical_svc 
+ 1950  docker logs -f doctor_api_svc 
+ 1951  docker logs -f medical_svc 
+ 1952  docker logs -f doctor_api_svc 
+ 1953  docker logs -f dpc_svc 
+ 1954  docker logs -f medical_svc 
+ 1955  docker logs -f doctor_api_svc 
+ 1956  docker logs -f doctor_api_svc --tail 1
+ 1957  docker logs -f doctor_api_svc 
+ 1958  docker
+ 1959  docker ps
+ 1960  ls
+ 1961  cd /
+ 1962  ls
+ 1963  ps -aux
+ 1964  ifconfig
+ 1965  docker ps
+ 1966  docker images
+ 1967  ps -aux | grep docker
+ 1968  type docker
+ 1969  ls
+ 1970  cd home/
+ 1971  ls
+ 1972  cd jenkins/
+ 1973  ls
+ 1974  cd ..
+ 1975  ls
+ 1976  cd dev/
+ 1977  ls
+ 1978  cat Test.
+ 1979  cat Test.java 
+ 1980  docker ps
+ 1981  exit
+ 1982  docker logs -f dpc_svc 
+ 1983  docker ps
+ 1984  docker logs -f doctor_api_svc 
+ 1985  docker ps
+ 1986  exit
+ 1987  ls
+ 1988  exit
+ 1989  ssh asipilin@172.16.10.11
+ 1990  exit
+ 1991  docker -logs
+ 1992  docker -log
+ 1993  docker logs
+ 1994  docker ps
+ 1995  docker logs dpc_svc -f
+ 1996  docker ps
+ 1997  docker logs dpc_svc -f
+ 1998  exit
+ 1999  history
+ 2000  pwd
+ 2001  history >> dev@172.16.10.14daqianghis.txt

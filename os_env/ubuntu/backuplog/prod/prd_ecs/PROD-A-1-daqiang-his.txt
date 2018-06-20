@@ -1,0 +1,237 @@
+    1  sudo apt-get install language-pack-UTF-8
+    2  sudo apt-get install language-pack-UTF
+    3  sudo apt-get install language-pack
+    4  apt search language-pack
+    5  apt search language-pack | less
+    6  sudo apt update 
+    7  ping baidu.com
+    8  sudo apt update 
+    9  ls
+   10  ping mirrors.tuna.tsinghua.edu.cn
+   11  sudo apt update 
+   12  ping  cn-north-1b.clouds.archive.ubuntu.com
+   13  sudo apt upgrade 
+   14  sudo apt update 
+   15  sudo vim /etc/apt/sources.list
+   16  cd /etc/apt/
+   17  ls
+   18  sudo cp sources.list sources.list.origin
+   19  ls
+   20  sudo vim sources.list
+   21  cd
+   22  sudo apt update 
+   23  sudo su
+   24  ls
+   25  sudo apt update 
+   26  ping baidu.com
+   27  sudo apt update 
+   28  ping  cn-north-1b.clouds.archive.ubuntu.com
+   29  ping mirrors.tuna.tsinghua.edu.cn
+   30  curl baidu.com
+   31  sudo apt update 
+   32  sudo apt upgrade 
+   33  ls
+   34  cd /etc/apt/
+   35  ls
+   36  sudo rm -rf sources.list
+   37  sudo mv sources.list.origin sources.list
+   38  ls
+   39  cd
+   40  sudo apt update 
+   41  sudo apt upgrade 
+   42  ls -la
+   43  ls
+   44  ls -la
+   45  ls
+   46  ls -la
+   47  ls
+   48  ls -la
+   49  ls
+   50  ls -la
+   51  hostname
+   52  dnsmasq 
+   53  dnsmasq --help
+   54  ls
+   55  ls -la
+   56  hostname -i
+   57  ls -la
+   58  ls
+   59  ls -la
+   60  free -h
+   61  sudo apt upgrade 
+   62  ls -la
+   63  ls
+   64  ls -la
+   65  ls
+   66  sudo apt update 
+   67  ls
+   68  ls -la
+   69  ls
+   70  sudo apt install docker
+   71  sudo apt uninstall docker
+   72  sudo apt remove docker
+   73  apt search docker
+   74  sudo apt install docker-engine
+   75  sudo apt-get install apt-transport-https ca-certificates
+   76  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+   77  sudo apt-get update
+   78  apt-cache policy docker-engine
+   79  sudo apt install docker-engine
+   80  docker run -d -p 8081:8081 --name nexus sonatype/docker-nexus3
+   81  sudo  systemctl enable docker
+   82  sudo service docker start
+   83  docker ps
+   84  sudo docker ps
+   85  sudo groupadd docker
+   86  sudo gpasswd -a ubuntu docker
+   87  sudo service docker restart
+   88  docker ps
+   89  sudo docker ps
+   90  docker ps
+   91  ls -la
+   92  ls
+   93  git
+   94  ls -la
+   95  ping ip-10-16-2-13.cn-north-1.compute.internal
+   96  ls -la
+   97  git
+   98  git --version
+   99  ls -la
+  100  apt search nexus
+  101  docker login registry.xzlcorp.com
+  102  docker logs -f dpc_svc 
+  103  docker ps
+  104  docker logs -f medical_svc 
+  105  docker ps
+  106  docker logs -f doctor_api_svc 
+  107  docker logs -f medical_svc 
+  108  docker start medical_svc 
+  109  docker logs -f medical_svc 
+  110  ls -la
+  111  docker ps -a
+  112  docker logs -f medical_svc 
+  113  docker ps
+  114  docker logs -f dpc_svc 
+  115  docker ps
+  116  docker logs -f doctor_api_svc 
+  117  docker logs -f dpc_svc 
+  118  docker logs -f medical_svc 
+  119  docker ps
+  120  docker logs -f medical_svc --tail 10000
+  121  docker logs -f medical_svc | less
+  122  docker logs -f medical_svc | more
+  123  docker logs -f medical_svc | grep 'Exception'
+  124  docker logs -f medical_svc | grep 'Array'
+  125  docker logs -f medical_svc 
+  126  ls -al
+  127  ls
+  128  docker logs -f medical_svc 
+  129  ls
+  130  docker logs -f medical_svc 
+  131  docker ps
+  132  curl 0.0.0.0:9008/admin
+  133  curl http://0.0.0.0:9008/admin
+  134  curl -i http://0.0.0.0:9008/admin
+  135  curl -i http://0.0.0.0:9008/admin/welcome
+  136  ls
+  137  docker ps
+  138  docker logs -f medical_svc 
+  139  docker logs -f medical_svc
+  140  docker logs -f dpc_svc 
+  141  docker logs -f d
+  142  docker logs -f dpc_svc 
+  143  docker rm -f doctor_api_svc 
+  144  ls -la
+  145  docker logs -f dpc_svc 
+  146  docker logs -f medical_svc 
+  147  docker logs -f doctor_api_svc 
+  148  docker ps
+  149  docker stop doctor_api_svc 
+  150  docker rm -f doctor_api_svc 
+  151  docker logs -f medical_svc 
+  152  docker logs -f dpc_svc 
+  153  df -h
+  154  docker logs -f
+  155  docker 
+  156  docker ps
+  157  docker logs -f doctor_api_svc 
+  158  exit
+  159  history
+  160  exit
+  161  docker ps
+  162  docker logs -f doctor_api_svc 
+  163  docker ps
+  164  docker logs -f doctor_api_svc 
+  165  docker ps
+  166  docker logs -f doctor_api_svc 
+  167  docker ps
+  168  docker logs -f doctor_api_svc 
+  169  docker ps
+  170  docker images
+  171  docker logs -f doctor_api_svc 
+  172  docker ps
+  173  docker ps -a
+  174  docker logs -f medical_svc 
+  175  docker images
+  176  docker ps
+  177  docker logs -f medical_svc 
+  178  docker ps
+  179  docker logs -f doctor_api_svc  --tail 100
+  180  docker logs -f doctor_api_svc | q
+  181  docker ps
+  182  ls
+  183  docker ps
+  184  docker logs -f dpc_svc 
+  185  docker ps
+  186  docker logs -f medical_svc
+  187  docker logs -d dpc_svc 
+  188  docker logs -f dpc_svc 
+  189  docker logs -f doctor_api_svc 
+  190  docker restart doctor_api_svc 
+  191  docker logs -f doctor_api_svc 
+  192  docker ps
+  193  docker logs -f medical_svc 
+  194  docker ps
+  195  docker restart medical_svc 
+  196  docker logs -f medical_svc 
+  197  docker ps
+  198  curl -X POST localhost:9008/env
+  199  docker logs -f dpc_svc 
+  200  docker ps
+  201  docker logs -f doctor_api_svc 
+  202  docker ps
+  203  docker logs -f doctor_api_svc 
+  204  docker ps
+  205  docker logs -f doctor_api_svc 
+  206  docker os
+  207  docker ps
+  208  docker logs -f doctor_api_svc 
+  209  exit
+  210  docker ps
+  211  docker logs -f doctor_api_svc 
+  212  exit
+  213  docker ps
+  214  docker logs -f dpc_svc --tail 1
+  215  docker logs -f dpc_svc --tail 1000
+  216  docker ps
+  217  ssh 10.0.1.252
+  218  docker ps
+  219  docker logs -f dpc_svc 
+  220  docker ps
+  221  docker logs -f medical_svc 
+  222  docker logs -f doctor_api_svc 
+  223  ls
+  224  psql
+  225  ls
+  226  ssh 10.0.1.252
+  227  docker ps
+  228  exit
+  229  docker logs -f doctor_api_svc 
+  230  history
+  231  psql
+  232  docker logs -f medical_svc 
+  233  docker logs -f dpc_svc 
+  234  docker logs -f doctor_api_svc 
+  235  docker logs -f medical_svc 
+  236  docker logs -f doctor_api_svc 
+  237  history >> PROD-A-1-daqiang-his.txt

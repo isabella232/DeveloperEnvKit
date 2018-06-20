@@ -1,0 +1,259 @@
+    1  sudo apt-get install language-pack-UTF-8
+    2  sudo apt-get install language-pack-UTF
+    3  sudo apt-get install language-pack
+    4  apt search language-pack
+    5  apt search language-pack | less
+    6  sudo apt update 
+    7  ping baidu.com
+    8  sudo apt update 
+    9  ls
+   10  ping mirrors.tuna.tsinghua.edu.cn
+   11  sudo apt update 
+   12  ping  cn-north-1b.clouds.archive.ubuntu.com
+   13  sudo apt upgrade 
+   14  sudo apt update 
+   15  sudo vim /etc/apt/sources.list
+   16  cd /etc/apt/
+   17  ls
+   18  sudo cp sources.list sources.list.origin
+   19  ls
+   20  sudo vim sources.list
+   21  cd
+   22  sudo apt update 
+   23  sudo su
+   24  ls
+   25  sudo apt update 
+   26  ping baidu.com
+   27  sudo apt update 
+   28  ping  cn-north-1b.clouds.archive.ubuntu.com
+   29  ping mirrors.tuna.tsinghua.edu.cn
+   30  curl baidu.com
+   31  sudo apt update 
+   32  sudo apt upgrade 
+   33  ls
+   34  cd /etc/apt/
+   35  ls
+   36  sudo rm -rf sources.list
+   37  sudo mv sources.list.origin sources.list
+   38  ls
+   39  cd
+   40  sudo apt update 
+   41  sudo apt upgrade 
+   42  ls -la
+   43  ls
+   44  ls -la
+   45  ls
+   46  ls -la
+   47  ls
+   48  ls -la
+   49  ls
+   50  ls -la
+   51  hostname
+   52  dnsmasq 
+   53  dnsmasq --help
+   54  ls
+   55  ls -la
+   56  hostname -i
+   57  ls -la
+   58  ls
+   59  ls -la
+   60  free -h
+   61  sudo apt upgrade 
+   62  ls -la
+   63  ls
+   64  ls -la
+   65  ls
+   66  sudo apt update 
+   67  ls
+   68  ls -la
+   69  ls
+   70  sudo apt install docker
+   71  sudo apt uninstall docker
+   72  sudo apt remove docker
+   73  apt search docker
+   74  sudo apt install docker-engine
+   75  sudo apt-get install apt-transport-https ca-certificates
+   76  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+   77  sudo apt-get update
+   78  apt-cache policy docker-engine
+   79  sudo apt install docker-engine
+   80  docker run -d -p 8081:8081 --name nexus sonatype/docker-nexus3
+   81  sudo  systemctl enable docker
+   82  sudo service docker start
+   83  docker ps
+   84  sudo docker ps
+   85  sudo groupadd docker
+   86  sudo gpasswd -a ubuntu docker
+   87  sudo service docker restart
+   88  docker ps
+   89  sudo docker ps
+   90  docker ps
+   91  ls -la
+   92  ls
+   93  git
+   94  ls -la
+   95  ping ip-10-16-2-13.cn-north-1.compute.internal
+   96  ls -la
+   97  git
+   98  git --version
+   99  ls -la
+  100  apt search nexus
+  101  docker login registry.xzlcorp.com
+  102  docker ps
+  103  docker logs -f notify_svc
+  104  docker logs -f notify_svc_sidecar 
+  105  ls
+  106  docker ps
+  107  docker logs -f notify_svc_sidecar 
+  108  ls
+  109  docker ps
+  110  docker logs -f medicine_svc 
+  111  docker logs -f gatekeeper_srv 
+  112  ls
+  113  docker ps
+  114  docker images
+  115  docker rmi 23683d69897b
+  116  docker rmi 23683d69897b -f
+  117  docker ps -a
+  118  docker rm -f medical_svc
+  119  docker ps
+  120  docker logs -f medicine_svc 
+  121  docker ps
+  122  docker logs -f notify_svc_sidecar 
+  123  docker ps
+  124  docker logs -f medicine_svc 
+  125  docker logs -f gatekeeper_srv 
+  126  docker ps
+  127  docker logs -f medicine_svc 
+  128  ls
+  129  l
+  130  ls
+  131  docker ps
+  132  docker logs -f notify_svc_sidecar 
+  133  docker logs -f notify_svc
+  134  docker ps
+  135  docker logs -f gatekeeper_srv 
+  136  docker logs -f medicine_svc 
+  137  docker ps
+  138  docker logs -f medicine_svc --tail 1000
+  139  docker logs -f medicine_svc --tail 1
+  140  docker ps
+  141  docker logs -f medicine_svc --tail 1000
+  142  docker ps
+  143  docker logs -f notify_svc
+  144  docker logs -f medicine_svc 
+  145  docker logs -f gatekeeper_srv 
+  146  docker ps
+  147  docker logs -f gatekeeper_srv 
+  148  docker logs -f medicine_svc 
+  149  docker logs -f notify_svc
+  150  docker logs -f notify_svc_sidecar 
+  151  docker ps
+  152  docker logs
+  153  docker logs -f gatekeeper_srv 
+  154  ls -la
+  155  docker restart gatekeeper_srv 
+  156  docker logs -f gatekeeper_srv 
+  157  ls
+  158  docker logs -f gatekeeper_srv 
+  159  docker ps
+  160  top
+  161  docker ps
+  162  docker logs -f gatekeeper_srv 
+  163  docker logs -f notify_svc_sidecar 
+  164  docker ps
+  165  curl 0.0.0.0:32776
+  166  curl 0.0.0.0:32776/env
+  167  curl 0.0.0.0:32776/env | python -mjson.tool
+  168  python3
+  169  curl 0.0.0.0:32776/env | python3 -mjson.tool
+  170  docker ps
+  171  docker logs -f notify_svc_sidecar 
+  172  curl 0.0.0.0:32776/env | python3 -mjson.tool
+  173  docker ps
+  174  curl 0.0.0.0:32777/env | python3 -mjson.tool
+  175  docker ps
+  176  curl 0.0.0.0:32777/health
+  177  ls
+  178  docker ps
+  179  docker logs -f notify_svc_sidecar 
+  180  df -h
+  181  docker ps
+  182  docker logs -f notify_svc_sidecar 
+  183  docker ps
+  184  docker logs -f medicine_svc 
+  185  docker ps
+  186  docker logs -f gatekeeper_srv 
+  187  docker ps
+  188  docker logs -f medicine_svc 
+  189  ls
+  190  docker ps
+  191  curl http://0.0.0.0:9002/search/summary?code=6923878310139
+  192  docker logs -f medicine_svc 
+  193  curl "http://219.232.117.240/AAQI/v1/ProductData/gtin/06923878310139?targetMarket=156&dataVersion=1.1&clientGln=6901234500387&mac=62EC7A4EC15C157919AD7F594868873C946AE581356CCBD793A4BD3B14F4EC7D"
+  194  curl "http://219.232.117.240/AAQI/v1/ProductData/gtin/06920855010181"
+  195  docker logs -f medicine_svc 
+  196  curl http://10.0.1.71:9002/search/summary?code=6923981900029
+  197  history 
+  198  exit
+  199  history
+  200  docker ps
+  201  docker logs -f medicine_svc 
+  202  ls
+  203  docker logs -f medicine_svc 
+  204  ls
+  205  docker logs -f medicine_svc 
+  206  docker logs -f medicine_svc --tail1
+  207  docker logs -f medicine_svc --tail 1
+  208  docker logs -f medicine_svc --tail 1000
+  209  ls
+  210  docker logs -f medicine_svc 
+  211  docker logs -10000f medicine_svc 
+  212  docker logs -f medicine_svc  --tail 100000
+  213  docker logs
+  214  docker logs --help
+  215  docker logs --since 1495144810
+  216  docker logs --since 1495144810 medicine_srv
+  217  docker logs -f --since 1495144810 medicine_svc 
+  218  docker logs -f --since 1495173610 medicine_svc 
+  219  docker logs -f medicine_svc  --tail 100000
+  220  docker logs -f medicine_svc 
+  221  docker ps
+  222  docker logs -f medicine_svc 
+  223  docker ps
+  224  docker logs -f medicine_svc 
+  225  exit
+  226  docker logs -f medicine_svc 
+  227  docker ps
+  228  docker logs -f medicine_svc 
+  229  curl http://219.232.117.240/AAQI/v1/ProductData/gtin/06951283550253?targetMarket=156&dataVersion=1.1&clientGln=6901234500387&mac=D5360DF7BCFB5B01B716F70FEE705BFAC9725EF1F33C8765A9FFBEC935E70917
+  230  docker ps
+  231  docker logs -f medicine_svc --tail 3000
+  232  docker logs -f medicine_svc 
+  233  docker ps
+  234  docker logs -f medicine_svc 
+  235  exit
+  236  docker ps
+  237  docker logs -f medicine_svc 
+  238  docker ps
+  239  docker logs -f medicine_svc 
+  240  docker ps
+  241  docker logs -f medicine_svc 
+  242  docker ps
+  243  docker images
+  244  docker restart medicine_svc 
+  245  docker logs -f medicine_svc 
+  246  docker ps
+  247  docker logs -f medicine_svc 
+  248  docker ps
+  249  docker images
+  250  docker logs -f medicine_svc 
+  251  docker ps
+  252  docker logs -f notify_svc
+  253  docker logs -f notify_svc_sidecar 
+  254  docker logs -f medicine_svc 
+  255  docker logs -f gatekeeper_srv 
+  256  docker ps
+  257  docker logs -f notify_svc
+  258  docker logs -f medicine_svc 
+  259  history >> PROD-A-3-daqiang-his.txt

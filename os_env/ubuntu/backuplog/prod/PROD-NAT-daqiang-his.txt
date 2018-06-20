@@ -1,0 +1,127 @@
+    1  ls
+    2  ssh -i "xinzhili-prod.pem" ubuntu@10.0.0.6
+    3  ssh -i "xinzhili-prod.pem" ubuntu@10.0.1.23
+    4  sudo yum upd
+    5  sudo yum update
+    6  sudo yum upgrade
+    7  ls
+    8  psql
+    9  ssh -i "xinzhili-prod.pem" ubuntu@10.0.1.252
+   10  ls
+   11  ssh -i "xinzhili-prod.pem" ubuntu@10.0.1.252
+   12  psql
+   13  curl "http://219.232.117.240/AAQI/v1/ProductData/gtin/06923878310139?targetMarket=156&dataVersion=1.1&clientGln=6901234500387&mac=62EC7A4EC15C157919AD7F594868873C946AE581356CCBD793A4BD3B14F4EC7D"
+   14  hostname  -i
+   15  ping http://219.232.117.240/
+   16  ping 219.232.117.240
+   17  curl http://219.232.117.240/AAQI/v1/ProductData/gtin/06923878310139?targetMarket=156&dataVersion=1.1&clientGln=6901234500387&mac=62EC7A4EC15C157919AD7F594868873C946AE581356CCBD793A4BD3B14F4EC7D
+   18  fg
+   19  curl "http://219.232.117.240/AAQI/v1/ProductData/gtin/06923878310139?targetMarket=156&dataVersion=1.1&clientGln=6901234500387&mac=62EC7A4EC15C157919AD7F594868873C946AE581356CCBD793A4BD3B14F4EC7D"
+   20  sudo yum up
+   21  sudo yum upgrade
+   22  curl "http://219.232.117.240/AAQI/v1/ProductData/gtin/06923878310139?targetMarket=156&dataVersion=1.1&clientGln=6901234500387&mac=62EC7A4EC15C157919AD7F594868873C946AE581356CCBD793A4BD3B14F4EC7D"
+   23  ping baidu.com
+   24  curl -v "http://219.232.117.240/AAQI/v1/ProductData/gtin/06923878310139?targetMarket=156&dataVersion=1.1&clientGln=6901234500387&mac=62EC7A4EC15C157919AD7F594868873C946AE581356CCBD793A4BD3B14F4EC7D"
+   25  traceroute 219.232.117.240
+   26  ping 219.232.117.240
+   27  ifconfig 
+   28  traceroute 219.232.117.240
+   29  curl 219.232.117.240
+   30  ls -la
+   31  curl 219.232.117.240
+   32  curl http://219.232.117.240
+   33  curl "http://219.232.117.240/AAQI/v1/ProductData/gtin/06923878310139?targetMarket=156&dataVersion=1.1&clientGln=6901234500387&mac=62EC7A4EC15C157919AD7F594868873C946AE581356CCBD793A4BD3B14F4EC7D"
+   34  ls
+   35  exit
+   36  history 
+   37  exit
+   38  ifconfig 
+   39  ifconfig
+   40  ifconfig
+   41  ssh 10.0.1.252
+   42  curl ifconfig.me
+   43  which ngnix
+   44  which nginx
+   45  curl
+   46  curl http://10.0.1.252:8888/config
+   47  curl http://10.0.1.252:9001/config
+   48  docker ps
+   49  ssh 10.0.1.65
+   50  exit
+   51  netstat
+   52  ifconfig
+   53  ps -ef 
+   54  ps -ef | grep nginx
+   55  ifcongig
+   56  ifconfig
+   57  ifconfig -a
+   58  ifconfig -A
+   59  man ifcongig
+   60  man ifconfig
+   61  ip
+   62  ip -a
+   63  ip address
+   64  nslookup
+   65  ls
+   66  ps -ef |  grep nginx
+   67  ls
+   68  pwd
+   69  docker ps
+   70  ps
+   71  top
+   72  lsof -n -i
+   73  lsof
+   74  lsof -n
+   75  netstat
+   76  docker ps
+   77  ssh 10.0.0.6
+   78  nc -zv 10.0.0.6 1-1023
+   79  netcat
+   80  exit
+   81  ls
+   82  ifconfig
+   83  ps -ef | grep nginx
+   84  history | grep ssh
+   85  clear
+   86  top
+   87  ls
+   88  cd /
+   89  ls
+   90  ls -al
+   91  cd home/
+   92  ls
+   93  cd ec2-user/
+   94  ls
+   95  top >> prod_nat_process_log.txt
+   96  ls
+   97  cat prod_nat_process_log.txt 
+   98  ps -aux >> prod_nat_process_log.txt
+   99  ps -aux
+  100  ifconfig
+  101  traceroute 10.0.2.51
+  102  nmap -sP 10.0.0.0/24
+  103  docker login
+  104  exit
+  105  ifconfig
+  106  ping 10.0.0.6
+  107  type ping
+  108  ping 10.0.0.6
+  109  type curl
+  110  curl 10.0.0.6
+  111  curl -L 10.0.0.6
+  112  ls
+  113  ssh -i xinzhili-prod.pem ubuntu@ec2-54-222-188-178.cn-north-1.compute.amazonaws.com.cn
+  114  ssh -i xinzhili-prod.pem ubuntu@10.0.0.6
+  115  ssh -i xinzhili-prod.pem ec2-user@10.0.0.6
+  116  exit
+  117  top
+  118  ls
+  119  ls -al 
+  120  cd .ssh/
+  121  ls
+  122  cat authorized_keys
+  123  cd ..
+  124  ls
+  125  exit
+  126  ls
+  127  history >> PROD-NAT-daqiang-his.txt

@@ -1,0 +1,174 @@
+    1  sudo yum update
+    2  ls -la
+    3  sudo yum install openswan
+    4  sudo vim /etc/ipsec.conf
+    5  sudo vim /etc/ipsec.d/cisco.conf
+    6  sudo vim /etc/sysctl.conf 
+    7  sudo sysctl -p
+    8  sudo vim /etc/ipsec.d/cisco.secrets
+    9  crypto map OpenSwan 10 ipsec-isakmp
+   10   set peer 54.223.192.197
+   11   set peer 54.222.158.44
+   12   set transform-set OpenSwan
+   13  sudo service ipsec status
+   14  sudo service ipsec start
+   15  sudo service ipsec status
+   16  sudo ipsec verify
+   17  sudo service ipsec status
+   18  access-list 115 deny   ip 172.16.9.0 0.0.0.255 10.31.0.0 0.0.255.255
+   19  access-list 115 deny   ip 172.16.9.0 0.0.0.255 172.16.0.0 0.0.255.255
+   20  sudo service ipsec restart
+   21  sudo service ipsec status
+   22  sudo service ipsec resatrt
+   23  sudo service ipsec restart
+   24  sudo service ipsec status
+   25  sudo vim /etc/ipsec.conf 
+   26  sudo vim /etc/ipsec.d/cisco.conf
+   27  sudo vim /etc/sysctl.conf 
+   28  sudo service network restart
+   29  sudo service ipsec status
+   30  sudo service ipsec restart
+   31  sudo service ipsec status
+   32  ping 172.16.9.1
+   33  sudo service ipsec status
+   34   sudo ipsec verify
+   35  suo vim /etc/ipsec.d/cisco.conf
+   36  sudo vim /etc/ipsec.d/cisco.conf
+   37  sudo service ipsec restart
+   38  sudo service ipsec status
+   39  ping 172.16.9.1
+   40  sudo yum update
+   41  cd /etc/
+   42  ls
+   43  cat sysctl.conf 
+   44  cat ipsec.conf 
+   45  sudo cat ipsec.conf 
+   46  cat ipsec.secrets 
+   47  sudo cat ipsec.secrets 
+   48  cd ipsec.d/
+   49  ls
+   50  sudo cat ipsec.d/cisco.conf
+   51  sudo cat ipsec.d/cisco.secret
+   52  sudo cat ipsec.d/cisco.secrets
+   53  ls
+   54  ping 
+   55  ping 10.16.2.207
+   56  ping 172.16.9.1
+   57  ping 10.16.2.207
+   58  ping 172.16.9.1
+   59  ping 10.16.2.207
+   60  ping 172.16.9.1
+   61  ping 10.16.2.207
+   62  ls
+   63  ls -la
+   64  ls
+   65  ping 10.16.2.207
+   66  ping 10.16.1.0
+   67  ping 10.16.2.207
+   68  ping 10.16.1.25
+   69  ping 54.223.195.22
+   70  ping 10.16.1.25
+   71  ping 172.16.9.1
+   72  ping 10.16.1.25
+   73  traceroute 10.16.1.25
+   74  ls
+   75  ls -la
+   76  ping 10.16.2.13
+   77  ls
+   78  vim xinzhili-shared.pem
+   79  chmod 400 xinzhili-shared.pem 
+   80  ssh xinzhili-shared.pem ubuntu@10.16.2.13
+   81  ssh -i xinzhili-shared.pem ubuntu@10.16.2.13
+   82  ssh xinzhili-shared.pem ubuntu@10.16.2.13
+   83  ssh -i xinzhili-shared.pem ubuntu@10.16.2.13
+   84  ping 172.16.10.1
+   85  ping 172.16.9.1
+   86  ssh admin@172.16.9.31
+   87  ssh admin@172.16.9.
+   88  ssh admin@172.16.9.1
+   89  ssh 172.16.10.122
+   90  traceroute 172.16.9.1
+   91  ping 172.16.9.1
+   92  ls
+   93  cat xinzhili-shared.pem 
+   94  ls -la
+   95  ssh admin@172.16.9.31
+   96  ping 172.16.9.1
+   97  ssh admin@172.16.9.31
+   98  ping admin@172.16.10.1
+   99  ping 172.16.10.1
+  100  ping 172.16.9.31
+  101  ssh admin@172.16.9.1
+  102  ping 172.16.9.1
+  103  ssh admin@172.16.9.1
+  104  traceroute 172.16.10.13
+  105  ping 172.16.9.1
+  106  ping 172.16.10.12
+  107  ping 172.16.9.5
+  108  sudo vim /etc/ipsec.d/cisco.conf
+  109  sudo service ipsec restart
+  110  sudo service ipsec status
+  111  sudo service ipsec restart
+  112  sudo service ipsec status
+  113  ping 172.16.9.5
+  114  ping 172.16.10.12
+  115  docker ps
+  116  ls
+  117  ip status
+  118  ipsec status
+  119  help ipsec
+  120  ipsec help
+  121  ipsec --help
+  122  ipsec verify
+  123  sudo ipsec verify
+  124  ping 172.16.9.1
+  125  ping 172.16.9.5
+  126  sudo service ipsec restart
+  127  sudo ipsec status
+  128  ipsec --help
+  129  ps aua x| grep ip
+  130  sudo service ipsec restart
+  131  sudo service ipsec status
+  132  ls
+  133  sudo service ipsec status
+  134  sudo service ipsec restart
+  135  sudo service ipsec status
+  136  wget http://wgt.aqicn.org/aqiwgt/20170315/1MzIwNDcwNjQ1NNF3Ss3MysxL10_NAwA.png
+  137  ls
+  138  rm -rf 1MzIwNDcwNjQ1NNF3Ss3MysxL10_NAwA.png 
+  139  curl http://aqicn.org/city/beijing/
+  140  sudo service ipsec restart
+  141  sudo service ipsec status
+  142  sudo service ipsec restart
+  143  sudo service ipsec status
+  144  sudo service ipsec restart
+  145  sudo service ipsec status
+  146  sudo service ipsec restart
+  147  ls -la
+  148  ls
+  149  sudo service ipsec restart
+  150  ls
+  151  pwd
+  152  cd /
+  153  pwd
+  154  ls
+  155  docker ps
+  156  ls -l `locate docker`
+  157  find docker
+  158  env
+  159  java --version
+  160  java version
+  161  echo $JAVE_HOME
+  162  echo $PATH
+  163  ifconfig
+  164  nslookup 139.129.151.114
+  165  nslookup ldaqiangl.com
+  166  exit
+  167  ssh ec2-user@172.31.2.237
+  168  ls
+  169  ssh -i xinzhili-shared.pem ec2-user@ec2-54-223-189-191.cn-north-1.compute.amazonaws.com.cn
+  170  ssh -i xinzhili-shared.pem ec2-user@54.223.189.191
+  171  exit
+  172  ls
+  173  ls -al
+  174  history >> LOCAL-NAT-daqiang-his.txt

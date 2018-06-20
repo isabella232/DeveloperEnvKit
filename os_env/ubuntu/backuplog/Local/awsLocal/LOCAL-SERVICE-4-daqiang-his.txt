@@ -1,0 +1,1000 @@
+    1  sudo apt-get install language-pack-UTF-8
+    2  sudo apt-get install language-pack-UTF
+    3  sudo apt-get install language-pack
+    4  apt search language-pack
+    5  apt search language-pack | less
+    6  sudo apt update 
+    7  ping baidu.com
+    8  sudo apt update 
+    9  ls
+   10  ping mirrors.tuna.tsinghua.edu.cn
+   11  sudo apt update 
+   12  ping  cn-north-1b.clouds.archive.ubuntu.com
+   13  sudo apt upgrade 
+   14  sudo apt update 
+   15  sudo vim /etc/apt/sources.list
+   16  cd /etc/apt/
+   17  ls
+   18  sudo cp sources.list sources.list.origin
+   19  ls
+   20  sudo vim sources.list
+   21  cd
+   22  sudo apt update 
+   23  sudo su
+   24  ls
+   25  sudo apt update 
+   26  ping baidu.com
+   27  sudo apt update 
+   28  ping  cn-north-1b.clouds.archive.ubuntu.com
+   29  ping mirrors.tuna.tsinghua.edu.cn
+   30  curl baidu.com
+   31  sudo apt update 
+   32  sudo apt upgrade 
+   33  ls
+   34  cd /etc/apt/
+   35  ls
+   36  sudo rm -rf sources.list
+   37  sudo mv sources.list.origin sources.list
+   38  ls
+   39  cd
+   40  sudo apt update 
+   41  sudo apt upgrade 
+   42  ls -la
+   43  ls
+   44  ls -la
+   45  ls
+   46  ls -la
+   47  ls
+   48  ls -la
+   49  ls
+   50  ls -la
+   51  hostname
+   52  dnsmasq 
+   53  dnsmasq --help
+   54  ls
+   55  ls -la
+   56  hostname -i
+   57  ls -la
+   58  ls
+   59  ls -la
+   60  free -h
+   61  sudo apt upgrade 
+   62  ls -la
+   63  ls
+   64  ls -la
+   65  ls
+   66  sudo apt update 
+   67  ls
+   68  ls -la
+   69  ls
+   70  sudo apt install docker
+   71  sudo apt uninstall docker
+   72  sudo apt remove docker
+   73  apt search docker
+   74  sudo apt install docker-engine
+   75  sudo apt-get install apt-transport-https ca-certificates
+   76  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+   77  sudo apt-get update
+   78  apt-cache policy docker-engine
+   79  sudo apt install docker-engine
+   80  docker run -d -p 8081:8081 --name nexus sonatype/docker-nexus3
+   81  sudo  systemctl enable docker
+   82  sudo service docker start
+   83  docker ps
+   84  sudo docker ps
+   85  sudo groupadd docker
+   86  sudo gpasswd -a ubuntu docker
+   87  sudo service docker restart
+   88  docker ps
+   89  sudo docker ps
+   90  docker ps
+   91  ls -la
+   92  ls
+   93  git
+   94  ls -la
+   95  ping ip-10-16-2-13.cn-north-1.compute.internal
+   96  ls -la
+   97  git
+   98  git --version
+   99  ls -la
+  100  apt search nexus
+  101  sudo passwd ubuntu 
+  102  sudo vim /etc/ssh/sshd_config 
+  103  sudo service ssh restart 
+  104  docker login registry.xzlcorp.com
+  105  docker logs -f patient_api_svc 
+  106  docker logs -f patient_api_svc  --tail 1000
+  107  docker ps
+  108  docker logs patient_api_svc 
+  109  docker ps
+  110  docker logs -f patient_api_svc 
+  111  exit
+  112  docker ps
+  113  docker patient_api_svc
+  114  docker logs -f patient_api_svc
+  115  docker logs -f patient_api_svc 
+  116  docker ps
+  117  docker restart patient_api_svc 
+  118  docker logs -f patient_api_svc 
+  119  docker restart patient_api_svc 
+  120  docker logs -f patient_api_svc 
+  121  exit
+  122  docker ps
+  123  docker logs patient_api_svc 
+  124  docker ps
+  125  docker logs -f patient_api_svc 
+  126  docker ps
+  127  docker logs  patient_api_svc 
+  128  exit
+  129  docker -f logs paitent_api_svc
+  130  docker -f logs patient_api_svc
+  131  docker --help
+  132  tail -f logs
+  133  ls
+  134  tail -f catalina.out
+  135  ls
+  136  sudo -f logs paitent_api_svc
+  137  sudo --help
+  138  sudo tail /var/log/syslog
+  139  sudo logs patient_api_svc
+  140  sudo --background
+  141  sudo logs -f patient_api_svc
+  142  docker logs -f patient_api_svc
+  143  docker ls
+  144  docker list
+  145  docker ps
+  146  exit
+  147  docker ps
+  148  docker log -f patient_api_svc
+  149  docker logs -f patient_api_svc
+  150  exit
+  151  docker ps
+  152  docker logs -f patient_api_svc
+  153  exit
+  154  docker ps
+  155  docker logs --tail 1000 patient_api_svc 
+  156  ping 172.16.10.12
+  157  curl 172.16.10.12/info
+  158  curl 172.16.10.12:8989/info
+  159  docker ps
+  160  docker logs -f patient_api_svc 
+  161  exit
+  162  docker ps
+  163  docker logs -f patient_api_svc 
+  164  exit
+  165  docker ps
+  166  docker restart admin_srv 
+  167  docker logs -f admin_srv 
+  168  docker restart admin_srv 
+  169  docker logs -f admin_srv 
+  170  docker ps
+  171  docker ps
+  172  docker restart admin_srv 
+  173  docker logs -f admin_srv 
+  174  docker restart admin_srv 
+  175  docker logs -f admin_srv 
+  176  docker ps
+  177  docker restart admin_srv
+  178  docker stop admin_srv
+  179  docker ps
+  180  docker logs -f patient_api_svc 
+  181  docker ps
+  182  docker logs -f patient_api_svc 
+  183  ls
+  184  docker ps
+  185  docker logs -f doctor_svc 
+  186  docker ps
+  187  hostname -i
+  188  docker logs -f doctor_svc 
+  189  ls -la
+  190  ls
+  191  docker ps
+  192  docker logs -f patient_api_svc 
+  193  docker ps
+  194  docker logs -f doctor_svc --tail 1000
+  195  df -h
+  196  docker ps
+  197  docker logs -f patient_api_svc 
+  198  docker ps
+  199  docker logs -f patient_api_svc 
+  200  docker ps
+  201  docker logs -f patient_api_svc 
+  202  docker s
+  203  docker ps
+  204  docker logs -f patient_api_svc 
+  205  docker logs -f admin_srv 
+  206  docker ps
+  207  docker logs -f admin_srv 
+  208  ls
+  209  docker restart admin_srv 
+  210  docker logs -f admin_srv 
+  211  hostname -i
+  212  docker logs -f admin_srv 
+  213  docker ps
+  214  wget ubuntu@172.31.2.38
+  215  wget http://219.232.117.240/AAQI/v1/ProductData/gtin/06941858722888?targetMarket=156&dataVersion=1.1&clientGln=6901234500387&mac=414A8B4C06258793C4EE91497AFBB6797039F53F91BF718F502F2F48D4A6908D
+  216  fg
+  217  ls -la
+  218  wget "http://219.232.117.240/AAQI/v1/ProductData/gtin/06941858722888?targetMarket=156&dataVersion=1.1&clientGln=6901234500387&mac=414A8B4C06258793C4EE91497AFBB6797039F53F91BF718F502F2F48D4A6908D"
+  219  curl "//219.232.117.240/AAQI/v1/ProductData/gtin/06941858722888"
+  220  curl "http://219.232.117.240/AAQI/v1/ProductData/gtin/06941858722888?targetMarket=156&dataVersion=1.1&clientGln=6901234500387&mac=414A8B4C06258793C4EE91497AFBB6797039F53F91BF718F502F2F48D4A6908D"
+  221  ping baidu.com
+  222  ping 219.232.117.240
+  223  ping 172.16.10.13
+  224  curl http://172.16.10.13:9002/info
+  225  curl http://172.16.10.13:9002/search/summary?code=06923878310139
+  226  docker ps
+  227  docker logs -f admin_srv 
+  228  curl localhost:9090
+  229  curl 172.31.2.38:9090
+  230  docker ps
+  231  netstat -anp | grep 9090
+  232  curl http://172.31.2.38:9090/info
+  233  curl 172.31.2.38:9001
+  234  docker inspect admin_srv 
+  235  netstat -anp | grep 9090
+  236  ps -ef | grep java
+  237  pwd
+  238  curl localhost:9090
+  239  curl localhost:9001
+  240  docker ps
+  241  docker restart admin_srv 
+  242  docker ps
+  243  docker logs -f admin_srv 
+  244  docker logs -f admin_srv | grep STARTED
+  245  docker logs admin_srv | xargs grep STARTED
+  246  docker logs -f admin_srv 
+  247  docker ps
+  248  docker logs -f patient_api_svc 
+  249  docker logs -f patient_api_svc --tail 1000
+  250  ping 172.16.10.13
+  251  docker ps
+  252  docker logs -f patient_api_svc 
+  253  exit
+  254  docker ps
+  255  docker logs -f patient_api_svc 
+  256  docker ps
+  257  docker logs -f patient_api_svc 
+  258  docker ps
+  259  docker logs -f patient_api_svc --tail 1000
+  260  docker ps
+  261  docker logs -f patient_api_svc 
+  262  docker ps
+  263  docker logs -f patient_api_svc 
+  264  docker ps
+  265  docker logs -f patient_api_svc 
+  266  docker ps
+  267  docker logs -f patient_api_svc 
+  268  docker ps
+  269  docker logs -f patient_api_svc 
+  270  exit
+  271  docker ps
+  272  docker logs -f patient_api_svc 
+  273  docker ps
+  274  docker logs -f patient_api_svc 
+  275  docker ps
+  276  docker restart patient_api_svc 
+  277  docker logs -f patient_api_svc 
+  278  docker ps
+  279  docker logs -f patient_api_svc 
+  280  docker ps
+  281  exit
+  282  docker ps
+  283  docker logs -f patient_api_svc 
+  284  docker ps
+  285  docker logs -f patient_api_svc 
+  286  ntAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [class org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration$$EnhancerBySpringCGLIB$$7dc624e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  287  2017-01-22 17:53:24.280  INFO [patient-api-service,,,] 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration' of type [class org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignClientAutoConfiguration$$EnhancerBySpringCGLIB$$7427c420] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  288  2017-01-22 17:53:24.339  INFO [patient-api-service,,,] 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'traceFeignObjectWrapper' of type [class org.springframework.cloud.sleuth.instrument.web.client.feign.TraceFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  289  2017-01-22 17:53:24.385  INFO [patient-api-service,,,] 1 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration' of type [class org.springframework.cloud.sleuth.instrument.async.AsyncDefaultAutoConfiguration$$EnhancerBySpringCGLIB$$2617f83a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+  290  2017-01-22 17:53:25.669  INFO [patient-api-service,,,] 1 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 9001 (http)
+  291  2017-01-22 17:53:25.700  INFO [patient-api-service,,,] 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+  292  2017-01-22 17:53:25.701  INFO [patient-api-service,,,] 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+  293  2017-01-22 17:53:25.867  INFO [patient-api-service,,,] 1 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+  294  2017-01-22 17:53:25.868  INFO [patient-api-service,,,] 1 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 6567 ms
+  295  2017-01-22 17:53:28.932  INFO [patient-api-service,,,] 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'metricsFilter' to: [/*]
+  296  2017-01-22 17:53:28.934  INFO [patient-api-service,,,] 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+  297  2017-01-22 17:53:28.935  INFO [patient-api-service,,,] 1 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'traceFilter' to: [/*]
+  298  2017-01-22 17:53:28.936  INFO [patient-api-service,,,] 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+  299  2017-01-22 17:53:28.936  INFO [patient-api-service,,,] 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+  300  2017-01-22 17:53:28.941  INFO [patient-api-service,,,] 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+  301  2017-01-22 17:53:28.942  INFO [patient-api-service,,,] 1 --- [ost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurityFilterChain' to: [/*]
+  302  2017-01-22 17:53:28.943  INFO [patient-api-service,,,] 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+  303  2017-01-22 17:53:28.944  INFO [patient-api-service,,,] 1 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'applicationContextIdFilter' to: [/*]
+  304  2017-01-22 17:53:28.944  INFO [patient-api-service,,,] 1 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+  305  docker ps
+  306  docker logs -f patient_api_svc 
+  307  exit
+  308  docker ps
+  309  docker logs -f patient_api_svc 
+  310  docker ps
+  311  docker logs -f patient_api_svc 
+  312  docker ps
+  313  docker logs -f patient_api_svc 
+  314  docker ps
+  315  docker logs -f patient_api_svc 
+  316  docker ps
+  317  docker logs -f patient_api_svc 
+  318  exit
+  319  docker ps
+  320  docker logs -f patient_api_svc --tail 1000
+  321  docker ps
+  322  docker logs -f patient_api_svc 
+  323  docker ps
+  324  docker logs -f patient_api_svc 
+  325  docker ps
+  326  df -h
+  327  docker ps
+  328  docker logs -f patient_api_svc 
+  329  exit
+  330  docker logs -f patient_api_svc 
+  331  docker ps
+  332  docker stop doctor_svc 
+  333  df -h
+  334  free -m
+  335  docker ps
+  336  docker logs -f patient_api_svc 
+  337  docker ps
+  338  docker logs -f patient_api_svc 
+  339  docker ps
+  340  docker logs -f patient_api_svc 
+  341  docker ps
+  342  docker logs -f patient_api_svc --tail 1000
+  343  docker ps
+  344  docker logs -f patient_api_svc 
+  345  docker ps
+  346  docker logs -f patient_api_svc 
+  347  docker ps
+  348  docker logs -f patient_api_svc 
+  349  date -R
+  350  docker logs -f patient_api_svc 
+  351  exit
+  352  docker ps
+  353  docker logs -f patient_api_svc 
+  354  docker ps
+  355  docker logs -f patient_api_svc 
+  356  docker logs --help
+  357  docker logs patient_api_svc | grep patient/box/record
+  358  docker logs -f patient_api_svc 
+  359  docker ps
+  360  docker logs -f patient_api_svc 
+  361  docker ps
+  362  docker logs -f patient_api_svc 
+  363  exit
+  364  docker logs -f patient_api_svc 
+  365  docker ps
+  366  docker logs -f patient_api_svc 
+  367  exot
+  368  exit
+  369  docker ps
+  370  docker logs -f patient_api_svc 
+  371  docker ps
+  372  docker logs -f patient_api_svc 
+  373  docker ps
+  374  docker logs -f patient_api_svc 
+  375  exit
+  376  ls
+  377  docker ps
+  378  ls
+  379  docker ps
+  380  docker logs -f patient_api_svc 
+  381  docker ps
+  382  docker logs -f patient_api_svc 
+  383  docker logs patient_api_svc 
+  384  docker logs patient_api_svc  | grep defaultUpdatePatientReturnConsistent
+  385  docker logs patient_api_svc  | grep 15:09:43
+  386  docker logs patient_api_svc  | grep 15:09
+  387  docker ps
+  388  docker logs -f patient_api_svc 
+  389  docker logs patient_api_svc | grep 15:49
+  390  docker logs patient_api_svc | grep 15:50
+  391  docker logs patient_api_svc | grep 15:53
+  392  docker logs patient_api_svc | grep 15:54
+  393  2017-03-31 15:54:52.553 DEBUG [patient-api-service,743dadde3449613c,fa468c2f2516b631,false] 1 --- [io-9001-exec-11] s.s.w.c.SecurityContextPersistenceFilter : SecurityContextHolder now cleared, as request processing completed
+  394  2017-03-31 15:54:52.555 ERROR [patient-api-service,,,] 1 --- [io-9001-exec-11] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.netflix.hystrix.contrib.javanica.exception.FallbackDefinitionException: fallback method wasn't found: defaultUpdatePatientReturnConsistent([long, class cn.xinzhili.api.patient.bean.request.UpdatePatientInfoRequest])] with root cause
+  395  2017-03-31 15:54:52.557 ERROR [patient-api-service,743dadde3449613c,fa468c2f2516b631,false] 1 --- [io-9001-exec-11] c.x.x.s.c.GlobalErrorController          : Error with data: {timestamp=Fri Mar 31 15:54:52 CST 2017, status=500, error=Internal Server Error, exception=com.netflix.hystrix.contrib.javanica.exception.FallbackDefinitionException, message=fallback method wasn't found: defaultUpdatePatientReturnConsistent([long, class cn.xinzhili.api.patient.bean.request.UpdatePatientInfoRequest]), path=/user},
+  396  2017-03-31 15:54:52.557 ERROR [patient-api-service,743dadde3449613c,fa468c2f2516b631,false] 1 --- [io-9001-exec-11] c.x.x.s.interceptor.ExceptionResolver    : 服务异常 - class cn.xinzhili.xutils.core.SystemException: 服务异常
+  397  docker ps 
+  398  docker logs -f patient_api_svc 
+  399  docker logs patient_api_svc | grep 16:15
+  400  docker logs patient_api_svc | grep 16:16
+  401  docker logs -f patient_api_svc 
+  402  docker logs patient_api_svc | grep feign.FeignException
+  403  docker ps
+  404  docker logs -f patient_api_svc 
+  405  exit
+  406  docker ps
+  407  docker logs -f patient_api_svc 
+  408  docker ps
+  409  docker logs -f doctor_svc 
+  410  docker ps
+  411  docker logs -f patient_api_svc 
+  412  \
+  413  exit
+  414  docker ps
+  415  docker logs -f doctor_svc
+  416  docker logs -f doctor_svc --tail 1000
+  417  docker ps
+  418  docker stop doctor_svc && docker rm doctor_svc
+  419  docker ps
+  420  docker logs -f patient_api_svc 
+  421  docker ps
+  422  docker logs -f patient_api_svc
+  423  docker ps
+  424  docker restart patient_api_svc 
+  425  ping www.baidu.com
+  426  docker ps
+  427  docker logs -f patient_api_svc 
+  428  exit
+  429  docker ps
+  430  docker logs -f patient_api_svc 
+  431  docker ps
+  432  docker logs -f patient_api_svc 
+  433  docker ps
+  434  docker logs -f patient_api_svc 
+  435  docker ps
+  436  docler logs -f mis_srv
+  437  docker ps
+  438  docker logs -f mis_srv
+  439  docker ps
+  440  docker restart mis_srv 
+  441  docker logs -f mis_srv 
+  442  docker ps
+  443  docker logs -f patient_api_svc 
+  444  docker ps
+  445  docker logs -f patient_api_svc 
+  446  docker ps
+  447  docker logs -f mis_srv 
+  448  docker ps
+  449  docker logs -f mis_srv
+  450  docker ps
+  451  ls
+  452  cd
+  453  ls
+  454  pwd
+  455  cd ..
+  456  s
+  457  ls
+  458  cd ..
+  459  ls
+  460  cd _
+  461  cd -
+  462  ls
+  463  cd ubuntu/
+  464  ls
+  465  clear
+  466  ls
+  467  docker logs -f mis_srv 
+  468  docker logs -f mis_srv >./mis.log
+  469  ls
+  470  tail -f mis.log 
+  471  ls
+  472  rm -rf mis.log
+  473  nohup docker logs -f mis_srv >./mis.log 2>&1
+  474  ls
+  475  rm -rf mis.log 
+  476  ls
+  477  nohup docker logs -f mis_srv >./mis.log &
+  478  ls
+  479  tail -f mis.log 
+  480  ls
+  481  docker ps
+  482  docker logs -f mis_srv 
+  483  ls
+  484  tail -f mis.log 
+  485  ls
+  486  tail -f mis.log | grep DEBUG
+  487  docker ps
+  488  docker ps --help
+  489  docker ps --no-trunc
+  490  docker images
+  491  docker login
+  492  ps -ef | grep java
+  493  history
+  494  docker images
+  495  docker ps
+  496  docker logs -f mis_srv 
+  497  docker ps
+  498  docker logs -f patient_api_svc 
+  499  ssh ubuntu@172.16.10.13
+  500  ssh 172.31.2.214
+  501  exit
+  502  docker ps
+  503  docker restart patient_api_svc 
+  504  docker ps
+  505  docker logs patient_api_svc 
+  506  docker ps
+  507  docker stop patient_api_svc 
+  508  docker ps
+  509  docker start patient_api_svc 
+  510  docker ps
+  511  docker logs -f patient_api_svc 
+  512  docker ps 
+  513  exit
+  514  ls
+  515  docker ps
+  516  docker logs -f admin_srv 
+  517  du -f
+  518  du -h
+  519  ls
+  520  docker logs -f admin_srv 
+  521  docker restart admin_srv 
+  522  docker logs -f admin_srv 
+  523  history
+  524  alias
+  525  man apt
+  526  qqqqq
+  527  qqqqqq
+  528  qq
+  529  history
+  530  ls
+  531  docker ps
+  532  docker logs -f mis_srv 
+  533  man sock
+  534  docker ps
+  535  docker logs -f patient_api_svc
+  536  docker ps
+  537  docker logs -f patient_api_svc
+  538  docker ps
+  539  docker logs -f mis_srv 
+  540  docker logs -f mis_srv 
+  541  docker ps
+  542  docker logs -f patient_api_svc 
+  543  exit
+  544  docker ps
+  545  docker los -f patient_api_svc
+  546  docker logs -f patient_api_svc
+  547  docker ps
+  548  docker logs -f mis_srv 
+  549  exit
+  550  docker ps
+  551  docker logs -f patient_api_svc 
+  552  exit
+  553  docker ps
+  554  docker logs -f patient_api_svc
+  555  docker ps
+  556  ssh 172.16.10.11
+  557  ssh dev@172.16.10.11
+  558  docker ps
+  559  df -h
+  560  free -m
+  561  top
+  562  ls
+  563  cat mis.log 
+  564  ls
+  565  rm mis.log 
+  566  ls
+  567  docker ps
+  568  docker logs -f mis_srv 
+  569  ping 172.16.10.12
+  570  redis-cli -h 172.16.10.12 -n 2
+  571  docker logs -f mis_srv 
+  572  docker ps
+  573  docker logs patient_api_svc 
+  574  docker ps
+  575  docker stop
+  576  docker logs  -f patient_api_svc 
+  577  docker logs -f patient_api_svc 
+  578  docker ps
+  579  docker logs -f patient_api_svc 
+  580  exit
+  581  docker ps
+  582  docker logs -f patient_api_svc 
+  583  exit
+  584  docker ps
+  585  docker logs -f patient_api_svc
+  586  docker ps
+  587  docker logs -f patient_api_svc 
+  588  docker ps
+  589  docker logs -f patient_api_svc 
+  590  docker ps
+  591  docker ps
+  592  docker logs -f patient_api_svc 
+  593  docke ps
+  594  docker ps
+  595  docker logs -f patient_api_svc
+  596  docker ps
+  597  docker logs  -f patient_api_svc
+  598  docker ps
+  599  docker logs -f patient_api_svc
+  600  docker ps
+  601  docker logs -f patient_api_svc
+  602  docker ps
+  603  docker logs -f mis_srv 
+  604  docker ps
+  605  docker logs -f mis_srv 
+  606  docker ps
+  607  docker logs -f mis_srv 
+  608  docker ps
+  609  docker logs -f patient_api_svc
+  610  docker ps
+  611  docker logs -f patient_api_svc
+  612  docker ps
+  613  docker logs -f patient_api_svc 
+  614  docker logs -f patient_api_svc
+  615  docker ps
+  616  docker logs -f patient_api_svc 
+  617  docker ps
+  618  docker logs -f patient_api_svc
+  619  gs
+  620  docker ps
+  621  docker ps -a
+  622  docker logs patient_api_svc 
+  623  docker ps 
+  624  docker logs patient_api_svc 
+  625  docker os
+  626  docker ps
+  627  docker logs patient_api_svc 
+  628  docker ps
+  629  docker ps -a
+  630  docker logs patient_api_svc --tail 1000
+  631  docker image
+  632  docker image --jelp
+  633  docker image --hrlp
+  634  docker image --help
+  635  docker images
+  636  history | grep patient-api-service
+  637  history | grep patient
+  638  history | grep docker\ start
+  639  history | grep docker\ run
+  640  history | grep registry.xzlcorp.com/corp/patient-api-service
+  641  docekr images
+  642  docker images
+  643  docker run -d -p 8070:8070 --nane patient_api_svc bb64b5160e42
+  644  docker run -d -p 8070:8070 --name patient_api_svc bb64b5160e42
+  645  docker run -d -p 8070:8070 --name patient_api_svc_preview bb64b5160e42
+  646  docker ps
+  647  docker ps -a
+  648  docker logs -f patient_api_svc_preview 
+  649  docker ps
+  650  docker logs -f patient_api_svc
+  651  docker ps
+  652  docker stop patient_api_svc_preview 
+  653  docker ps
+  654  docker logs -f patient_api_svc --tail 1000
+  655  docker ps
+  656  docker logs -f patient_api_svc
+  657  docker ps
+  658  docker logs -f patient_api_svc  -taill 10000
+  659  docker logs -f patient_api_svc  -tail 10000
+  660  docker logs -f patient_api_svc --tail 10000
+  661  exit
+  662  docker ps
+  663  docker logs -f patient_api_svc 
+  664  docker ps
+  665  docker logs -f patient_api_svc 
+  666  docker ps
+  667  docker logs -f patient_api_svc 
+  668  docker ps
+  669  docker ps
+  670  docker logs -f patient_api_svc --tail 1000
+  671  docker ps
+  672  docker logs -f patient_api_svc --tail 1000
+  673  docker logs -f patient_api_svc --tail 1000| grep MLRequest
+  674  docker logs -f patient_api_svc --tail 1000| grep ML
+  675  docker logs -f patient_api_svc --tail 1000| grep MLRequest
+  676  docker logs -f patient_api_svc | grep MLRequest
+  677  docker logs -f patient_api_svc | grep MLRequest | grep exception
+  678  docker logs -f patient_api_svc | grep ERROR
+  679  clear
+  680  docker logs -f patient_api_svc | grep ERROR
+  681  docker logs -f patient_api_svc --tail 1000
+  682  docker logs -f patient_api_svc --tail 100
+  683  docker p
+  684  docker ps
+  685  docker ps -a
+  686  docker logs -f patient_api_svc --tail 1000|grep ML
+  687  docker ps
+  688  docker logs -f patient_api_svc 
+  689  docker ps
+  690  docker logs -f patient_api_svc 
+  691  exit
+  692  docker ps
+  693  docker logs -f patient_api_svc 
+  694  docker ps
+  695  docker logs -f patient_api_svc 
+  696  docker ps
+  697  docker logs -f patient_api_svc 
+  698  docker logs -f patient_api_svc --tail 1000
+  699  docker ps
+  700  docker logs -f patient_api_svc 
+  701  docker ps
+  702  docker logs -f patient_api_svc 
+  703  docker ps
+  704  docker logs -f patient_api_svc 
+  705  docker ps
+  706  docker logs -f patient_api_svc 
+  707  docker ps
+  708  docker logs -f patient_api_svc 
+  709  exit
+  710  docker ps
+  711  docker logs -f patient_api_svc 
+  712  docker ps
+  713  docker logs -f patient_api_svc --tail 1000
+  714  docker ps
+  715  docker logs -f patient_api_svc 
+  716  docker ps
+  717  docker logs -f patient_api_svc 
+  718  docker ps
+  719  docker images
+  720  docker ps
+  721  docker ps -a
+  722  docker
+  723  docker ps
+  724  ls
+  725  pwd
+  726  docker ps
+  727  ls
+  728  docker ps
+  729  buntu@ip-172-31-2-38:~$`
+  730  ;
+  731  docker ps
+  732  docker logs -f mis_srv 
+  733  docker  ps
+  734  docker logs
+  735  lsof -n -i
+  736  lsof
+  737  lsof -n
+  738  man lsof
+  739  ls
+  740  docker ps
+  741  history
+  742  man lsof
+  743  lsof -n
+  744  ls -n -i
+  745  lsof -i
+  746  man lsof
+  747  lsof -t
+  748  lsof 
+  749  lsof | grep docker 
+  750  lsof | grep java
+  751  lsof -i
+  752  lsof -ai
+  753  lsof -i -a
+  754  lsof -i 9000
+  755  lsof -i :9000
+  756  man lsof
+  757  lsof -i4
+  758  lsoflsof -iTCP
+  759  lsof -iTCP
+  760  uname -a
+  761  lsof -i -a
+  762  lsof -i tcp
+  763  lsof -i udp
+  764  lsof -N
+  765  docker ps
+  766  man docker
+  767  netstat -n -t
+  768  netstat -n 
+  769  sudo lsof -i
+  770  sudo lsof -n  -i
+  771  sudo lsof -n |grep docker
+  772  sudo lsof -n -i :9099
+  773  sudo lsof -n  -i
+  774  sudo lsof -n -a -i
+  775  sudo lsof -n -A -i
+  776  sudo lsof -n -a
+  777  man lsof
+  778  sudo lsof +
+  779  sudo lsof +m
+  780  sudo lsof -i +m
+  781  sudo docker exec lsof -i
+  782  docker ps
+  783  docker exec -it c3926e111053  bash
+  784  bash
+  785  docker logs
+  786  docker exec -it c3926e111053 "sudo lsof -i"
+  787  docker ps
+  788  docker exec -it mis_srv "sudo lsof -i"
+  789  docker exec -it mis_srv bash
+  790  sudo docker exec -it mis_srv bash
+  791  sudo docker exec -it mis_srv  touch /tmp/execWorks
+  792  sudo docker exec -it mis_srv bash
+  793  sudo docker exec -it mis_srv lsof 
+  794  sudo docker exec -it mis_srv lsof -i
+  795  sudo docker exec -it mis_srv lsof -n  -i
+  796  sudo docker exec -it mis_srv sudo lsof -n  -i
+  797  docker exec -it mis_srv sudo lsof -n  -i
+  798  sudo docker exec -it mis_srv  lsof -n  -i
+  799  sudo docker exec -it mis_srv  ls
+  800  sudo docker exec -it mis_srv  lsof -n  -i:9099
+  801  sudo docker exec -it mis_srv  netstat -i
+  802  sudo docker exec -it mis_srv  netstat 
+  803  sudo docker exec -it mis_srv  netstat -n
+  804  netstat -n 
+  805  sudo netstat -n
+  806  history
+  807  dev
+  808  docker ps
+  809  docker logs -f patient_api_svc 
+  810  docker ps
+  811  docker logs -f patient_api_svc 
+  812  docker ps
+  813  docker logs -f patient_api_svc 
+  814  docker ps
+  815  docker logs -f patient_api_svc 
+  816  docker ps
+  817  docker logs -f patient_api_svc 
+  818  docker logs -f patient_api_svc --tail 10000
+  819  docker logs -f patient_api_svc --tail 200
+  820  exit
+  821  docker ps
+  822  docker logs -f patient_api_svc 
+  823  docker logs -f patient_api_svc --tail 1000
+  824  docker ps
+  825  exit
+  826  docker ps
+  827  exit
+  828  docker ps
+  829  docker images
+  830  docker run -e HOST_IP=0.0.0.0 -dp 8080:15672 -p 15672:15672 -p 1883:1883 --name rabbit_ser registry.xzlcorp.com/corp/rabbitmq-server
+  831  docker ps
+  832  docker logs rabbit_ser 
+  833  exit
+  834  docker logs  -f patient_api_svc 
+  835  docker ps
+  836  docker logs -f patient_api_svc 
+  837  docker logs -f patient_api_svc --tail 10000
+  838  docker ps
+  839  docker logs -f patient_api_svc 
+  840  docker ps
+  841  docker stop rabbit_ser 
+  842  docker rm rabbit_ser 
+  843  history | docker run
+  844  history | grep docker
+  845  history | grep docker\ run
+  846  docker ps -a
+  847  docker images 
+  848  docker run -e HOST_IP=$(hostname -i) -dp 8080:15672 -p 5672:5672 -p 1883:1883 --name rabbit_ser registry.xzlcorp.com/corp/rabbitmq-server
+  849  docker ps
+  850  docker logs -f rabbit_ser 
+  851  docker images
+  852  docker pull registry.xzlcorp.com/corp/rabbitmq-server
+  853  docker images
+  854  docker ;s
+  855  docker ps
+  856  history | grep docker
+  857  docker ps
+  858  docker stop rabbit_ser 
+  859  docker rm rabbit_ser 
+  860  docker run -e HOST_IP=0.0.0.0 -dp 8080:15672 -p 5672:5672 -p 1883:1883 --name rabbit_ser registry.xzlcorp.com/corp/rabbitmq-server
+  861  docker ps
+  862  docker logs -f rabbit_ser 
+  863  docker ps
+  864  =INFO REPORT==== 18-Jul-2017::09:01:51 ===
+  865  Starting RabbitMQ 3.6.10 on Erlang 19.3
+  866  Copyright (C) 2007-2017 Pivotal Software, Inc.
+  867  Licensed under the MPL.  See http://www.rabbitmq.com/
+  868  =INFO REPORT==== 18-Jul-2017::09:01:51 ===
+  869  node           : rabbit@00576cb39c91
+  870  home dir       : /var/lib/rabbitmq
+  871  config file(s) : /etc/rabbitmq/rabbitmq.config (not found)
+  872  cookie hash    : 9olvVsHh2qU4rGomUrQFeQ==
+  873  log            : tty
+  874  sasl log       : tty
+  875  docker ps
+  876  docker pull registry.xzlcorp.com/corp/rabbitmq-server
+  877  docker images
+  878  history | grep docker\ run
+  879  docker run -e HOST_IP=0.0.0.0 -dp 8080:15672 -p 5672:5672 -p 1883:1883 --name rabbit_ser registry.xzlcorp.com/corp/rabbitmq-server:latest
+  880  docker ps
+  881  docker stop rabbit_ser 
+  882  docker rm rabbit_ser 
+  883  docker run -e HOST_IP=0.0.0.0 -dp 8080:15672 -p 5672:5672 -p 1883:1883 --name rabbit_srv registry.xzlcorp.com/corp/rabbitmq-server:latest
+  884  docker ps
+  885  docker logs -f rabbit_srv 
+  886  docker ps
+  887  ifconfig 
+  888  docker ps
+  889  docker logs -f patient_api_svc 
+  890  docker ps
+  891  docker logs -f rabbit_srv 
+  892  exit
+  893  docker ps
+  894  docker logs mis_srv 
+  895  docker logs -f mis_srv 
+  896  docker ps
+  897  docker logs -f mis_srv 
+  898  docker ps
+  899  docker logs -f patient_api_svc 
+  900  docker logs -f patient_api_svc --tail 3000
+  901  exit
+  902  docker ps
+  903  docker logs -f patient_api_svc 
+  904  docker ps
+  905  docker logs -f patient_api_svc 
+  906  docker ps
+  907  docker logs -f patient_api_svc 
+  908  docker ps
+  909  docker logs -f patient_api_svc 
+  910  docker ps
+  911  docker logs -f patient_api_svc 
+  912  docker ps
+  913  docker logs -f rabbit_srv 
+  914  docker logs -f patient_api_svc 
+  915  docker ps -a
+  916  docker ps 
+  917  docker ps
+  918  docker restart admin_srv 
+  919  docker logs -f admin_srv 
+  920  docker logs -f mqtt_api_srv 
+  921  docker stop mqtt_api_srv 
+  922  docker ps
+  923  docker logs -f patient_api_svc 
+  924  docker ps
+  925  docker logs -f patient_api_svc 
+  926  docker ps
+  927  docker ps
+  928  docker logs -f patient_api_svc 
+  929  docker ps
+  930  docker logs -f mis_srv 
+  931  docker ps
+  932  docker logs -f mis_srv 
+  933  docker ps
+  934  docker logs -f mis_srv 
+  935  docker restart mis_srv 
+  936  docker logs -f mis_srv 
+  937  docker ps
+  938  docker logs -f mis_srv 
+  939  docker ps
+  940  docker logs -f mis_srv 
+  941  docker ps
+  942  docker ps
+  943  docker restart patient_api_svc 
+  944  docker logs -f patient_api_svc 
+  945  docker ps
+  946  docker logs -f mis_srv 
+  947  docker ps
+  948  docker logs -f patient_api_svc 
+  949  docker ps
+  950  exit
+  951  docker logs -f admin_srv 
+  952  ping 172.16.10.14172.16.10.14
+  953  ping 172.16.10.14
+  954  docker logs -f admin_srv 
+  955  docker restart  admin_srv 
+  956  docker logs -f admin_srv 
+  957  docker logs -f mis_srv 
+  958  docker restart mis_srv 
+  959  docker logs -f mis_srv 
+  960  docker ps
+  961  docker logs -f patient_api_svc 
+  962  docker ps
+  963  docker logs -f patient_api_svc 
+  964  docker ps
+  965  docker ps
+  966  docker logs -f patient_api_svc 
+  967  docker ps
+  968  docker logs -f patient_api_svc 
+  969  exit
+  970  docker ps
+  971  docker ps
+  972  docker logs -f patient_api_svc 
+  973  docker ps
+  974  dockerps
+  975  docker ps
+  976  docker logs -f patient_api_svc 
+  977  docker ps
+  978  docker logs -f patient_api_svc 
+  979  docker ps
+  980  docker logs -f patient_api_svc 
+  981  docker logs -f patient_api_svc --tail 1
+  982  docker logs -f patient_api_svc --tail 100
+  983  docker ps
+  984  docker logs -f patient_api_svc 
+  985  \q
+  986  q
+  987  q!
+  988  docker logs -f patient_api_svc 
+  989  docker logs -d patient_api_svc 
+  990  docker logs -f patient_api_svc 
+  991  docker logs -f mis
+  992  docker logs -f mis_srv 
+  993  docker logs -f patient_api_svc 
+  994  docker logs -f admin_srv 
+  995  docker logs -f mis_srv 
+  996  docker logs -f patient_api_svc 
+  997  docker ps
+  998  docker logs -f patient_api_svc 
+  999  cat .ssh/authorized_keys 
+ 1000  history >> LOCAL-SERVICE-4-daqiang-his.txt

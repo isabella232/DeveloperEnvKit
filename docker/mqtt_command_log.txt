@@ -1,0 +1,723 @@
+    1  sudo apt-get install language-pack-UTF-8
+    2  sudo apt-get install language-pack-UTF
+    3  sudo apt-get install language-pack
+    4  apt search language-pack
+    5  apt search language-pack | less
+    6  sudo apt update 
+    7  ping baidu.com
+    8  sudo apt update 
+    9  ls
+   10  ping mirrors.tuna.tsinghua.edu.cn
+   11  sudo apt update 
+   12  ping  cn-north-1b.clouds.archive.ubuntu.com
+   13  sudo apt upgrade 
+   14  sudo apt update 
+   15  sudo vim /etc/apt/sources.list
+   16  cd /etc/apt/
+   17  ls
+   18  sudo cp sources.list sources.list.origin
+   19  ls
+   20  sudo vim sources.list
+   21  cd
+   22  sudo apt update 
+   23  sudo su
+   24  ls
+   25  sudo apt update 
+   26  ping baidu.com
+   27  sudo apt update 
+   28  ping  cn-north-1b.clouds.archive.ubuntu.com
+   29  ping mirrors.tuna.tsinghua.edu.cn
+   30  curl baidu.com
+   31  sudo apt update 
+   32  sudo apt upgrade 
+   33  ls
+   34  cd /etc/apt/
+   35  ls
+   36  sudo rm -rf sources.list
+   37  sudo mv sources.list.origin sources.list
+   38  ls
+   39  cd
+   40  sudo apt update 
+   41  sudo apt upgrade 
+   42  ls -la
+   43  ls
+   44  ls -la
+   45  ls
+   46  ls -la
+   47  ls
+   48  ls -la
+   49  ls
+   50  ls -la
+   51  hostname
+   52  dnsmasq 
+   53  dnsmasq --help
+   54  ls
+   55  ls -la
+   56  hostname -i
+   57  ls -la
+   58  ls
+   59  ls -la
+   60  free -h
+   61  sudo apt upgrade 
+   62  ls -la
+   63  ls
+   64  ls -la
+   65  ls
+   66  sudo apt update 
+   67  ls
+   68  ls -la
+   69  ls
+   70  sudo apt install docker
+   71  sudo apt uninstall docker
+   72  sudo apt remove docker
+   73  apt search docker
+   74  sudo apt install docker-engine
+   75  sudo apt-get install apt-transport-https ca-certificates
+   76  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+   77  sudo apt-get update
+   78  apt-cache policy docker-engine
+   79  sudo apt install docker-engine
+   80  docker run -d -p 8081:8081 --name nexus sonatype/docker-nexus3
+   81  sudo  systemctl enable docker
+   82  sudo service docker start
+   83  docker ps
+   84  sudo docker ps
+   85  sudo groupadd docker
+   86  sudo gpasswd -a ubuntu docker
+   87  sudo service docker restart
+   88  docker ps
+   89  sudo docker ps
+   90  docker ps
+   91  ls -la
+   92  ls
+   93  git
+   94  ls -la
+   95  ping ip-10-16-2-13.cn-north-1.compute.internal
+   96  ls -la
+   97  git
+   98  git --version
+   99  ls -la
+  100  apt search nexus
+  101  ls
+  102  sudo vim /etc/apt/sources.list
+  103  ls
+  104  sudo apt update 
+  105  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+  106  echo "deb https://mirrors.tuna.tsinghua.edu.cn/docker/apt/repo ubuntu-xenial main" | sudo tee /etc/apt/sources.list.d/docker.list
+  107  ls
+  108  sudo apt update 
+  109  ps aux | grep apt
+  110  sudo kill -9 1101
+  111  ps aux | grep apt
+  112  sudo apt update 
+  113  sudo apt upgrade 
+  114  sudo apt install emacs-nox
+  115  emacs
+  116  g
+  117  fg
+  118  ls
+  119  ls -al
+  120  vim
+  121  ls
+  122  sudo mkdir -p /etc/systemd/system/docker.service.d
+  123  sudo tee /etc/systemd/system/docker.service.d/mirror.conf <<-'EOF'
+  124  [Service]
+  125  ExecStart=
+  126  ExecStart=/usr/bin/docker daemon -H fd:// --registry-mirror=https://qp23m2im.mirror.aliyuncs.com
+  127  EOF
+  128  sudo systemctl daemon-reload
+  129  sudo systemctl restart docker
+  130  cat /etc/systemd/system/docker.service.d
+  131  cat /etc/systemd/system/docker.service.d/mirror.conf
+  132  docker ps
+  133  ls -la
+  134  ls
+  135  date
+  136  ls -la
+  137  env
+  138  ls -la
+  139  ls
+  140  git
+  141  git --version
+  142  sudo reboot 
+  143  sudo apt-get clean
+  144  sudo apt-get autoclean
+  145  sudo apt-get autoremove
+  146  dpkg --get-selections | grep linux-image
+  147  sudo apt-get remove --purge linux-image-4.4.0-45-generic
+  148  sudo apt update 
+  149  sudo dpkg --purge `COLUMNS=300 dpkg -l "*" | egrep "^rc" | cut -d\  -f3`
+  150  docker ps
+  151  python3
+  152  docker login registry.xzlcorp.com
+  153  docker ps
+  154  ls -la
+  155  ls
+  156  docker ps
+  157  docker logs -f ghost_cms_srv 
+  158  ls
+  159  docker ps
+  160  curl 127.0.0.1:3001
+  161  curl 0.0.0.0:3001
+  162  curl 0.0.0.0:3001/ghost
+  163  docker logs -f ghost_cms_srv 
+  164  docker ps
+  165  docker logs -f ghost_cms_srv 
+  166  df -h
+  167  ls
+  168  docker ps
+  169  docker stop mis_srv 
+  170  docker rm mis_srv 
+  171  docker push registry.xzlcorp.com/corp/mqtt-broker-node:latest
+  172  docker images 
+  173  docker push registry.xzlcorp.com/corp/mqtt-broker-node
+  174  docker pull registry.xzlcorp.com/corp/mqtt-broker-node
+  175  docker images 
+  176  docker run -d -p 1883:1883 --name mqtt_broker_node -e REDIS_HOST=172.16.10.12 -e REDIS_DB=7 registry.xzlcorp.com/corp/mqtt-broker-node:latest
+  177  docker ps
+  178  docker logs -f mqtt_broker_node 
+  179  docker ps
+  180  docker stop mqtt_broker_node 
+  181  docker rm mqtt_broker_node 
+  182  docker run -d -p 1883:1883 --name mqtt_broker_node -e REDIS_HOST=172.16.10.12 -e REDIS_DB=7 registry.xzlcorp.com/corp/mqtt-broker-node:latest
+  183  docker rm mqtt_broker_node 
+  184  docker rm mqtt_broker_node --force
+  185  docker run -d -p 1883:1883 --name mqtt_broker_node -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7 registry.xzlcorp.com/corp/mqtt-broker-node:latest
+  186  docker logs -f mqtt_broker_node 
+  187  exit
+  188  docker ps
+  189  docker logs -f mqtt_broker_node 
+  190  eixt
+  191  exit
+  192  docker ps
+  193  docker ps =a
+  194  docker ps -a
+  195  docker start ghost_cms_srv 
+  196  docker start mqtt_broker_node 
+  197  docker logs -f mqtt_broker_node 
+  198  ls -la
+  199  docker ps
+  200  docker ps -a
+  201  docker start ghost_cms_srv 
+  202  docker ps
+  203  docker logs -f mqtt_broker_node 
+  204  docker logs -f ghost_cms_srv 
+  205  docker logs -f ghost_cms_srv --tail 2000
+  206  docker ps
+  207  docker logs -f mqtt_broker_node 
+  208  docker pull registry.xzlcorp.com/corp/mqtt-broker-node:latest
+  209  docker images 
+  210  docker ps
+  211  docker stop mqtt_broker_node 
+  212  docker rm b1c742018616
+  213  docker run -d -p 1883:1883 --name mqtt_broker_node -e REDIS_HOST=172.16.10.12 -e REDIS_DB=7 registry.xzlcorp.com/corp/mqtt-broker-node:latest
+  214  docker ps
+  215  docker logs -f mqtt_broker_node 
+  216  docker ps 
+  217  docker rm 542d911ab59c
+  218  docker stop mqtt_broker_node 
+  219  docker rm 542d911ab59c
+  220  docker run -d -p 1883:1883 --name mqtt_broker_node -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7 registry.xzlcorp.com/corp/mqtt-broker-node:latest
+  221  docker ps 
+  222  docker logs -f mqtt_broker_node 
+  223  docker ps
+  224  docker logs -f mqtt_broker_node 
+  225  docker ps
+  226  docker stop mqtt_broker_node 
+  227  docker ps
+  228  docker ps -a
+  229  docker rm 3ca8393f650e
+  230  docker images 
+  231  docker pull registry.xzlcorp.com/corp/mqtt-broker-node
+  232  docker ps
+  233  history | grep docker\ run
+  234  docker images 
+  235  docker run -d -p 1883:1883 --name mqtt_broker_node -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7 registry.xzlcorp.com/corp/mqtt-broker-node:latest
+  236  docker ps
+  237  docker logs -f mqtt_broker_node 
+  238  docker ps
+  239  docker logs -f mqtt_broker_node 
+  240  docker logs -f mqtt_broker_node --tail
+  241  docker logs -f mqtt_broker_node --tail 1000
+  242  exit
+  243  docker ps
+  244  docker logs -f wechat_srv 
+  245  history >> PROD-A-GHOST-daqiang-his.txt
+  246  cat PROD-A-GHOST-daqiang-his.txt 
+  247  docker ps
+  248  docker images
+  249  docker info
+  250  docker ps
+  251  exit
+  252  history
+  253  exit
+  254  ps -aux | grep nignx
+  255  exit
+  256  docker logs
+  257  docker container ps
+  258  docker container ls
+  259  docker ps
+  260  docker logs e5e
+  261  docker ps
+  262  docker restart mqtt_broker_node 
+  263  docker ps
+  264  docker inspect mqtt_broker_node 
+  265  docker logs mqtt_broker_node
+  266  docker logs mqtt_broker_node >> mqtt_log.txt
+  267  ls
+  268  cat mqtt_log.txt | more
+  269  docker ps
+  270  ls
+  271  exit
+  272  docker ps
+  273  ls
+  274  exit
+  275  docker ps
+  276  docker logs e5
+  277  exit
+  278  root
+  279  su root
+  280  history | tail
+  281  exit
+  282  docker ps
+  283  docker inpsect e5
+  284  docker inspsect e5
+  285  docker inspect e5
+  286  docker logs e5
+  287  exit
+  288  ps -ef | grep mqtt
+  289  ps -ef | grep docker
+  290  docker ps
+  291  docker ps -a
+  292  exit
+  293  docker ps
+  294  docker logs --tail 100 wechat_srv 
+  295  exit
+  296  ls
+  297  docker ps
+  298  docker ps -a
+  299  docker start mqtt_broker_node
+  300  docker start wechat_srv
+  301  docker ps
+  302  exit
+  303  docker ps
+  304  history | mqtt
+  305  history | grep mqtt
+  306  exit
+  307  docker logs -f --tail 100 mqtt_broker_node 
+  308  exit
+  309  docker ps -a
+  310  history | docker
+  311  history | grep docker
+  312  ps -aux | grep docker
+  313  ps -aux | grep mqtt
+  314  ps -aux | grep redis
+  315  docker ps -a
+  316  docker stop mqtt_broker_node 
+  317  docker start mqtt_broker_node 
+  318  docker ps -a
+  319  ps -aux | grep docker
+  320  docker ps
+  321  exit
+  322  docker ps
+  323  exit
+  324  docker pull registry.xzlcorp.com/backend/mqtt-broker-node-test
+  325  docker pull a8af3d853c5d
+  326  docker pull registry.xzlcorp.com/backend/mqtt-broker-node-test
+  327  exit
+  328  docker ps
+  329  exit
+  330  ls
+  331  docker ps
+  332  ls
+  333  docker images
+  334  docker import brokernode.tar registry.xzlcorp.com/corp/mqtt-broker-test
+  335  ll
+  336  docker load < brokernode.tar
+  337  sudo docker load < brokernode.tar
+  338  df -h
+  339  ls
+  340  rm brokernode.tar
+  341  ls
+  342  df -h
+  343  docker images
+  344  docker rmi cec01d89483b
+  345  docker rmi f54f26598559
+  346  docker images
+  347  docker ps
+  348  docker rmi f61df20b003d
+  349  docker images
+  350  df -h
+  351  docker run -d -p8883:1883 --name broker-test mqtt-broker-node -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7
+  352  docker tag registry.xzlcorp.com/corp/mqtt-broker-node test/broker
+  353  docker images
+  354  docker run -d -p8883:1883 --name broker-test tset/broker -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7
+  355  docker run -d -p8883:1883 --name broker-test test/broker -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7
+  356  docker ps
+  357  docker logs broker-test 
+  358  docker ps
+  359  docker rmi test/broker
+  360  docker images
+  361  docker pull mqtt-broker-node
+  362  docker pull registry.xzlcorp.com/corp/mqtt-broker-node
+  363  docker pull marlinl/dockerfile_mqtt_node:latest
+  364  docker images
+  365  docker run -d -p8883:1883 marlinl/dockerfile_mqtt_node --name broker-test -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7
+  366  docker ps
+  367  docker images
+  368  docker rmi 5e519213586b
+  369  docker logs broker-test 
+  370  docker stop 114522e0ab9b
+  371  docker rmi 5e519213586b
+  372  docker rm 114522e0ab9b
+  373  docker rmi 5e519213586b
+  374  docker images
+  375  ls
+  376  docker load < broker.tar
+  377  docker images
+  378  docker run -d -p8883:1883 registry.xzlcorp.com/corp/mqtt-broker-node --name broker-test -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7
+  379  docker ps
+  380  docker logs prickly_tesla 
+  381  docker ps
+  382  docker stop prickly_tesla 
+  383  df -h
+  384  docker images
+  385  docker run -d -p8883:1883 --name broker_test registry.xzlcorp.com/corp/mqtt-broker-node:latest -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7
+  386  docker ps
+  387  docker logs broker
+  388  docker logs broker_test 
+  389  docker stop broker_test 
+  390  docker run -d -p8883:1883 --name broker_test registry.xzlcorp.com/corp/mqtt-broker-node:latest -e REDIS_HOST=172.16.10.12 -e REDIS_DB=7
+  391  docker images
+  392  docker rm docker ps
+  393  docker ps
+  394  docker rm c74a585ce5f4334d1e42631220e433284879145ae172a90422ee2d3622948c56
+  395  docker images
+  396  docker run -d -p8883:1883 --name broker_test registry.xzlcorp.com/corp/mqtt-broker-node:latest -e REDIS_HOST=172.16.10.12 -e REDIS_DB=7
+  397  docker logs broker_test 
+  398  docker logs -f broker_test 
+  399  docker ps
+  400  docker logs -f mqtt_broker_node 
+  401  docker logs -f --tail 100  mqtt_broker_node 
+  402  docker ps
+  403  docker stop broker_test 
+  404  docker rm 3b727c7b31b6
+  405  docker images
+  406  docker rmi 3b9428ceb2c4
+  407  docker rm e8f40e921a0f
+  408  docker ps
+  409  docker rmi 3b9428ceb2c4
+  410  docker ps
+  411  telnet prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn
+  412  telnet prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn 6379
+  413  ls
+  414  rm broker.tar 
+  415  df -h
+  416  docker load < broker.tar
+  417  docker images
+  418  docker run -d -p8883:1883 --name broker_test liuhao/broker:latest -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7
+  419  docker logs -f broker_test 
+  420  docker ps
+  421  docker run -d -p8883:1883 --name broker_test liuhao/broker:latest -e REDIS_HOST=172.16.10.2 -e REDIS_DB=7
+  422  docker rm a5b7abb346e786616c84edddcb97c35d7bb280d545e2713e0bc9e55311c068e4
+  423  docker run -d -p8883:1883 --name broker_test liuhao/broker:latest -e REDIS_HOST=172.16.10.2 -e REDIS_DB=7
+  424  docker ps
+  425  docker logs -f broker_test 
+  426  docker rm 6f271d27443f3539a61df400c32b3a24ce048882dc787d28ba7a9cac46a2c06b
+  427  docker images
+  428  docker run -d -p8883:1883 --name broker_test -e REDIS_HOST=172.16.10.2 -e REDIS_DB=7 liuhao/broker:latest 
+  429  docker logs -f broker_test 
+  430  docker stop broker_test 
+  431  docker rm b824cd1b9a3cbe16ec4a2fc398a0972d60190edd3d95640a645c79b165ca8039
+  432  docker run -d -p8883:1883 --name broker_test -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7 liuhao/broker:latest 
+  433  docker logs broker_test 
+  434  lsof -i:8883
+  435  docker ps
+  436  docker logs -f --tail 100 mqtt_broker_node 
+  437  docker logs -f --tail 100 broker_test 
+  438  docker ps
+  439  docker stop broker_test 
+  440  docker run -d -p9999:1883 --name broker_test -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7 liuhao/broker:latest 
+  441  docker rm 26166523ef63fa13b4d81819c1788455d0322d8ed382c221795d41799b197c38
+  442  docker run -d -p9999:1883 --name broker_test -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7 liuhao/broker:latest 
+  443  docker logs -f broker_test 
+  444  ls
+  445  rm broker.tar 
+  446  docker images
+  447  docker ps
+  448  docker stop broker_test 
+  449  docker run -d -p9999:2883 --name broker_test -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7 liuhao/broker:latest 
+  450  docker rm 330140eedbb6641d3ff022dae743a61fe02cbe78d51b614a17c7c5f78804146f
+  451  docker run -d -p9999:2883 --name broker_test -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7 liuhao/broker:latest 
+  452  docker logs broker_test 
+  453  docker logs -f broker_test 
+  454  docker ps
+  455  docker logs -f broker_test 
+  456  docker logs -f broker_test | grep topic
+  457  docker ps
+  458  docker stop broker_test 
+  459  docker rm 8592c96876db
+  460  docker images
+  461  docker rmi 530ac6cd899c
+  462  ls
+  463  ll
+  464  rm broker.tar 
+  465  ls
+  466  docker images
+  467  exit
+  468  free
+  469  free -h
+  470  exit
+  471  docker ps
+  472  docker logs -f public_srv 
+  473  docker restart public_srv 
+  474  docker logs -f public_srv 
+  475  docker restart public_srv 
+  476  docker logs -f public_srv 
+  477  docker restart public_srv 
+  478  docker logs -f public_srv 
+  479  docker restart public_srv 
+  480  docker logs -f public_srv 
+  481  docker restart public_srv 
+  482  docker logs -f public_srv 
+  483  exit
+  484  docker logs -f --tail 100 mqtt_broker_node
+  485  docker logs -f mqtt_broker_node | grep app-17710189466
+  486  docker logs -f --tail 100 mqtt_broker_node
+  487  docker logs -f mqtt_broker_node | grep app-17710189466
+  488  docker logs -f --tail 100 mqtt_broker_node | grep app-17710189466
+  489  docker logs -f broker-test 
+  490  exit
+  491  docker ps
+  492  docker stop mqtt_broker_node 
+  493  docker restart mqtt_broker_node 
+  494  exit
+  495  docker ps
+  496  docker images
+  497  docker ps
+  498  docker images
+  499  docker ps
+  500  docker images
+  501  docker ps
+  502  docker images
+  503  exit
+  504  df -hl
+  505  docker images
+  506  docker rmi fdb10d2bf619
+  507  free -m
+  508  sync
+  509  df -hl
+  510  docker rmi fdb10d2b
+  511  docker images
+  512  df -hl
+  513  docker ps
+  514  docker pull registry.xzlcorp.com/backend/public-service:master
+  515  docker iamges
+  516  docker images
+  517  docker ps
+  518  docker run -d --log-opt max-size=10m -e HOST_IP=$(hostname -i) -p 8900:8900 --name public_srv
+  519  docker run -d --log-opt max-size=10m -e HOST_IP=$(hostname -i) -p 8900:8900 --name public_srv registry.xzlcorp.com/backend/public-service:master --server.port=8900 --spring.cloud.config.profile=prod --spring.cloud.config.uri=http://10.0.1.252:8888/config
+  520  free -h
+  521  df -h
+  522  cd /dev
+  523  cd /dev/
+  524  ls
+  525  find -name docker
+  526  cd ..
+  527  find -name docker
+  528  df -h
+  529  du -sh /dev/
+  530  du -sh /dev/xv
+  531  cd /dev
+  532  ls
+  533  du -sh log
+  534  cd logs
+  535  cd log
+  536  ls
+  537  cd logs
+  538  cd disk
+  539  ls
+  540  cd ..
+  541  history
+  542  cd ..
+  543  cd ~
+  544  ls
+  545  docker ps
+  546  docker images
+  547  docker inspect wechat_srv 
+  548  docker system df
+  549  docker --help
+  550  docker system df
+  551  find / -type f -name "*.log" | xargs grep "ERROR" 
+  552  sudo find / -type f -name "*.log" | xargs grep "ERROR" 
+  553  ls
+  554  cd /var
+  555  ls
+  556  cd l
+  557  cd lib
+  558  ls
+  559  cd doc
+  560  cd docker
+  561  ls
+  562  sudo ls
+  563  cd contaioners
+  564  cd ..
+  565  du -sh docker
+  566  sudo du -sh docker
+  567  docker ps -a
+  568  docker inspection 2bff1177cebe
+  569  docker inspect 2bff1177cebe
+  570  cat /dev/null /var/lib/docker/containers/2bff1177cebea7228f568c74ce917c6a264132fdf236273e9532d643ad553e4a/2bff1177cebea7228f568c74ce917c6a264132fdf236273e9532d643ad553e4a-json.log
+  571  sudo cat /dev/null /var/lib/docker/containers/2bff1177cebea7228f568c74ce917c6a264132fdf236273e9532d643ad553e4a/2bff1177cebea7228f568c74ce917c6a264132fdf236273e9532d643ad553e4a-json.log
+  572  docker ps
+  573  free -h
+  574  docker ps
+  575  df -h
+  576  docker info
+  577  cd ~
+  578  docker ps
+  579  docker images
+  580  docker restart public_srv
+  581  docker restart 40fe1a84f506
+  582  docker restart public_service
+  583  docker ps
+  584  docker info
+  585  docker system prune -a
+  586  docker ps
+  587  docker --lelp
+  588  docker --help
+  589  docker info
+  590  docekr images
+  591  docker images
+  592  docker ps
+  593  docker system prune -a
+  594  docker --help
+  595  docker COMMAND --help
+  596  docker info
+  597  docker system prune -a
+  598  free -h
+  599  df -h
+  600  docker images -a
+  601  docker rmi fdb10d2bf619
+  602  docker volume ls
+  603  df -h
+  604  sudo docker rmi fdb10d2bf619
+  605  docker iamges
+  606  docker images
+  607  free -h
+  608  df -h
+  609  docker ps
+  610  sudo docker rmi 193dbd517eff
+  611  docker images
+  612  df -h
+  613  docker ps
+  614  docker 
+  615  docker ps
+  616  docker logs -f public_srv 
+  617  docker ps
+  618  docker logs -f public_srv 
+  619  df -h
+  620  docker images
+  621  docker ps
+  622  docker images -a
+  623  docker rmi 40fe1a84f506
+  624  docker images -a
+  625  docker ps
+  626  ocker stop publis
+  627  docker stop public_src
+  628  docker ps
+  629  docker images
+  630  exit
+  631  docker ps
+  632  docker images
+  633  docker ps
+  634  docker imags
+  635  docker images
+  636  df -h
+  637  docker logs -f public_srv 
+  638  docker ps
+  639  docker images
+  640  df -h
+  641  cat /dev/null >/var/lib/docker/containers/containerid/containerid.log-json.log
+  642  sudo cat /dev/null >/var/lib/docker/containers/49cf52599d27/49cf52599d27.log-json.log
+  643  sudo -s cat /dev/null >/var/lib/docker/containers/49cf52599d27/49cf52599d27.log-json.log
+  644  find / -type f -name "*.log" | xargs grep "ERROR"
+  645  docker logs -f container name
+  646  docker ps
+  647  docker logs -f container wechat_srv
+  648  docker logs -f public_srv 
+  649  docker images
+  650  eixt
+  651  exit
+  652  docker ps
+  653  docker ps -a
+  654  exit
+  655  docker ps -a
+  656  docker restart mqtt_broker_node 
+  657  docker restart public_srv 
+  658  exit
+  659  docker ps
+  660  docker logs -f mqtt_broker_node 
+  661  docker ps
+  662  docker logs mqtt_broker_node 
+  663  docker logs mqtt_broker_node | tail 100
+  664  docker logs mqtt_broker_node | tail
+  665  docker logs mqtt_broker_node >> log.txt
+  666  docker logs mqtt_broker_node
+  667  exit
+  668  docker ps
+  669  history | grep docker run
+  670  history | grep 'docker run'
+  671  docker images
+  672  free -h
+  673  exit
+  674  docker ps
+  675  docker info e5e56f1aac4a
+  676  docker info 
+  677  exit
+  678  docker ps
+  679  node
+  680  exit
+  681  docker ps
+  682  docker pull registry.xzlcorp.com/backend/mqtt-broker-node
+  683  docker stop e5e56f1aac4a
+  684  docker run -d -p 1883:1883 --name mqtt_broker_node_keep_alive -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7 registry.xzlcorp.com/corp/mqtt-broker-node:latest
+  685  docker images
+  686  docker run -d -p 1883:1883 --name mqtt_broker_node_keep_alive -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7 registry.xzlcorp.com/backend/mqtt-broker-node:latest
+  687  docker ps
+  688  docker logs -f mqtt_broker_node_keep_alive 
+  689  exit
+  690  mqtt
+  691  docker logs -f --tail 100 mqtt_broker_node_keep_alive 
+  692  exit
+  693  docker ps
+  694  history | grep docker
+  695  docker pull registry.xzlcorp.com/backend/mqtt-broker-node:add-websocket
+  696  docker images
+  697  docker stop mqtt_broker_node_keep_alive 
+  698  docker run -d -p 1883:1883 --name mqtt_broker_node_add_websocket -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7 registry.xzlcorp.com/corp/mqtt-broker-node:add-websocket
+  699  docker run -d -p 1883:1883 --name mqtt_broker_node_add_websocket -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7 registry.xzlcorp.com/backend/mqtt-broker-node:add-websocket
+  700  docker ps
+  701  docker logs -f mqtt_broker_node
+  702  exit
+  703  docker ps
+  704  docker ps -a | grep -w mqtt_broker_node_add_websocket | cut -d ' ' -f 1 | xargs --no-run-if-empty docker stop |               xargs --no-run-if-empty docker rm -f
+  705  docker run -d -p 1883:1883 -p 3000:3000 --name mqtt_broker_node_add_websocket -e REDIS_HOST=172.16.10.105 -e REDIS_DB=7 registry.xzlcorp.com/backend/mqtt-broker-node:add-websocket
+  706  docker ps
+  707  docker logs -f --tail 100 mqtt_broker_node_add_websocket 
+  708  docker ps -a | grep -w mqtt_broker_node_add_websocket | cut -d ' ' -f 1 | xargs --no-run-if-empty docker stop |               xargs --no-run-if-empty docker rm -f
+  709  docker run -d -p 1883:1883 -p 3000:3000 --name mqtt_broker_node_add_websocket -e REDIS_HOST=prod-0.95gse5.0001.cnn1.cache.amazonaws.com.cn -e REDIS_DB=7 registry.xzlcorp.com/backend/mqtt-broker-node:add-websocket
+  710  docker logs -f mqtt_broker_node_add_websocket 
+  711  exit
+  712  docker ps
+  713  history | grep mqtt
+  714  docker container ps
+  715  docker ps -a
+  716  docker ps
+  717  exit
+  718  history | grep exec
+  719  docker exec -it registry.xzlcorp.com/backend/mqtt-broker-node:add-websocket bash
+  720  docker exec -it mqtt_broker_node_add_websocket bash
+  721  docker exec --help
+  722  docker exec -it mqtt_broker_node_add_websocket sh
+  723  history >> mqtt_command_log.txt

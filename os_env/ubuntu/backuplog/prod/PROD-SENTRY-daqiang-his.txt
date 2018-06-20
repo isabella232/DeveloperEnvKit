@@ -1,0 +1,660 @@
+    1  sudo apt-get install language-pack-UTF-8
+    2  sudo apt-get install language-pack-UTF
+    3  sudo apt-get install language-pack
+    4  apt search language-pack
+    5  apt search language-pack | less
+    6  sudo apt update 
+    7  ping baidu.com
+    8  sudo apt update 
+    9  ls
+   10  ping mirrors.tuna.tsinghua.edu.cn
+   11  sudo apt update 
+   12  ping  cn-north-1b.clouds.archive.ubuntu.com
+   13  sudo apt upgrade 
+   14  sudo apt update 
+   15  sudo vim /etc/apt/sources.list
+   16  cd /etc/apt/
+   17  ls
+   18  sudo cp sources.list sources.list.origin
+   19  ls
+   20  sudo vim sources.list
+   21  cd
+   22  sudo apt update 
+   23  sudo su
+   24  ls
+   25  sudo apt update 
+   26  ping baidu.com
+   27  sudo apt update 
+   28  ping  cn-north-1b.clouds.archive.ubuntu.com
+   29  ping mirrors.tuna.tsinghua.edu.cn
+   30  curl baidu.com
+   31  sudo apt update 
+   32  sudo apt upgrade 
+   33  ls
+   34  cd /etc/apt/
+   35  ls
+   36  sudo rm -rf sources.list
+   37  sudo mv sources.list.origin sources.list
+   38  ls
+   39  cd
+   40  sudo apt update 
+   41  sudo apt upgrade 
+   42  ls -la
+   43  ls
+   44  ls -la
+   45  ls
+   46  ls -la
+   47  ls
+   48  ls -la
+   49  ls
+   50  ls -la
+   51  hostname
+   52  dnsmasq 
+   53  dnsmasq --help
+   54  ls
+   55  ls -la
+   56  hostname -i
+   57  ls -la
+   58  ls
+   59  ls -la
+   60  free -h
+   61  sudo apt upgrade 
+   62  ls -la
+   63  ls
+   64  ls -la
+   65  ls
+   66  sudo apt update 
+   67  ls
+   68  ls -la
+   69  ls
+   70  sudo apt install docker
+   71  sudo apt uninstall docker
+   72  sudo apt remove docker
+   73  apt search docker
+   74  sudo apt install docker-engine
+   75  sudo apt-get install apt-transport-https ca-certificates
+   76  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+   77  sudo apt-get update
+   78  apt-cache policy docker-engine
+   79  sudo apt install docker-engine
+   80  docker run -d -p 8081:8081 --name nexus sonatype/docker-nexus3
+   81  sudo  systemctl enable docker
+   82  sudo service docker start
+   83  docker ps
+   84  sudo docker ps
+   85  sudo groupadd docker
+   86  sudo gpasswd -a ubuntu docker
+   87  sudo service docker restart
+   88  docker ps
+   89  sudo docker ps
+   90  docker ps
+   91  ls -la
+   92  ls
+   93  git
+   94  ls -la
+   95  ping ip-10-16-2-13.cn-north-1.compute.internal
+   96  ls -la
+   97  git
+   98  git --version
+   99  ls -la
+  100  apt search nexus
+  101  ls
+  102  ps aux | grep apt
+  103  sudo apt update 
+  104  ps aux | grep apt
+  105  sudo apt update 
+  106  sudo rm /var/lib/dpkg/lock
+  107  sudo apt update 
+  108  docker ps
+  109  sudo mkdir -p /etc/systemd/system/docker.service.d
+  110  sudo tee /etc/systemd/system/docker.service.d/mirror.conf <<-'EOF'
+  111  [Service]
+  112  ExecStart=
+  113  ExecStart=/usr/bin/docker daemon -H fd:// --registry-mirror=https://qp23m2im.mirror.aliyuncs.com
+  114  EOF
+  115  sudo systemctl daemon-reload
+  116  sudo systemctl restart docker
+  117  docker run -d --name sentry-redis redis
+  118  ls
+  119  docker run -d --name sentry-postgres -e POSTGRES_PASSWORD=secret -e POSTGRES_USER=sentry postgres
+  120  docker ps
+  121  docker run --rm sentry config generate-secret-key
+  122  docker run -it --rm -e SENTRY_SECRET_KEY='7o8ck*uroh8f6=_3ovi@%uih#(tu@@9umjp9hddfj-fagjka&&' --link sentry-postgres:postgres --link sentry-redis:redis sentry upgrade
+  123  ls
+  124  docker run -d --name my-sentry -e SENTRY_SECRET_KEY='7o8ck*uroh8f6=_3ovi@%uih#(tu@@9umjp9hddfj-fagjka&&' --link sentry-redis:redis --link sentry-postgres:postgres sentry
+  125  docker ps
+  126  free -h
+  127  docker run -d --name sentry-cron -e SENTRY_SECRET_KEY='7o8ck*uroh8f6=_3ovi@%uih#(tu@@9umjp9hddfj-fagjka&&' --link sentry-postgres:postgres --link sentry-redis:redis sentry run cron
+  128  $ docker run -d --name sentry-worker-1 -e SENTRY_SECRET_KEY='<secret-key>' --link sentry-postgres:postgres --link sentry-redis:redis sentry run worker
+  129  $ docker run -d --name sentry-worker-1 -e SENTRY_SECRET_KEY='7o8ck*uroh8f6=_3ovi@%uih#(tu@@9umjp9hddfj-fagjka&&' --link sentry-postgres:postgres --link sentry-redis:redis sentry run worker
+  130  docker ps
+  131  docker logs -f my-sentry 
+  132  docker ps
+  133  docker rm -f my-sentry && docker run -d -p 8080:9000 --name my-sentry -e SENTRY_SECRET_KEY='7o8ck*uroh8f6=_3ovi@%uih#(tu@@9umjp9hddfj-fagjka&&' --link sentry-redis:redis --link sentry-postgres:postgres sentry
+  134  docker ps
+  135  docker logs -f my-sentry 
+  136  ls
+  137  docker ps
+  138  docker logs -f my-sentry 
+  139  ls
+  140  free -h
+  141  docker logs -f my-sentry 
+  142  ls
+  143  docker ps
+  144  cd /var/lib/sentry/files
+  145  ls
+  146  cd /var/lib/docker/
+  147  ls
+  148  sudo su
+  149  ls -la
+  150  ls
+  151  cd
+  152  s
+  153  ls
+  154  ls -la
+  155  ls
+  156  ls -la
+  157  docker ps
+  158  docker rm -f my-sentry && docker run -d -p 8080:9000 --name my-sentry -e SENTRY_SERVER_EMAIL='service@xinzhili.cn' -e SENTRY_EMAIL_HOST='smtp.exmail.qq.com' -e SENTRY_EMAIL_PORT=465 -e SENTRY_EMAIL_USER='service@xinzhili.cn' -e SENTRY_EMAIL_PASSWORD='6wmDnUxMkJnyE6XcoWBK' -e SENTRY_EMAIL_USE_TLS=true  -e SENTRY_SECRET_KEY='7o8ck*uroh8f6=_3ovi@%uih#(tu@@9umjp9hddfj-fagjka&&' --link sentry-redis:redis --link sentry-postgres:postgres sentry
+  159  docker logs -f my-sentry 
+  160  docker rm -f my-sentry && docker run -d -p 8080:9000 --name my-sentry -e SENTRY_SERVER_EMAIL='service@xinzhili.cn' -e SENTRY_EMAIL_HOST='smtp.exmail.qq.com' -e SENTRY_EMAIL_PORT=465 -e SENTRY_EMAIL_USER='service@xinzhili.cn' -e SENTRY_EMAIL_PASSWORD='6wmDnUxMkJnyE6XcoWBK' -e SENTRY_EMAIL_USE_TLS=false  -e SENTRY_SECRET_KEY='7o8ck*uroh8f6=_3ovi@%uih#(tu@@9umjp9hddfj-fagjka&&' --link sentry-redis:redis --link sentry-postgres:postgres sentry
+  161  docker logs -f my-sentry 
+  162  docker rm -f my-sentry && docker run -d -p 8080:9000 --name my-sentry -e SENTRY_SERVER_EMAIL='service@xinzhili.cn' -e SENTRY_EMAIL_HOST='smtp.exmail.qq.com' -e SENTRY_EMAIL_PORT=465 -e SENTRY_EMAIL_USER='service@xinzhili.cn' -e SENTRY_EMAIL_PASSWORD='6wmDnUxMkJnyE6XcoWBK' -e SENTRY_SECRET_KEY='7o8ck*uroh8f6=_3ovi@%uih#(tu@@9umjp9hddfj-fagjka&&' --link sentry-redis:redis --link sentry-postgres:postgres sentry
+  163  docker rm -f my-sentry && docker run -d -p 8080:9000 --name my-sentry -e SENTRY_SERVER_EMAIL='xinlingchao@xinzhili.cn' -e SENTRY_EMAIL_HOST='smtp.exmail.qq.com' -e SENTRY_EMAIL_PORT=465 -e SENTRY_EMAIL_USER='xinlingchao@xinzhili.cn' -e SENTRY_EMAIL_PASSWORD='Lcx,2013' -e SENTRY_EMAIL_USE_TLS=true  -e SENTRY_SECRET_KEY='7o8ck*uroh8f6=_3ovi@%uih#(tu@@9umjp9hddfj-fagjka&&' --link sentry-redis:redis --link sentry-postgres:postgres sentry
+  164  docker rm -f my-sentry && docker run -d -p 8080:9000 --name my-sentry -e SENTRY_SERVER_EMAIL='service@xinzhili.cn' -e SENTRY_EMAIL_HOST='smtp.exmail.qq.com' -e SENTRY_EMAIL_PORT=465 -e SENTRY_EMAIL_USER='service@xinzhili.cn' -e SENTRY_EMAIL_PASSWORD='6wmDnUxMkJnyE6XcoWBK' -e SENTRY_EMAIL_USE_TLS=true  -e SENTRY_SECRET_KEY='7o8ck*uroh8f6=_3ovi@%uih#(tu@@9umjp9hddfj-fagjka&&' --link sentry-redis:redis --link sentry-postgres:postgres sentry
+  165  ls -la
+  166  ls
+  167  ls -la
+  168  docker ps
+  169  docker ps -a
+  170  docker start sentry-redis 
+  171  docker start sentry-postgres 
+  172  docker start my-sentry 
+  173  docker logs -f my-sentry 
+  174  docker ps -a
+  175  docker start sentry-cron 
+  176  docker start sentry-worker-1 
+  177  docker ps
+  178  docker ps -a
+  179  docker logs -f pos
+  180  docker logs -f sentry-postgres 
+  181  free -h
+  182  docker ps
+  183  git clone https://github.com/getsentry/onpremise.git
+  184  ls
+  185  cd onpremise/
+  186  ls
+  187  ls -la
+  188  ls
+  189  ls -la
+  190  ls
+  191  vim requirements.txt 
+  192  ls
+  193  vim sentry.conf.py 
+  194  cd
+  195  cd onpremise/
+  196  ls
+  197  mkdir -p data/{sentry,postgres}
+  198  ls
+  199  vim docker-compose.yml 
+  200  ls
+  201  docker ps
+  202  docker ps -a
+  203  docker ps -a -q | xargs docker stop
+  204  ls
+  205  pip
+  206  sudo apt install python-pip
+  207  easy_install
+  208  sudo apt install python-setuptools
+  209  sudo pip install docker-compose
+  210  sudo easy_install docker-compose
+  211  vim config.yml 
+  212  ls
+  213  vim config.yml 
+  214  docker-compose run --rm web upgrade
+  215  docker ps
+  216  docker ps -a
+  217  docker ps -a | xargs docker rm -f
+  218  docker ps -a  -q| xargs docker rm -f
+  219  docker ps -a
+  220  docker images
+  221  docker-compose run --rm web upgrade
+  222  vim config.yml 
+  223  docker-compose run --rm web upgrade
+  224  vim config.yml 
+  225  ls
+  226  docker-compose run --rm web upgrade
+  227  vim config.yml 
+  228  docker-compose run --rm web upgrade
+  229  vim config.yml 
+  230  docker-compose run --rm web upgrade
+  231  vim config.yml 
+  232  ls
+  233  lsl
+  234  ks
+  235  ls
+  236  docker ps
+  237  ls
+  238  vim Dockerfile 
+  239  vim docker-compose.yml 
+  240  make build
+  241  sudo apt install make
+  242  make build
+  243  ls
+  244  docker-compose run --rm web upgrade
+  245  vim config.yml 
+  246  ls
+  247  cat Makefile 
+  248  ks
+  249  cat docker-compose.yml 
+  250  docker-compose run --rm web config generate-secret-key
+  251  vim docker-compose.yml 
+  252  docker-compose run --rm web upgrade
+  253  vim config.yml 
+  254  docker-compose run --rm web upgrade
+  255  vim config.yml 
+  256  docker-compose run --rm web upgrade
+  257  vim config.yml 
+  258  ls
+  259  ls data/postgres/
+  260  sudo ls data/postgres/
+  261  cd ..
+  262  ls
+  263  cd onpremise/
+  264  ls
+  265  docker-compose up -d
+  266  docker ps
+  267  ls
+  268  vim docker-compose.yml 
+  269  :q
+  270  vim docker-compose.yml 
+  271  ls -la
+  272  ls
+  273  vim docker-compose.yml 
+  274  docker ps
+  275  docker logs -f onpremise_base_1 
+  276  ls
+  277  curl 127.0.0.1:9000
+  278  ls
+  279  docker ps
+  280  docker-compose stop
+  281  docker-compose up -d
+  282  docker ps
+  283  curl 0.0.0.0:9000
+  284  docker logs -f onpremise_web_1 
+  285  docker-compose run --rm web cat /etc/sentry/config.yml
+  286  ls
+  287  docker ps
+  288  docker images
+  289  docker rm i onpremise_web sentry-onpremise onpremise_base onpremise_cron onpremise_worker
+  290  docker rm =i onpremise_web sentry-onpremise onpremise_base onpremise_cron onpremise_worker
+  291  docker rmi onpremise_web sentry-onpremise onpremise_base onpremise_cron onpremise_worker
+  292  docker pa -a -q | xargs docker rm -f
+  293  docker ps -a -q | xargs docker rm -f
+  294  docker ps
+  295  docker images
+  296  docker rmi -f onpremise_worker onpremise_web
+  297  ls
+  298  docker images
+  299  ls
+  300  rm -rf data
+  301  ls
+  302  sudo rm -rf data
+  303  ls
+  304  vim config.yml 
+  305  mkdir -p data/{sentry,postgres}
+  306  ls
+  307  docker-compose run --rm web upgrade
+  308  docker ps
+  309  docker-compose up -d
+  310  docker ps
+  311  docker logs -f onpremise_web_1 
+  312  ls
+  313  docker ps
+  314  ls
+  315  docker logs
+  316  docker ps
+  317  docker logs -f onpremise_web_1 
+  318  cd
+  319  pwd
+  320  curl 0.0.0.0:9000
+  321  ls -la
+  322  ls
+  323  ls -la
+  324  ls
+  325  ls -la
+  326  ls
+  327  cd onpremise/
+  328  ls
+  329  sl
+  330  ls
+  331  cat Makefile 
+  332  vim docker-compose.yml 
+  333  ls
+  334  ls -la
+  335  ls
+  336  ls -lal
+  337  ls
+  338  vim config.yml 
+  339  docker ps
+  340  docker ps -a -q | xargs docker rm -f
+  341  ls
+  342  sudo rm -rf data
+  343  ls
+  344  ls -la
+  345  vim config.yml 
+  346  ;s
+  347  ls
+  348  mkdir -p data/{sentry,postgres}
+  349  ls
+  350  docker-compose run --rm web upgrade
+  351  ls
+  352  docker ps
+  353  ls
+  354  sudo rm -rf data
+  355  ls
+  356  docker ps -a
+  357  docker ps -a -q | xargs docker rm -f
+  358  ls
+  359  docker images
+  360  docker rmi -f onpremise_cron onpremise_web onpremise_worker onpremise_base
+  361  docker ps
+  362  ls
+  363  ls -la
+  364  ls
+  365  docker-compose run --rm web upgrade
+  366  docker ps
+  367  docker-compose up -d
+  368  docker ps
+  369  docker log
+  370  docker logs -f onpremise_web_1 
+  371  ls
+  372  ls -la
+  373  ls
+  374  docker ps -q -a | xargs docker rm -f
+  375  sudo rm -rf data
+  376  ls
+  377  vim config.yml 
+  378  ls
+  379  vim config.yml 
+  380  ls
+  381  vim config.yml 
+  382  git status 
+  383  git diff
+  384  ls
+  385  ls -la
+  386  vim sentry.conf.py 
+  387  ls
+  388  git status 
+  389  git diff
+  390  ls
+  391  git diff
+  392  docker images
+  393  docker rmi -f onpremise_base onpremise_web
+  394  docker images
+  395  mkdir -p data/{sentry,postgres}
+  396  docker-compose run --rm web upgrade
+  397  docker-compose up -d
+  398  docker ps
+  399  docker logs -f onpremise_web_1 
+  400  ls
+  401  vim config.yml 
+  402  ls
+  403  vim config.yml 
+  404  ls
+  405  docker ps -a -q
+  406  docker ps -a -q | xargs docker rm -f
+  407  ls
+  408  docker ps
+  409  docker images
+  410  docker rm -f onpremise_web
+  411  docker rmi -f onpremise_web onpremise_base
+  412  docker-compose run --rm web upgrade
+  413  ls
+  414  docker-compose up -d
+  415  docker logs
+  416  docker ps
+  417  cd
+  418  ls
+  419  vim se
+  420  ls
+  421  cd onpremise/
+  422  ls
+  423  vim sentry.conf.py 
+  424  ping git.xzlcorp.com
+  425  curl git.xzlcorp.com
+  426  curl https://git.xzlcorp.com
+  427  docker logs -f onpremise_web_1 
+  428  cd onpremise/
+  429  git diff
+  430  git tat
+  431  git diff
+  432  ls
+  433  giti diff
+  434  git diff
+  435  ls -la
+  436  ls
+  437  cd
+  438  git diff
+  439  ls
+  440  cd onpremise/
+  441  git fetch 
+  442  git pull
+  443  ls
+  444  vim Dockerfile 
+  445  cd onpremise/
+  446  ls
+  447  docker-compose --help
+  448  docker-compose dtop
+  449  docker-compose restart
+  450  docker logs
+  451  docker ps
+  452  docker logs -f onpremise_web_1 
+  453  ls
+  454  ls -la
+  455  cd onpremise/
+  456  ls
+  457  git diff
+  458  git status 
+  459  git diff docker-compose.yml
+  460  git diff requirements.txt
+  461  ls
+  462  cat Dockerfile 
+  463  ls
+  464  git diff
+  465  git status 
+  466  git diff sentry.conf.py
+  467  git diff
+  468  ls
+  469  git add .
+  470  git commit -m 'Sentry custom for xzlcorp'
+  471  git show
+  472  ls
+  473  pwd
+  474  git log
+  475  git status 
+  476  git config user.email 'xinlingchao@xinzhili.cn'
+  477  git config user.name 'Lingchao Xin'
+  478  git commit --reset-author --amend 
+  479  git show
+  480  git push https://git.xzlcorp.com/xin/sentry.git
+  481  git log
+  482  git push https://douglarek@bitbucket.org/xzlcorp/sentry.git
+  483  LS
+  484  CD
+  485  ls
+  486  cd onpremise/
+  487  ls
+  488  git pull
+  489  git show
+  490  git log
+  491  ls
+  492  git show 7d093027f3d890d65eab26eadbae346939ccdd20
+  493  ls
+  494  docker-compose 
+  495  docker-compose build
+  496  docker images
+  497  docker ps
+  498  ls
+  499  cat docker-compose.yml 
+  500  docker ps
+  501  docker run --rm -it sentry-onpremise upgrade
+  502  docker images
+  503  vim docker-compose.yml 
+  504  docker images
+  505  docker run --rm -it sentry-onpremise upgrade
+  506  docker run --rm -it onpremise_base upgrade
+  507  docker images
+  508  docker-compose 
+  509  docker-compose restart
+  510  docker ps
+  511  docker-compose kill
+  512  docker ps
+  513  docker ps -a
+  514  docker-compose rm
+  515  docker-compose up-d
+  516  docker-compose up -d
+  517  docker ps
+  518  docker logs -d onpremise_postgres_1 
+  519  docker logs -f onpremise_postgres_1 
+  520  docker logs -f onpremise_web_1 
+  521  docker-compose run --rm web config generate-secret-key
+  522  docker-compose run --rm web upgrade
+  523  docker-compose restart
+  524  docker logs -f onpremise_postgres_1 
+  525  git show
+  526  sudo apt upgrade 
+  527  sudo apt autoremove 
+  528  sudo vim /etc/apt/sources.list
+  529  sudo vim /etc/apt/sources.list.d/docker.list 
+  530  sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+  531  echo "deb https://mirrors.tuna.tsinghua.edu.cn/docker/apt/repo ubuntu-xenial main" | sudo tee /etc/apt/sources.list.d/docker.list
+  532  sudo apt update 
+  533  sudo apt upgrade 
+  534  docker ps
+  535  sudo apt autoremove 
+  536  ls
+  537  cd onpremise/
+  538  ls
+  539  vim Dockerfile 
+  540  docker-compose run --rm web upgrade
+  541  docker-compose up -d
+  542  docker ps
+  543  docker logs -f onpremise_web_1 
+  544  ls
+  545  ls -la
+  546  docker ps -a 
+  547  docker ps -q -a
+  548  docker ps -q -a | xargs docker rm -f
+  549  docker images
+  550  docker rmi -f e4f34969a57f
+  551  docker rmi -f 5f0cb5f96aea ca05379aee92 f8ace3b23d09
+  552  docker images
+  553  docker rmi e4f34969a57f
+  554  docker-compose run --rm web upgrade
+  555  git diff
+  556  git checkout -- .
+  557  docker-compose run --rm web upgrade
+  558  docker-compose up -d
+  559  docker ps
+  560  docker logs -f onpremise_web_1 
+  561  docker logs -f onpremise_postgres_1 
+  562  docker logs -f onpremise_worker_1 
+  563  docker logs -f onpremise_smtp_1 
+  564  docker logs -f onpremise_cron_1 
+  565  ls
+  566  cd onpremise/
+  567  ls
+  568  vim Dockerfile 
+  569  git diff
+  570  ls
+  571  docker-compose --help
+  572  docker-compose help
+  573  docker-compose help up
+  574  docker-compose up --build -d
+  575  docker logs -f onpremise_web_1 
+  576  ls
+  577  docker images 
+  578  ls
+  579  docker ps -a
+  580  docker ps -a | xargs docker rm -f
+  581  docker ps -qa | xargs docker rm -f
+  582  docker ps
+  583  docker ps -a
+  584  docker-compose run --rm web upgrade
+  585  docker-compose up -d
+  586  ls
+  587  docker logs -f onpremise_web_1 
+  588  ls -la
+  589  ls
+  590  ls -la
+  591  ls
+  592  ls -la
+  593  docker ps
+  594  ls
+  595  history 
+  596  docker images 
+  597  ls
+  598  cd onpremise/
+  599  ls
+  600  vim docker-compose.yml 
+  601  vim sentry.conf.py 
+  602  ls
+  603  vim config.yml 
+  604  ls
+  605  vim Dockerfile 
+  606  git pull
+  607  git diff
+  608  git pull --rebase 
+  609  git status 
+  610  git diff
+  611  ls
+  612  git stash 
+  613  git pull
+  614  git show
+  615  git stash pop 
+  616  git diff
+  617  vim docker-compose.yml 
+  618  vim Dockerfile 
+  619  ls
+  620  git status 
+  621  git commit 
+  622  git add .
+  623  git commit 
+  624  git show
+  625  ls
+  626  docker images 
+  627  docker ps -a 
+  628  docker ps -a  -q
+  629  docker ps -a  -q | xargs docker rm -rf
+  630  docker ps -a  -q | xargs docker rm -f
+  631  ls
+  632  docker images 
+  633  docker rmi -f 44ef5ff64f81 21ad879ea090 c6a0790a86af
+  634  docker images
+  635  docker rmi -f 44ef5ff64f81 761bcb48f381
+  636  docker images
+  637  docker-compose run --rm web upgrade
+  638  docker-compose up -d
+  639  docker ps
+  640  docker logs -f onpremise_web_1 
+  641  docker images
+  642  ls
+  643  docker ps -a -q
+  644  docker ps -a -q | xargs docker rm -f
+  645  docker ps
+  646  docker ps -a
+  647  ls
+  648  docker images 
+  649  docker rmi -f 81072b379971 81072b379971 81072b379971 81072b379971 
+  650  docker images 
+  651  docker rmi -f 44ef5ff64f81
+  652  docker images 
+  653  docker rmi -f 90ff5b75274c
+  654  docker-compose run --rm web upgrade
+  655  docker-compose up -d
+  656  docker logs -f onpremise_web_1 
+  657  git diff
+  658  ls
+  659  cd onpremise/
+  660  history >> PROD-SENTRY-daqiang-his.txt
